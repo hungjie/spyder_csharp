@@ -1,0 +1,279 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie ie6" lang="zh"> <![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="zh"> <![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="zh"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9" lang="zh"> <![endif]-->
+<!--[if IE]><html class="ie" lang="zh"><![endif]-->
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>用户中心-注册</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="author" content="ifeng.com" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script>
+    if(window.top !== window.self){ window.top.location = window.location;}
+/*
+  if (top != self) {
+    top.location.href = window.location.href;
+  }	
+*/
+</script>
+<link href="https://id.ifeng.com/static/css/style.css" rel="stylesheet" type="text/css" />
+<script src="https://id.ifeng.com/static/js/jquery-1.8.3.min.js"></script>
+<script src="https://id.ifeng.com/static/js/jquery.cookie.js"></script>
+<script>var url = {"api":"https:\/\/id.ifeng.com","web":"http:\/\/id.ifeng.com","res":"https:\/\/id.ifeng.com\/static"};
+
+</script>
+</head>
+<body>
+
+<!--header-->
+<div class="header">
+   <div class="w1000"><img src="https://id.ifeng.com/static/images/logo.gif" width="125" height="50" title="凤凰网" alt="凤凰网" /></div>
+</div>
+<!--通用频道页头代码结束-->
+<div class="w1000 logo_bg clearfix p_relative">
+  <div class="">
+	<div class="form_area">
+     <h2 class="title pb_10">注册凤凰通行证</h2>
+     <ul class="tab">
+      <li class="current" id="js-reg-tab-1">邮箱注册</li>
+      <li id="js-reg-tab-2">手机注册</li>
+     </ul>
+     <div class="box">
+       <div class="bd form_list">
+
+        <!--邮箱注册-->
+        <div class="tabcont" id="js-reg-tab-con-1">
+          <div class="item indexput clearfix">
+            <label class="txt_label">电子邮箱</label>
+            <span class="input_wrap"><input id="js-email" type="text" class="txt_input txt_270" /></span>
+            <ul id="js-email-list" class="mail_tip" style="display:none">
+              <li><span>请选择邮箱类型</span></li>
+              <li>fenghuang@ifeng.com</li>
+              <li>fenghuang@gmail.com</li>
+              <li>fenghuang@qq.com</li>
+              <li>fenghuang@126.com</li>
+              <li>fenghuang@sina.com</li>
+              <li>fenghuang@126.com</li>
+              <li>fenghuang@sina.com</li>
+            </ul>
+            <div id="js-email-hint" class="input_txt_tips"></div>
+            <div id="js-email-tips" class="txt_tips" style="display:block">请输入您常用的邮箱</div>
+            <div id="js-email-error"class="txt_tips txt_tips_error" style="display:none"></div>
+            <div id="js-email-ok" class="txt_tips txt_tips_ok" style="display:none"></div>
+          </div>
+          <div class="item clearfix">
+            <label class="txt_label">密码</label>
+            <span class="input_wrap"><input id="js-email-password" name="" type="password" class="txt_input txt_270"/></span>
+            <div id="js-email-password-tips-1" class="txt_tips txt_tips_double" style="display:block;">6-20位字符，不能使用空格、<br>注册帐号</div>
+            <div id="js-email-password-tips-2" class="txt_tips txt_tips_double gray" style="display:none;">密码强度：<span class="safe_green">高</span><span class="safe_orange">中</span><span class="safe_red">低</span><br /><img src="images/b01.gif" width="44" height="4" /><img src="images/b02.gif" width="44" height="4" class="ml05" /><img src="images/b03.gif" width="44" height="4"  class="ml05" /></div>
+            <div id="js-email-password-error" class="txt_tips txt_tips_error" style="display:none">6-20位字符，不能使用空格、注册帐号</div>
+            <div class="txt_tips txt_tips_ok" style="display:none"></div>
+          </div>
+          <div class="item clearfix">
+            <label class="txt_label">确认密码</label>
+            <span class="input_wrap"><input id="js-email-password-confirm" type="password" class="txt_input txt_270" /></span>
+            <div id="js-email-confirm-tips-1" class="txt_tips" style="display:none">前后密码不一致</div>
+            <div id="js-email-confirm-tips-2" class="txt_tips txt_tips_error" style="display:none">前后密码不一致</div>
+            <div id="js-email-confirm-tips-3" class="txt_tips txt_tips_ok" style="display:none"></div>
+          </div>
+          <div class="item clearfix code">
+            <label class="txt_label">验证码</label>
+            <span class="input_wrap"><input id="js-email-reg-code" name="" type="text" class="txt_input txt_124"/></span>
+            <img id="js-email-reg-code-pic" src="https://id.ifeng.com/public/authcode" width="62" height="30" class="code_img" />
+            <a id="js-email-reg-code-refresh" href="javascript:void(0);" class="code_change">换一个</a>
+            <div id="email-code-tips" class="txt_tips">请输入验证码</div>
+            <div id="email-code-error" class="txt_tips txt_tips_error" style="display:none"></div>
+            <div id="email-code-ok" class="txt_tips txt_tips_ok" style="display:none"></div>
+          </div>
+          <div class="item clearfix pt_10 mb_0">
+            <input id="js-email-check" checked="true" name="" type="checkbox" value="" class="txt_check" />
+            <label for="js-email-check" class="txt_check_label gray">我已阅读并同意<a href="https://id.ifeng.com/user/agreement" target="_blank">《凤凰使用协议》</a></label>
+          </div>
+          <div class="item clearfix btn_area">
+            <input id="js-email-reg-submit" type="button" class="btn btn01" value="提交注册" />
+          </div>
+          <div id="js-email-warn" class="warn_text"></div>
+        </div>
+
+        <!--手机注册-->
+        <div class="tabcont" id="js-reg-tab-con-2" style="display:none;">
+          <div class="item clearfix code">
+            <label class="txt_label" style="width:70px">图片验证码</label>
+            <span class="input_wrap"><input id="js-mobile-pic-reg-code" name="" type="text" class="txt_input txt_124"/></span>
+            <img id="js-mobile-reg-code-pic" src="https://id.ifeng.com/public/authcode" width="62" height="30" class="code_img" />
+            <a id="js-mobile-pic-code-refresh" href="javascript:void(0);" class="code_change">换一个</a>
+            <div id="mobile-pic-code-tips" class="txt_tips">请输入图片验证码</div>
+            <div id="mobile-pic-code-error" class="txt_tips txt_tips_error" style="display:none"></div>
+            <div id="mobile-pic-code-ok" class="txt_tips txt_tips_ok" style="display:none"></div>
+          </div>
+          <div class="item clearfix">
+            <label class="txt_label" style="width:70px">手机号</label>
+            <span class="input_wrap"><input id="js-mobile-number" name="" type="text" class="txt_input txt_270" /></span>
+            
+            <div id="js-mobile-tips" class="txt_tips" style="display:block">请输入您的手机号</div>
+            <div id="js-mobile-error" class="txt_tips txt_tips_error" style="display:none"></div>
+            <div id="js-mobile-ok" class="txt_tips txt_tips_ok" style="display:none"></div>
+          </div>
+          <div class="item clearfix">
+            <span id="js-mobile-reg-code-refresh" href="javascript:void(0);" class="btn btn02 btn02_disable"  style="margin-left: 86px;">获取验证码</span><span id="js-mobile-reg-count" class="btn btn02 btn02_disable" style="display:none; margin-left: 86px;">60秒后重新获取</span><span class="red ml_10" id="js-mobile-code-warn">24小时之内只能发送3次验证码</span><span id="js-mobile-success" class="ml_10" style="display:none;">验证码已发送</span>
+          </div>
+
+          <div class="item clearfix">
+            <label class="txt_label" style="width:70px">短信验证码</label>
+            <span class="input_wrap"><input id="js-mobile-reg-code" name="" type="text" class="txt_input txt_270"/></span>
+            <div id="mobile-code-tips" class="txt_tips" style="display:block">请输入6位验证码</div>
+            <div id="mobile-code-error" class="txt_tips txt_tips_error" style="display:none"></div>
+            <div id="mobile-code-ok" class="txt_tips txt_tips_ok" style="display:none"></div>
+          </div>
+
+          <div class="item clearfix">
+            <label class="txt_label" style="width:70px">密码</label>
+            <span class="input_wrap"><input id="js-mobile-password" type="password" class="txt_input txt_270"/></span>
+            <div id="js-mobile-password-tips-1" class="txt_tips txt_tips_double" style="display:block">6-20位字符，不>能使用空格、<br>注册帐号</div>
+            <div id="js-mobile-password-tips-2" class="txt_tips txt_tips_double gray" style="display:none">密码强度：<span class="safe_red">低</span><span class="safe_orange">中</span><span class="safe_green">高</span><br /><img src="images/b01.gif" width="44" height="4" /><img src="images/b02.gif" width="44" height="4" class="ml05" /><img src="images/b03.gif" width="44" height="4"  class="ml05" /></div>
+            <div id="js-mobile-password-error" class="txt_tips txt_tips_error" style="display:none"></div>
+            <div class="txt_tips txt_tips_ok" style="display:none"></div>
+          </div>
+          <div class="item clearfix">
+            <label class="txt_label" style="width:70px">确认密码</label>
+            <span class="input_wrap"><input id="js-mobile-password-confirm" type="password" class="txt_input txt_270" /></span>
+            <div id="js-mobile-confirm-tips-1" class="txt_tips" style="display:none;">前后密码不一致</div>
+            <div id="js-mobile-confirm-tips-2" class="txt_tips txt_tips_error" style="display:none;"></div>
+            <div id="js-mobile-confirm-tips-3" class="txt_tips txt_tips_ok" style="display:none;"></div>
+          </div>
+          <div class="item clearfix pt_10 mb_0">
+            <input id="js-mobile-check" checked="true" type="checkbox" value="" class="txt_check"  style="margin-left: 86px;"/>
+            <label for="js-mobile-check" class="txt_check_label gray">我已阅读并同意<a href="https://id.ifeng.com/user/agreement" target="_blank">《凤凰使用协议》</a></label>
+          </div>
+          <div class="item clearfix btn_area">
+            <input id="js-mobile-reg-submit" name="" type="button" class="btn btn01" value="提交注册" />
+          </div>
+          <div id="js-mobile-warn" class="warn_text"></div>
+        </div>
+        <input id="js-cb" name="" type="hidden" value="" />
+
+	<!-- 手机快速注册 -->
+	<!--
+	<div class="tabcont" id="js-reg-tab-con-3" style="display: none;">
+	 <div style="height: 240px;background: url(../static/images/mobile.png) no-repeat right;">
+	  <div class="item clearfix code">
+            <label class="" style="font-size: 22px;margin-bottom: 20px;color: #004276;">手机快速注册</label>
+	  </div>
+	  <div class="item clearfix code" style="font-family: 微软雅黑,Arial;color: #666666;">
+            <div id="mobile-code-tips" style="display:block;font-size: 12px;line-height: 20px; margin-bottom: 10px;">
+              <p>请使用中国大陆手机号，编辑短信：</p>
+              <p><b style="font-size: 14px;color: #BA2636!important;">6-14位字符</b>（支持数字/字母/符号）,作为登录密码</p></div>
+	    <div id="mobile-code-tips" class=" style=" style="font-size: 12px;line-height: 20px; margin-bottom: 10px;">
+	      <p>移动 发送至: <b style="color: #BA2636!important; font-size: 14px;">1232 2231 023131</b></p>
+              <p>移动 发送至: <b style="color: #BA2636!important; font-size: 14px;">1232 2231 023131</b></p>
+              <p>移动 发送至: <b style="color: #BA2636!important; font-size: 14px;">1232 2231 023131</b></p>
+            </div>
+	    <div id="mobile-code-tips" class="" style="display:block;font-size: 12px;">即可注册成功，手机号即为登录帐号。</div>
+          </div>
+         </div>
+        </div>
+        -->
+       </div>
+       <div class="bot"></div>
+     </div>
+</div>
+<div class="aside">
+			<h3 class="pb_10">已有账号？<a href="https://id.ifeng.com/user/login" target="_blank"><em>请登录</em></a></h3>
+	
+	<p class="item gray">第三方账号登录</p>
+	<p class="item"><a href="javascript:void(0);" class="wb_btn"></a></p>
+	<p class="item"><a href="javascript:void(0);" class="qzone_btn"> </a></p>
+	<p class="item"><a href="javascript:void(0);" class="qq_btn"></a></p>
+</div>
+<script type="text/javascript">
+var QZONE_URL = "https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=100514926&redirect_uri=http://id.ifeng.com/callback/qzone&state=8bc42edbdbd6e37dedd1cee53f009b7f&scope=get_user_info,add_share,list_album,add_album,upload_pic,add_topic,add_one_blog,add_weibo,check_page_fans,add_t,add_pic_t,del_t,get_repost_list,get_info,get_other_info,get_fanslist,get_idolist,add_idol,del_idol,get_tenpay_addr";
+</script>
+<script type="text/javascript" src="https://id.ifeng.com/static/js/thirdpartylogin.js"></script>
+  </div>
+</div>
+<!--通用频道页尾代码开始-->
+<style type="text/css"> 
+.clear{ clear:both;}
+.chaFotNav ul, .chaFotNav li{ margin:0px; padding:0px;}/*100318*/
+.chaFotNav li{ list-style:none;}/*100318*/
+.chaFotNav { width:998px; border:1px #d9d9d9 solid; margin:0 auto; font-family:simsun, Arial; font-size:12px; clear:both;background:#fff;}
+.chaFotNav .endNList { width:772px; float:left; padding:8px 0px;}/*100325*/
+.chaFotNav .endNList li { padding:0px 4px 0px 5px; background:url(https://id.ifeng.com/static/images/common/zxicon_26.gif) right center no-repeat; float:left;}
+.chaFotNav .endNList li a { color:#2b2b2b; text-decoration:none;}
+.chaFotNav .endNList li a:hover{ text-decoration:underline;}
+.chaFotNav .navFocus { width:200px; padding:5px 0 0 0px; margin:0 0px 0 0; color:#ba2636; line-height:18px; float:right;}/*100325*/
+.chaFotNav .navFocus a { line-height:18px; text-decoration:none;}
+.chaFotNav .navFocus a:hover { text-decoration:underline;}
+.chaFotNav .navV a, .chaFotNav .navVIP a, .chaFotNav .ifengPlay a, .chaFotNav .tvPlay a, .chaFotNav .navWap a, .chaFotNav .navTmp a { color:#ba2636; }
+.chaFotNav .navV { width:37px; background:url(https://id.ifeng.com/static/images/common/nav0416_14.gif) no-repeat 1px 4px; padding:0 0 0 17px; float:left }
+.chaFotNav .navTmp { width:37px; float: left; }/*100325*/
+/*.chaFotNav .navVIP { width:42px; background:url(http://img.ifeng.com/tres/TemplateRes/26110/26110/images/news_v5/nav0416_09.gif) no-repeat 24px 3px; float:left }*/
+.chaFotNav .ifengPlay { width: 37px; float: left; }/*100325*/
+.chaFotNav .tvPlay { width:55px; background:url(https://id.ifeng.com/static/images/common/nav0416_17.gif) no-repeat 0px 3px; padding:0 0 0 15px; float:left }
+.chaFotNav .navWap { width:30px; background:url(https://id.ifeng.com/static/images/common/nav0416_06.gif) no-repeat 0px 2px; padding:0 0 0 11px; float:left }
+.chaFotNav .nextTop { width:40px; height:20px; padding:7px 0 0 3px; border-left:1px #d9d9d9 solid; float:left }
+.chaFotNav02 { width:1000px; height:21px; margin:0 auto; background:#fff url(https://id.ifeng.com/static/images/common/icon02_04.gif) repeat-x bottom;  font-size:0px; line-height:0px; clear:both }
+.chaFooter{ color:#000; width:1000px; height:72px; margin:0 auto; clear:both; text-align:center; line-height:24px; font-family:Arial, simsun; font-size:12px;background:#fff; padding-top:8px;}
+.chaFooter a{ color:#000; text-decoration:none;}
+.chaFooter a:hover{ color:#000; text-decoration:underline;}
+.chaFooter .footLink{ line-height:22px;}/*100318*/
+.chaFooter .footLink a{ padding:0px 8px;}
+.chaFooter .copyright{ color:#000; line-height:22px;}/*100318*/
+</style>
+<div class="chaFotNav">
+	<!--100325 begin-->
+	<ul class="endNList">
+		<li><a href="http://www.ifeng.com/" target="_blank">首页</a></li>
+				<li><a href="http://news.ifeng.com/" target="_blank">资讯</a></li>
+				<li><a href="http://news.ifeng.com/taiwan/" target="_blank">台湾</a></li>
+				<li><a href="http://opinion.ifeng.com/" target="_blank">评论</a></li>
+				<li><a href="http://finance.ifeng.com/" target="_blank">财经</a></li>
+				<li><a href="http://auto.ifeng.com/" target="_blank">汽车</a></li>
+				<li><a href="http://tech.ifeng.com/" target="_blank">科技</a></li>
+				<li><a href="http://house.ifeng.com/" target="_blank">房产</a></li>
+                                <li><a href="http://home.ifeng.com/" target="_blank">家居</a></li>
+				<li><a href="http://fashion.ifeng.com/travel/" target="_blank">旅游</a></li>
+				<li><a href="http://ent.ifeng.com/" target="_blank">娱乐</a></li>
+				<li><a href="http://fashion.ifeng.com/" target="_blank">时尚</a></li>
+				<li><a href="http://news.ifeng.com/sports/" target="_blank">体育</a></li>
+				<li><a href="http://news.ifeng.com/mil/" target="_blank">军事</a></li>
+				<li><a href="http://news.ifeng.com/history/" target="_blank">历史</a></li>
+				<li><a href="http://book.ifeng.com/" target="_blank">读书</a></li>
+				<li><a href="http://edu.ifeng.com/" target="_blank">教育</a></li>
+				<li><a href="http://fashion.ifeng.com/health/" target="_blank">健康</a></li>
+				<li><a href="http://fashion.ifeng.com/baby/" target="_blank">亲子</a></li>
+				<li><a href="http://games.ifeng.com/" target="_blank">游戏</a></li>
+				<li><a href="http://city.ifeng.com/" target="_blank">城市</a></li>			
+				<li><a href="http://bbs.ifeng.com/" target="_blank">论坛</a></li>
+				<li class="end"><a href="http://blog.ifeng.com/" target="_blank">博报</a></li>
+	</ul>
+	<div class="navFocus">
+		<div class="navV"><a href="http://v.ifeng.com/" target="_blank">视频</a>·</div>
+		<div class="navTmp"><a href="http://v.ifeng.com/documentary/index.shtml" target="_blank">纪实</a>·</div>
+		<div class="ifengPlay"><a href="http://v.ifeng.com/live/" target="_blank">直播</a></div>
+		<div class="tvPlay"><a href="http://phtv.ifeng.com/" target="_blank">凤凰卫视</a></div>
+	</div>
+	<!--100325 end-->
+	<div class="clear"></div>
+</div>
+<div class="chaFotNav02"></div>
+<div class="chaFooter">
+	<div class="footLink"> <a href="http://www.ifeng.com/corp/about/intro/" target="_blank">凤凰新媒体介绍</a>|<a href="http://ir.ifeng.com/" target="_blank">投资者关系 Investor Relations</a>|<a href="http://www.ifeng.com/corp/ad/" target="_blank">广告服务</a>|<a href="http://career.ifeng.com/" target="_blank">诚征英才</a>|<a href="http://www.ifeng.com/corp/privacy/" target="_blank">保护隐私权</a>|<a href="http://www.ifeng.com/corp/exemption/" target="_blank">免责条款</a>|<a href="http://www.ifeng.com/corp/counselor/" target="_blank">法律顾问</a>|<a href="http://help.ifeng.com/" target="_blank">意见反馈</a>|<a href="http://phtv.ifeng.com/intro/" target="_blank">凤凰卫视介绍</a> </div>
+	<div class="copyright"> 凤凰新媒体 版权所有<br>
+		Copyright © 2011 Phoenix New Media Limited All Rights Reserved. </div>
+</div>
+<script>
+  var sta_collection_time = new Date().getTime();
+</script>
+<!-- <script src="http://y3.ifengimg.com/sta_collection_3.3.9x.min.js" id="sta_collection_new"></script> -->
+<!--通用频道页尾代码结束-->
+
+<script type="text/javascript" src="https://id.ifeng.com/static/js/public.js"></script>
+<script type="text/javascript" src="https://id.ifeng.com/static/js/register.js"></script>
+</body>
+</html>

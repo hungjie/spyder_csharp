@@ -1,0 +1,14 @@
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe.config
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\SQLite.Designer.dll
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\System.Data.SQLite.dll
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\SQLite.Designer.pdb
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\bin\Release\System.Data.SQLite.pdb
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form2.resources
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form3.resources
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
+E:\BaiduYunDownload\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb

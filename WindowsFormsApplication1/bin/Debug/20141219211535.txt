@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>手机凤凰网--首页</title>
+<link href="http://y1.ifengimg.com/ifengimcp/sta/20130823/new_web.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://y1.ifengimg.com/ifengimcp/sta/20130823/xcjs.js" language="javascript"></script>
+</head>
+<body>
+<div class="content">
+  <div class="top">
+      <p class="logo"></p>
+        <p class="titles"></p>
+        <p class="yx"><a href="http://i.ifeng.com/web_marketing?vt=2&amp;mid=6pXMt2"><img src="http://mimg.ifeng.com/upload/day_110622/201106221420309194.gif" width="127" height="30" /></a></p>
+    <p class="sfindex"><a href="http://www.ifeng.com/"><img src="http://mimg.ifeng.com/upload/day_110622/201106221421371715.gif" width="91" height="28" /></a></p>
+        <div class="clear"></div>
+    </div>
+
+  <div class="nav">
+      <div class="navleft"></div>
+      <div class="navmiddle">
+          <p><a href="http://i.ifeng.com/index.html?vt=2&amp;mid=6pXMt2">首页</a></p><a href="http://i.ifeng.com/news.html?vt=2&amp;mid=6pXMt2">新闻</a><a href="http://i.ifeng.com/finance.html?vt=2&amp;mid=6pXMt2">财经</a><a href="http://i.ifeng.com/sport.html?vt=2&amp;mid=6pXMt2">体育</a><a href="http://i.ifeng.com/ent.html?vt=2&amp;mid=6pXMt2">娱乐</a><a href="http://i.ifeng.com/mil.html?vt=2&amp;mid=6pXMt2">军事</a><a href="http://i.ifeng.com/web_women?vt=2&amp;mid=6pXMt2">女性</a><a href="http://i.ifeng.com/fhkj.html?vt=2&amp;mid=6pXMt2">科技</a><a href="http://i.ifeng.com/car.html?vt=2&amp;mid=6pXMt2">汽车</a><a href="http://i.ifeng.com/house.html">房产</a><a href="http://i.ifeng.com/web_mnews?vt=2&amp;mid=6pXMt2">手机报</a><a href="http://i.ifeng.com/nba.html?vt=2&amp;mid=6pXMt2">NBA</a><a href="http://i.ifeng.com/help.html?vt=2&amp;mid=6pXMt2">帮助</a><a class="lxsf" href="http://i.ifeng.com/web_contact?vt=2&amp;mid=6pXMt2">联系手凤</a>
+        </div>
+      <div class="navright"></div>
+        <div class="clear"></div>
+    </div>
+    
+   <iframe src="http://i.ifeng.com/ggtupian?vt=2&amp;mid=6pXMt2" frameborder="0" allowtransparency="yes" scrolling="no" width="950" height="90"></iframe>
+    
+    <div class="middles">
+      <div class="midleft"><iframe src="http://i.ifeng.com/?vt=2&amp;mid=6pXMt2" scrolling="auto" height="371" width="248" frameborder="0" hspace="0" marginheight="0" marginwidth="0" vspace="0" style="height:371px; margin:74px 0 0 20px; width:248px;"></iframe></div>
+        <div class="midright">
+          <div class="mrtop">
+              <div class="mrleft">
+                  <div class="mrlleft"></div>
+                    <div class="mrlmid">
+                      <div class="mrlmid_1"><img src="http://mimg.ifeng.com/upload/day_110622/201106221436012973.gif" width="371" height="54" /></div>
+                        <div class="mrlmid_2">打开手机浏览器，输入：<br><img src="http://mimg.ifeng.com/upload/day_110622/201106221451325803.gif" width="221" height="29" /></div>
+                       <script language="javascript"> 
+  function checkPhone(p){    
+    var reg= /^1[3|4|5|8][0-9][\d]{8}$/ ;
+    return reg.test(p); 
+  }   
+  
+  $(document).ready(function(){
+    $("#btn").click(function()
+    {
+      var str_phone = $("#mobile").val();
+      var str_flag = $("#flag").val();        
+      if(checkPhone(str_phone))
+      {
+        $("$sendMsgFrm").submit();        
+      }
+      else
+      {
+        alert("手机号不正确！");
+        $("#mobile").focus();
+        return false;
+      }      
+    });
+  });
+</script>
+
+                      
+              <div class="mrlmid_3">请输入您的手机号码：<form name="sendMsgFrm"  id="sendMsgFrm" action="domessage" method="get"><input type="text" class="shuru" size="8" name="mobile" id="mobile"/><input class="anniu" type="button" value="发送" name="btn" id="btn"/></form></div>
+                    </div>
+                    <div class="mrlright"></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="mrright">
+                  <div class="mrlleft"></div>
+                  <div class="mrrmid"><a href="http://i.ifeng.com/?vt=2&amp;mid=6pXMt2"><img src="http://mimg.ifeng.com/upload/day_110721/201107211030314328.jpg"></a></div>
+                    <div class="mrlright"></div>
+                    <div class="clear"></div>
+                </div>
+              <div class="clear"></div>
+            </div>
+          <iframe src="http://i.ifeng.com/web_ggqh1?vt=2&amp;mid=6pXMt2" frameborder="0" allowtransparency="yes" scrolling="no" width="642" height="177"></iframe>
+        </div>
+      <div class="clear"></div>
+    </div>
+    
+  <div class="bottoms"><a href="#">凤凰新媒体介绍</a> | <a href="#">广告服务</a> | <a href="#">招聘信息</a> | <a href="#">保护隐私权</a> | <a href="#">免责条款</a> | <a href="#">法律顾问</a> | <a href="#">意见反馈</a> | <a href="#">凤凰卫视介绍</a> | <a href="#">投资者关系 Investor Relations</a><br /><span>凤凰新媒体 版权所有 不得转载 <a href="mailto:legal@ifeng.com">legal@ifeng.com</a> <img height="40" border="0" align="middle" width="30" src="http://img.ifeng.com/tres/phoenix/gongshang.gif"> 京ICP证030609号 本站通用网址：凤凰网<br />建议使用IE5.5以上版本浏览</span></div>
+</div>
+<img src="http://stadig.ifeng.com/wapsta?surl=http%3A%2F%2F3g.ifeng.com%2F3g%2Findex.html%26mid%3D6pXMt2&amp;ref=&amp;rand=1685372292" width="0" height="0" alt=""/></body>
+</html>

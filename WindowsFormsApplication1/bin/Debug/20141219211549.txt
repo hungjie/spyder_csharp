@@ -1,0 +1,1831 @@
+﻿<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <title>台湾_资讯频道_凤凰网</title> 
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" href="http://y1.ifengimg.com/css/min/basic_new_v2.css" media="screen" /> 
+  <script src="http://y1.ifengimg.com/BX/min/BX.1.0.1.U.js"></script> 
+  <script src="http://y1.ifengimg.com/JCore/min/TabControl.1.2.js"></script> 
+  <script src="http://y1.ifengimg.com/scripts/min/ifeng_common_v1.2.js"></script> 
+  <script src="http://y0.ifengimg.com/base/jQuery/jquery-1.9.1.min.js"></script> 
+  <script>var jq=jQuery.noConflict();</script> 
+<script src="http://y0.ifengimg.com/38716b164e0f5e63/2013/1213/md5.js"></script>
+  <style>
+ .col_b1000{ width:1000px; margin:0 auto;}
+.col_w1000{ width:1000px; margin:0 auto; background:url(http://y2.ifengimg.com/171ef391e28c4c77/2013/1209/w_24.png) repeat-y;}
+.mt12{ margin-top:40px;}
+.space10{ height:10px; overflow:hidden;}
+.space16{ height:16px; overflow:hidden;}
+.space18{ height:18px; overflow:hidden;}
+.space20{ height:20px; overflow:hidden;}
+.space25{ height:25px; overflow:hidden;}
+.space28{ height:28px; overflow:hidden;}
+.space30{ height:30px; overflow:hidden;}
+.space35{ height:35px; overflow:hidden;}
+.space36{ height:36px; overflow:hidden;}
+.space40{ height:40px; overflow:hidden;}
+.space42{ height:42px; overflow:hidden;}
+.space50{ height:50px; overflow:hidden;}
+.space53{ height:53px; overflow:hidden;}
+.space57{ height:57px; overflow:hidden;}
+.space65{ height:65px; overflow:hidden;}
+.w640{ width:640px; float:left; margin-right:40px;}
+.w320{ width:320px; float:left;}
+.h70{ height:70px; overflow:hidden;}
+.bbg{ background:#e6e6e6 !important; cursor:pointer;}
+
+.jk_banner{ width:100%; background:#0f2851; height:40px;}
+.col_b1000 ul.banner_list{}
+.col_b1000 ul.banner_list li{ padding:0px 17px;float:left; height:40px; line-height:40px; text-align:center; background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/s_01.png) left center no-repeat;}
+.col_b1000 ul.banner_list li a{ color:#fff;font-size:14px;}
+.col_b1000 ul.banner_list li a:hover{ text-decoration:none; color:#f12137;}
+.bei01{ background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/s_04.png) top right repeat-y;}
+
+.keynew_list h1,.keynew_list h2{ line-height:32px; height:32px; padding:6px 0 4px;}
+.keynew_list h1 a,.keynew_list h2 a{ font-size:22px; color:#004276; font-family:Microsoft YaHei;}
+.keynew_list h1 a:hover,.keynew_list h2 a:hover{ color:#ba2636; text-decoration:none;}
+.keynew_list p{ line-height:18px; padding-bottom:6px;}
+.keynew_list p span{ font-size:14px; color:#999999; padding-right:22px;}
+.keynew_list ul li{ line-height:26px; height:26px; background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/t_01.png) left center no-repeat; padding-left:10px;}
+.keynew_list ul li a{ color:#004276; font-size:14px;}
+.keynew_list ul li a:hover{ color:#ba2636;}
+
+.juti_list{ background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/t_02.png) left top repeat-x; padding-bottom:22px;}
+.juti_list h3{ line-height:24px; padding-top:15px; padding-bottom:11px;}
+.juti_list h3 a{ font-size:20px;color:#004276; font-family:Microsoft YaHei; font-weight:normal;}
+.juti_list h3 a:hover{ color:#ba2636; text-decoration:none;}
+.juti_list p{ line-height:22px; color:#666666; font-size:14px; padding-bottom:2px;}
+.juti_list p a{color:#ba2636;}
+
+
+.fl_right{ height:26px; background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/s_06.png) no-repeat;}
+#bdshare{padding-bottom:0;z-index:5;}
+.share-bar-btn01{width:36px!important;position:absolute;display:none;height:96px;border:1px solid #cfcfcf;right:0px;top:21px;}
+.share-bar-btn01 a{float:left;display:block;width:36px!important;height:32px!important;margin:0!important;padding:0!important;background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/sharebg.gif) no-repeat!important;opacity:1.0!important;filter:alpha(opacity=100)!important;}
+.share-bar-btn01 .bds_tsina{background-position:0 0!important;}
+.share-bar-btn01 a.bds_tsina:hover{background-position:0 -96px!important;opacity:1!important;filter:alpha(opacity=100)!important;}
+.share-bar-btn01 .bds_qzone{background-position:0 -32px!important;}
+.share-bar-btn01 a.bds_qzone:hover{background-position:0 -128px!important;opacity:1!important;filter:alpha(opacity=100)!important;}
+.share-bar-btn01 .bds_tqq{background-position:0 -64px!important;}
+.share-bar-btn01 a.bds_tqq:hover{background-position:0 -160px!important;opacity:1!important;filter:alpha(opacity=100)!important;}
+.share_hide02{position:relative; float:left; margin-right:18px;}
+.share_hide02 a.fenx{ display:block;background:url(http://y1.ifengimg.com/9cdd3b8eabd94d0e/2014/0421/z_7.gif) no-repeat right center;width:40px; height:28px; text-decoration:none;}
+.share_hide02 a.fenx:hover{background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/z_7a.gif) no-repeat right center; color:#ba2636;}
+.share_hide02 a.fenx span{cursor:pointer;line-height:28px;color:#999999; font-size:12px;}
+.share_hide02 a.fenx:hover span{ color:#ba2636;}
+.ping02{ float:left; margin-right:5px;}
+.ping02 a.pinl{ display:block;width:40px; background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/z_8.png) no-repeat left center; padding-left:19px; height:28px; text-decoration:none; }
+.ping02 a.pinl span{ padding:0 15px 10px 0;cursor:pointer;line-height:28px;color:#999999; font-size:14px;}
+.ping03{ float:left;}
+.ping03 span{ font-size:14px; font-family:"宋体"; font-weight:normal;color:#999999; padding-right:22px;line-height:28px;}
+.ju_pic a img{ display:block; float:left; width:150px; margin-right:14px;}
+
+.dianj{ height:37px;background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/z_13.png) repeat-x; text-align:center; line-height:37px;}
+.dianj a{ font-size:14px; color:#004175; background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/s_09.gif) right center no-repeat; padding-right:15px; text-decoration:none;}
+
+.zybor{ border:1px solid #cccccc; border-top:none; border-bottom:none;}
+.box_01{ background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/t_04.png) left 5px no-repeat; padding:0px 19px 45px 74px; position:relative;}
+.ljdw{ position:absolute; left:0px; top:5px;}
+.ljdw a img{ display:block; width:74px; height:133px;}
+.box_01 h3{ line-height:26px; padding-bottom:7px; padding-top:37px;}
+.box_01 h3 a{color:#004276; font-size:18px; font-family:Microsoft YaHei; text-decoration:none; }
+.box_01 h3 a:hover{ color:#ba2636;}
+.box_01 p{ font-size:12px; color:#666666; line-height:20px;}
+.box_01 p a{ color:#ba2636;}
+.title{ height:47px;}
+.title a img{ display:block;}
+.box_02{ padding-top:5px;} 
+.ship{ padding:13px 19px;}
+.ship a img{ display:block;}
+.ship ul{ padding-top:5px;}
+.ship ul li{ line-height:35px; height:35px; background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/t_02.png) repeat-x left bottom;}
+.ship ul li span{ background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/t_08.png) no-repeat 2px center; width:25px; height:35px; display:block; float:left;}
+.ship ul li a{ font-size:14px; color:#004276;}
+.ship ul li a:hover{ color:#ba2636;}
+.ship ul li.current a{ font-weight:bold;}
+.zhuat{ padding:13px 19px;}
+.zhu_ul{ padding-top:8px;}
+.zhu_ul li{ line-height:29px; height:29px; background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/t_01.png) left center no-repeat; padding-left:12px;}
+.zhu_ul li a{ font-size:14px;}
+.zhuat a img{ display:block;}
+.zhuat h3{ padding:8px 0px 0px; height:28px; line-height:28px;}
+.zhuat h3 a{ color:#004267; font-size:14px;}
+.zhuat h3 a:hover{ color:#ba2636;}
+.zhuat p{ line-height:22px; font-size:12px; color:#666666; padding-bottom:10px; border-bottom:1px solid #f0f0f0;}
+.zhuat p a{ color:#ba2636;}
+
+.label_01{float:left;height:38px;background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/s_13.png) repeat-x bottom; width:280px;}
+.label_01 li{float:left; padding:0px 15px; height:38px;text-align:center;line-height:38px;display:inline; cursor:pointer;color:#004276; font-size:14px; font-weight:bold; font-family:Microsoft Yahei;}
+.label_01 li.current{height:38px; background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/s_12.png) no-repeat center bottom;color:#2b2b2b }
+.list04 li{ height:35px; line-height:35px; background:url(http://y0.ifengimg.com/314bd925cdd17196/2014/0409/s_11.png) no-repeat 7px 10px;}
+.list04 li a{ color:#004276; font-size:12px;}
+.list04 li a:hover{ color:#ba2636;}
+.list04 li.fb a{ font-weight:bold;}
+.list04 li.end{ background:none}
+.list04 li span.no1{ font-size:18px; font-weight:bold; float:left; width:16px; height:23px; color:#ba2636; text-align:left; margin-right:10px; font-family:Arial, Helvetica, sans-serif;}
+.list04 li span.no{  font-size:18px; font-weight:bold;float:left; width:16px; height:23px; color:#666666; text-align:left; margin-right:10px; font-family:Arial, Helvetica, sans-serif}
+.list04 li span.plsm{ float:right; color:#ba2636;}
+.picTxt15{ padding-bottom:16px; border-bottom:1px solid #e7e7e7; margin-bottom:16px;}
+.picTxt15 img {float: left;width:105px;margin-right: 15px;display:block; border:1px solid #e7e7e7;}
+.picTxt15 h5{padding: 0px 0 10px 0;}
+.picTxt15 h5 a{color: #999999;font-weight: normal;}
+.picTxt15 h3{line-height: 22px;padding-bottom: 6px;}
+.picTxt15 h3 a{ color:#2b2b2b; font-size:14px;}
+.picTxt15 h3 a:hover{ color:#ba2636;}
+.picTxt15 p {line-height: 20px;color: #666;}
+.picTxt15 p a {color: #ba2636;}
+.hybd{ padding-bottom:16px; margin-bottom:17px; border-bottom:1px solid #e7e7e7;}
+.hybd a img{ display:block; width:105px; float:left; margin-right:15px;}
+.hybd h3{ padding-bottom:6px;}
+.yib_right .hybd h3 a{ font-size:14px; color:#2b2b2b; line-height:22px; font-weight:normal;}
+.hybd h3 a:hover{ color:#ba2636;}
+.hybd p{ font-size:12px; color:#999999;}
+.paih{ padding:13px 19px;}
+
+
+
+
+.bg01{ height:81px; background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/nav_bg01.gif) repeat-x center top;}
+.bg03{ background:#f5f5f5 url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/bg_b.gif) repeat-x left top;}
+.col_l{ width:400px; margin-right:29px; overflow:hidden; float:left;}
+.col_m{ width:242px; margin-right:29px; float:left;}
+.col_r{ width:300px; float:left;}
+.col_lm{ width:670px; margin-right:30px; overflow:hidden; float:left;}
+.col_mr{ width:570px; overflow:hidden; float:left;}
+
+.box_13{ background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/bg_b02.gif) repeat-y;}/*131115a*/
+.box_13_1{ overflow:hidden;}
+.box_13_2{ margin:6px 0 0 14px;}/*131115a*/
+.title03{ font-size:20px; font-family:"微软雅黑"; font-weight:bold; color:#666; height:30px; line-height:30px;}
+.box_13 .list_hz{ margin-top:8px; overflow:hidden;}
+.box_13 .list_hz li{ height:28px; line-height:28px;}
+.box_13 .list_hz li a{ color:#999;}
+.box_13 .list_hz li span{ color:#999; padding:0 6px 0 6px;}
+.box_13 .box_con{ width:192px; float:left;}
+.box_13 .box_con .b_logo{ width:128px; height:25px;}
+.box_13 .box_con .b_logo a,.box_13 .box_con .b_logo img{ display:block;}
+.box_13 .box_con ul{ margin-top:8px; overflow:hidden;}
+.box_13 .box_con ul li{ color:#999; height:26px; line-height:26px; overflow:hidden;}
+.box_13 .box_con ul li a{color:#999;}
+.box_13 .box_con ul li img,.box_13 .box_con ul li span{ float:left;}
+.box_13_2 .wx{ width:91px; height:103px; float:left; overflow:hidden;}
+
+.fpic02{width:280px; height:158px;position:relative; overflow:hidden;}
+.bigPic04 img{ display:block; width:112px; float:left; margin-right:15px;}
+.bigPic04 h3{ padding-bottom:12px; padding-top:18px;}
+.bigPic04 h3 a{ font-size:14px; color:#004276;}
+.bigPic04 p{ font-size:12px; color:#2b2b2b; line-height:21px; padding-right:35px;}
+.bigPic04 p a{ color:#ba2636;}
+#prevSlide02,#nextSlide02{width:28px;height:42px;position:absolute;top:60px;left:0px;z-index:10;text-align:center;cursor:pointer}
+#prevSlide02 img,#nextSlide02 img{position:absolute;top:12px;left:9px;z-index:12}
+.btnBg02{ width:28px; height:42px; filter:alpha(opacity=60); -moz-opacity:0.6; opacity:0.6; background:#000; position:absolute; left:0px; top:0px; z-index:11 }
+.btnBgHover02{width:28px;height:42px;filter:alpha(opacity=100);-moz-opacity:1;opacity:1;background:#000;position:absolute;left:0;top:0;z-index:11}
+#nextSlide02{left:252px}
+#nextSlide02 img{left:12px}
+.dotList02{position:absolute;right:10px;top:156px; height:3px  }
+.dotList02 li{float:left;width:12px;height:3px; margin:0 0 0 2px;display:block;cursor:pointer; background:#ffffff; overflow:hidden}
+.dotList02 li.current{ background:#2e60a7; }
+  </style>
+ </head> 
+ <body> 
+  <link rel="stylesheet" href="http://y0.ifengimg.com/9949a678442334cc/2013/1118/f.header.css" /> 
+  
+  <link rel="stylesheet" href="http://y0.ifengimg.com/9949a678442334cc/2013/1118/f.header.css" />
+<div class="h_mainNavNew cDGray" id="f-header">
+    <ul class="list_menu">
+        <li style="background:none; padding-left:2px;"><a href="http://www.ifeng.com" target="_blank">首页</a></li>
+        <li><a href="http://news.ifeng.com/" target="_blank">资讯</a></li>
+        <li><a href="http://finance.ifeng.com/" target="_blank">财经</a></li>
+        <li><a href="http://ent.ifeng.com/" target="_blank">娱乐</a></li>
+        <li><a href="http://sports.ifeng.com/" target="_blank">体育</a></li>
+        <li><a href="http://fashion.ifeng.com/" target="_blank">时尚</a></li>
+        <li><a href="http://auto.ifeng.com/" target="_blank">汽车</a></li>
+        <li><a href="http://house.ifeng.com/" target="_blank">房产</a></li>
+        <li><a href="http://tech.ifeng.com/" target="_blank">科技</a></li>
+        <li><a href="http://book.ifeng.com/" target="_blank">读书</a></li>
+        <li><a href="http://edu.ifeng.com/" target="_blank">教育</a></li>
+        <li><a href="http://culture.ifeng.com/" target="_blank">文化</a></li>
+        <li><a href="http://news.ifeng.com/history/" target="_blank">历史</a></li>
+        <li><a href="http://news.ifeng.com/mil/" target="_blank">军事</a></li>
+        <li><a href="http://blog.ifeng.com/" target="_blank">博客</a></li>
+        <li><a href="http://cp.ifeng.com/?aid=45" target="_blank">彩票</a></li>
+        <li><a href="http://fo.ifeng.com/" target="_blank">佛教</a></li>
+        <li><a href="http://phtv.ifeng.com/" target="_blank">凤凰卫视</a></li>
+    </ul>
+    <div class="morehNew" id="f-more">
+        <ul>
+            <li>
+                <a href="http://www.ifeng.com/daohang/" target="_blank">更多</a>
+                <ul id="f-more-box">
+                    <li><a href="http://v.ifeng.com/" target="_blank" title="视频">视频</a></li>
+                    <li><a href="http://fashion.ifeng.com/travel/" target="_blank" title="旅游">旅游</a></li>
+                    <li><a href="http://games.ifeng.com/" target="_blank" title="游戏">游戏</a></li>
+                    <li><a href="http://digi.ifeng.com/" target="_blank" title="数码">数码</a></li>
+                    <li><a href="http://fashion.ifeng.com/health/" target="_blank" title="健康">健康</a></li>
+                    <li><a href="http://fashion.ifeng.com/baby/" target="_blank" title="亲子">亲子</a></li>
+                    <li><a href="http://home.ifeng.com/" target="_blank" title="家居">家居</a></li>
+                    <li><a href="http://bbs.ifeng.com/" target="_blank" title="论坛">论坛</a></li>
+                    <li><a href="http://astro.ifeng.com/" target="_blank" title="星座">星座</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="login" id="f-login-none">
+        <a href="http://my.ifeng.com/?_c=register&_a=new-account" target="_blank">注册</a><a class="f-login" style="cursor:pointer;">登录</a>
+    </div>
+    <div class="login" id="f-login-detail" style="display:none;"></div>
+    <div class="h_indexLogin" id="f-login-box" style="display:none;">
+        <div class="h_close cGray2"><a class="f-login-close" style="cursor:pointer;">关闭</a></div>
+        <div class="clear"></div>
+        <form action="http://my.ifeng.com/?_c=index&_a=login" method="post" id="f-login-form" name="l_f">
+            <ul>
+                <li><label for="f-login-name">账号 </label><input name="uname" type="text" class="h_text" id="f-login-name" /></li>
+                <li><label for="f-login-pass">密码 </label><input name="pass" type="password" class="h_text" id="f-login-pass" /></li>
+                <li><input name="Submit" type="button" class="h_btn04" /></li>
+            </ul>
+            <div class="h_indexReg">没有账号？<br>
+                <a href="http://my.ifeng.com/?_c=register&_a=new-account" target="_blank">立即注册</a>
+            </div>
+            <input type="hidden" name="backurl" id="h_backurl" value="http://sports.ifeng.com/">
+        </form>
+    </div>
+</div>
+<script src="http://m1.ifengimg.com/ifeng/sources/inice_v1.js"></script>
+<script src="http://y0.ifengimg.com/commonhead/0728/f.header.min.js"></script>
+   
+
+  <div class="col_w1000"> 
+   <div class="ad08"> 
+    <!--s_culture_index_ad_banner_top 2014.03.12 09:19:15--> 
+    <script>try{aptracker.add(293);}catch(e){}
+   
+    </script> 
+    <!--0,0,NULL,fixture--> 
+    <iframe src="http://games.ifeng.com/1403m/typd.shtml" scrolling="no" frameborder="0" style="width:1000px; height:90px; border:0px;background-color=transparent;" allowtransparency="true"></iframe> 
+    <!--/s_culture_index_ad_banner_top--> 
+   </div> 
+  </div> 
+  <style>
+.h_searchDiv{width:1000px;margin:0 auto;height:35px; padding-top:20px; padding-bottom:5px;}
+.h_theLogo{float:left;font-size:12px}
+.h_theLogo img{float:left;}
+.h_theLogo .ad00{width:120px; margin-left:30px; float:left;}
+#h_f_logo{width:128px;height:25px;}
+.h_find{ padding-top:5px;}
+
+</style> 
+  <div class="h_searchDiv"> 
+   <div class="h_theLogo"> 
+    <a href="http://news.ifeng.com/" target="_blank"><img src="http://y0.ifengimg.com/314bd925cdd17196/2014/0409/logo.png" width="129" height="30" title="凤凰网资讯" alt="凤凰网资讯" /></a> 
+    <img src="http://y1.ifengimg.com/314bd925cdd17196/2014/0414/s_02.png" width="58" height="30" style="margin-left:15px;" /> 
+   </div> 
+      
+	  <script src="http://m0.ifengimg.com/keywords.js"></script>
+<style>
+    .h_find{ width:300px; float:right;}
+    .search{ height:26px;}
+    .search .lb{ width:78px; height:26px; margin-right:5px; position:relative; float:left; z-index:99;}
+    .search .lb ul{ width:78px;}
+    .search .lb ul li{ width:76px; height:24px; line-height:24px; border:1px solid #b2b2b2;}
+    .search .lb ul li a{ color:#666; display:block; width:66px; height:24px; line-height:24px; background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg01_1.gif) no-repeat right top; padding-left:10px;}/*默认背景*/
+    .search .lb ul li a:hover{ background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg01_2.gif) no-repeat right top; text-decoration:none;}
+    .search .lb ul li .a_cl{ background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg01_3.gif) no-repeat right top;}
+    .search .lb ul li ul{ width:51px; display:none; position:absolute; left:0; background:#fff; border:1px solid #b2b2b2; border-top:none;}
+    .search .lb ul li ul li{ width:51px; background:none; border:0; padding-left:0;}
+    .search .lb ul li ul li a{ width:42px; background:none; padding-left:9px;}
+    .search .lb ul li ul li a:hover{ background:#e7e7e7; background-image:none;}
+    .search .t_btn{ width:215px; height:24px; background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg02_1.gif) no-repeat right top; border:1px solid #b2b2b2; float:left;}
+    .search .t_btn_on{ background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg02_2.gif) no-repeat right top;}
+    .search .text_bg{ width:178px; height:24px; line-height:24px; overflow:hidden; float:left;}
+    .search .text_bg .text01{ color:#666; border:none; background:none; width:158px; padding:0 10px; height:24px; line-height:24px;}
+    .search .btn_bg{ width:37px; height:24px; float:left;}
+    .search .btn_bg .btn01{ border:none; background:none; width:37px; height:24px; cursor:pointer;}
+</style>
+<div class="h_find">
+      <div class="search clearfix">
+        <form id="search_form" method="get" action="http://search.ifeng.com/sofeng/search.action" target="_blank">
+        <div class="lb" id="searchFormOption">
+         <ul class="u_bg">
+           <li><a id="loginUl" onclick="header_search.show_option()" onmouseout="header_search.out_option()" onmouseover="header_search.over_option()" style="cursor: default;" class="">站内</a>
+              <ul id="loginFldselectop" onmouseout="header_search.out_option()" onmouseover="header_search.over_option()" style="display: none;">
+                <li id="ra1"><a onclick="header_search.select_option('站内')">站内</a></li>
+                <li id="ra2"><a onclick="header_search.select_option('站外')">站外</a></li>
+                <li id="ra3"><a onclick="header_search.select_option('证券')">证券</a></li>
+                <li id="ra4"><a onclick="header_search.select_option('汽车')">汽车</a></li>
+                <li id="ra0"><a onclick="header_search.select_option('视频')">视频</a></li>
+              </ul>
+           </li>
+         </ul>
+        </div>
+        <div class="t_btn clearfix">
+         <div class="text_bg" id="suggest_list">  
+         <input id="keyword" type="text" name="q" value="" class="text01" autocomplete="off" onclick="header_search.clean_default(this.value)" onblur="header_search.set_default(this.value)">
+        <input id="param1" type="hidden" name="c" value="1">
+        <input id="param2" type="hidden" name="" value="" disabled="">
+        </div>
+         <div class="btn_bg"><input name="" type="submit" id="btnSearch1" class="btn01" value=""></div>
+        </div>
+        </form>
+    <script src="http://y1.ifengimg.com/38716b164e0f5e63/2014/0302/newSearch.js"></script>
+      </div>      
+</div>
+	   
+  </div> 
+  <!--头部 end--> <div class="jk_banner"> 
+ <div class="col_b1000"> 
+  <ul class="banner_list clearfix"> 
+   <li><a href="http://news.ifeng.com/" target="_blank">资讯首页</a></li> 
+   <li><a href="http://news.ifeng.com/listpage/11502/0/1/rtlist.shtml" target="_blank">即时</a></li> 
+   <li><a href="http://news.ifeng.com/mainland/index.shtml" target="_blank">大陆</a></li> 
+   <li><a href="http://news.ifeng.com/world/index.shtml" target="_blank">国际</a></li> 
+   <li><a href="http://news.ifeng.com/taiwan/index.shtml" target="_blank">台湾</a></li> 
+   <li><a href="http://news.ifeng.com/hongkong/index.shtml" target="_blank">港澳</a></li> 
+   <li><a href="http://news.ifeng.com/mil/index.shtml" target="_blank">军事</a></li> 
+   <li><a href="http://news.ifeng.com/society/index.shtml" target="_blank">社会</a></li> 
+   <li><a href="http://news.ifeng.com/photo/being/#tag" target="_blank">图片</a></li> 
+   <li><a href="http://news.ifeng.com/opinion/index.shtml" target="_blank">评论</a></li> 
+   <li><a href="http://news.ifeng.com/shendu/index.shtml" target="_blank">深度</a></li> 
+   <li><a href="http://news.ifeng.com/history/index.shtml" target="_blank">历史</a></li> 
+   <li><a href="http://culture.ifeng.com/" target="_blank">文化</a></li> 
+   <li><a href="http://news.ifeng.com/special/index.shtml" target="_blank">专题</a></li> 
+   <li><a href="http://news.ifeng.com/hotnews/index.shtml" target="_blank">排行</a></li> 
+  </ul> 
+ </div> 
+</div> 
+  <div class="space35"></div> 
+  <div class="col_b1000 clearfix"> 
+   
+   <div class="w640"> 
+   
+           <div class="keynew">
+            <div class="keynew_list">
+			
+<h1><a href="http://news.ifeng.com/a/20141219/42754393_0.shtml" target="_blank" class="js_url js_title">柯文哲上任前多名市政顾问主动或被动辞职</a></h1> 
+			<div class="Function clearfix">
+    <div class="fl_right">
+        <div class="ping03"> <span>2014-12-19</span> <span> 09:13</span></div>
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"><a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a>
+            <!-- Baidu Button BEGIN -->
+            <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'柯文哲上任前多名市政顾问主动或被动辞职','url':'http://news.ifeng.com/a/20141219/42754393_0.shtml'}" style="display: none;">
+            <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+            <a class="bds_qzone" title="分享到QQ空间" href="#"></a>
+            <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+            </div>
+            <!-- Baidu Button END -->
+       </div>
+        <div class="ping02"><a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141219/42754393_0.shtml&docName=柯文哲上任前多名市政顾问主动或被动辞职&skey=c4f456" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a></div>
+    </div>
+</div>
+ 
+            
+<ul>
+
+  <li><a href="http://news.ifeng.com/a/20141218/42743723_0.shtml" target="_blank">柯文哲被传选倪重华当文化局长 团队5名顾问走人</a>丨<a href="http://news.ifeng.com/a/20141219/42755070_0.shtml" target="_blank">
+詹顺贵辞市政顾问
+</a> </li>
+    <li> 
+
+<a href="http://news.ifeng.com/a/20141219/42755780_0.shtml" target="_blank"> 柯文哲谈局长遴选争议：比我一个人选好</a>丨<a href="http://news.ifeng.com/a/20141219/42754436_0.shtml" target="_blank">网友：柯文哲先学会当市长</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+</ul> 
+            </div>
+            <div class="space30"></div>
+            <div class="keynew_list">
+            
+<h1><a href="http://news.ifeng.com/a/20141219/42754469_0.shtml" target="_blank" class="js_url js_title">
+李登辉谈“内阁制” 否认牵制蔡英文(图)
+
+
+</a></h1> 
+			<div class="Function clearfix">
+    <div class="fl_right">
+        <div class="ping03"> <span>2014-12-19</span> <span> 09:00</span></div>
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"><a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a>
+            <!-- Baidu Button BEGIN -->
+            <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'李登辉提“内阁制” 否认牵制蔡英文(图)','url':'http://news.ifeng.com/a/20141219/42754469_0.shtml'}" style="display: none;">
+            <a class="bds_tsina" title="分享到新浪微博" href="#"></a>
+            <a class="bds_qzone" title="分享到QQ空间" href="#"></a>
+            <a class="bds_tqq" title="分享到腾讯微博" href="#"></a>
+            </div>
+            <!-- Baidu Button END -->
+       </div>
+        <div class="ping02"><a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141219/42754469_0.shtml&docName=李登辉提“内阁制” 否认牵制蔡英文(图)&skey=e16a36" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a></div>
+    </div>
+</div>
+ 
+		    <ul>
+
+
+
+
+
+<li> <a href="http://news.ifeng.com/a/20141219/42755775_0.shtml" target="_blank">苏贞昌：修“宪”不能拖 实施可以缓</a>丨<a href="http://news.ifeng.com/a/20141219/42755779_0.shtml" target="_blank">“修宪委员会”破局 王金平：是没时间协商延到下周</a> 
+</li>
+
+<li> <a href="http://news.ifeng.com/a/20141215/42718954_0.shtml" target="_blank">朱立伦谈“内阁制”：请民进党放心 绝不会是2016年</a>丨<a href="http://news.ifeng.com/a/20141216/42727647_0.shtml" target="_blank">吴敦义：修“宪”难度高 不能有算计</a>
+</li>
+
+
+</ul> 
+            </div>
+        </div>
+    
+    <div class="space36"></div> 
+    <div class="juti_new"> 
+		     <div class="juti_list"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42755775_0.shtml" target="_blank" title="苏贞昌：修“宪”不能拖 实施可以缓" class="js_url js_title">苏贞昌：修“宪”不能拖 实施可以缓</a></h3> 
+      <p>据台湾媒体报道，前民进党主席苏贞昌今天表示，修“宪”不能拖，但实施可以缓，可订在2020年甚至之后，不影响2016年台湾地区领导人与“立委”选举，避免过多动机论式无谓揣<a href="http://news.ifeng.com/a/20141219/42755775_0.shtml" target="_blank" title="苏贞昌：修“宪”不能拖 实施可以缓">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'苏贞昌：修“宪”不能拖 实施可以缓','url':'http://news.ifeng.com/a/20141219/42755775_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141219/42755775_0.shtml&docName=苏贞昌：修“宪”不能拖 实施可以缓&skey=62c550" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42755192_0.shtml" target="_blank" title="国民党被指收顶新2亿政治献金 回应：将提告捍卫清白" class="js_url js_title">国民党被指收顶新2亿政治献金 回应：将提告捍卫清白</a></h3> 
+      <p>范姜泰基指出，此一不实指控已对国民党造成重大伤害。国民党要求周玉蔻女士一周内就此事公开说明，究竟是何人指控国民党私下收受顶新2亿现款，否则国民党将对周玉蔻女士正式提告，<a href="http://news.ifeng.com/a/20141219/42755192_0.shtml" target="_blank" title="国民党被指收顶新2亿政治献金 回应：将提告捍卫清白">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'国民党被指收顶新2亿政治献金 回应：将提告捍卫清白','url':'http://news.ifeng.com/a/20141219/42755192_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141219/42755192_0.shtml&docName=国民党被指收顶新2亿政治献金 回应：将提告捍卫清白&skey=a3fe66" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42755191_0.shtml" target="_blank" title="台湾陆委会：“九合一”选后 两岸协商脚步未停" class="js_url js_title">台湾陆委会：“九合一”选后 两岸协商脚步未停</a></h3> 
+      <p>据报道，陆委会主任委员王郁琦17日在中国国民党中常会报告“九合一选后两岸关系情势”时指出，两岸关系发展进度恐受影响，协议签署难度提高。陆委会昨天下午召开例行记者会，有记<a href="http://news.ifeng.com/a/20141219/42755191_0.shtml" target="_blank" title="台湾陆委会：“九合一”选后 两岸协商脚步未停">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'台湾陆委会：“九合一”选后 两岸协商脚步未停','url':'http://news.ifeng.com/a/20141219/42755191_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141219/42755191_0.shtml&docName=台湾陆委会：“九合一”选后 两岸协商脚步未停&skey=6a7260" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42755070_0.shtml" target="_blank" title="柯文哲市府首长遴选风波不断 詹顺贵辞市政顾问" class="js_url js_title">柯文哲市府首长遴选风波不断 詹顺贵辞市政顾问</a></h3> 
+      <p>柯文哲市府首长的遴选风波不断。遴选委员会原订今日要公布第二波局处首长名单，却在昨日晚间又爆出环保局长由现任翡翠水库管理局长刘铭龙担任。对此人选，环保律师詹顺贵在脸书上表<a href="http://news.ifeng.com/a/20141219/42755070_0.shtml" target="_blank" title="柯文哲市府首长遴选风波不断 詹顺贵辞市政顾问">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'柯文哲市府首长遴选风波不断 詹顺贵辞市政顾问','url':'http://news.ifeng.com/a/20141219/42755070_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141219/42755070_0.shtml&docName=柯文哲市府首长遴选风波不断 詹顺贵辞市政顾问&skey=9dab0e" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42754752_0.shtml" target="_blank" title="高雄气爆案：消防员半数复健 一人仍在住院" class="js_url js_title">高雄气爆案：消防员半数复健 一人仍在住院</a></h3> 
+      <p>据台湾媒体报道，台湾高雄市气爆案消防人员共计7人死21伤，伤者除消防局专员陈致安外均已出院，有半数仍在复健；可能是受气爆案影响，加上公务员退休制度变革，消防局有90人申<a href="http://news.ifeng.com/a/20141219/42754752_0.shtml" target="_blank" title="高雄气爆案：消防员半数复健 一人仍在住院">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'高雄气爆案：消防员半数复健 一人仍在住院','url':'http://news.ifeng.com/a/20141219/42754752_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141219/42754752_0.shtml&docName=高雄气爆案：消防员半数复健 一人仍在住院&skey=054408" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42754614_0.shtml" target="_blank" title="高雄气爆案后续：市府无责 荣化董事长等12人起诉" class="js_url js_title">高雄气爆案后续：市府无责 荣化董事长等12人起诉</a></h3> 
+      <p>据台湾媒体报道，酿成32人死、321人受伤的台湾高雄气爆案，雄检认定人为疏失酿祸，昨依公共危险、业务过失致死等罪，起诉李长荣化工董事长李谋伟等九人，及当年监工的现任市府<a href="http://news.ifeng.com/a/20141219/42754614_0.shtml" target="_blank" title="高雄气爆案后续：市府无责 荣化董事长等12人起诉">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'高雄气爆案后续：市府无责 荣化董事长等12人起诉','url':'http://news.ifeng.com/a/20141219/42754614_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141219/42754614_0.shtml&docName=高雄气爆案后续：市府无责 荣化董事长等12人起诉&skey=280a84" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42754497_0.shtml" target="_blank" title="陈水扁保外就医案 台“法务部”：没时间表" class="js_url js_title">陈水扁保外就医案 台“法务部”：没时间表</a></h3> 
+      <p>台“法务部矫正署长”吴宪璋昨天在台“立法院”表示，扩大医疗小组12月22日开始鉴定陈水扁是否符合保外就医，尊重医师专业判断，没有时间表；“法务部长”罗莹雪表示，交由医疗<a href="http://news.ifeng.com/a/20141219/42754497_0.shtml" target="_blank" title="陈水扁保外就医案 台“法务部”：没时间表">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'陈水扁保外就医案 台“法务部”：没时间表','url':'http://news.ifeng.com/a/20141219/42754497_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141219/42754497_0.shtml&docName=陈水扁保外就医案 台“法务部”：没时间表&skey=d0e734" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42754465_0.shtml" target="_blank" title="两岸年度汉字揭晓 “转”字高票当选" class="js_url js_title">两岸年�汉字揭晓 “转”字高票当选</a></h3> 
+      <p>这一评选活动已连续举办五届,由台湾《旺报》与厦门《海西晨报》联合主办。今年的年度汉字由来自两岸的近690万网友,从入围的“转”、“变”、“闯”、“成”、“慎”等20个汉<a href="http://news.ifeng.com/a/20141219/42754465_0.shtml" target="_blank" title="两岸年度汉字揭晓 “转”字高票当选">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'两岸年度汉字揭晓 “转”字高票当选','url':'http://news.ifeng.com/a/20141219/42754465_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141219/42754465_0.shtml&docName=两岸年度汉字揭晓 “转”字高票当选&skey=56ba05" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    <div class="juti_list"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42754102_0.shtml" target="_blank" title="高雄气爆陈菊团队无刑责 遇难者家属：百姓命不值钱" class="js_url js_title">高雄气爆陈菊团队无刑责 遇难者家属：百姓命不值钱</a></h3> 
+        <div class="clearfix">
+        <div class="ju_pic"><a href="http://news.ifeng.com/a/20141219/42754102_0.shtml" target="_blank" title="高雄气爆陈菊团队无刑责 遇难者家属：百姓命不值钱"><img src="http://d.ifengimg.com/w150_h95/y2.ifengimg.com/cmpp/2014/12/19/08/fe47fcbd-0172-4913-b9e0-8cd31cd546b5.jpg" width="150" height="95"></a></div>
+        <div>
+          <p>高雄气爆案昨天（18日）宣布侦结，将起诉李长荣化工董事长等12人。据台湾《中国时报》报道，高雄地检署认定，高雄市政府、“中油”无法律责任，令灾民傻眼。全身而退的市长陈菊<a href="http://news.ifeng.com/a/20141219/42754102_0.shtml" target="_blank" title="高雄气爆陈菊团队无刑责 遇难者家属：百姓命不值钱">[详细]</a></p> 
+              <div class="Function"> 
+               <div class="fl_right clearfix"> 
+               <div class="ping03"> 
+                 <span>2014-12-19</span> 
+                </div> 
+                <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+                 <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+                 <!-- Baidu Button BEGIN --> 
+                 <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'高雄气爆陈菊团队无刑责 遇难者家属：百姓命不值钱','url':'http://news.ifeng.com/a/20141219/42754102_0.shtml'}" style="display: none;"> 
+                  <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+                  <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+                  <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+                 </div> 
+                 <!-- Baidu Button END --> 
+                </div> 
+                <div class="ping02"> 
+                 <a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141219/42754102_0.shtml&docName=高雄气爆陈菊团队无刑责 遇难者家属：百姓命��值钱&skey=9a0497" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+                </div> 
+               </div> 
+              </div> 
+        </div>
+    </div>
+   </div> 
+     <div class="juti_list"> 
+      <h3><a href="http://news.ifeng.com/a/20141218/42747047_0.shtml" target="_blank" title="独居退休警察冻毙家中 左脚被鼠啃咬" class="js_url js_title">独居退休警察冻毙家中 左脚被鼠啃咬</a></h3> 
+      <p> 据台湾“东森新闻云”报道，台中市一名独居的50岁廖姓退休警察17日下午被发现陈尸家中，由于他全身发白、双手紧握胸前，警方初步分析可能是天气太冷，惨遭冻毙，而且居住环境<a href="http://news.ifeng.com/a/20141218/42747047_0.shtml" target="_blank" title="独居退休警察冻毙家中 左脚被鼠啃咬">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-18</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'独居退休警察冻毙家中 左脚被鼠啃咬','url':'http://news.ifeng.com/a/20141218/42747047_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http://news.ifeng.com/a/20141218/42747047_0.shtml&docName=独居退休警察冻毙家中 左脚被鼠啃咬&skey=4b6ba6" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+ 
+		     <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42757197_0.shtml" target="_blank" title="台湾首艘自制匿踪导弹巡逻舰将移交军方" class="js_url js_title">台湾首艘自制匿踪导弹巡逻舰将移交军方</a></h3> 
+      <p>中新网12月19日电 据台湾“中央社”报道，台湾自制的首艘匿踪导弹巡逻舰“沱江舰”23日举行交舰典礼，沱江舰经多次厂试后，将正式移交海军。<a href="http://news.ifeng.com/a/20141219/42757197_0.shtml" target="_blank" title="台湾首艘自制匿踪导弹巡逻舰将移交军方">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'台湾首艘自制匿踪导弹巡逻舰将移交军方','url':'http://news.ifeng.com/a/20141219/42757197_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42757197_0.shtml&docName=%E5%8F%B0%E6%B9%BE%E9%A6%96%E8%89%98%E8%87%AA%E5%88%B6%E5%8C%BF%E8%B8%AA%E5%AF%BC%E5%BC%B9%E5%B7%A1%E9%80%BB%E8%88%B0%E5%B0%86%E7%A7%BB%E4%BA%A4%E5%86%9B%E6%96%B9&skey=645fee" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42756503_0.shtml" target="_blank" title="男子不满公交车没礼让 隧道内急停挡车遭起诉" class="js_url js_title">男子不满公交车没礼让 隧道内急停挡车遭起诉</a></h3> 
+        <div class="clearfix">
+        <div class="ju_pic"><a href="http://news.ifeng.com/a/20141219/42756503_0.shtml" target="_blank" title="男子不满公交车没礼让 隧道内急停挡车遭起诉"><img src="http://d.ifengimg.com/w150_h95/y0.ifengimg.com/cmpp/2014/12/19/15/af1720be-be17-4b55-bd03-8a4033f0e7b1.jpg" width="150" height="95"></a></div>
+        <div>
+          <p> 据台湾“今日新闻网”报道，日前一名骨科外科马姓医师，因在下班高峰时刻，故意放慢速度蛇行挡公交车，开进隧道内还急刹车，相当危险。 <a href="http://news.ifeng.com/a/20141219/42756503_0.shtml" target="_blank" title="男子不满公交车没礼让 隧道内急停挡车遭起诉">[详细]</a></p> 
+              <div class="Function"> 
+               <div class="fl_right clearfix"> 
+               <div class="ping03"> 
+                 <span>2014-12-19</span> 
+                </div> 
+                <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+                 <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+                 <!-- Baidu Button BEGIN --> 
+                 <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'男子不满公交车没礼让 隧道内急停挡车遭起诉','url':'http://news.ifeng.com/a/20141219/42756503_0.shtml'}" style="display: none;"> 
+                  <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+                  <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+                  <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+                 </div> 
+                 <!-- Baidu Button END --> 
+                </div> 
+                <div class="ping02"> 
+                 <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42756503_0.shtml&docName=%E7%94%B7%E5%AD%90%E4%B8%8D%E6%BB%A1%E5%85%AC%E4%BA%A4%E8%BD%A6%E6%B2%A1%E7%A4%BC%E8%AE%A9%20%E9%9A%A7%E9%81%93%E5%86%85%E6%80%A5%E5%81%9C%E6%8C%A1%E8%BD%A6%E9%81%AD%E8%B5%B7%E8%AF%89&skey=d44edb" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+                </div> 
+               </div> 
+              </div> 
+        </div>
+    </div>
+   </div> 
+     <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42756439_0.shtml" target="_blank" title="台湾男子外遇还有私生子 怀孕妻子受打击流产获赔50万" class="js_url js_title">台湾男子外遇还有私生子 怀孕妻子受打击流产获赔50万</a></h3> 
+      <p> 据台湾“中广新闻网”报道，台北市一名已婚男子发生婚外情还生下私生子，此事让他怀孕3个月的妻子备受打击流产。<a href="http://news.ifeng.com/a/20141219/42756439_0.shtml" target="_blank" title="台湾男子外遇还有私生子 怀孕妻子受打击流产获赔50万">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'台湾男子外遇还有私生子 怀孕妻子受打击流产获赔50万','url':'http://news.ifeng.com/a/20141219/42756439_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42756439_0.shtml&docName=%E5%8F%B0%E6%B9%BE%E7%94%B7%E5%AD%90%E5%A4%96%E9%81%87%E8%BF%98%E6%9C%89%E7%A7%81%E7%94%9F%E5%AD%90%20%E6%80%80%E5%AD%95%E5%A6%BB%E5%AD%90%E5%8F%97%E6%89%93%E5%87%BB%E6%B5%81%E4%BA%A7%E8%8E%B7%E8%B5%9450%E4%B8%87&skey=9910e8" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42756284_0.shtml" target="_blank" title="台湾：8旬老翁骑车迷途8小时 从屏东一路骑到高雄(图)" class="js_url js_title">台湾：8旬老翁骑车迷途8小时 从屏东一路骑到高雄(图)</a></h3> 
+        <div class="clearfix">
+        <div class="ju_pic"><a href="http://news.ifeng.com/a/20141219/42756284_0.shtml" target="_blank" title="台湾：8旬老翁骑车迷途8小时 从屏东一路骑到高雄(图)"><img src="http://d.ifengimg.com/w150_h95/y2.ifengimg.com/cmpp/2014/12/19/14/c080999a-c929-4425-9035-bf75e9d3cbbf.jpg" width="150" height="95"></a></div>
+        <div>
+          <p>前镇警分局复兴派出所表示，日前疗养院的社工陈慧蓉在晚间5点多下班时，发现院前大门口有一名迷途老人，她先买晚餐让老翁食用，然后再将老翁带到派出所。<a href="http://news.ifeng.com/a/20141219/42756284_0.shtml" target="_blank" title="台湾：8旬老翁骑车迷途8小时 从屏东一路骑到高雄(图)">[详细]</a></p> 
+              <div class="Function"> 
+               <div class="fl_right clearfix"> 
+               <div class="ping03"> 
+                 <span>2014-12-19</span> 
+                </div> 
+                <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+                 <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+                 <!-- Baidu Button BEGIN --> 
+                 <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'台湾：8旬老翁骑车迷途8小时 从屏东一路骑到高雄(图)','url':'http://news.ifeng.com/a/20141219/42756284_0.shtml'}" style="display: none;"> 
+                  <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+                  <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+                  <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+                 </div> 
+                 <!-- Baidu Button END --> 
+                </div> 
+                <div class="ping02"> 
+                 <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42756284_0.shtml&docName=%E5%8F%B0%E6%B9%BE%EF%BC%9A8%E6%97%AC%E8%80%81%E7%BF%81%E9%AA%91%E8%BD%A6%E8%BF%B7%E9%80%948%E5%B0%8F%E6%97%B6%20%E4%BB%8E%E5%B1%8F%E4%B8%9C%E4%B8%80%E8%B7%AF%E9%AA%91%E5%88%B0%E9%AB%98%E9%9B%84(%E5%9B%BE)&skey=953f58" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+                </div> 
+               </div> 
+              </div> 
+        </div>
+    </div>
+   </div> 
+     <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42756131_0.shtml" target="_blank" title="港媒析高雄气爆案结案：咎商不告官 民意不服" class="js_url js_title">港媒析高雄气爆案结案：咎商不告官 民意不服</a></h3> 
+      <p>中新网12月19日电 震惊台湾的高雄气爆案18日结案。<a href="http://news.ifeng.com/a/20141219/42756131_0.shtml" target="_blank" title="港媒析高雄气爆案结案：咎商不告官 民意不服">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'港媒析高雄气爆案结案：咎商不告官 民意不服','url':'http://news.ifeng.com/a/20141219/42756131_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42756131_0.shtml&docName=%E6%B8%AF%E5%AA%92%E6%9E%90%E9%AB%98%E9%9B%84%E6%B0%94%E7%88%86%E6%A1%88%E7%BB%93%E6%A1%88%EF%BC%9A%E5%92%8E%E5%95%86%E4%B8%8D%E5%91%8A%E5%AE%98%20%E6%B0%91%E6%84%8F%E4%B8%8D%E6%9C%8D&skey=6104b2" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42755916_0.shtml" target="_blank" title="陈为廷选“立委” 苗栗副议长：不够格" class="js_url js_title">陈为廷选“立委” 苗栗副议长：不够格</a></h3> 
+      <p>陈明朝反问，谁会为了炒地皮再花上数百亿元投资？他并批陈为廷的说法是在误导民众。<a href="http://news.ifeng.com/a/20141219/42755916_0.shtml" target="_blank" title="陈为廷选“立委” 苗栗副议长：不够格">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'陈为廷选“立委” 苗栗副议长：不够格','url':'http://news.ifeng.com/a/20141219/42755916_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42755916_0.shtml&docName=%E9%99%88%E4%B8%BA%E5%BB%B7%E9%80%89%E2%80%9C%E7%AB%8B%E5%A7%94%E2%80%9D%20%E8%8B%97%E6%A0%97%E5%89%AF%E8%AE%AE%E9%95%BF%EF%BC%9A%E4%B8%8D%E5%A4%9F%E6%A0%BC&skey=2bb008" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42755779_0.shtml" target="_blank" title="“修宪委员会”破局 王金平：是没时间协商延到下周" class="js_url js_title">“修宪委员会”破局 王金平：是没时间协商延到下周</a></h3> 
+      <p>台“立法院”今日原拟讨论成立“修宪委员会”，但最后未能处理，外界质疑是否是因为国民党将“监委”人事同意权案与两岸协议监督条例复议案排在“修宪案”前导致协商破局。对此，“立法院长”王金平表示，今天仅依照议事日程走，没有提前，因为几个“修宪委员会”提案都排在议案最后，就看下周五如何处理。<a href="http://news.ifeng.com/a/20141219/42755779_0.shtml" target="_blank" title="“修宪委员会”破局 王金平：是没时间协商延到下周">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'“修宪委员会”破局 王金平：是没时间协商延到下周','url':'http://news.ifeng.com/a/20141219/42755779_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42755779_0.shtml&docName=%E2%80%9C%E4%BF%AE%E5%AE%AA%E5%A7%94%E5%91%98%E4%BC%9A%E2%80%9D%E7%A0%B4%E5%B1%80%20%E7%8E%8B%E9%87%91%E5%B9%B3%EF%BC%9A%E6%98%AF%E6%B2%A1%E6%97%B6%E9%97%B4%E5%8D%8F%E5%95%86%E5%BB%B6%E5%88%B0%E4%B8%8B%E5%91%A8&skey=2eb2d8" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42755531_0.shtml" target="_blank" title="台湾一审通过同性婚姻法案 同性伴侣可结婚" class="js_url js_title">台湾一审通过同性婚姻法案 同性伴侣可结婚</a></h3> 
+      <p>台湾婚姻平权(同性婚姻合法化)民法修正案，今天已一读通过，并交付由司法及法制委员会审查。<a href="http://news.ifeng.com/a/20141219/42755531_0.shtml" target="_blank" title="台湾一审通过同性婚姻法案 同性伴侣可结婚">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'台湾一审通过同性婚姻法案 同性伴侣可结婚','url':'http://news.ifeng.com/a/20141219/42755531_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42755531_0.shtml&docName=%E5%8F%B0%E6%B9%BE%E4%B8%80%E5%AE%A1%E9%80%9A%E8%BF%87%E5%90%8C%E6%80%A7%E5%A9%9A%E5%A7%BB%E6%B3%95%E6%A1%88%20%E5%90%8C%E6%80%A7%E4%BC%B4%E4%BE%A3%E5%8F%AF%E7%BB%93%E5%A9%9A&skey=3ae87a" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42755157_0.shtml" target="_blank" title="台湾一审通过同性婚姻法案 同性伴侣可结婚" class="js_url js_title">台湾一审通过同性婚姻法案 同性伴侣可结婚</a></h3> 
+      <p>@中国日报【台湾一审通过同性婚姻法案 同性伴侣可结婚】台湾婚姻平权(同性婚姻合法化)&ldquo;民法修正案&rdquo;，今天已一读通过，并交付由司法及法制委员会审查。草案中明订，婚约应由不分性别、<a href="http://news.ifeng.com/a/20141219/42755157_0.shtml" target="_blank" title="台湾一审通过同性婚姻法案 同性伴侣可结婚">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'台湾一审通过同性婚姻法案 同性伴侣可结婚','url':'http://news.ifeng.com/a/20141219/42755157_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42755157_0.shtml&docName=%E5%8F%B0%E6%B9%BE%E4%B8%80%E5%AE%A1%E9%80%9A%E8%BF%87%E5%90%8C%E6%80%A7%E5%A9%9A%E5%A7%BB%E6%B3%95%E6%A1%88%20%E5%90%8C%E6%80%A7%E4%BC%B4%E4%BE%A3%E5%8F%AF%E7%BB%93%E5%A9%9A&skey=037ec2" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42755027_0.shtml" target="_blank" title="台南地检署办案搞乌龙 监听与全案无关里长遭告" class="js_url js_title">台南地检署办案搞乌龙 监听与全案无关里长遭告</a></h3> 
+      <p>台南地方法院判决书指出，台南地检署2010年侦办一起市议员贿选案，麦姓检察事务官配合承办检察官到服务处搜索，发现1只黑色公文包内有1部行动电话。<a href="http://news.ifeng.com/a/20141219/42755027_0.shtml" target="_blank" title="台南地检署办案搞乌龙 监听与全案无关里长遭告">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'台南地检署办案搞乌龙 监听与全案无关里长遭告','url':'http://news.ifeng.com/a/20141219/42755027_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42755027_0.shtml&docName=%E5%8F%B0%E5%8D%97%E5%9C%B0%E6%A3%80%E7%BD%B2%E5%8A%9E%E6%A1%88%E6%90%9E%E4%B9%8C%E9%BE%99%20%E7%9B%91%E5%90%AC%E4%B8%8E%E5%85%A8%E6%A1%88%E6%97%A0%E5%85%B3%E9%87%8C%E9%95%BF%E9%81%AD%E5%91%8A&skey=5a2b03" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42754792_0.shtml" target="_blank" title="国民党22日公布参加“立委”补选人选" class="js_url js_title">国民党22日公布参加“立委”补选人选</a></h3> 
+      <p>据台湾媒体报道，台湾“九合一”选后，紧接而来有5县市“立委”补选，昨开放领表，国民党多人表态参选，目前仍在协调，可能由台“行政院副秘书长”萧家淇出马，党中央将在22日公布人选。<a href="http://news.ifeng.com/a/20141219/42754792_0.shtml" target="_blank" title="国民党22日公布参加“立委”补选人选">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'国民党22日公布参加“立委”补选人选','url':'http://news.ifeng.com/a/20141219/42754792_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42754792_0.shtml&docName=%E5%9B%BD%E6%B0%91%E5%85%9A22%E6%97%A5%E5%85%AC%E5%B8%83%E5%8F%82%E5%8A%A0%E2%80%9C%E7%AB%8B%E5%A7%94%E2%80%9D%E8%A1%A5%E9%80%89%E4%BA%BA%E9%80%89&skey=c5861b" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42754770_0.shtml" target="_blank" title="台湾2015年经济关键字 选“转”字盼改变" class="js_url js_title">台湾2015年经济关键字 选“转”字盼改变</a></h3> 
+        <div class="clearfix">
+        <div class="ju_pic"><a href="http://news.ifeng.com/a/20141219/42754770_0.shtml" target="_blank" title="台湾2015年经济关键字 选“转”字盼改变"><img src="http://d.ifengimg.com/w150_h95/y1.ifengimg.com/cmpp/2014/12/19/10/f95dde52-f752-4de2-8069-353138f1c8a0.jpg" width="150" height="95"></a></div>
+        <div>
+          <p>据台湾《联合报》报道，台湾《经济日报》18日举办“2015决战后QE”经济投资展望论坛，会中揭晓读者票选的2015经济预测关键词是“转”。<a href="http://news.ifeng.com/a/20141219/42754770_0.shtml" target="_blank" title="台湾2015年经济关键字 选“转”字盼改变">[详细]</a></p> 
+              <div class="Function"> 
+               <div class="fl_right clearfix"> 
+               <div class="ping03"> 
+                 <span>2014-12-19</span> 
+                </div> 
+                <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+                 <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+                 <!-- Baidu Button BEGIN --> 
+                 <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'台湾2015年经济关键字 选“转”字盼改变','url':'http://news.ifeng.com/a/20141219/42754770_0.shtml'}" style="display: none;"> 
+                  <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+                  <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+                  <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+                 </div> 
+                 <!-- Baidu Button END --> 
+                </div> 
+                <div class="ping02"> 
+                 <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42754770_0.shtml&docName=%E5%8F%B0%E6%B9%BE2015%E5%B9%B4%E7%BB%8F%E6%B5%8E%E5%85%B3%E9%94%AE%E5%AD%97%20%E9%80%89%E2%80%9C%E8%BD%AC%E2%80%9D%E5%AD%97%E7%9B%BC%E6%94%B9%E5%8F%98&skey=70c3cc" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+                </div> 
+               </div> 
+              </div> 
+        </div>
+    </div>
+   </div> 
+     <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42754725_0.shtml" target="_blank" title="台媒：民进党若指望美日撑腰向北京挑战愈来愈不行" class="js_url js_title">台媒：民进党若指望美日撑腰向北京挑战愈来愈不行</a></h3> 
+      <p>台湾《联合报》19日文章，原题《九合一后两岸前景》，作者为曾任台“国防部副部长”。<a href="http://news.ifeng.com/a/20141219/42754725_0.shtml" target="_blank" title="台媒：民进党若指望美日撑腰向��京挑战愈来愈不行">[详细]</a></p> 
+      <div class="Function"> 
+       <div class="fl_right clearfix"> 
+         <div class="ping03"> 
+          <span>2014-12-19</span> 
+        </div> 
+        <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+         <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+         <!-- Baidu Button BEGIN --> 
+         <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'台媒：民进党若指望美日撑腰向北京挑战愈来愈不行','url':'http://news.ifeng.com/a/20141219/42754725_0.shtml'}" style="display: none;"> 
+          <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+          <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+          <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+         </div> 
+         <!-- Baidu Button END --> 
+        </div> 
+        <div class="ping02"> 
+         <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42754725_0.shtml&docName=%E5%8F%B0%E5%AA%92%EF%BC%9A%E6%B0%91%E8%BF%9B%E5%85%9A%E8%8B%A5%E6%8C%87%E6%9C%9B%E7%BE%8E%E6%97%A5%E6%92%91%E8%85%B0%E5%90%91%E5%8C%97%E4%BA%AC%E6%8C%91%E6%88%98%E6%84%88%E6%9D%A5%E6%84%88%E4%B8%8D%E8%A1%8C&skey=c0a391" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    <div class="juti_list" style="display:none"> 
+      <h3><a href="http://news.ifeng.com/a/20141219/42754654_0.shtml" target="_blank" title="毛治国：行政团队必须换脑袋 与网络多沟通" class="js_url js_title">毛治国：行政团队必须换脑袋 与网络多沟通</a></h3> 
+        <div class="clearfix">
+        <div class="ju_pic"><a href="http://news.ifeng.com/a/20141219/42754654_0.shtml" target="_blank" title="毛治国：行政团队必须换脑袋 与网络多沟通"><img src="http://d.ifengimg.com/w150_h95/y2.ifengimg.com/cmpp/2014/12/19/09/5711536f-c3ac-4b13-a440-54e10630db7f.jpg" width="150" height="95"></a></div>
+        <div>
+          <p>台当局“行政院长”毛治国18日要求全体“阁员”换脑袋，从价值观到平时用语、网络沟通都要有新思维。他举例，到地方了解问题是“走访”，不能再用“下乡”，与民沟通也不能视为“宣导”。<a href="http://news.ifeng.com/a/20141219/42754654_0.shtml" target="_blank" title="毛治国：行政团队必须换脑袋 与网络多沟通">[详细]</a></p> 
+              <div class="Function"> 
+               <div class="fl_right clearfix"> 
+               <div class="ping03"> 
+                 <span>2014-12-19</span> 
+                </div> 
+                <div onmouseover="MM_over(this)" onmouseout="MM_out(this)" class="share_hide02"> 
+                 <a href="#" class="fenx"><span style="background-position: 100% -13px;">分享</span></a> 
+                 <!-- Baidu Button BEGIN --> 
+                 <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn01" data="{'text':'毛治国：行政团队必须换脑袋 与网络多沟通','url':'http://news.ifeng.com/a/20141219/42754654_0.shtml'}" style="display: none;"> 
+                  <a class="bds_tsina" title="分享到新浪微博" href="#"></a> 
+                  <a class="bds_qzone" title="分享到QQ空间" href="#"></a> 
+                  <a class="bds_tqq" title="分享到腾讯微博" href="#"></a> 
+                 </div> 
+                 <!-- Baidu Button END --> 
+                </div> 
+                <div class="ping02"> 
+                 <a href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Fnews.ifeng.com%2Fa%2F20141219%2F42754654_0.shtml&docName=%E6%AF%9B%E6%B2%BB%E5%9B%BD%EF%BC%9A%E8%A1%8C%E6%94%BF%E5%9B%A2%E9%98%9F%E5%BF%85%E9%A1%BB%E6%8D%A2%E8%84%91%E8%A2%8B%20%E4%B8%8E%E7%BD%91%E7%BB%9C%E5%A4%9A%E6%B2%9F%E9%80%9A&skey=1aa281" target="_blank" class="pinl js_commentUrl"><span class="js_commentNum">0</span></a> 
+                </div> 
+               </div> 
+              </div> 
+        </div>
+    </div>
+   </div> 
+ 
+    </div> 
+    <div class="dianj box"> 
+     <a id="checkMore">点击查看更多新闻</a> 
+    </div> 
+    <script>
+		(function($){
+			jQuery(function(){
+				
+				jQuery('.box').hover (
+				function(){
+				$(this).addClass('bbg');
+				},
+				function(){
+				$(this).removeClass('bbg');
+				}
+				);
+				
+				var clickCount = 0;
+				jQuery('#checkMore').click(function() {
+				   						   
+                   clickCount ++;
+				   var lenList = jQuery('.juti_list').length;
+				   var count = 0;
+				   for(var i=0; i<lenList && count<7; i++){
+						if(jQuery('.juti_list').eq(i).is(":hidden")){
+						   jQuery('.juti_list').eq(i).show();
+						   count ++; 
+						}
+					}
+					if(clickCount == 2){ //当所有条都显示时
+							jQuery('#checkMore').parent().html("<a href='http://news.ifeng.com/listpage/11490/0/1/rtlist.shtml' target='_blank' >点击查看更多新闻</a>");
+						}
+				});
+				
+				
+			});	
+		})(jQuery)
+  
+    </script> 
+    <div class="space30"></div> 
+   </div> 
+   <div class="w320"> <div class="box_01 zybor">
+	<div class="ljdw"><a href="http://news.ifeng.com/taiwan/4/list_0/0.shtml" target="_blank"><img src="http://y1.ifengimg.com/2f86f1d4ae63c9a4/2012/0726/link.gif"></a></div>
+	<h3><a href="http://news.ifeng.com/a/20141210/42683402_0.shtml" target="_blank">
+钮则勋：绿完成老中新接班布局 国民党需强力领袖
+</a></h3>
+	<p>目前基层呈现涣散的局面，看不到聚合力，非常需要强有力的党主席出来，带领国民党重新出发。
+<a href="http://news.ifeng.com/a/20141103/42364734_0.shtml" target="_blank">[详细]</a></p>
+</div> 
+    <div class="space40"></div> 
+	<div class="box_03 zybor">
+         <div class="ad02">
+<!--s_news_index_ad_hzh 2014.12.19 09:17:38-->
+<script type="text/javascript">try{aptracker.add(2761);}catch(e){}</script>
+
+
+<div id="AP549" style="display:none;">
+<var style="display:none;" v="2761,24923,7506,夏岩,B1"></var><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?ccdc414b5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFL36cyuuR0eQpK8iN1WVnJzgUN6srEK1ec829ZEJKEJTVcbwdla4D-bMkGcwwUBFvf0FTFPhUBupM50qGIVOw4Xclx6zvAfZv9wc_kksWIq1xCWHGF765vfgORvFLlGxrI';
+var ad = 'http://y0.ifengimg.com/mappa/2014/12/09/eacbe97fbfcde79fad04096d764df1fb.swf';
+var w = '300';var h = '250';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="2761,24969,7506,宋斯文,B1"></var><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?57d93df85MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLOmmIZbndbhO3skXjtpCGfVmfgU6gCxZos8sRxDARLoFcbwdla4D-bU4laC7zc_l78CZttx8uJiA';
+var ad = 'http://y3.ifengimg.com/mappa/2014/12/15/c7d35ba520513ce50030d615875a8070.jpg';
+var w = '300';var h = '250';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="2761,0,0,NULL,fixture"></var><cite>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=7516&bg=7516&b=7511&u=http://news.ifeng.com/app/special-api/new-list/ifeng/ifeng_client_spread/';
+var ad = 'http://y0.ifengimg.com/mappa/2014/04/28/98e4a12d89c681dc3700341566c96830.jpg';
+var w = '300';var h = '250';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP549"});
+}catch(e){}
+</script>
+<!--/s_news_index_ad_hzh-->
+</div>
+    </div>
+	<div class="space40"></div> 
+	<div class="box_02 zybor"> 
+ <div class="title"> 
+  <a href="http://news.ifeng.com/taiwan/video/list_0/0.shtml" target="_blank"><img src="http://y0.ifengimg.com/314bd925cdd17196/2014/0409/t_03.png" width="299" height="47" /></a> 
+ </div> 
+ <div class="ship"> 
+  <a href="http://news.ifeng.com/a/20141210/42685478_0.shtml" target="_blank"><img src="http://y1.ifengimg.com/cmpp/2014/12/10/5bc6561e2cfac6a2e50c0a66a826edf5_300_200.jpg" width="280" height="160" /></a> 
+  <ul> 
+   <li class="current clearfix"><span></span><a href="http://news.ifeng.com/a/20141210/42685478_0.shtml" target="_blank">宋柯会密谈1小时 宋楚瑜引毛诗勉柯
+
+</a></li>  
+
+<li class="clearfix"><span></span><a href="http://news.ifeng.com/a/20141210/42685443_0.shtml"  target="_blank">国民党将选党主席 朱立伦获拱朱派支持</a></li> 
+
+ <li class="clearfix"><span></span><a href="http://news.ifeng.com/a/20141210/42685471_0.shtml" target="_blank">陈水扁亲笔撰写抗告状 以争取保外就医
+</a></li> 
+
+<li class="clearfix"><span></span><a href="http://news.ifeng.com/a/20141210/42685460_0.shtml" target="_blank">陈德铭率经贸交流团访台 赴养生村参观
+</a></li> 
+
+
+
+ 
+  </ul> 
+ </div> 
+</div> 
+    <div class="space40"></div> <div class="box_02 zybor"> 
+ <div class="title"> 
+  <a href="http://news.ifeng.com/taiwan/special/list_0/1.shtml" target="_blank"><img src="http://y0.ifengimg.com/314bd925cdd17196/2014/0409/t_05.png" width="299" height="47" /></a> 
+ </div> 
+ <div class="zhuat"> 
+  <a href="http://news.ifeng.com/taiwan/special/2014twjhyxj/" target="_blank"><img src="http://y0.ifengimg.com/cmpp/2014/12/10/b020e685c19e453d6cbcd8e00a651e35_300_200.PNG" width="280" height="160" /></a> 
+  <h3><a href="http://news.ifeng.com/taiwan/special/2014twjhyxj/" target="_blank">台湾“九合一”选举</a></h3> 
+  <p>11月29日，台湾九合一选举投票结果出炉，蓝绿执政板块出现大幅变动。<a href="http://news.ifeng.com/taiwan/special/gaoxiongranqibaozha/" target="_blank">[详细]</a></p> 
+  <ul class="zhu_ul"> 
+
+  <li><a href="http://news.ifeng.com/taiwan/special/gaoxiongranqibaozha/" target="_blank">台湾高雄发生气爆 数十人罹难</a></li>
+ 
+   <li><a href="http://news.ifeng.com/taiwan/special/taiwanpojiang/" target="_blank">台复兴航空在澎湖迫降 发生空难</a></li> 
+ <li><a href="http://news.ifeng.com/taiwan/special/haolongbinfangjing/" target="_blank">台北市长郝龙斌访问大陆 推介台北旅游</a></li> 
+   <li><a href="http://news.ifeng.com/taiwan/special/zhangzhijunfangtai/" target="_blank">里程碑：国台办主任张志军首度访问台湾</a></li> 
+   
+
+  </ul> 
+ </div> 
+</div> 
+    <div class="space40"></div> 
+    <div class="box_02 zybor"> 
+     <div class="title"> 
+      <a target="_blank"><img src="http://y0.ifengimg.com/314bd925cdd17196/2014/0409/t_06.png" width="300" height="47" /></a> 
+     </div> 
+     <div class="paih"> 
+      <div class="scrNews" id="tabControlArea"> 
+       <ul class="label_01" id="tab1"> 
+        <li class="current">即时排行</li> 
+        <li class="">24小时排行</li> 
+        <li class="">评论排行</li> 
+       </ul> 
+       <div class="clear"></div> 
+       <div style="padding-top:10px;"> 
+        
+			<ul class="list04" id="bc1" style="display:block;">
+<li class = "" >
+	<span class = "no1">1</span>
+	<span class="plsm">79482</span>
+	<a href="http://news.ifeng.com/a/20141219/42754393_0.shtml" target="_blank" title="柯文哲上任前多名市政顾问主动或被动辞职">柯文哲上任前多名市政顾问主动或...</a></li>
+<li class = "" >
+	<span class = "no1">2</span>
+	<span class="plsm">62965</span>
+	<a href="http://news.ifeng.com/a/20141219/42754469_0.shtml" target="_blank" title="李登辉提“内阁制” 否认牵制蔡英文（图）">李登辉提“内阁制” 否认牵制蔡...</a></li>
+<li class = "" >
+	<span class = "no1">3</span>
+	<span class="plsm">56567</span>
+	<a href="http://news.ifeng.com/a/20141219/42754408_0.shtml" target="_blank" title="郁慕明：台年轻人要知“一国两制”是为振兴中华">郁慕明：台年轻人要知“一国两制...</a></li>
+<li class = "" >
+	<span class = "no1">4</span>
+	<span class="plsm">23299</span>
+	<a href="http://news.ifeng.com/a/20141219/42755157_0.shtml" target="_blank" title="台湾一审通过同性婚姻法案 同性伴侣可结婚">台湾一审通过同性婚姻法案 同性...</a></li>
+<li class = "" >
+	<span class = "no1">5</span>
+	<span class="plsm">16269</span>
+	<a href="http://news.ifeng.com/a/20141218/42744678_0.shtml" target="_blank" title="许信良呼吁民进党提新决议文面对两岸问题（图）">许信良呼吁民进党提新决议文面对...</a></li>
+<li class = "no" >
+	<span class = "no">6</span>
+	<span class="plsm">16174</span>
+	<a href="http://news.ifeng.com/a/20141218/42744495_0.shtml" target="_blank" title="王郁琦：大陆加强防“独” 对台政策恐微调">王郁琦：大陆加强防“独” 对台...</a></li>
+<li class = "no" >
+	<span class = "no">7</span>
+	<span class="plsm">13716</span>
+	<a href="http://news.ifeng.com/a/20141218/42745490_0.shtml" target="_blank" title="幼童与母争吵欲“换妈”:XX阿姨好,会帮我和爸爸洗澡">幼童与母争吵欲“换妈”:XX阿姨...</a></li>
+<li class = "no" >
+	<span class = "no">8</span>
+	<span class="plsm">7075</span>
+	<a href="http://news.ifeng.com/a/20141219/42754395_0.shtml" target="_blank" title="台湾新竹上空现“阴阳云”奇观 一边灰暗一边碧蓝(图)">台湾新竹上空现“阴阳云”奇观 ...</a></li>
+<li class = "no" >
+	<span class = "no">9</span>
+	<span class="plsm">6329</span>
+	<a href="http://news.ifeng.com/a/20141218/42747065_0.shtml" target="_blank" title="男子家常被猕猴捣乱 棒打猴子泄愤被警送办">男子家常被猕猴捣乱 棒打猴子泄...</a></li>
+</ul>
+		 
+        
+			<ul class="list04" id="bc2" style="display:none;">
+<li class = "" >
+	<span class = "no1">1</span>
+	<span class="plsm">129636</span>
+	<a href="http://news.ifeng.com/a/20141218/42744495_0.shtml" target="_blank" title="王郁琦：大陆加强防“独” 对台政策恐微调">王郁琦：大陆加强防“独” 对台...</a></li>
+<li class = "" >
+	<span class = "no1">2</span>
+	<span class="plsm">81970</span>
+	<a href="http://news.ifeng.com/a/20141218/42744477_0.shtml" target="_blank" title="民进党成立“国是会议”平台 邀朱立伦参与">民进党成立“国是会议”平台 邀...</a></li>
+<li class = "" >
+	<span class = "no1">3</span>
+	<span class="plsm">66113</span>
+	<a href="http://news.ifeng.com/a/20141218/42744678_0.shtml" target="_blank" title="许信良呼吁民进党提新决议文面对两岸问题（图）">许信良呼吁民进党提新决议文面对...</a></li>
+<li class = "" >
+	<span class = "no1">4</span>
+	<span class="plsm">52648</span>
+	<a href="http://news.ifeng.com/a/20141217/42739081_0.shtml" target="_blank" title="陈水扁致信马英九自称罪人 陈致中：父亲宁死不屈">陈水扁致信马英九自称罪人 陈致...</a></li>
+<li class = "" >
+	<span class = "no1">5</span>
+	<span class="plsm">45223</span>
+	<a href="http://news.ifeng.com/a/20141217/42735760_0.shtml" target="_blank" title="台“反服贸女王”谈卖淫传闻：10万台币对我诱惑太大">台“反服贸女王”谈卖淫传闻：10...</a></li>
+<li class = "no" >
+	<span class = "no">6</span>
+	<span class="plsm">41451</span>
+	<a href="http://news.ifeng.com/a/20141218/42745490_0.shtml" target="_blank" title="幼童与母争吵欲“换妈”:XX阿姨好,会帮我和爸爸洗澡">幼童与母争吵欲“换妈”:XX阿姨...</a></li>
+<li class = "no" >
+	<span class = "no">7</span>
+	<span class="plsm">36481</span>
+	<a href="http://news.ifeng.com/a/20141217/42735586_0.shtml" target="_blank" title="柯文哲进监狱探视陈水扁：他就是精神病(图)">柯文哲进监狱探视陈水扁：他就是...</a></li>
+<li class = "no" >
+	<span class = "no">8</span>
+	<span class="plsm">34732</span>
+	<a href="http://news.ifeng.com/a/20141218/42744675_0.shtml" target="_blank" title="炮轰台北市新文化局长倪重华 柯文哲5名顾问走人">炮轰台北市新文化局长倪重华 柯...</a></li>
+<li class = "no" >
+	<span class = "no">9</span>
+	<span class="plsm">29298</span>
+	<a href="http://news.ifeng.com/a/20141217/42738617_0.shtml" target="_blank" title="民进党欲将台政改绑“统独” 朱立伦：勿徒增困扰">民进党欲将台政改绑“统独” 朱...</a></li>
+</ul>
+			 
+        
+			<ul class="list04"  id="bc3" style="display: none;">
+<li class = "" >
+	<span class = "no1">1</span>
+	<span class="plsm">32726</span>
+	<a href="http://news.ifeng.com/taiwan/1/detail_2013_07/01/26985075_0.shtml" target="_blank" title="台官员送新兵称“两岸必将统一”续：遭痛批后辞职">台官员送新兵称“两岸必将统一”...</a></li>
+<li class = "" >
+	<span class = "no1">2</span>
+	<span class="plsm">10239</span>
+	<a href="http://news.ifeng.com/taiwan/2/detail_2013_09/02/29225517_0.shtml" target="_blank" title="老男人以“推拿”为名为高中男生口交">老男人以“推拿”为名为高中男生...</a></li>
+<li class = "" >
+	<span class = "no1">3</span>
+	<span class="plsm">6247</span>
+	<a href="http://news.ifeng.com/mainland/detail_2011_01/21/4393552_0.shtml" target="_blank" title="北大张维迎： 我从来不为讨好任何人而说话">北大张维迎： 我从来不为讨好任...</a></li>
+<li class = "" >
+	<span class = "no1">4</span>
+	<span class="plsm">5347</span>
+	<a href="http://news.ifeng.com/taiwan/special/fumaokaishen/content-3/detail_2014_03/31/35308207_0.shtml" target="_blank" title="5女裸上身反服贸引发网友口水战(图)">5女裸上身反服贸引发网友口水战(...</a></li>
+<li class = "" >
+	<span class = "no1">5</span>
+	<span class="plsm">2950</span>
+	<a href="http://news.ifeng.com/taiwan/special/fumaokaishen/content-3/detail_2014_03/31/35308252_0.shtml" target="_blank" title="台立委回立法院开会 蓝委张庆忠遭绿委泼水(图)">台立委回立法院开会 蓝委张庆忠...</a></li>
+<li class = "no" >
+	<span class = "no">6</span>
+	<span class="plsm">2482</span>
+	<a href="http://news.ifeng.com/society/1/detail_2011_01/21/4381260_0.shtml" target="_blank" title="男子欲杀人 所长擒凶被刺7刀">男子欲杀人 所长擒凶被刺7刀</a></li>
+<li class = "no" >
+	<span class = "no">7</span>
+	<span class="plsm">682</span>
+	<a href="http://media.ifeng.com/school/special/weibodexinxichuanbojizhifenxi/xinwendajiatan/detail_2010_11/09/3050668_0.shtml" target="_blank" title="微博及其盈利模式">微博及其盈利模式</a></li>
+<li class = "no" >
+	<span class = "no">8</span>
+	<span class="plsm">262</span>
+	<a href="http://baby.ifeng.com/yuer/growup/detail_2011_01/21/4383261_0.shtml" target="_blank" title="大公开：孩子的脸型泄露性格秘密">大公开：孩子的脸型泄露性格秘密</a></li>
+</ul>
+			 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="space35"></div> 
+  <!--底部开始 begin--> 
+  <div class="col_wbf bg03 mt15"> 
+   <div class="col_w1000 bg03"> 
+    <div class="space01">
+      &nbsp; 
+    </div> 
+    <div class="box_13 clearfix"> 
+     <div class="col_lm"> <div class="box_13_1"> 
+ <div class="title03">
+   合作媒体 
+ </div> 
+ <ul class="list_hz"> 
+  <li><a href="http://www.news.cn/comments/" target="_blank" title="新华网评">新华网评</a><span>|</span><a href="http://news.people.com.cn/" target="_blank" title="人民网">人民网</a><span>|</span><a href="http://www.cnr.cn/" target="_blank" title="中国广播网">中国广播网</a><span>|</span><a href="http://gb.cri.cn/news/" target="_blank" title="国际在线">国际在线</a><span>|</span><a href="http://news.china.com.cn/" target="_blank" title="中国网新闻">中国网新闻</a><span>|</span><a href="http://www.taiwan.cn/" target="_blank" title="中国台湾网">中国台湾网</a><span>|</span><a href="http://www.ce.cn/" target="_blank" title="中国经济网">中国经济网</a><span>|</span><a href="http://www.youth.cn/" target="_blank" title="中国青年网">中国青年网</a><span>|</span><a href="http://www.qianlong.com/" target="_blank" title="千龙网">千龙网</a><span>|</span><a href="http://www.bjd.com.cn/" target="_blank" title="京报网">京报网</a></li> 
+  <li><a href="http://china.huanqiu.com/" target="_blank" title="环球网">环球网</a><span>|</span><a href="http://www.hsw.cn/" target="_blank" title="华商网">华商网</a><span>|</span><a href="http://www.ycwb.com/" target="_blank" title="金羊网">金羊网</a><span>|</span><a href="http://www.oeeee.com/" target="_blank" title="奥一网">奥一网</a><span>|</span><a href="http://cn.msn.com/" target="_blank" title="MSN中文网">MSN中文网</a><span>|</span><a href="http://news.21cn.com/" target="_blank" title="21cn新闻中心">21cn新闻中心</a><span>|</span><a href="http://news.china.com/" target="_blank" title="中华网">中华网</a><span>|</span><a href="http://www.gmw.cn/" target="_blank" title="光明网">光明网</a><span>|</span><a href="http://www.huaxia.com/" target="_blank" title="华夏经纬网">华夏经纬网</a><span>|</span><a href="http://www.eastday.com/" target="_blank" title="东方网">东方网</a><span>|</span><a href="http://www.southcn.com/" target="_blank" title="南方网">南方网</a></li> 
+  <li><a href="http://www.rednet.cn/" target="_blank" title="红网">红网</a><span>|</span><a href="http://www.cqnews.net/" target="_blank" title="华龙网">华龙网</a><span>|</span><a href="http://www.cnwest.com/" target="_blank" title="西部网">西部网</a><span>|</span><a href="http://www.hebei.com.cn/" target="_blank" title="长城网">长城网</a><span>|</span><a href="http://www.nen.com.cn/" target="_blank" title="东北新闻网">东北新闻网</a><span>|</span><a href="http://www.ts.cn/" target="_blank" title="天山网">天山网</a><span>|</span><a href="http://www.cnhubei.com/" target="_blank" title="荆楚网">荆楚网</a><span>|</span><a href="http://www.jxcn.cn/" target="_blank" title="中国江西网">中国江西网</a><span>|</span><a href="http://www.zjol.com.cn/" target="_blank" title="浙江在线">浙江在线</a><span>|</span><a href="http://www.sxrb.com/" target="_blank" title="山西新闻网">山西新闻网</a><span>|</span><a href="http://365jilin.com/" target="_blank" title="吉和网">吉和网</a></li> 
+  <li><a href="http://www.anhuinews.com/" target="_blank" title="中安在线">中安在线</a><span>|</span><a href="http://www.ahwang.cn/" target="_blank" title="安徽网">安徽网</a><span>|</span><a href="http://www.hinews.cn/" target="_blank" title="南海网">南海网</a><span>|</span><a href="http://www.xinjiangnet.com.cn/" target="_blank" title="新疆网">新疆网</a><span>|</span><a href="http://www.jxnews.com.cn/" target="_blank" title="大江网">大江网</a><span>|</span><a href="http://www.sxgov.cn/" target="_blank" title="黄河新闻网">黄河新闻网</a><span>|</span><a href="http://news.iyaxin.com/" target="_blank" title="亚心网">亚心网</a><span>|</span><a href="http://www.dayoo.com/" target="_blank" title="大洋网">大洋网 </a><span>|</span><a href="http://www.enorth.com.cn/" target="_blank" title="北方网">北方网</a><span>|</span><a href="http://www.dili360.com/" target="_blank" title="中国国家地理">中国国家地理</a><span>|</span><a href="http://www.cqcb.com/" target="_blank" title="重庆晨报">重庆晨报</a></li> 
+  <li><a href="http://www.bjnews.com.cn/" target="_blank" title="新京报">新京报</a><span>|</span><a href="http://www.fawan.com/" target="_blank" title="法制晚报">法制晚报</a><span>|</span><a href="http://www.time-weekly.com/" target="_blank" title="时代周报">时代周报</a><span>|</span><a href="http://www.xkb.com.cn/" target="_blank" title="新快网">新快网</a><span>|</span><a href="http://www.morningpost.com.cn/" target="_blank" title="北京晨报网">北京晨报网 </a><span>|</span><a href="http://www.fjsen.com/" target="_blank" title="东南网">东南网</a><span>|</span><a href="http://www.voc.com.cn/" target="_blank" title="华声在线">华声在线</a><span>|</span><a href="http://www.changsha.cn/" target="_blank" title="星辰在线">星辰在线</a><span>|</span><a href="http://www.cnhan.com/" target="_blank" title="汉网">汉网</a><span>|</span><a href="http://www.cqwb.com.cn/" target="_blank" title="重庆晚报第一眼">重庆晚报第一眼</a></li> 
+  <li><a href="http://www.inewsweek.cn/" target="_blank" title="中国新闻周刊">中国新闻周刊</a><span>|</span><a href="http://www.jinghua.cn/" target="_blank" title="京华网">京华网</a><span>|</span><a href="http://www.hsxiang.com/" target="_blank" title="华商响网">华商响网</a><span>|</span><a href="http://www.xiancity.cn/" target="_blank" title="西安网">西安网</a><span>|</span><a href="http://www.fabao365.com/" target="_blank" title="法邦网">法邦网</a><span>|</span><a href="http://365jia.cn/" target="_blank" title="万家热线">万家热线</a><span>|</span><a href="http://www.qhnews.com/" target="_blank" title="青海新闻网">青海新闻网</a><span>|</span><a href="http://www.ccwb.cn/" target="_blank" title="春城壹网">春城壹网</a></li> 
+ </ul> 
+</div> 
+     </div> 
+     <div class="col_r"> <div class="box_13_2 clearfix"> 
+ <div class="box_con"> 
+  <div class="b_logo"> 
+   <img src="http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/b_logo.gif" width="128" height="25" title="凤凰资讯" alt="凤凰资讯" /> 
+  </div> 
+  <ul> 
+   <li>凤凰新媒体 资讯频道</li> 
+   <li class="clearfix"><span>邮箱：</span><a href="mailTo:news@ifeng.com" target="_blank"><img src="http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/mail.gif" width="83" height="26" /></a></li> 
+   <li></li> 
+   <li>凤凰网官方微博：</li> 
+   <li><a href="http://weibo.com/phoenixnewmedia" target="_blank" title="凤凰网官方微博">http://weibo.com/phoenixnewmedia</a></li> 
+  </ul> 
+  <style>
+.sel{float:left;background:url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_02.jpg) no-repeat top left;width:72px;height:18px;line-height:18px;padding-left:6px;margin-top:-75px;position:relative}/*20110601*/
+.sel h3{font-weight:normal;color:#004276;font-size:12px;padding-top:1px;cursor:pointer}
+.Calendar{float:left;background:#fff;width:162px;position:absolute;z-index:10;right:0px;padding:1px;border:1px solid #aaa}
+.Calendar .bord001{float:left;width:148px;background:#ddd;padding:7px}
+.Calendartitle{float:left;width:148px;background:#fff;padding-top:3px;text-align:center}
+#idCalendarPre{cursor:pointer;float:left;padding:3px 10px 0 9px}
+#idCalendarNext{cursor:pointer;float:right;padding:3px 9px 0 0}
+#idCalendarYear,#idCalendarMonth{font-weight:bold}
+.CalendarDate{width:148px}
+.CalendarDate th{text-align:center;background:#666666;color:#fff}
+.CalendarDate td{text-align:center;height:20px;font-family:Arial}
+.CalendarDate .cred03,.CalendarDate .cred03 a{color:#ba2636}
+.CalendarDate .current{background:#ba2636;color:#fff}
+.CalendarDate .current a{color:#fff}
+.CalendarDate td:hover{background:#999}
+.CalendarDate td:hover a{color:#fff}
+.CalendarDate th td:hover{background:#666}
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+  
+        
+  
+        
+  </style> 
+  <div class="sel" id="calendarBox"> 
+   <h3 id="btnCalendar">每日要闻</h3> 
+   <div class="Calendar" id="calendar" style="display:none"> 
+    <div class="bord001"> 
+     <div class="Calendartitle cDGray"> 
+      <div id="idCalendarNext"> 
+       <img src="http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_15.gif" width="12" height="11" /> 
+      </div> 
+      <div id="idCalendarPre"> 
+       <img src="http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_14.gif" width="12" height="11" /> 
+      </div> 
+      <span id="idCalendarYear"></span>年 
+      <span id="idCalendarMonth"></span>月 
+      <table width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#dddddd" bgcolor="#FFFFFF" class="CalendarDate"> 
+       <tbody> 
+        <tr> 
+         <th colspan="7"> 
+          <table width="100%" border="0" cellpadding="0" cellspacing="0"> 
+           <tbody> 
+            <tr> 
+             <td>日</td> 
+             <td>一</td> 
+             <td>二</td> 
+             <td>三</td> 
+             <td>四</td> 
+             <td>五</td> 
+             <td>六</td> 
+            </tr> 
+           </tbody> 
+          </table>  </th>
+        </tr> 
+       </tbody> 
+       <tbody id="idCalendar"></tbody> 
+      </table> 
+      <table width="100%" border="0" bgcolor="#dddddd"> 
+       <tbody> 
+        <tr> 
+         <td align="right" style="padding-top: 5px; *padding-top: 1px;"> <span style="float:left; padding-top:0;*padding-top:3px;_padding-top:3px;"><a href="javascript:swapCalendar();">[退出]</a></span> <input name="timeCheck" id="timeCheck" type="radio" value="10" checked="checked" onclick="cale.Draw();" onselect="cale.Draw();" /> 10点 <input name="timeCheck" type="radio" value="22" onclick="cale.Draw();" onselect="cale.Draw();" /> 22点 </td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+          function swapCalendar() {
+            if($("calendar").style.display == "none"){
+              $("calendar").style.display = "block";
+              $("calendarBox").style.backgroundImage="url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_002.jpg)"
+            }else{$("calendar").style.display = "none";
+              $("calendarBox").style.backgroundImage="url(http://res.img.ifeng.com/8cbe73a7378dafdb/2011/0401/n_02.jpg)";
+            }
+          }
+          $("btnCalendar").onclick = function () {
+            swapCalendar();
+          }
+          var lastDateCalendar = "2006-10-18";
+          var Class = {
+            create: function () {
+              return function () {
+                this.initialize.apply(this, arguments);
+              }
+            }
+          }
+          var Extend = function (destination, source) {
+            for (var property in source) {
+              destination[property] = source[property];
+            }
+            return destination;
+          }
+          var Calendar = Class.create();
+          Calendar.prototype = {
+            initialize: function (container, options) {
+              this.Container = $(container); //容器(table结构)
+              this.Days = []; //日期对象列表
+              this.SetOptions(options);
+              this.Year = this.options.Year || new Date().getFullYear();
+              this.Month = this.options.Month || new Date().getMonth() + 1;
+              this.SelectDay = this.options.SelectDay ? new Date(this.options.SelectDay) : null;
+              this.onSelectDay = this.options.onSelectDay;
+              this.onToday = this.options.onToday;
+              this.onFinish = this.options.onFinish;
+              this.Draw();
+            },
+            //设置默认属性
+            SetOptions: function (options) {
+              this.options = {//默认值
+                Year: 0, //显示年
+                Month: 0, //显示月
+                SelectDay: null, //选择日期
+                onSelectDay: function () { }, //在选择日期触发
+                onToday: function () { }, //在当天日期触发
+                onFinish: function () { } //日历画完后触发
+              };
+              Extend(this.options, options || {});
+            },
+            //当前月
+            NowMonth: function () {
+              this.PreDraw(new Date());
+            },
+            //上一月
+            PreMonth: function () {
+              this.PreDraw(new Date(this.Year, this.Month - 2, 1));
+            },
+            //下一月
+            NextMonth: function () {
+              this.PreDraw(new Date(this.Year, this.Month, 1));
+            },
+            //上一年
+            PreYear: function () {
+              this.PreDraw(new Date(this.Year - 1, this.Month - 1, 1));
+            },
+            //下一年
+            NextYear: function () {
+              this.PreDraw(new Date(this.Year + 1, this.Month - 1, 1));
+            },
+            //根据日期画日历
+            PreDraw: function (date) {
+              //再设置属性
+              this.Year = date.getFullYear(); this.Month = date.getMonth() + 1;
+              //重新画日历
+              this.Draw();
+            },
+            //画日历
+            Draw: function () {
+              //用来保存日期列表
+              var arr = [];
+              //用当月第一天在一周中的日期值作为当月离第一天的天数
+              for (var i = 1, firstDay = new Date(this.Year, this.Month - 1, 1).getDay(); i <= firstDay; i++) { arr.push(0); }
+              //用当月最后一天在一个月中的日期值作为当月的天数
+              for (var i = 1, monthDay = new Date(this.Year, this.Month, 0).getDate(); i <= monthDay; i++) { arr.push(i); }
+              //清空原来的日期对象列表
+              this.Days = [];
+              //插入日期
+              var frag = document.createDocumentFragment();
+              while (arr.length) {
+                //每个星期插入一个tr
+                var row = document.createElement("tr");
+                //每个星期有7天
+                for (var i = 1; i <= 7; i++) {
+                  var cell = document.createElement("td");
+                  cell.innerHTML = "&nbsp;";
+                  if (i == 1 || i == 7) {
+                    cell.className = "cred03";
+                  }
+                  if (arr.length) {
+                    var d = arr.shift();
+                    if (d) {
+                      cell.innerHTML = d;
+                      this.Days[d] = cell;
+                      var on = new Date(this.Year, this.Month - 1, d);
+                      //判断是否今日
+                      this.IsSame(on, new Date()) && this.onToday(cell);
+                      //判断是否选择日期
+                      this.SelectDay && this.IsSame(on, this.SelectDay) && this.onSelectDay(cell);
+                    }
+                  }
+                  row.appendChild(cell);
+                }
+                frag.appendChild(row);
+              }
+              //先清空内容再插入(ie的table不能用innerHTML)
+              while (this.Container.hasChildNodes()) { this.Container.removeChild(this.Container.firstChild); }
+              this.Container.appendChild(frag);
+              //附加程序
+              this.onFinish();
+            },
+            //判断是否同一日
+            IsSame: function (d1, d2) {
+              return (d1.getFullYear() == d2.getFullYear() && d1.getMonth() == d2.getMonth() && d1.getDate() == d2.getDate());
+            }
+          }
+          var myDate = new Date();
+          var nowYear = myDate.getYear();
+          var nowMonth = myDate.getMonth();
+          var nowDay = myDate.getDay();
+          function DateDiff(d1, d2) {//比较两个日期的大小 d1，d2格式为2006-09-08;返回数result>0说明d1>d2 result== 0说明d1==d2 result<0说明d1<d2
+            var result = Date.parse(d1.replace(/-/g, "/")) - Date.parse(d2.replace(/-/g, "/"));
+            return result;
+          }
+          var cale = new Calendar("idCalendar", {
+            onSelectDay: function (o) { o.className = "onSelect"; },
+            onToday: function (o) { o.className = "current"; },
+            onFinish: function () {
+              monthDay = new Date(this.Year, this.Month, 0).getDate();
+              var myDate = new Date();
+              var nowYear = (myDate.getYear() < 1900) ? (1900 + myDate.getYear()) : myDate.getYear();
+              var nowMonth = myDate.getMonth() + 1;
+              var nowDay = myDate.getDate();
+              if (nowMonth > 9) {
+              } else {
+                nowMonth = "0" + nowMonth;
+              }
+              if (nowDay > 9) {
+              } else {
+                nowDay = "0" + nowDay;
+              }
+              nowDate = nowYear + '-' + nowMonth + '-' + nowDay;
+              firstDate = lastDateCalendar;
+              var datediff_sign; //日期比较的标志位
+              var datediff_first;
+              $("idCalendarYear").innerHTML = this.Year; $("idCalendarMonth").innerHTML = this.Month;
+              for (var i = 1, len = monthDay; i <= len; i++) {
+                if (this.Month > 9) {
+                  the_month = this.Month;
+                } else {
+                  the_month = "0" + this.Month;
+                }
+                if (i > 9) {
+                  the_day = i;
+                } else {
+                  the_day = "0" + i;
+                }
+                selectDay = this.Year + '-' + the_month + '-' + the_day;
+                datediff_sign = DateDiff(nowDate, selectDay);
+                datediff_first = DateDiff(firstDate, selectDay);
+                var timeCheck = $("timeCheck").checked ? "/10" : "";
+                if (datediff_sign >= 0 && datediff_first <= 0) {
+                  this.Days[i].innerHTML = '<a href="http://news.ifeng.com/snapshots/' + this.Year + "" + the_month + "/" + the_day + timeCheck + '.html" target="_blank">' + i + "</a>";
+                } else {
+                  this.Days[i].innerHTML = '<a href="javascript:;">' + i + "</a>";
+                }
+              }
+            }
+          });
+          $("idCalendarPre").onclick = function () { cale.PreMonth(); }
+          $("idCalendarNext").onclick = function () { cale.NextMonth(); }
+        
+ 
+         
+         
+         
+         
+   
+         
+   
+         
+   </script> 
+  </div> 
+ </div> 
+ <div class="wx"> 
+  <img src="http://y0.ifengimg.com/2014/04/11/14311929.jpg" width="83" height="98" title="凤凰新闻微信号" alt="凤凰新闻微信号" /> 
+ </div> 
+</div> 
+     </div> 
+    </div> 
+    <div class="ad08 mt12"> 
+     <!--s_news_index_ad_banner_bottom_1000x90 2014.03.12 09:19:26--> 
+     <script>try{aptracker.add(544);}catch(e){}
+     </script> 
+     <!--0,0,NULL,fixture--> 
+     <iframe src="http://www.ifeng.com/ssi-incs/s_all_index_ad_banner_bottom.inc.html" scrolling="no" frameborder="0" style="width:1000px; height:90px; border:0px;background-color=transparent;" allowtransparency="true"></iframe> 
+     <img height="1" width="1" src="http://dolphin.deliver.ifeng.com/c?z=ifeng&amp;la=0&amp;si=2&amp;ci=23&amp;cg=22&amp;c=29&amp;or=232&amp;l=726&amp;bg=726&amp;b=724&amp;u=http://y0.ifengimg.com/34c4a1d78882290c/2012/0528/1x1.gif" /> 
+     <!--/s_news_index_ad_banner_bottom_1000x90--> 
+    </div> 
+    <!--通用页尾开始--> 
+     
+	 <style>
+	.footer { width: 1000px; margin: 0 auto; }
+	.footer .footlink { color: #000; height: 28px; line-height: 28px; padding-top: 15px; border-top: 1px solid #fff; overflow: hidden; }
+	.footer .footlink a { color: #000; }
+	.footer .footlink span { padding: 0 5px; }
+	.footer .fk_l { float: left; }
+	.footer .fk_r { width: 200px; float: right; }
+	.footer .fk_r ul { overflow: hidden; }
+	.footer .fk_r ul li { height: 28px; line-height: 28px; overflow: hidden; float: left; }
+	.footer .fk_r ul .l_bg001 { background: url(http://y1.ifengimg.com/38716b164e0f5e63/2013/0716/nav0416_14.gif) no-repeat left 9px; padding-left: 19px; }
+	.footer .fk_r ul .l_bg002 { background: url(http://y3.ifengimg.com/9db17ab793eef980/2013/0403/nav0416_17.gif) no-repeat left 9px; padding-left: 17px; margin-left: 18px; }
+	.footer .copyright { font-family: Arial; color: #666; height: 28px; line-height: 28px; text-align: center; overflow: hidden; }
+	.footer .copyright span { font-family: "宋体"; }
+</style>
+<div class="footer mt02" id="footer">
+	<div class="footlink clearfix">
+		<div class="fk_l">
+			<a href="http://www.ifeng.com/corp/about/intro/" target="_blank">凤凰新媒体介绍</a><span>|</span><a href="http://ir.ifeng.com/" target="_blank">投资者关系 Investor Relations</a><span>|</span><a href="http://biz.ifeng.com/" target="_blank">广告服务</a><span>|</span><a href="http://career.ifeng.com/" target="_blank">诚征英才</a><span>|</span><a href="http://www.ifeng.com/corp/privacy/" target="_blank">保护隐私权</a><span>|</span><a href="http://www.ifeng.com/corp/exemption/" target="_blank">免责条款</a><span>|</span><a href="http://help.ifeng.com/" target="_blank">意见反馈</a><span>|</span><a href="http://phtv.ifeng.com/intro/" target="_blank">凤凰卫视介绍</a>
+		</div>
+		<div class="fk_r">
+			<ul class="clearfix">
+				<li class="l_bg001"><a href="http://v.ifeng.com/" target="_blank" title="视频">视频</a></li>
+				<li>·<a href="http://v.ifeng.com/documentary/index.shtml" target="_blank" title="纪实">纪实</a></li>
+				<li>·<a href="http://v.ifeng.com/live/" target="_blank" title="直播">直播</a></li>
+				<li class="l_bg002"><a href="http://phtv.ifeng.com/" target="_blank" title="凤凰卫视">凤凰卫视</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="copyright"><span>凤凰新媒体&nbsp;版权所有</span>&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2013 Phoenix New Media Limited All Rights Reserved.</div>
+</div>
+<script>
+if((typeof device==="object")&&device.type!=="pc"){
+document.getElementById("footer").style.display="none";
+}
+</script>
+<script>var sta_collection_time = new Date().getTime();</script>
+<script src="http://y0.ifengimg.com/20140429/sta_collection.3.3.15.min.js" id="sta_collection_new"></script>
+<script src="http://m0.ifengimg.com/ifeng/sources/120331-iImpression.js"></script>
+<script>try{aptracker.collection();}catch(e){}</script>
+<!-- START WRating v1.0 -->
+<script type="text/javascript" src="http://y2.ifengimg.com/e01ed39fc2da5d4a/2014/0113/wrating.js"></script>
+<script type="text/javascript">
+	var vjAcc = "860010-2063990101";
+	var wrUrl = "http://ifeng.wrating.com/";
+	vjTrack("");
+</script>
+<noscript><img src="http://ifeng.wrating.com/a.gif?a=&c=860010-2063990101" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+<!--[if !IE]>footer.140729<![endif]-->
+	  
+    </div> 
+    <!--通用页尾结束--> 
+   </div> 
+  </div> 
+	<!--底部结束 end--> 
+  <script>
+var entbest=new TabControl();
+entbest.addRange($("tab1").getElementsByTagName("li"),['bc1','bc2','bc3']);	
+entbest.triggerType = 'click'; 
+entbest.defaultPage =0;
+entbest.init();
+
+
+</script> 
+  <script id="bdshare_js" data="type=tools&amp;uid=0"></script> 
+  <script id="bdshell_js"></script> 
+  <script>
+  document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+
+  </script> 
+  <script>
+  function MM_over(mmObj) {
+      var mSubObj = mmObj.getElementsByTagName("div")[0];
+      var mSubObj2 = mmObj.getElementsByTagName("span")[0];
+      mSubObj.style.display = "block";
+      mSubObj2.style.backgroundPosition="right 11px";
+  }
+  function MM_out(mmObj) {
+      var mSubObj = mmObj.getElementsByTagName("div")[0];
+      var mSubObj2 = mmObj.getElementsByTagName("span")[0];
+      mSubObj.style.display = "none";	
+      mSubObj2.style.backgroundPosition="right -13px";
+  }
+
+  </script> 
+  <script>
+ 	 jq('.pictxt00').hover(function(){
+		jq(this).addClass('bg_b');
+	 },function(){
+		jq(this).removeClass('bg_b');
+	 });
+ 	 jq('.pictxt01').hover(function(){
+		jq(this).addClass('bg_b');
+	 },function(){
+		jq(this).removeClass('bg_b');
+	 });
+
+</script> 
+  <!--通用频道页尾代码结束-->  
+<script>   
+    var arrIndex=[];    //去重后数组索引
+    var arrObject={};   //去重使用的对象
+    var j=0;            //去重后的计数器
+    var commentURL1 = "http://comment.ifeng.com/get.php?job=4&callback=getCommentNumber1&format=js&docurl="; //评论接口
+    function getCommentNumber1(jsonResult){
+      for(var i=0;i<arrIndex.length;i++){
+        jQuery(".js_commentNum")[i].innerHTML=jsonResult[arrIndex[i]].allcount;    //取评论数，实际上是查找索引对应所在的位置
+      }
+    }
+    jQuery(".js_title").each(function(i){
+        var currentURL=encodeURIComponent(jQuery(this).attr("href"));
+        if(currentURL in arrObject){
+        	arrIndex[i]=arrObject[currentURL];     //利用对象属性去重，如果存在，将索引置为已经存在的位置
+        }else{
+            arrObject[currentURL]=j;               //不重复的话，拼装url，并相应的记数
+            arrIndex[i]=j;
+            commentURL1+=currentURL+"|";           
+            j++;                                   
+        }
+    });
+    var theHead = document.getElementsByTagName("head")[0];
+    var appendScript = document.createElement("script");
+    appendScript.setAttribute("src", commentURL1);
+    theHead.appendChild(appendScript);
+
+</script>
+
+<script>
+	// 获取网页中所有的分享数和评论数。注意，此处应该在相应html tag上添加相应class挂钩
+	(function () {
+		var titles = jQuery('.js_title');
+		var urls = jQuery('a.js_url');
+		var comments = jQuery('.js_commentUrl');
+		var shares = jQuery('.js_shareNum');
+		
+		var len = titles.length;
+		var request = '';
+		for(var i=0;i<len;i++){
+		
+		   (function(i){
+                var docUrl = urls.eq(i).attr('href');
+                var docname = titles.eq(i).html();
+                var skeyWords = "Ifeng888" + docname + docUrl;
+                var skey = hex_md5(skeyWords).substr(2, 6);
+                var thisurl;
+                var strinfo;
+                if (docUrl.indexOf("/special/") != -1) { //专题
+                    strinfo = "http://comment.ifeng.com/viewspecial.php?docName=" + encodeURIComponent(docname) + "&docUrl=" + encodeURIComponent(docUrl) + "&skey=" + skey;
+                } else {
+                    strinfo = "http://comment.ifeng.com/view.php?docName=" + encodeURIComponent(docname) + "&docUrl=" + encodeURIComponent(docUrl) + "&skey=" + skey;
+                }
+                
+				// 修改评论数量
+                comments.eq(i).attr('href',strinfo);
+				
+				// 修改分享数量
+				jQuery.ajax({
+                    url: 'http://api.share.baidu.com/getnum?url=' + docUrl + '&callback=_getShareNum=',
+                    dataType: 'jsonp',
+                    //jsonpCallback: 'commentCountCallback_' + id.split('-').join('_'),
+                    cache: true,
+                    success: function (msg) {
+                      var shareCount = msg.num[0];
+                      shares.eq(i).html(shareCount);
+                    }
+                });
+               })(i)
+		}
+
+	})();
+</script>
+ </body>
+</html>

@@ -1,0 +1,4578 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+<!--cmpp:start-->
+<meta charset=utf-8 />
+<title>凤凰财经-新主流财经门户-凤凰网</title>
+<meta name="keywords" content="财经,股票,基金,理财,金融,商业" />
+<meta name="description" content="凤凰财经，全球华人新主流财经门户，第一时间为用户提供专业财经资讯与数据应用服务，以独立的价值判断、独到的报道角度，全面覆盖宏观、商业、金融、证券、理财等各个领域。秉持主流、理性、建设性的媒体理念，将继续为市场经济站台，为改革开放呐喊，与中国茁壮成长的中坚阶层一起，迈向新的征程!" />
+<!--start:ipaddel-->
+  <script type="text/javascript">
+  	var sUserAgent = navigator.userAgent;
+  	if ((sUserAgent.match(/iPad/i))) {
+  		location = 'http://finance.ifeng.com/ipad/';
+  	}
+         var mobileAgents = ['Windows CE', 'iPod', 'Symbian', 'iPhone', 'BlackBerry', 'Android'];
+  	if (sUserAgent.indexOf('Android') > -1 && (sUserAgent.indexOf('ERD79') > -1 || sUserAgent.indexOf('MZ60') > -1 || sUserAgent.indexOf('GT-P7') > -1 || sUserAgent.indexOf('SCH-P7') > -1)) {
+  	} else {
+  		if (location.href.indexOf('?pc') == -1) {
+  			for (var i = 0; i < mobileAgents.length; i++) {
+  				if (sUserAgent.indexOf(mobileAgents[i]) > -1) {
+  					location = 'http://finance.ifeng.com/ipad/';
+  					break;
+  				}
+  			}
+  		} else {
+  			location = 'http://finance.ifeng.com/ipad/';
+  		}
+  	} 
+  </script>
+<!--end:ipaddel-->
+<link media="screen" href="http://res.img.ifeng.com/css/basic_new_v2.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css"  href="http://y2.ifengimg.com/a/2014/0822/fbe95951e1e231c.css">
+<link rel="stylesheet" href="http://y0.ifengimg.com/9949a678442334cc/2013/1118/f.header.css" />
+<style>
+#login_index { _position:absolute; _top:expression(documentElement.scrollTop + 320); _width: 100%!important; _z-index: 10000; left:0;}
+</style>
+<script src="http://y1.ifengimg.com/BX/min/BX.1.0.1.U.js"></script>
+<script src="http://y1.ifengimg.com/JCore/min/TabControl.1.2.js"></script>
+<script src="http://y1.ifengimg.com/scripts/min/ifeng_common_v1.2.js"></script>
+<script src="http://y2.ifengimg.com/scripts/min/js/jquery-1.5.1.min.js"></script>
+<script>var jq=jQuery.noConflict();</script>
+<script src="http://y2.ifengimg.com/JCore/min/scroll.v.1.2.js"></script> 
+<script src="http://y0.ifengimg.com/38716b164e0f5e63/2013/1213/md5.js"></script>
+<!--cmpp:end-->
+</head>
+<body>
+  <style>
+  .zaixian01{ font-size:14px; position:absolute; top:14px; right:15px;}
+  .zaixian01 a{ color:#ba2b36;}
+  .zaixian01 a:hover{ color:#ba2b36;}
+  </style>
+<style>
+.weixin{position:fixed;display:block;top:250px;width:110px;height:165px;z-index:1000;left:0;_position:absolute;_margin-top:-75px;_top:expression(documentElement.scrollTop+(documentElement.clientHeight-this.offsetHeight)/2)}/*140415a*/
+.weixin img{float:left;display:block;}
+.weixin span{float:left;color:#999;cursor:pointer;height:18px;line-height:18px; padding-left:4px;}
+</style>
+<div class="weixin" id="wx">
+      <a  target="_blank"><img src="http://y1.ifengimg.com/a/2014/0404/weixin_financev2.png" width="110" height="144" alt="凤凰财经" ></a>
+      <span onClick="document.getElementById(&#39;wx&#39;).style.display=&#39;none&#39;;">关闭</span>
+</div>
+
+<link rel="stylesheet" href="http://y0.ifengimg.com/9949a678442334cc/2013/1118/f.header.css" />
+<div class="h_mainNavNew cDGray" id="f-header">
+    <ul class="list_menu">
+        <li style="background:none; padding-left:2px;"><a href="http://www.ifeng.com" target="_blank">首页</a></li>
+        <li><a href="http://news.ifeng.com/" target="_blank">资讯</a></li>
+        <li><a href="http://finance.ifeng.com/" target="_blank">财经</a></li>
+        <li><a href="http://ent.ifeng.com/" target="_blank">娱乐</a></li>
+        <li><a href="http://sports.ifeng.com/" target="_blank">体育</a></li>
+        <li><a href="http://fashion.ifeng.com/" target="_blank">时尚</a></li>
+        <li><a href="http://auto.ifeng.com/" target="_blank">汽车</a></li>
+        <li><a href="http://house.ifeng.com/" target="_blank">房产</a></li>
+        <li><a href="http://tech.ifeng.com/" target="_blank">科技</a></li>
+        <li><a href="http://book.ifeng.com/" target="_blank">读书</a></li>
+        <li><a href="http://edu.ifeng.com/" target="_blank">教育</a></li>
+        <li><a href="http://culture.ifeng.com/" target="_blank">文化</a></li>
+        <li><a href="http://news.ifeng.com/history/" target="_blank">历史</a></li>
+        <li><a href="http://news.ifeng.com/mil/" target="_blank">军事</a></li>
+        <li><a href="http://blog.ifeng.com/" target="_blank">博客</a></li>
+        <li><a href="http://cp.ifeng.com/?aid=45" target="_blank">彩票</a></li>
+        <li><a href="http://fo.ifeng.com/" target="_blank">佛教</a></li>
+        <li><a href="http://phtv.ifeng.com/" target="_blank">凤凰卫视</a></li>
+    </ul>
+    <div class="morehNew" id="f-more">
+        <ul>
+            <li>
+                <a href="http://www.ifeng.com/daohang/" target="_blank">更多</a>
+                <ul id="f-more-box">
+                    <li><a href="http://v.ifeng.com/" target="_blank" title="视频">视频</a></li>
+                    <li><a href="http://fashion.ifeng.com/travel/" target="_blank" title="旅游">旅游</a></li>
+                    <li><a href="http://games.ifeng.com/" target="_blank" title="游戏">游戏</a></li>
+                    <li><a href="http://digi.ifeng.com/" target="_blank" title="数码">数码</a></li>
+                    <li><a href="http://fashion.ifeng.com/health/" target="_blank" title="健康">健康</a></li>
+                    <li><a href="http://fashion.ifeng.com/baby/" target="_blank" title="亲子">亲子</a></li>
+                    <li><a href="http://home.ifeng.com/" target="_blank" title="家居">家居</a></li>
+                    <li><a href="http://bbs.ifeng.com/" target="_blank" title="论坛">论坛</a></li>
+                    <li><a href="http://astro.ifeng.com/" target="_blank" title="星座">星座</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="login" id="js_unlogin_box">
+        <a href="http://my.ifeng.com/?_c=register&_a=new-account" target="_blank">注册</a><a class="f-login" style="cursor:pointer;" id='js_login_btn'>登录</a>
+    </div>
+    <div class="login" id="js_userInfo_box" style="display: none;">
+        <span class="cRed">
+        <span class="user" style="width: 120px;">
+        <a href="http://my.ifeng.com/?_c=index&amp;_a=my" target="_blank" id='js_userInfo_name'></a>
+        </span>
+        </span>
+        <a class="cGray" id='js_login_exit' style='cursor:pointer;'>退出</a>
+    </div>
+
+</div>
+<script src="http://y0.ifengimg.com/p/login/20131227/public_login.min.js"></script>
+<script src="http://m1.ifengimg.com/314bd925cdd17196/2014/1217/login4news.js"> </script>
+<script src="http://m1.ifengimg.com/ifeng/sources/inice_v1.js"></script>
+
+<div class="w1000">
+  <div class="ad06">
+<!--s_finance_index_ad_banner_top_1000x90 2014.12.19 09:17:35-->
+<script type="text/javascript">try{aptracker.add(262);}catch(e){}</script>
+
+
+<script language="javascript" type="text/javascript">
+window.Ifeng_Sc_RichMedia_Sleep = 15;
+window.Ifeng_Sc_FloatMedia_A_zindex = 2147483647;
+window.Ifeng_Sc_FloatMedia_B_zindex = 2147483640;
+window.Ifeng_Sc_RichMedia_zindex =2147483646;
+</script>
+<script type='text/javascript'>
+if(INice.getCookie('prov') == '9999'){
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+}
+</script>
+
+<script type='text/javascript'>
+if(INice.getCookie('prov') == '9999'){
+googletag.cmd.push(function() {
+googletag.defineSlot('/51332160/s_finance_index_140321_ad_button01', [300, 600], 'div-gpt-ad-1403172259753-2').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_finance_index_ad_banner_top_1000x90', [1000, 90], 'div-gpt-ad-1403172259753-4').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_finance_index_ad_couplet', [120, 300], 'div-gpt-ad-1405259872443-0').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_finance_index_ad_banner_bottom_1000x90', [1000, 90], 'div-gpt-ad-1414131347567-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+    });
+}
+</script>
+<div id="AP473" style="display:none;">
+<var style="display:none;" v="262,24260,8600,张思远,B1"></var><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?c63e81cd5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFL2-pH-9-nkwsp7997LOWZJiq3Wv-1yPWPdVlFrj0evV1cbwdla4D-bpAAzGzysUnM8WOP9gVRxh8awHCw2F6juDFZYM4pftUz7geXHJ07SmiTrwrmIEDot';
+var ad = 'http://y3.ifengimg.com/mappa/2014/12/15/37134c637333800c3352b510c310742b.swf';
+var w = '1000';var h = '90';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="262,24552,8600,邢钊,B1"></var><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?5c42eecc5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFKQp4Eype5rRjElIm5fFQXT9dmAwSmKAvAyz5ViHSHa1Fcbwdla4D-bMkGcwwUBFvf0FTFPhUBupM50qGIVOw4Xxra9NyaBCY9mpIxEY5BvtW4F0d029DFdgORvFLlGxrI';
+var ad = 'http://y3.ifengimg.com/mappa/2014/11/27/9d4ac9ba6be14196472953fad46c7308.swf';
+var w = '1000';var h = '90';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="262,0,0,NULL,fixture"></var><cite>
+<!--BOF
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+				(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_finance_index_ad_banner_top_1000x90';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP473"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_finance_index_ad_banner_top_1000x90-->
+</div>
+</div>
+
+<style type="text/css">
+.navFind{float:right;width:323px;padding:6px 0 0}
+.navFind span{float:left}
+.navFind .text{width:182px;height:16px;padding:2px 0 0 5px;margin-top:1px !important;*margin-top:0px !important;margin-top:0;margin-right:7px;background:#fff;border:1px solid #819bb4;color:#646464;font-size:12px}
+.navFind .sel{width:55px;height:16px;margin:1px 9px 0 0;padding:2px 0 0 11px;border:1px solid #819bb4;border-right:none;background:#fff url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/nav0416_04.gif) no-repeat right center;font-size:12px;color:#646464;cursor:pointer}
+.navFind .button{width:51px;height:20px;padding:1px 0 0 2px;margin:1px 0 0;border:none;background:url(http://img.ifeng.com/tres/TemplateRes/14705/14705/images/general_head/navFind.gif) no-repeat 0 0;color:#000;font-weight:bold;cursor:pointer}
+#searchFormOption{position:relative;float:left;z-index:80}
+#loginFldselectop{position:absolute;border:1px solid #DFDFDF;top:20px;left:0px;width:48px;background:#fff;z-index:99}
+#loginFldselectop li{line-height:20px;height:20px}
+#loginFldselectop li a{line-height:20px;height:20px;text-decoration:none;color:#000000;padding-left:11px}
+.stockList{position:absolute;top:28px;left:0;width:300px; border:1px solid #195184; background:#fff; z-index:999;}
+.stockList a,.stockList a:visited{color:#0A5EA6;}
+.stockList .tab td{border-bottom:1px solid #ECECEC; height:21px!important;*height:20px!important;height:20px; padding-left:12px; text-align:left; color:#333;}
+.stockList .tab tr.current{background:#194E80;}
+.stockList .tab tr.current td{color:#fff;background:#194E80;}
+.stockList .tab tr.current td a{color:#fff;}
+.stockList .red{color:#f00;}
+.h_searchDiv{width:980px;margin:0 auto;height:38px;padding:19px 10px 0; background:#fff;}
+.h_theLogo{float:left;font-size:12px}
+.h_theLogo img{float:left;}
+.h_theLogo span{float:left; height:31px; margin-left:10px; display:inline; border-left:1px solid #ccc; padding:3px 0 0 10px; overflow:hidden;}
+</style>
+<div class="h_searchDiv clearfix">
+<span class="cGray"><a href="http://18.ifeng.com/" target="_blank" id="showbox" style="position: absolute; right: 400px; top: 28px; display:none;">凤凰理财超市</a></span>
+	<div class="h_theLogo">
+		<a href="http://finance.ifeng.com/" target="_blank"><img src="http://y0.ifengimg.com/a/2013/0930/log.png" width="141" height="29"/></a>
+		<img src="http://y2.ifengimg.com/a/2013/1025/c_24.png" width="128" height="30" style="margin-left:15px;" />
+		<span style="padding-left:10px;border-left:none;">
+<!--s_finance_130318_index_ad_label_pdgm_180x25 2014.12.19 09:18:46-->
+<script type="text/javascript">try{aptracker.add(3039);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="3039,16966,8610,牛爽,B1"></var><a href="http://dol.deliver.ifeng.com/c?dc4230ce5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFJoPOQI44CSzE-4lGwUTl2mu4xc-jBNJXwcfx_rpZ7gKfnhImpOn9PNooQNPEqV6Qm-zAdxraL8iA" target="_blank"><img src="http://y3.ifengimg.com/mappa/2014/01/08/ab2c7762fc576f9ef21ee13107f36172.jpg" width="120" height="25" border="0" /></a>
+
+<!--/s_finance_130318_index_ad_label_pdgm_180x25-->
+</span>
+	</div>
+    <script src="http://m0.ifengimg.com/keywords.js"></script>
+<style>
+    .h_find{ width:300px; float:right;}
+	.search{ height:26px;}
+	.search .lb{ width:78px; height:26px; margin-right:5px; position:relative; float:left; z-index:99;}
+	.search .lb ul{ width:78px;}
+	.search .lb ul li{ width:76px; height:24px; line-height:24px; border:1px solid #b2b2b2;}
+	.search .lb ul li a{ color:#666; display:block; width:66px; height:24px; line-height:24px; background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg01_1.gif) no-repeat right top; padding-left:10px;}/*默认背景*/
+	.search .lb ul li a:hover{ background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg01_2.gif) no-repeat right top; text-decoration:none;}
+	.search .lb ul li .a_cl{ background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg01_3.gif) no-repeat right top;}
+	.search .lb ul li ul{ width:51px; display:none; position:absolute; left:0; background:#fff; border:1px solid #b2b2b2; border-top:none;}
+	.search .lb ul li ul li{ width:51px; background:none; border:0; padding-left:0;}
+	.search .lb ul li ul li a{ width:42px; background:none; padding-left:9px;}
+	.search .lb ul li ul li a:hover{ background:#e7e7e7; background-image:none;}
+	.search .t_btn{ width:215px; height:24px; background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg02_1.gif) no-repeat right top; border:1px solid #b2b2b2; float:left;}
+	.search .t_btn_on{ background:url(http://y2.ifengimg.com/e01ed39fc2da5d4a/2013/1023/s_bg02_2.gif) no-repeat right top;}
+	.search .text_bg{ width:178px; height:24px; line-height:24px; overflow:hidden; float:left;}
+	.search .text_bg .text01{ color:#666; border:none; background:none; width:158px; padding:0 10px; height:24px; line-height:24px;}
+	.search .btn_bg{ width:37px; height:24px; float:left;}
+	.search .btn_bg .btn01{ border:none; background:none; width:37px; height:24px; cursor:pointer;}
+</style>
+<div class="h_find">
+      <div class="search clearfix">
+        <form id="search_form" method="get" action="http://search.ifeng.com/sofeng/search.action" target="_blank">
+        <div class="lb" id="searchFormOption">
+         <ul class="u_bg">
+           <li><a id="loginUl" onclick="header_search.show_option()" onmouseout="header_search.out_option()" onmouseover="header_search.over_option()" style="cursor: default;" class="">站内</a>
+              <ul id="loginFldselectop" onmouseout="header_search.out_option()" onmouseover="header_search.over_option()" style="display: none;">
+                <li id="ra1"><a onclick="header_search.select_option('站内')">站内</a></li>
+                <li id="ra2"><a onclick="header_search.select_option('站外')">站外</a></li>
+                <li id="ra3"><a onclick="header_search.select_option('证券')">证券</a></li>
+                <li id="ra4"><a onclick="header_search.select_option('汽车')">汽车</a></li>
+                <li id="ra0"><a onclick="header_search.select_option('视频')">视频</a></li>
+              </ul>
+           </li>
+         </ul>
+        </div>
+        <div class="t_btn clearfix">
+         <div class="text_bg" id="suggest_list">  
+		 <input id="keyword" type="text" name="q" value="" class="text01" autocomplete="off" onclick="header_search.clean_default(this.value)" onblur="header_search.set_default(this.value)">
+		<input id="param1" type="hidden" name="c" value="1">
+        <input id="param2" type="hidden" name="" value="" disabled="">
+		</div>
+         <div class="btn_bg"><input name="" type="submit" id="btnSearch1" class="btn01" value=""></div>
+        </div>
+        </form>
+	<script src="http://y1.ifengimg.com/38716b164e0f5e63/2014/0302/newSearch.js"></script>
+      </div>	  
+</div>
+</div>
+
+
+<div class="g_col">
+    <div class="w1000">
+		<div class="w1000">
+    <div class="col_banner">
+        <ul class="clearfix">
+            <li><a href="http://finance.ifeng.com/" target="_blank" >财经首页</a></li>
+            <li><a href="http://finance.ifeng.com/macro/" target="_blank" >宏观</a></li>
+            <li><a href="http://finance.ifeng.com/itfinance/" target="_blank" >互联网金融</a></li>
+            <li><a href="http://finance.ifeng.com/business/" target="_blank" >商业</a></li>
+            <li><a href="http://finance.ifeng.com/stock/" target="_blank" >股票</a></li>
+           <li><a href="http://finance.ifeng.com/hk/" target="_blank" >港股</a></li>
+            <li><a href="http://finance.ifeng.com/fund/" target="_blank" >基金</a></li>
+            <li><a href="http://finance.ifeng.com/money/" target="_blank" >理财</a></li>
+            <li><a href="http://finance.ifeng.com/gold/" target="_blank" >黄金</a></li>
+            <li><a href="http://finance.ifeng.com/zhuanti/" target="_blank" >专题</a></li>
+            <li><a href="http://finance.ifeng.com/lifeofwealth/" target="_blank" >财富派</a></li>
+        </ul>
+        <div class="p_banner">  
+            <div class="superNav">
+                <span><a href="http://jr.ifeng.com" target="_blank">凤凰金融</a></span>
+                <p><a href="http://finance.ifeng.com/money/special/ifengbao/" target="_blank" >"凤凰宝"</a><a href="http://18.ifeng.com/" target="_blank">基金理财</a><a href="https://jr.ifeng.com/financing" target="_blank">理理财</a><a href="https://jr.ifeng.com/zc" target="_blank" style="margin-right:0;">&nbsp&nbsp爱众筹</a></p>
+            </div>
+            <script>
+            jq(function(){
+                jq(".superNav").hover(function(){
+                    jq(".superNav p").fadeIn();
+                },function(){
+                    jq(".superNav p").fadeOut();
+                });
+            });
+            </script>       
+           <a href="http://finance.ifeng.com/news/special/caizhidao/" target="_blank" >财知道</a>    
+                            <a href="http://finance.ifeng.com/news/special/ecoshrugged14/" target="_blank" >耸耸肩</a>
+                                     <a href="http://finance.ifeng.com/news/special/zyh05/" target="_blank" >智友会</a>
+                                     
+           <a href="http://finance.ifeng.com/news/ceoonline/" target="_blank" >总裁在线</a>
+           <a href="http://finance.ifeng.com/business/pic/" target="_blank" >传奇</a>
+           <a href="http://finance.ifeng.com/news/truth/" target="_blank" >真相</a>
+          
+      <a href="http://finance.ifeng.com/news/picture/ " target="_blank" >连环话</a> 
+                   
+           <a href="http://finance.ifeng.com/news/special/xiaobg/" target="_blank" >小报告</a>
+
+           <a href="http://finance.ifeng.com/stock/special/jinsz48/" target="_blank" >金手指</a>
+                          <a href="http://ds.ifeng.com/" target="_blank" >炒股大赛</a>
+                                   
+           <a href="http://dol.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=4756&l=18830&bg=18830&b=18840&u=http://innovation.ifeng.com/" target="_blank" >创新</a>
+           
+<a href="http://silver.ifeng.com/" target="_blank" >财商</a>
+        </div>
+    </div>
+ </div>
+    <!--凰家理财超市开始-->
+<div class="col" style="position:relative;">
+
+<style>
+	.box_fixed{ background:url(http://y0.ifengimg.com/a/2014_49/582f0d7bb2651fd.jpg) no-repeat top center;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://y0.ifengimg.com/a/2014_49/582f0d7bb2651fd.jpg" ,sizingMethod="crop");overflow:hidden; width:1000px; margin:0 auto;}
+	.box_posr{ position:relative;}
+	.span_close{ position:absolute; right:0; top:0; color:#fff; cursor:pointer; display:block; width:30px; height:30px; z-index:100;}
+	.box_posr a{ display:block; width:1000px; height:200px; position:absolute; left:0;top:0; z-index:10;}
+	a {outline: none;}
+	a:active {outline: none;star:expression(this.onFocus=this.blur());}
+	.h_searchDiv{ position:relative;}
+</style>
+<div class="box_fixed" id="box_img" style="height:0;">
+<div class="box_posr"><a href="http://jr.ifeng.com/" target="_blank"></a><span class="span_close" id="span_close"></span></div>
+</div>
+<script>
+jq(document).ready(function(){
+		jq("#box_img").animate({height:"200px"},1000);
+		jq("#span_close").click(function(){jq("#box_img").animate({height:"0"},1000,function(){jq("#showbox").show()});})
+		setTimeout(function(){jq("#box_img").animate({height:"0"},1000,function(){jq("#showbox").show()})},6000)
+	})
+</script>
+</div>
+<!--凰家理财超市结束-->  
+   </div>
+</div>
+ 
+<div class="space28"></div>
+<div class="w1000 clearfix">
+	<div class="col_left">
+    	<div class="clearfix">
+            <div class="w400">
+            	<div class="b_box">
+					<div> 
+
+
+<div class="box_01">
+
+
+ <h2><a href="http://finance.ifeng.com/a/20141219/13369864_0.shtml" target="_blank">俄罗斯拟为银行业提供1万亿卢布资金支持</a></h2>
+ 
+ 
+ 
+ 
+ <div class="box_01_1"> 
+ 
+ <h3><a href="http://finance.ifeng.com/a/20141218/13366414_0.shtml" target=_blank>普京：经济恢复需2年</a> |<a href="http://finance.ifeng.com/gold/special/russiancrisis/" target=_blank>油价跌到40美元没事</a> |<a href="http://finance.ifeng.com/news/special/picture100/"
+target=_blank>3个小时都说了啥</a></h3>
+ 
+ 
+ 
+ 
+ <h3><a href="http://finance.ifeng.com/a/20141219/13367882_0.shtml" target=_blank>普京：对华天然气合同赚钱了</a> |<a href="http://finance.ifeng.com/gold/special/russiancrisis/" target=_blank>记者会回顾</a> |<a href="http://finance.ifeng.com/a/20141219/13369794_0.shtml"
+target="_blank">原油价格大幅拉升</a></h3> 
+
+ 
+ <h3><a href="http://finance.ifeng.com/a/20141218/13366761_0.shtml"
+target=_blank>普京：俄不会放弃亚太
+</a> |<a href="http://finance.ifeng.com/a/20141218/13366724_0.shtml" target=_blank>未陷入经济危机
+</a> |<a href="http://finance.ifeng.com/a/20141218/13364122_0.shtml" target="_blank">在俄华商排队换美元</a></h3>
+
+
+
+ 
+ 
+
+
+
+
+
+ </div> 
+ </div>  
+
+
+
+
+
+ <div class="box_01">
+  
+<h2><a href="http://finance.ifeng.com/a/20141219/13369813_0.shtml"
+target=_blank>人民币创新低 央行底线是多少</a> <a href="http://finance.ifeng.com/a/20141219/13369117_0.shtml"
+target="_blank">8类人损失惨重</a></h2>
+  
+ <div class="box_01_1"> 
+ 
+ 
+<h3><a href="http://finance.ifeng.com/a/20141219/13367743_0.shtml"
+target="_blank">人民币汇率昨急跌200点 创近5个月新低</a>|<a href="http://finance.ifeng.com/a/20141219/13368509_0.shtml"
+target="_blank">外汇局:短期走弱属正常</a></h3>  
+
+ 
+ </div> </div>  
+
+
+
+
+
+
+<div class="box_01">
+   
+   
+<h2>  <a href="http://finance.ifeng.com/stock/special/Aguzhibo1219/"
+target="_blank">沪指涨破3100点创49月新高</a> <a href="http://finance.ifeng.com/stock/gstzgc/"
+target="_blank">银行大涨原因</a> </h2>
+
+
+
+
+
+
+
+ <div class="box_01_1"> 
+ 
+<h3><a href="http://finance.ifeng.com/a/20141219/13369419_0.shtml"
+target="_blank">创业板跌超2%</a> |<a href="http://finance.ifeng.com/a/20141219/13368562_0.shtml"
+target="_blank">媒体称央行护市</a> |<a href="http://finance.ifeng.com/a/20141219/13369347_0.shtml"
+target="_blank">机构：暴涨暴跌是牛市常态</a> </h3>
+ 
+ <h3> <a href="http://finance.ifeng.com/a/20141219/13369339_0.shtml"
+target="_blank">受益一路一带 钢铁股大涨超5%</a> |<a href="http://finance.ifeng.com/a/20141219/13369397_0.shtml"
+target="_blank">航运股集体飙升 板块涨4%</a></h3> 
+
+
+    </div>                         
+ </div>  
+
+
+
+ 
+ 
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+                               
+            </div>
+            
+            
+                </div>
+                <div class="b_box">
+                	<div class="title"><a  target="_blank" title="要闻">要闻</a></div> 
+                	  <div class="box_02 mb18"><div class="box_02_head clearfix">
+         <div class="box_02_pic">  
+                             <a href="http://finance.ifeng.com/bank/special/picture101/index.shtml" target="_blank"><img src="http://y1.ifengimg.com/a/2014_51/b3d5a7134cdd0f0.jpg" height="65" width="90"/></a></div>            
+        <div class="box_02_word">            
+                   
+               <h3><a id="comment_1" href="http://finance.ifeng.com/bank/special/picture101/index.shtml"target=_blank>[连环话]宜信血案后续：P2P恶性竞争不能说的痛
+</a>  </h3>
+
+
+                         
+            <div class="timefen clearfix">
+             <p>2014-12-19 06:29</p>                
+                <div class="fl_right clearfix">
+                    <!-- Pinglun Button BEGIN-->
+                    <div class="ping02">
+    <a id="comments_1" href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Ffinance.ifeng.com%2Fa%2F20141216%2F13357960_0.shtml&docName=%E4%B8%AD%E5%9B%BD10%E6%9C%88%E5%A4%A7%E5%B9%85%E5%87%8F%E6%8C%81%E7%BE%8E%E5%80%BA%20%E6%8C%81%E7%BE%8E%E5%80%BA%E9%87%8F%E5%88%9B2013%E5%B9%B42%E6%9C%88%E6%96%B0%E4%BD%8E&skey=8F21FA" class="pinl" target="_blank">                    
+                         </a>            
+                    </div>  
+ 
+   
+                    
+                                        
+                    
+                      <!-- Pinglun Button END -->
+                  </div>
+              </div>
+          </div>
+      </div>
+     
+      <ul>
+             
+      <li><a href="http://finance.ifeng.com/a/20141219/13369871_0.shtml"
+target=_blank>中泰签署铁路和农产品合作谅解备忘录
+
+</a>  </li>
+        
+             
+                        
+     <li><a href="
+http://finance.ifeng.com/a/20141219/13369799_0.shtml" target="_blank">东风汽车副总裁任勇涉嫌严重违纪违法被查(图/简历)</a></li>
+
+
+ <li><a href="http://finance.ifeng.com/a/20141219/13368742_0.shtml" target="_blank">陈政高：积极作为 保持明年房地产市场平稳健康发展</a></li>   
+ 
+  
+
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367910_0.shtml"
+ target="_blank">彭博：中国计划2020年前在核心领域弃用国外产品</a></li> 
+ 
+           
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13369744_0.shtml"
+target="_blank">红罐包装侵权案一审宣判 加多宝判赔1.5亿将上诉
+</a></li>  
+      
+
+      
+<li><a href="http://finance.ifeng.com/a/20141219/13369223_0.shtml"
+target="_blank">外管局：第三季度经常项目顺差4444亿元
+</a> </li>
+
+
+
+
+      </ul>
+  </div> 
+                	 <div class="box_02 mb18"><div class="box_02_head clearfix">
+         <div class="box_02_pic">  
+                             <a href="http://finance.ifeng.com/a/20141219/13367541_0.shtml" target="_blank"><img src="http://y3.ifengimg.com/a/2014_51/7a33bf351fb4797.jpg" height="65" width="90"/></a></div>            
+        <div class="box_02_word">            
+                   
+               <h3><a id="comment_2" href="http://finance.ifeng.com/a/20141219/13367541_0.shtml"target=_blank>
+联通反腐风暴持��发酵：市场营销部总经理被举报
+</a></h3>
+
+
+
+
+                                   
+           <div class="timefen clearfix">
+                <p>2014-12-19 07:45</p>
+                <div class="fl_right clearfix">
+                    <!-- Pinglun Button BEGIN-->
+                    <div class="ping02">
+                    <a id="comments_2" href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Ffinance.ifeng.com%2Fa%2F20141213%2F13352679_0.shtml&docName=%E4%BC%A0%E4%B8%8D%E5%8A%A8%E4%BA%A7%E7%99%BB%E8%AE%B0%E6%98%8E%E5%B9%B43%E6%9C%88%E8%B5%B7%E5%AE%9E%E6%96%BD%20%E4%BA%8C%E6%89%8B%E6%88%BF%E5%BA%94%E5%A3%B0%E8%80%8C%E9%99%8D&skey=BA7242" class="pinl" target="_blank">
+                        </a>            
+                    </div>  
+                      <!-- Pinglun Button END -->
+                  </div>
+              </div>
+          </div>
+      </div>     <ul>
+              <li><a href="http://finance.ifeng.com/a/20141219/13368952_0.shtml" 
+target="_blank">外媒：中石油调查印尼3处“毫无价值”的油田投资
+</a></li> 
+
+ <li><a href="http://finance.ifeng.com/a/20141218/13366845_0.shtml"
+target="_blank">新华社点名数家央企国企行贿丁书苗 中铁二十局等在列</a></li>          
+  
+   
+  
+ <li><a href="http://finance.ifeng.com/a/20141218/13366954_0.shtml"target=_blank>绿城融创双方终止股份出售协议 宋卫平重返绿城</a> </li> 
+ 
+  <li><a href="http://finance.ifeng.com/a/20141218/13366161_0.shtml "
+ target="_blank">媒体曝朱云来曾让瑞信异常懊悔：离职后才知是总理儿子
+
+
+</a></li>
+
+  
+
+ <li>  <a href="http://finance.ifeng.com/a/20141219/13367797_0.shtml"
+target="_blank">惠誉连降委内瑞拉两级评级
+</a> <a href="http://finance.ifeng.com/a/20141219/13367980_0.shtml"
+target="_blank">尚欠中国500亿美元贷款
+</a> </li> 
+
+         
+
+
+   
+ <li><a href="http://finance.ifeng.com/a/20141219/13368018_0.shtml"
+target="_blank">BBC卧底苹果中国代工厂：工人疲惫不堪 边工作边打瞌睡</a> </li>
+
+
+       
+   
+
+                        </ul>
+                    </div> 
+                	 
+
+  <div class="box_02 mb18"><div class="box_02_head clearfix">
+         <div class="box_02_pic">  
+                             <a href="http://finance.ifeng.com/a/20141219/13367563_0.shtml " target="_blank"><img src="http://y3.ifengimg.com/a/2014_51/af95a934af2b7fe.jpg" height="65" width="90"/></a></div>            
+        <div class="box_02_word">            
+                   
+               <h3><a id="comment_3" href="http://finance.ifeng.com/a/20141219/13367563_0.shtml "target=_blank>安邦保险跃居民生银行第一大股东 加仓金融街持股比例20%
+</a> 
+</h3>
+
+
+                         
+            <div class="timefen clearfix">
+             <p>2014-12-19 07:33</p>                
+                <div class="fl_right clearfix">
+                    <!-- Pinglun Button BEGIN-->
+                    <div class="ping02">
+    <a id="comments_3" href="http://comment.ifeng.com/view.php?docUrl=http%3A%2F%2Ffinance.ifeng.com%2Fa%2F20141212%2F13352165_0.shtml&docName=%E5%A4%96%E9%80%83%E8%B4%AA%E5%AE%98%E9%AB%98%E4%B8%A5%E5%B4%9B%E8%B5%B7%E4%BA%8E%E7%94%B5%E5%8A%9B%E7%B3%BB%E7%BB%9F%20%E5%87%BA%E9%80%8310%E5%A4%9A%E5%B9%B4%E4%B8%8B%E8%90%BD%E6%88%90%E8%B0%9C(%E5%9B%BE)&skey=B06FBA" class="pinl" target="_blank">                    
+                         </a>            
+                    </div>  
+ 
+   
+                    
+                                        
+                    
+                      <!-- Pinglun Button END -->
+                  </div>
+              </div>
+          </div>
+      </div> 
+        <ul>
+  <li> <a href="http://finance.ifeng.com/a/20141219/13369985_0.shtml"
+ target="_blank">中国电建董事长、副董事长、总经理共三名高管辞职
+</a></li>
+
+<li><a href="http://finance.ifeng.com/a/20141219/13369947_0.shtml"
+ target="_blank">12月18日上市公司晚间公告速递</a> <a href="http://finance.ifeng.com/a/20141219/13369954_0.shtml"
+ target="_blank">晚间上市公司利好消息</a>  </li> 
+ 
+                
+<li>  <a href="http://finance.ifeng.com/a/20141219/13369939_0.shtml"
+target="_blank">安邦四度举牌金地集团</a> <a href="http://finance.ifeng.com/a/20141219/13369937_0.shtml"
+target="_blank">朱雀投资与陈发树31.5亿入股三一重工</a></li> 
+
+        
+        <li><a href="http://finance.ifeng.com/a/20141219/13368020_0.shtml"
+target="_blank">“虫草第一股”操盘手张雪峰夫妇身价或暴涨至百亿(图)</a></li>  
+
+
+ 
+ <li><a href="http://finance.ifeng.com/a/20141219/13369673_0.shtml"
+ target="_blank">证监会：券商牌照放开及风控管理正在研究中
+</a> <a href="http://finance.ifeng.com/a/20141219/13369554_0.shtml"
+ target="_blank">18只股票遭调查</a>  </li>
+
+
+
+
+  
+
+
+
+
+
+
+
+                        </ul>
+                        <style>
+ .recommed{ font-size:12px; line-height:24px; background:#fff; margin-top:-10px; border-bottom:1px solid #efefef; padding-bottom:12px;}
+ .recommed span{ background:url(http://y1.ifengimg.com/a/2014_50/0a5ac80669fc202.gif) no-repeat left center; color:#fff; padding:0 28px 0 4px;}
+ .recommed a{ color:#2b2b2b;}
+ .recommed a:hover{ color:#ba2636;}
+ </style>
+ <div class="recommed"><span>热点</span><a href="http://finance.ifeng.com/a/20141211/13347012_0.shtml" target="_blank">报名凤凰财经考察团 共游达沃斯！</a>| <a href="http://finance.ifeng.com/a/20141219/13369975_0.shtml" target="_blank">邦友分享：我为什么参加
+</a>
+ </div>
+                    </div> 
+                	
+                    <div class="box_03">
+                      	<div class="title02">
+                      		<a target="_blank" title="市场">市场</a>
+                      		<div class="ad01">
+                      			
+<!--s_finance_index_140321_ad_label_shichang 2014.12.19 09:19:35-->
+<script type="text/javascript">try{aptracker.add(8700);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="8700,0,0,NULL,fixture"></var>
+
+<!--/s_finance_index_140321_ad_label_shichang-->
+
+                      		</div>
+                  		</div>
+              			      <div class="box_02_01">                   
+     <ul>
+     
+         <li><a href="http://jr.ifeng.com/" target="_blank">凤凰金融</a> |  <a href="http://jr.ifeng.com/"
+target="_blank">凤凰进军互联网金融 年化收益8-13%</a> <a href="http://jr.ifeng.com/zc"
+target="_blank">爱众筹</a></li>
+         
+         
+         <li> <a href="http://ds.ifeng.com/" target="_blank">
+         凤凰炒股大赛</a> | <a href="http://ds.ifeng.com/" target="_blank">传中央下周一将开一重磅会议 7股或受益</a></li>
+                                      
+          
+         <li> <a href="http://tjzj.finance.ifeng.com/" target="_blank">凤凰图解资金</a> | <a href="http://tjzj.finance.ifeng.com/" target="_blank">中国抗癌技术获重大突破 2股受关注
+
+
+</a></li> 
+     
+         <li><a href="http://18.ifeng.com/" target="_blank">凤凰理财超市</a> |  <a href="http://finance.ifeng.com/money/special/zjsmjpd/" target="_blank">中金理财大赚204.7%</a> <a href="http://finance.ifeng.com/money/special/ifengbao/" target="_blank">余额宝收益低于凤凰宝</a></li>
+          
+
+          
+          
+          <li> <a href="http://finance.ifeng.com/stock/" target="_blank">股市</a> | <a href="http://finance.ifeng.com/stock/"
+target="_blank">沪指大涨破3100点创49月新高</a> <a href="http://finance.ifeng.com/stock/gstzgc/"
+target="_blank">传言致券商股巨震</a>  </li>
+ 
+
+
+
+
+        
+
+       
+         <li><a href="http://finance.ifeng.com/gold/" target="_blank">黄金</a> | <a href="http://finance.ifeng.com/a/20141218/13365660_0.shtml"
+target="_blank">普京的下一步会是“抛售黄金”吗？
+
+</a> 
+</li>
+         
+         <li id="shichang07" ><a href="http://finance.ifeng.com/gold/online/" target="_blank">互动</a> | <a href="http://finance.ifeng.com/gold/online/" target="_blank" >9:00——16:00黄金频道特约分析师在线答疑</a></li>
+    </ul>
+</div>
+
+<!--s_finance_index_140321_ad_ruanxing_shichang07 2014.12.19 09:19:34-->
+
+
+<var style="display:none;" v="7473,24921,8591,魏层层,B2"></var><script>
+	(function(){
+		var tempId = document.getElementById('shichang07');
+		if("undefined" != typeof tempId && tempId != null)
+		tempId.innerHTML = '<a href="http://dol.deliver.ifeng.com/c?5fc127065MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLC13J7fVjoLA_eRFg_Q-VtRWdGXSQ8qy-5ExtgxxE5OFcbwdla4D-bqdtRYIR-8m3bC-ltPmM2ptfnwXS079WKS4JJAxugUhTsSMtNjku4yOHYm2oc_MQAN4IoBOBQIf6baijBfcoYByTrwrmIEDot" target="_blank" title="不惧小但求美 华夏之星的小企业成长术" class="alink">不惧小但求美 华夏之星的小企业成长术</a>';
+	})();
+</script>
+
+<!--/s_finance_index_140321_ad_ruanxing_shichang07-->
+
+                    </div>
+  
+                    <div class="ad02">
+<!--s_finance_index_131011_ad_banner02 2014.12.19 09:19:13-->
+<script type="text/javascript">try{aptracker.add(2828);}catch(e){}</script>
+
+
+<div id="AP2757" style="display:none;">
+<var style="display:none;" v="2828,21919,8608,魏层层,B1"></var><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?a4b9c98d5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFKh0_AdiPPv35-_Esh8XYWe6kHBZ96mQ-VblAUUtDbD5Vcbwdla4D-byyIr-fHrN10cdoBux29g2iRSIT_bYfBkoJsdRXtQD9mzW8gM2qu9wudn-9CJ9jRl';
+var ad = 'http://y2.ifengimg.com/mappa/2014/12/03/d714fa4bb85ded58b63add0bd0225b6e.jpg';
+var w = '400';var h = '150';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="2828,23347,8608,夏岩,B1"></var><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?6312abe75MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLXA15xFYOPTlv4pTWbGABc0cKUYXni3zcfP0fda-ZW2Vcbwdla4D-bZXg2ErovEY1Z5tI7702rsPo0b8xFvk6PqYBj2P0UKvI13g8HqUx7WyTOzJ32568PaKALi0ZHBYPeGhaXtD-vsn0CIzO6fsYOmocAKNmbNr_qcDCR2WWRMwDpw1lDKIZiRdUupkXs-ph8fjT8aEQwIAca1ruyZX5g0qlfsQ4PhygS28dgjGXsEVxoa14Dr6hGdU-wgoTvJPBAgtNMTK1FV1mfXiAq5TKYsDVOWqlpOBHSEQAII-BrvLObI8fBszz0IYyW8OKJB-z1Z8Y_331yc0lcM2fXB--PD2iiKC_LbytODIu52Cj8-_GUxhihVYdElmRiXnILzEFCKDB36dQKxsXlojxXQcWA6gDh6MBWJ4TQHyL4wPjcS1MbD1-H0SCTEz1laeTeSEM';
+var ad = 'http://y1.ifengimg.com/mappa/2014/12/11/848dd51df40bbee4fec2a88de48ddaa6.swf';
+var w = '400';var h = '150';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="2828,0,0,NULL,fixture"></var><cite>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?3322357b5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFK1xykzFsutevz3ApGWLm8xkKEIbf7kkewPpH8Rti3SP1cbwdla4D-bURbnTD4uhMuVJJvoNaExSA';
+var ad = 'http://y0.ifengimg.com/mappa/2014/11/26/73395ecaf3e9a79254ef2edbd9e26e0f.jpg';
+var w = '400';var h = '150';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2757"});
+}catch(e){}
+</script>
+<!--/s_finance_index_131011_ad_banner02-->
+</div>
+                </div>
+            </div>
+            <div class="w240 bgh">
+
+        	  	 <div>
+    <div  class="redian" style="background: #fff;">
+        <div class="hot02" ></div>
+        <a target="_blank"  href="
+http://finance.ifeng.com/news/special/ecoshrugged15/
+"><img src="http://y3.ifengimg.com/a/2014_49/8abe92e5517aa83.jpg" width="210" 
+
+height="130"/></a>
+        <h4><a target="_blank"  href="
+http://finance.ifeng.com/news/special/ecoshrugged15/">胡释之：猪都能飞的股市是猪市
+
+</a></h4>
+        <p>散户对自身的认识要明确，想赚快钱、不劳而获最容易受骗。</p>
+    </div>
+
+
+    
+    
+    
+    <div class="box_04" >
+        <div class="title03">
+            <a href="http://finance.ifeng.com/view/" target="_blank" title="观点">观点</a>
+        </div>
+        
+       
+         <div  class="box_04_mid">
+        
+   <h3><a href="http://finance.ifeng.com/a/20141219/13368065_0.shtml" target="_blank">俄罗斯此次危机与1998年不同</a></h3>
+       
+               <p>叶檀：与1998年不同，目前俄罗斯外汇储备丰厚得多，虽然使用量很大，但应对短期支付问题不会太大。</p>                             
+               
+                   
+
+   
+
+                                    </div>   
+       
+                  <div class="box_04_mid"  >
+  <h3><a href="http://finance.ifeng.com/a/20141219/13368031_0.shtml" target="_blank">为什么美国投资赢了中国</a></h3>
+
+
+        
+             <p>于晓华：美国欠中国的主要是低收益的政府债券；而中国欠美国的是高收益的企业直接投资。</p>           
+                                                                          
+                </div>                                               
+      
+
+
+
+
+        
+ 
+        <div class="box_04_mid" style="display:none;">
+        
+ <h3><a href="http://finance.ifeng.com/a/20141217/13361691_0.shtml" target="_blank">普京最好的日子已经过去</a></h3>
+
+        
+             <p>姚树洁：中国需要像普金这样的朋友，一个重新崛起的俄国，不仅可以遏制西方势力，也为中国的崛起助威。</p>                           
+                       </div> 
+                       
+        
+       
+
+
+
+     
+
+      
+        
+               <div class="box_04_mid" style="display:none;">
+             <h3><a href="http://finance.ifeng.com/bank/special/imoney08/" target="_blank">配资变形记</a></h3>
+  
+ <p>洪偌馨：随着牛市的到来，明明已经存在二十年的民间配资也借助互联网金融火了一把。</p>          
+        </div>  
+        
+       
+           
+          
+      
+        
+  
+                       
+
+
+
+
+
+                       
+        
+       
+   
+       
+        
+      
+    </div>
+</div>
+                  <div class="box_04">
+	        	  	<div>
+                     <div class="title03" style=" padding-top:2px;">
+                        <a href="http://finance.ifeng.com/poll/" target="_blank">民调</a>
+                        
+                     <script>
+                        var surveyId =11062; //修改调查的ID
+                        var questionId=1;//修改默认显示第几题，从开始
+                    </script>
+                     </div>
+                     <div><p style="height:49px;" class="mindi" id="lblSurveyTitle">
+                        <a href="http://survey.ifeng.com/finance/11062.html" target="_blank">你怎么看房地产“失宠”？</a>
+                     </p></div>
+</div>
+ 
+
+                    <ul class="vote">
+                      <li class="clearfix">
+                        <h4 id="mySurvey"><a href="http://survey.ifeng.com/finance/7736.html" target="_blank">我来投一票</a></h4>
+						<p id="lblSurveyCount" ><a href="http://survey.ifeng.com/finance/7736.html" target="_blank"><span>4,713</span></a>人参与投票</p>
+                      </li>
+                    </ul>
+                    <ul class="vote_02">
+                    	<li class="clearfix" id="lstSurvey"><h4><a href="http://survey.ifeng.com/finance/7736.html" target="_blank">热门民意</a></h4><p ><a href="http://survey.ifeng.com/finance/7736.html" target="_blank"><span>65.3%</span>的人认为一线城市房价已现松动迹象，刚需在减弱。</a></p></li>
+                    </ul>
+				<script>
+				function setSurvey(json) {
+				  if(json&&json.result&&json.result.length>0&&json.result[questionId-1].resultArray&&json.result[questionId-1].resultArray.length>0) {
+					var strSurvey="";
+					var resultArray=json.result[questionId-1].resultArray;
+					//$("lblSurveyTitle").innerHTML='<a href="http://survey.ifeng.com/finance/' + surveyId + '.html" target="_blank">' + json.result[questionId-1].question + '</a>';
+					var maxNump=0;
+					var maxId=0;
+					var charArray=["A","B","C","D","E"]
+					for(m=0;m<resultArray.length;m++) {
+					  if(resultArray[m].num>maxNump) {
+						maxNump=resultArray[m].num;
+						maxId=m;
+					  }
+					}
+					var arraylen = resultArray.length;
+					var reslen = arraylen>= 5 ?  4 : arraylen-1;
+					for(i=0;i<reslen;i++) {
+						var numberp = resultArray[i].nump;
+						var numbern = resultArray[i+1].nump;
+						if(numberp>numbern)
+						{
+							var numberres= resultArray[i+1];
+							resultArray[i+1] = resultArray[i];
+							resultArray[i] = numberres;
+						}
+					}
+					var thisnumber = resultArray[reslen];
+					strSurvey+='<h4><a href="http://survey.ifeng.com/finance/' + surveyId + '.html" target="_blank">热门民意</a></h4><p  ><a href="http://survey.ifeng.com/finance/' + surveyId + '.html" target="_blank"><span>'+thisnumber.nump+'%</span>的人认为'+thisnumber.title+'</a></p>';
+					$("lstSurvey").innerHTML=strSurvey;
+					$("lblSurveyCount").innerHTML='<a href="http://survey.ifeng.com/finance/'+surveyId+'.html" target="_blank"><span>'+json.count+'</span></a>人参与投票';
+					$("mySurvey").innerHTML='<a href="http://survey.ifeng.com/finance/'+surveyId+'.html" target="_blank">我来投一票</a>';
+					var tabControlSurvey=new TabControl();
+					tabControlSurvey.addRange($("lstSurvey").getElementsByTagName("li"),$("lstSurvey").getElementsByTagName("p"));
+					tabControlSurvey.triggerType='mouseover';
+					tabControlSurvey.enableSlide=false;
+					tabControlSurvey.defaultPage=maxId;
+					tabControlSurvey.init();
+				  }
+				}
+				getScript_cds("http://survey.ifeng.com/resultjson.php?surveyId="+surveyId+"&callback=setSurvey");
+				 </script>
+                 </div>
+                 
+                  <div class="box_04">                  
+     				<div>
+    <div class="title03" style="padding-top:25px; *padding-top:23px;">
+        <a target="_blank" title="深度">深度</a>
+  </div>
+ 
+ 
+
+    
+    <div class="box_04_mid"  >
+ 
+               <h3><a href="http://finance.ifeng.com/a/20141219/13367316_0.shtml" target="_blank">  
+成品油走私“北上”
+
+</a></h3>
+       
+        <p>但在监管层的惩治下，如今潍坊、天津、日照、本溪等地成为了走私分子输送走私油的新窗口。</p>
+        
+          
+    </div> 
+  
+ <div class="box_04_mid"  >           
+<h3><a href="http://finance.ifeng.com/a/20141219/13367934_0.shtml"
+target=_blank>央视“极草”广告调查
+</a></h3>
+                               
+               <p>当地宣传人员称：“功效宣传上可能是有些过了，但在市场上，消费者是认可的。”</p>
+            
+                    
+    </div> 
+ 
+
+  <div class="box_04_mid"  >           
+<h3><a href="http://finance.ifeng.com/a/20141216/13357809_0.shtml"
+target=_blank>投资圈里的太极风</a></h3>
+                               
+               <p>我们班上光是公私募的基金经理就有好几个，此外还有投资公司的高管、研究骨干、媒体的记者。</p>
+            
+                    
+    </div>
+  
+     
+    
+      
+   
+</div>
+                  </div>
+                  
+                  <div class="space16"></div>
+                  <div class="box_05">
+                  		<div class="stockBox">
+                            <ul class="stock clearfix cDGray">
+                                <li onMouseOver="load_hq_img('1');" id="hq1" class=""><a href="http://finance.ifeng.com/app/hq/stock/sh000001/" target="_blank">上证</a></li>
+                                <li onMouseOver="load_hq_img('2');" id="hq2" class=""><a href="http://finance.ifeng.com/app/hq/stock/sz399001/" target="_blank">深成</a></li>
+                                <li onMouseOver="load_hq_img('3');" id="hq3" class="current"><a href="http://app.finance.ifeng.com/list/fund_tzlx.php" target="_blank">基金</a></li>
+                                <li onMouseOver="load_hq_img('4');" id="hq4" class=""><a href="http://finance.ifeng.com/app/hq/hkstock/hk10000/" target="_blank">恒指</a></li>
+                                <li onMouseOver="load_hq_img('5');" id="hq5" class=""><a href="http://app.finance.ifeng.com/hq/rmb/list.php" target="_blank">人民币</a></li>
+
+                            </ul>
+										<div class="datePic js_hqdapandiv" id="hq1_Layer">
+				<span data-stock="s_sh000001" class=""><img src="http://img.ifeng.com/tres/finance/deco/2011/0705/icon10.gif" width="11" height="10" /> <strong>3061.02 </strong> 39.50 (1.31%)</span>
+				<p><a href="http://finance.ifeng.com/app/hq/stock/sh000001/" target="_blank"><img src="http://finance.ifeng.com/app/img/small/nf_sh000001.gif" width="240" height="130" id="hq1_img" /></a></p>
+			</div>
+			<div class="datePic js_hqdapandiv" id="hq2_Layer" style="display: none;">
+				<span data-stock="s_sz399001"  class=""><img src="http://img.ifeng.com/tres/finance/deco/2011/0705/icon10.gif" width="11" height="10" /> <strong>10786.70 </strong> 118.11 (1.11%)</span>
+				<p><a href="http://finance.ifeng.com/app/hq/stock/sz399001/" target="_blank"><img src="http://img.ifeng.com/tres/finance/blank.gif"  width="240" height="130" id="hq2_img" /></a></p>
+			</div>
+			<div class="datePic js_hqdapandiv" id="hq3_Layer" style="display: none;">
+				<span data-stock="s_sh000011"  class=""><img src="http://img.ifeng.com/tres/finance/deco/2011/0705/icon10.gif" width="11" height="10" /> <strong>5325.74 </strong> 72.28 (1.38%)</span>
+				<p><a href="http://app.finance.ifeng.com/list/fund_tzlx.php" target="_blank"><img src="http://img.ifeng.com/tres/finance/blank.gif"  width="240" height="130" id="hq3_img" /></a></p>
+			</div>
+			<div class="datePic js_hqdapandiv" id="hq4_Layer" style="display: none;">
+				<span data-stock="s_hk10000"  class="green"><img src="http://img.ifeng.com/tres/finance/deco/2011/0705/icon16.gif" width="11" height="10" /> <strong>22585.80 </strong> -84.66 (-0.37%)</span>
+				<p><a href="http://finance.ifeng.com/app/hq/hkstock/hk10000/" target="_blank"><img src="http://img.ifeng.com/tres/finance/blank.gif"  width="240" height="130" id="hq4_img" /></a></p>
+			</div>
+			<div class="datePic" id="hq5_Layer" style="display: none;">
+				<span class="green"><img src="http://img.ifeng.com/tres/finance/deco/2011/0705/icon16.gif" width="11" height="10" /> <strong>611.37 </strong> -0.45 (-0.0736%)</span>
+				<p><a href="http://app.finance.ifeng.com/hq/rmb/list.php" target="_blank"><img src="http://img.ifeng.com/tres/finance/blank.gif"  width="240" height="130" id="hq5_img" /></a></p>
+			</div>
+                       </div>
+                       <div class="stockSearch" onMouseOver="Suggest_hq.form='finance_search1';Suggest_hq.list_id='suggest_list_finance1';">
+                          <form name="finance_search1" action="http://app.finance.ifeng.com/hq/search.php" method="get" target="_blank">
+                              <a style="display: block; float: right; margin-top: 5px; padding-right: 12px;" href="http://app.finance.ifeng.com/custom/mystock.php" target="_blank">自选股</a>
+                              <div class="stockList" style="left:-70px;display:none" id="suggest_list_finance1" onfocus="Suggest_hq.display('inline')" onblur="" onMouseOver="Suggest_hq.display('inline')" onMouseOut="Suggest_hq.display('none')"></div>
+                              <input type="hidden" name="select_type" value="" disabled="">			
+                              <input type="hidden" name="select_code" value="" disabled="">
+                              <input class="stockText" name="keyword" value="代码/拼音" autocomplete="off" onKeyUp="Suggest_hq.type='all';Suggest_hq.typewrite(value)" onFocus="if(value=='代码/拼音') {value=''};Suggest_hq.display('inline');" onBlur="if (value=='') {value='代码/拼音'};" onKeyDown="Suggest_hq.move(event)">
+                              <input class="btn07" type="submit" value="">
+                          </form>
+                      </div>
+                  </div>
+				                 <div class="box_super"style=" position:relative;">
+                  <div class="zaixian01"><a href="http://finance.ifeng.com/money/#fxs" target="_blank">理财师在线答疑</a></div>
+  <h4><a onClick="isLoginFun('http://18.ifeng.com/'); return false;" href="javascript:void(0);" target="_blank" title="理财超市">理财超市</a> </h4>
+  <!--141021a end-->
+  <div class="superLogin clearfix">
+      <ul>
+         <li class="spe"><a id="js_login18_btn" href="#" title="立即登录">立即登录</a></li>
+         <li><a href="http://id.ifeng.com/user/register?cb=http://18.ifeng.com" target="_blank" title="免费开户">免费开户</a></li>
+     </ul>
+ </div>
+ <div class="superBuy clearfix">
+     <h5><a href="http://finance.ifeng.com/app/hq/fund/of000030/" target="_blank">保本基金-长城久利</a></h5>
+     <p>近一年收益率<br><span>41.76%</span></p>
+     <div class="btnBuy"><a onClick="isLoginFun('http://18.ifeng.com/gm?fundCode=000030'); return false;" href="javascript:void(0);" title="点击购买">点击购买</a></div>
+ </div>
+</div>
+                 
+				  <script>
+					(function() {
+						var $ = function(str) {
+							return document.getElementById(str);
+						};
+						$('js_login18_btn').onclick = function(){isLoginFun('http://18.ifeng.com')};
+					})();
+					function isLoginFun(url) {
+						var isLogin = window['IS_LOGIN']();
+						if (isLogin) {
+							showInfo(true,url);
+						} else {
+							showInfo(false,url);
+						}
+					}
+					function showInfo(flag,url){
+						if(flag == false){
+							window['GLOBAL_LOGIN']();
+							window['REG_LOGIN_CALLBACK'](1, function(optionsORname) {
+								window.location.href = url;
+							});
+						}else{
+							window.location.href = url;
+						}
+					}
+				  </script>
+            </div>
+        </div>
+    </div>
+    <div class="col_right">
+    	<div class="ad03">
+<!--s_finance_index_140321_ad_button01 2014.12.19 09:19:34-->
+<script type="text/javascript">try{aptracker.add(814);}catch(e){}</script>
+
+
+<div id="AP3294" style="display:none;">
+<var style="display:none;" v="814,22169,8601,魏层层,B1"></var><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?48d6f4bf5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLDCq5uneCB4M5REs74D64vmneUWRPsoagZabfJUiCgDFcbwdla4D-blW1d0PG0RsRzR_ZYcEwOhX570suhmI3c8KKJjpWGjMNw-t3eowwfLfnhImpOn9PN1io8wCDPKX_Otdl1yPMGnhO8t719hjAXjqU2iYH1lIP1jz6YWg6-NNwn-a277IJlJOvCuYgQOi0';
+var ad = 'http://y0.ifengimg.com/mappa/2014/11/07/4070b340c2b1f7fa97d3b63f60a3053d.swf';
+var w = '300';var h = '600';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="814,25035,8601,魏层层,6"></var><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?494f68d95MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFK-_awGHMcDoTgKH_CEBqwvlVd7M3u1MWzzaC2OKscSOVcbwdla4D-bszXSFc7LoFc4UUmQm8Qz0s-BJhy9YCOZ4L9Kedo9R7M52pVyeTuRvUqFFoR-RpPe';
+var ad = 'http://y0.ifengimg.com/mappa/2014/12/09/8b0ca306bc00a39728b35094d1cb0d2d.jpg';
+var w = '300';var h = '600';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="814,0,0,NULL,fixture"></var><cite>
+<!--BOF
+<a href="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=6404&bg=6404&b=6399&u=http://news.ifeng.com/app/special-api/new-list/ifeng/ifeng_client_spread/" target="_blank"><img src="http://y0.ifengimg.com/mappa/2013/11/01/7d383a6e06830ed4cf9b2bd42bb2a55f.jpg" width="300" height="600" border="0" /></a>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+				document.write("<div id='div-gpt-ad-1403172259753-2' style='width:300px; height:auto;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1403172259753-2'); });</" + "script></div>");
+	}else{
+			try{
+			var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP3294"});
+			}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_finance_index_140321_ad_button01-->
+</div>
+        <div class="space30"></div>
+        <div class="box_06">
+			            <div class="title_04">
+                <h4 style="width:88px; margin-right:5px;"><a href="http://finance.ifeng.com/lifeofwealth/" target="_blank" title="凤凰财经 财富派,财富生活,名流奢族，精英潮流，职场新范，品位艺术">财富派</a></h4>
+            </div>
+			<div class="fpic" id="tabSlide" onmouseover="onindex()" onmouseout="outindex()">          
+    
+    
+      <div class="bigPic03" style="display: block;">
+     <a href="http://finance.ifeng.com/lifeofwealth/" target="_blank"><img src="http://y2.ifengimg.com/a/2014_51/650b3b273694b6a.jpg" width="300" height="200" alt="探秘90后美女银行柜员的一天"></a>
+       <div class="text"></div>
+        <p class="cWhite"><a href="http://finance.ifeng.com/lifeofwealth/" target="_blank">探秘90后美女银行柜员的一天</a></p>
+             
+      
+         
+             
+              
+       </div> 
+       
+    
+    
+    <div id="f_rg_1" class="bigPic03" style="display: none;">
+
+ <a href="http://finance.ifeng.com/lifeofwealth/" target="_blank"><img src="http://y1.ifengimg.com/a/2014_51/1d31a03263420ac.jpg" width="300" height="200" alt="爱马仕丝巾背后的故事"></a>
+       <div class="text"></div>
+        <p class="cWhite"><a href="http://finance.ifeng.com/lifeofwealth/" target="_blank">爱马仕丝巾背后的故事</a></p>
+    
+         
+       </div> 
+      
+ 
+
+            
+              
+    <ul class="dotList" id="controlSlide">      
+        <li class=""></li>  <li class=""></li> 
+    </ul>
+    <div class="enable" id="prevSlide" style="display: none;">
+        <a><img src="http://y0.ifengimg.com/a/2013/0930/c_06.gif" width="10" height="19"/></a>
+        <div class="btnBg"></div>
+    </div>
+    <div class="enable" id="nextSlide" style="display: none;">
+        <a><img src="http://y0.ifengimg.com/a/2013/0930/c_07.gif" width="10" height="19"/></a>
+        <div class="btnBg"></div>
+    </div>
+</div> 
+			
+<!--s_finance_index_131011_ad_jdt02 2014.12.19 09:19:13-->
+
+
+<var style="display:none;" v="7468,21919,8586,魏层层,B1"></var><div id="f_rg_ad_1" class="bigPic03" style="display: none;">
+	 <a href="http://dol.deliver.ifeng.com/c?5f3946735MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFKh0_AdiPPv38UjoAWEMVlGZ3kzFPs6KFJ_LRsydD48Q1cbwdla4D-bqdtRYIR-8m3bC-ltPmM2ptfnwXS079WKS4JJAxugUhTsSMtNjku4yOHYm2oc_MQAN4IoBOBQIf6baijBfcoYByTrwrmIEDot" target="_blank"><img src="http://y3.ifengimg.com/mappa/2014/12/17/e1b8e7c3de0be2023cfe1dde44fe1641.jpg" width="300" height="200" ></a>
+</div>
+
+<!--/s_finance_index_131011_ad_jdt02-->
+
+        </div>
+		<div class="djpl_list" id="dl01">
+
+
+
+
+
+<dl class=" clearfix">
+        <dt>
+           <a href="http://finance.ifeng.com/a/20141218/13365897_0.shtml" target="_blank" title=江浙沪8大温泉酒店
+           "><img src="http://y2.ifengimg.com/a/2014_51/fc249f903cee7de.jpg" width="120" height="80"></a>
+        </dt>
+        <dd>
+            <h5><a href="http://finance.ifeng.com/a/20141218/13365897_0.shtml" target="_blank">江浙沪8大温泉酒店</a></h5>
+        </dd>
+    </dl> 
+
+<dl class=" clearfix">
+        <dt>
+         <a href="http://finance.ifeng.com/a/20141217/13362791_0.shtml" target="_blank" title=酒店业有哪些特殊服务
+           "><img src="http://y3.ifengimg.com/a/2014_51/df0d16b7d179d56.jpg" width="120" height="80"></a>
+        </dt>
+        <dd>
+            <h5><a href="http://finance.ifeng.com/a/20141217/13362791_0.shtml" target="_blank">酒店业有哪些特殊服务</a></h5>
+      </dd></dl> 
+      
+
+<dl class=" clearfix">
+        <dt>
+      <a href="http://finance.ifeng.com/a/20141218/13365790_0.shtml" target="_blank" title=男士胸肌养成秘术
+           "><img src="http://y2.ifengimg.com/a/2014_51/ac8352651ce438f.jpg" width="120" height="80"></a>
+        </dt>
+        <dd>
+            <h5><a href="http://finance.ifeng.com/a/20141218/13365790_0.shtml" target="_blank">男士胸肌养成秘术</a></h5>
+      </dd></dl> 
+  
+    
+
+<dl class=" clearfix">
+        <dt>
+     <a href="http://finance.ifeng.com/a/20141217/13361402_0.shtml" target="_blank" title=盘点世界上卖价最贵的9张照片
+           "><img src="http://y1.ifengimg.com/a/2014_51/e16f65f3d809f32.jpg" width="120" height="80"></a>
+        </dt>
+        <dd>
+            <h5><a href="http://finance.ifeng.com/a/20141217/13361402_0.shtml" target="_blank">盘点世界上卖价最贵的9张照片</a></h5>
+       </dd>
+    </dl> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</div>
+        <div class="space28"></div>
+        <div class="box_06">
+		    <div class="title_04">
+		        <h4 style="width:88px; margin-right:5px;"><a href="http://finance.ifeng.com/zhuanti/" target="_blank" title="凤凰热点专题">热点专题</a></h4>
+		        <div class="ad04">
+		        	
+<!--s_finance_index_131011_ad_label_rdzt 2014.12.19 09:19:13-->
+<script type="text/javascript">try{aptracker.add(7478);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="7478,0,0,NULL,fixture"></var>
+
+<!--/s_finance_index_131011_ad_label_rdzt-->
+
+		        </div>
+		    </div>
+
+			<div>
+    <div class="ad05"><a target="_blank"  href="http://finance.ifeng.com/news/special/leader2014" title="华人经济领袖"><img src="http://y1.ifengimg.com/a/2014_48/be05a3bf04ce873.jpg" width="300" height="80"/></a></div>
+    <ul class="box_zhuan">
+    
+   
+      <li><span>2014-12-17</span><a href="http://finance.ifeng.com/news/special/qqscjz/" target="_blank" >全球市场恐慌：油价卢布暴跌</a></li>
+   
+    <li><span>2014-12-10</span><a href="http://finance.ifeng.com/stock/special/hugangtonglt/" target="_blank" >凤凰五道口—沪港通香港论坛</a></li>  
+    
+    
+    <li><span>2014-12-08</span><a href="http://finance.ifeng.com/news/special/zyjjhy2014/" target="_blank" >2014中央经济工作会议</a></li>
+    
+       <li><span>2014-11-30</span><a href="http://finance.ifeng.com/news/special/cunkuanbx/" target="_blank">存款保险制度或明年初落地</a></li>
+    
+   
+      
+  <li><span>2014-11-19</span><a href="http://finance.ifeng.com/news/special/2014summit" target="_blank">2014凤凰财经峰会</a></li>
+     
+       <li id="redian06"><span>2014-11-10</span><a href="http://finance.ifeng.com/stock/special/hgztc/" target="_blank" >沪港通启动</a></li>
+    
+     
+  
+    
+     
+  
+    
+     
+     
+      
+    
+   
+    
+    
+   
+    
+    
+   
+    
+   
+     
+    
+    
+    
+                 
+    
+     
+      
+      
+    
+     
+    
+     
+       
+     
+     
+     
+    
+     
+    
+  
+         
+    
+   
+
+    </ul>
+</div>
+			
+<!--s_finance_index_140321_ad_ruanxing_redian06 2014.12.19 09:19:34-->
+
+
+<var style="display:none;" v="8699,24973,9972,牛爽,B2"></var><script>
+	(function(){
+		var tempId = document.getElementById('redian06');
+		if("undefined" != typeof tempId && tempId != null)
+		tempId.innerHTML = '<a href="http://dol.deliver.ifeng.com/c?d0f0ddde5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFIQZxIsAn9DzocETvI64ySEVEv9We04Eh5f0ToK2mlI6Fcbwdla4D-bqdtRYIR-8m3bC-ltPmM2ptfnwXS079WKcINr6jsga0LjPHKyeEJgNg38fRFvfcXn62ZP3cLC0P4LlgPHhX6MAw" target="_blank" title="衡水老白干金奖百年" class="alink">衡水老白干金奖百年</a>';
+	})();
+</script>
+
+<!--/s_finance_index_140321_ad_ruanxing_redian06-->
+
+	    </div>
+    </div>
+</div>
+<div class="space37"></div>
+<div class="w1000 clearfix">
+	<div class="col_left">
+        <div class="clearfix">
+            <div class="title05">宏观
+            	<div class="ad04">
+            	
+<!--s_finance_index_131011_ad_label_hongguan 2014.12.19 09:19:13-->
+<script type="text/javascript">try{aptracker.add(7479);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="7479,0,0,NULL,fixture"></var>
+
+<!--/s_finance_index_131011_ad_label_hongguan-->
+
+            	</div>
+            </div>
+            <div class="w400">
+				<div class="zhengc">
+    <div class="title06"><a href="http://finance.ifeng.com/macro/policy/" target="_blank" title="政策">政策</a></div>
+<div class="clearfix">
+<a href="http://finance.ifeng.com/a/20141219/13367943_0.shtml" target="_blank"><img src="http://y0.ifengimg.com/a/2014_51/9e5464139f244f4.jpg" width="90" height="60"/></a> <h4><a href="http://finance.ifeng.com/a/20141219/13367943_0.shtml" target=_blank>央行四周没动作流动性有点紧 下周或“组合拳”放水</a></h4></div>
+
+<p>下周为年底最后一周，虽有财政存款投放，预计短期波动仍不可避免，不排除央行继续“组合拳”投放资金的可能性。<a href="http://finance.ifeng.com/a/20141219/13367943_0.shtml" class="cRed" target="_blank">[详细]</a></p>
+<ul>
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367947_0.shtml" target=_blank>李克强批示发展融资担保机构 政府出资控股参股</a></li> 
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367964_0.shtml" 
+target=_blank>中央农村工作会议即将召开：社科院专家谈改革四重点</a></li> 
+
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13368742_0.shtml"
+target="_blank">住建部：明年要保持房地产市场平稳健康发展</a></li>
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367325_0.shtml"
+target=_blank>京津冀民航协同发展意见出台 三地机场一体化线路浮现</a></li> 
+
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13368117_0.shtml" 
+target="_blank">工信部完成“发牌” 明年虚拟运营商行业将迎来洗牌</a></li>
+
+
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367983_0.shtml"
+target="_blank">滨海新区行政审批改革：申请人和投资者是衣食父母</a> </li>
+
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367961_0.shtml" target="_blank">银行理财输血两融标准不一 ABS备案制或为其“开正门”</a></li>
+
+
+ 
+
+<!---此条为广告id- 勿改勿删--- start-->
+<li id="f_rg_5"><a href="http://finance.ifeng.com/a/20141219/13367404_0.shtml" 
+target=_blank>杭州明年1月探路分级诊疗 医保杠杆推动医养护一体化落地</a></li> 
+
+ 
+<!---此条为广告id- 勿改勿删---end-->
+ 
+</ul>
+</div>
+				
+<!--s_finance_index_131011_ad_ruanxing_hongguan08 2014.12.19 09:19:14-->
+
+
+<var style="display:none;" v="7476,24627,8594,夏岩,B2"></var><script>
+	(function(){
+		var tempId = document.getElementById('f_rg_5');
+		if("undefined" != typeof tempId && tempId != null)
+		tempId.innerHTML = '<a href="http://dol.deliver.ifeng.com/c?1f8ae6e95MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLTjxmWIl-HdHQQLflRwZUnO5-HVILEmh001IWjqsHXrFcbwdla4D-bPA_9DTcT8KwA1yg6LAeUZhLYTj8_TvJEf5UwvCZ_OHF-u2OFWrOG9g" target="_blank" title="全新奥迪A6L，未来属于创造它的人！" class="alink">全新奥迪A6L，未来属于创造它的人！</a>';
+	})();
+</script>
+
+<!--/s_finance_index_131011_ad_ruanxing_hongguan08-->
+
+                <div class="space14"></div>
+					<div class="box_02_01">
+  <div class="title07"><a href="http://finance.ifeng.com/macro/data/" target="_blank">数据</a></div>
+  <ul> 
+ 
+<li><a href="http://finance.ifeng.com/a/20141219/13367324_0.shtml" target=_blank>11月份楼市成交创年内新高 但房价仍处下降通道</a></li> 
+   
+<li><a href="http://finance.ifeng.com/a/20141219/13367399_0.shtml" target="_blank">中金梁红：预计明年GDP增长7.3% 经济硬着陆风险不大</a></li>
+ 
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13368034_0.shtml" 
+target="_blank">外管局：11月结售汇逆差610亿元人民币</a></li>
+
+  <li><a href="http://finance.ifeng.com/a/20141219/13368633_0.shtml" 
+target=_blank>外媒：调查显示中国一二线城市金融业员工薪资差距较大</a> </li> 
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367996_0.shtml" target=_blank>浙江对俄出口11月同比下降9.1% 未来贸易争端或将增加</a></li>
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+  
+ 
+
+
+
+ 
+  
+</ul>
+</div>
+                <div class="ad02"  style=" padding-top:38px;">
+<!--s_finance_index_131011_ad_banner03 2014.12.19 16:55:25-->
+<script type="text/javascript">try{aptracker.add(7469);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="7469,25263,8587,魏层层,B1"></var><script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?09a43eda5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLPz2D3uiAK24wFO1JxamCKEkq9O-odkJJDc14-M4k8lVcbwdla4D-b0ELujyOFSssSfEO5NRZ49iE1gp5BTzKRSujexDtMRCuHoTcNnuHKgGQuYk5dj5hkuwd6697eKaw3BPke_WA3NynyOuHPsuUeZ2BcD6dMeaBb7rjAu_d2ZWX8FVbdaWcWPuvzxrniRYy71PpG9LYDTLHj58hlJea8honBT9shgzXqrXE6K-rIWaMiGvo8kuHmSCqr3YECQRTKfiLNVCTVjyMkVWuDd358IbCPv5JGuyE';
+var ad = 'http://y0.ifengimg.com/mappa/2014/12/19/1521ad6a6d8c854521e155a7a9114cfe.jpg';
+var w = '400';var h = '150';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+
+<!--/s_finance_index_131011_ad_banner03-->
+</div>
+             </div>
+            <div class="w240">
+                <ul class="list02" id="box_pictxt05">
+					    <li class="" >
+       <div class="title06"><a href="http://finance.ifeng.com/macro/worldwatch/" target="_blank">世界观察</a></div>
+       <div class="pic">
+          <span><a href="http://finance.ifeng.com/a/20141219/13367289_0.shtml" target="_blank">&nbsp;</a></span>
+          <a href="http://finance.ifeng.com/a/20141219/13367289_0.shtml" target="_blank"><img src="http://y2.ifengimg.com/a/2014_51/76b75f2b4e13160.jpg" width="238" height="158"/></a>
+      </div>
+      <div class="txt03"><a href="http://finance.ifeng.com/a/20141219/13367289_0.shtml" target="_blank">卢布保卫战：先抛外储再售黄金？</a></div> 
+      
+      <p class="juword"><a>除了外汇储备，俄罗斯手中还握有一张王牌，那就是其巨大的黄金储备。</a></p>
+      
+       <div class="aline mt11">
+       </div>
+       
+       
+
+       
+
+
+ <div class="txt03"><a href="http://finance.ifeng.com/a/20141219/13367980_0.shtml" target="_blank">外媒：委内瑞拉明年或现债务违约</a></div>
+ 
+ 
+
+ 
+      <p class="juword"><a>随着油价大跌，委内瑞拉明年可能发生债务违约，也许会出现于第一季度。</a></p>
+
+
+
+
+       </li>
+					 <li style="margin-top:33px;">
+                    <div class="title06"><a href="http://finance.ifeng.com/macro/chinawatch/" target="_blank">中国观察</a></div>
+                    <div class="pic">
+ <span><a href="http://finance.ifeng.com/a/20141219/13368026_0.shtml" target="_blank">&nbsp;</a></span>
+                        <a href="http://finance.ifeng.com/a/20141219/13368026_0.shtml" target="_blank"><img src="http://y0.ifengimg.com/a/2014_51/a6bf9ae15ef2b8a.jpg" width="238" height="158"/></a>
+                    </div>
+                     <div class="txt03"><a href="http://finance.ifeng.com/a/20141219/13368026_0.shtml" target="_blank">中国城市即将陷入抢人大战</a></div>
+                      <p class="juword"><a>前所未有的人口结构转变给中国及中国经济的健康发展带来了严峻的挑战。</a></p>  
+                      <div class="aline mt11"></div>
+
+
+
+
+      <div class="txt03"><a href="http://finance.ifeng.com/a/20141219/13368015_0.shtml" target="_blank">新常态 经济学家们说了什么？</a></div>
+                      <p class="juword"><a>自中央对“新常态”进行全面阐述后，“新常态”无疑成为经济学界最热词。</a></p>  
+
+
+
+
+
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <div class="space37"></div>
+        <div class="clearfix">
+            <div class="title05">商业
+            	<div class="ad04">
+
+<!--s_finance_index_131011_ad_label_shangye 2014.12.19 09:19:13-->
+<script type="text/javascript">try{aptracker.add(7480);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="7480,23007,8598,张思远,B1"></var><a href="http://dol.deliver.ifeng.com/c?23d776b85MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFKemQ3jqVaSowoNxPBJVtPMmpBhvCyIhhPaDcCk9w6q81cbwdla4D-b5S3Xfe7YVHkRbkmpnxTXRM21mf6L-X20yQ9yC1d4p5QzrUm9sumg707G8-KFXNYR" target="_blank"><img src="http://y2.ifengimg.com/mappa/2014/10/23/f6883b6409ad0ebf27b5f4db8a99800f.jpg" width="120" height="20" border="0" /></a>
+
+<!--/s_finance_index_131011_ad_label_shangye-->
+
+            	</div>
+            	</div>
+        	<div class="w400">
+				                <div class="zhengc">
+                    <div class="title06"><a href="http://finance.ifeng.com/business/gs/" target="_blank" title="公司">公司</a></div>
+                    <div class="clearfix">
+                 <a href="
+http://finance.ifeng.com/a/20141219/13367936_0.shtml" target="_blank"><img src="http://y3.ifengimg.com/a/2014_51/b934681d097870f.jpg" width="90" height="60"></a> <h4><a href="
+http://finance.ifeng.com/a/20141219/13367936_0.shtml" target="_blank">
+安邦保险“买买买”停不下来：控股民生银行 正布局全牌照
+</a>  </h4></div> 
+
+
+<p>在安邦的金控版图中，已将保险、租赁、证券、银行牌照握在手中，业内看来，安邦保险正向全牌照的金融控股集团化布局靠近。<a href="http://finance.ifeng.com/a/20141219/13367936_0.shtml" class="cRed" target="_blank">[详细]</a></p>                                                     
+<ul>
+
+
+
+
+
+
+
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367928_0.shtml"
+target="_blank">比亚迪盘中暴跌45% 公司称一切经营业务均正常 
+</a>  <a href="http://finance.ifeng.com/a/20141219/13368051_0.shtml"
+target="_blank">回应 
+</a>
+
+</li> 
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367932_0.shtml"
+target="_blank">联通三天内两高管被查 业内人士称反腐风暴还将继续</a></li>
+
+
+
+ <li><a href="http://finance.ifeng.com/a/20141219/13367957_0.shtml" target="_blank">马明哲将推“财神节”PK马云“双11” 一年前已埋伏笔</a></li> 
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367959_0.shtml" 
+target="_blank">快递业群狼鏖战：三家“洋快递”将获国内牌照</a></li>
+
+
+
+
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13369267_0.shtml" target=_"blank">碧桂园试水互联网金融 与“道口贷“合作开展供应链金融</a></li> 
+
+
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367973_0.shtml" target="_blank">李宁再融资续推转型：今年竞争对手全部盈利 李宁独亏</a></li>
+
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13368802_0.shtml" target="_blank">药店奶粉售货机黯然退场 试水药店无一成功
+</a> </li>
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367985_0.shtml"
+target="_blank">轮胎行业入寒冬：价格战惨烈企业库存超正常值50％</a></li> 
+   
+   
+   
+ <li><a href="http://finance.ifeng.com/a/20141219/13368865_0.shtml" 
+target="_blank">外媒：卢布重挫 奥迪路虎通用暂停向俄经销商交付新车
+</a> </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+          
+               
+
+<!---此条为广告id- 勿改勿删--- start-->
+<li id="f_rg_6"><a href="http://finance.ifeng.com/a/20141219/13368005_0.shtml" 
+target="_blank">乐视宣布与微软共建视频云平台 部署海外业务
+</a> </li>
+
+ 
+<!---此条为广告id- 勿改勿删---end-->
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+<!--s_finance_index_131011_ad_ruanxing_shangye09 2014.12.19 09:19:14-->
+
+
+<var style="display:none;" v="7477,0,0,NULL,fixture"></var>
+
+<!--/s_finance_index_131011_ad_ruanxing_shangye09-->
+
+
+                <div class="space35"></div>
+				                <div class="zhengc">
+                    <div class="title08"><a href="http://finance.ifeng.com/business/renwu/index.shtml
+ " target="_blank" title="商业人物">商业人物</a></div>
+                    <div class="clearfix">
+                    <a href="http://finance.ifeng.com/a/20141219/13369231_0.shtml"><img src="http://y3.ifengimg.com/a/2014_51/1a5ed643a5b0a3e.jpg" width="90" height="60"></a> <h4> <a href="http://finance.ifeng.com/a/20141219/13369231_0.shtml" target="_blank">“永远的大哥”回来了，复盘宋卫平在绿城之争中的心路历程
+
+
+
+
+
+</a> </h4></div> 
+
+<p>11月12日的深夜，宋卫平突然有了某种解脱感。他的幕僚说，这份香港证监会的意见让宋卫平对孙宏斌彻底死心，“公司不能交给这样的人”。<a href="http://finance.ifeng.com/a/20141219/13369231_0.shtml" class="cRed" target="_blank">[详细]</a></p>
+                    <ul>
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367940_0.shtml" target="_blank">国企老总挪用230万公款还赌债 其子卖房退赃救父
+
+
+</a></li> 
+
+
+<li><a href="http://finance.ifeng.com/a/20141218/13366290_0.shtml" target="_blank">福布斯富豪的跨境资本戏法：神秘公司疑助其金蝉脱壳
+
+
+</a></li>
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13368325_0.shtml" target="_blank">中国铝业董事长辞职 拟出售硅产业资产
+</a></li> 
+
+
+
+
+  
+
+
+
+
+<li> <a href="http://finance.ifeng.com/a/20141219/13369093_0.shtml"target="_blank">
+《粤商》独家专访霍震霆
+</a><a href="http://finance.ifeng.com/a/20141219/13369081_0.shtml"target="_blank">
+霍启山：时间是最好的证明
+
+</a> </li>
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13368455_0.shtml" target="_blank">电影市场变天了，第五代导演开始谢幕
+
+</a></li>
+
+
+<li><a href="http://finance.ifeng.com/a/20141219/13367966_0.shtml" target=_"blank">五粮液董事长：限制三公消费只是行业环境不好的诱因 </a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+ 
+  
+  
+ 
+  
+ 
+
+
+
+
+
+ 
+       
+      
+
+  
+   
+                    </ul>
+                </div>
+            </div>
+            <div class="w240">
+            	<div class="box_08">
+   <div class="title06">
+    <a href="http://finance.ifeng.com/business/shfy/index.shtml" target="_blank" title="商海风云">商海风云</a>
+   </div>
+      <ul class="list02" id="box_pictxt06">
+      
+   
+
+   <li class="">
+         <div class="pic">
+<span><a href="http://finance.ifeng.com/a/20141219/13368301_0.shtml
+
+" target="_blank">&nbsp;</a></span>
+               <a href="http://finance.ifeng.com/a/20141219/13368301_0.shtml
+
+" target="_blank">
+                <img src="http://y0.ifengimg.com/a/2014_51/b2c22adb6a1acb2.jpg" width="238" height="158" title="社交" alt="社交">
+                </a>
+           </div>
+          <div class="txt04"><a href="http://finance.ifeng.com/a/20141219/13368301_0.shtml
+" target="_blank">我们正站在社交新时代的门口
+
+</a></div>
+</li>
+      
+         <li class="">
+           <div class="pic">
+             <span><a href="http://finance.ifeng.com/a/20141219/13368360_0.shtml" target="_blank">&nbsp;</a></span>
+             <a href="http://finance.ifeng.com/a/20141219/13368360_0.shtml" target="_blank"><img src="http://y1.ifengimg.com/a/2014_51/e046446c688169e.jpg" width="238" height="158" title="周鸿祎" alt="周鸿祎">
+             </a>
+            </div>
+          <div class="txt04"><a href="http://finance.ifeng.com/a/20141219/13368360_0.shtml"  target="_blank">
+投大神，走神儿了？
+
+
+
+
+
+</a></div>
+         </li>
+
+
+
+     </ul>
+ </div>
+                 <div class="box400_02">
+                    
+<!--s_finance_index_131011_ad_banner05 2014.12.19 09:19:13-->
+<script type="text/javascript">try{aptracker.add(7471);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="7471,24980,8589,谢婷婷,B1"></var><script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?944372255MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFJhwb9kxAlwrgt1DlOaKGSUYjReoLMQ5aYVg0LhTZgsLFcbwdla4D-bZXg2ErovEY1Z5tI7702rsPo0b8xFvk6Pj1cRolkPXsgyzt7MLNeDHU5Xpyoz0vHXDJo-ABoGWLU';
+var ad = 'http://y2.ifengimg.com/mappa/2014/12/15/7469944f669353804672867224eaee83.jpg';
+var w = '240';var h = '400';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+
+<!--/s_finance_index_131011_ad_banner05-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col_right">
+        <div class="space30"></div>
+    	<div class="box_06">
+        	
+<!--s_finance_index_131011_ad_banner04 2014.12.19 09:19:13-->
+<script type="text/javascript">try{aptracker.add(7470);}catch(e){}</script>
+
+
+<div id="AP2766" style="display:none;">
+<var style="display:none;" v="7470,24833,8588,魏层层,B1"></var><code>
+<!--BOF
+<script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?05a71ec25MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFJ9HsElGlEYz6-9Nluea77r65pqYezFHq_4_OSQcW7QRlcbwdla4D-bVbW5o3bhLpDy9RFtkOywjeoWdlUTVFchp35-ixLxQ0qiUeU6kgJj948oADBsmf8zdDJPC6lxeyPwnRL_tK129Pmg8g6RhY0dP6ANoNxUAd4jdoOrZxflxiV5TFlyrL6Dagz-naVDVsbO5uIrOJG8S_nyIJz05N5yEJ_cub_II4U7oIGzzilvEOrSrlKjF_mjpMfyJ07opkU';
+var ad = 'http://y0.ifengimg.com/mappa/2014/12/05/787af31606304403aa36de54622d6d5f.swf';
+var w = '300';var h = '250';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+new adRotatorFactory({identifier : "AP2766"});
+}catch(e){}
+</script>
+<!--/s_finance_index_131011_ad_banner04-->
+
+            <ul class="bsList clearfix">  
+				
+<!--s_finance_index_ad_text_01 2014.12.19 09:17:36-->
+<script type="text/javascript">try{aptracker.add(458);aptracker.add(459);aptracker.add(460);aptracker.add(461);aptracker.add(1431);aptracker.add(1432);}catch(e){}</script>
+
+				<style type="text/css">
+				.adList{width:350px;border-top:1px solid #ccc;padding-top:10px}
+				.adList li{float:left;width:160px;padding:0 5px 0 10px;height:20px;color:#007BBB; font-size:14px;}
+				.adList li a{color:#436373;}
+				.adList li a:hover{color:#436373}
+				</style>
+<li>
+<var style="display:none;" v="458,0,0,NULL,fixture"></var><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3428,3296,729&cid=1262,45,1&sid=7939&advid=314&camid=792&show=ignore&url=http://finance.ifeng.com/" target="_blank">全球新主流财经门户</a>
+</li>
+
+<li>
+<var style="display:none;" v="459,0,0,NULL,fixture"></var><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3429,3297,729&cid=1262,45,1&sid=7941&advid=314&camid=792&show=ignore&url=http://data.auto.ifeng.com/price" target="_blank">最新最全的车讯信息</a>
+</li>
+
+<li>
+<var style="display:none;" v="460,0,0,NULL,fixture"></var><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3430,3298,729&cid=1262,45,1&sid=7943&advid=314&camid=792&show=ignore&url=http://news.ifeng.com/sports/" target="_blank">上凤凰看不同的新闻</a>
+</li>
+
+<li>
+<var style="display:none;" v="461,0,0,NULL,fixture"></var><a href="http://dol.deliver.ifeng.com/c?7e7a19b55MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFIsrMBZ4SmtoG7Nf4P_lnQgMqfGivu9TTHy7peQlB45t1cbwdla4D-bPA_9DTcT8KwA1yg6LAeUZnBf7YqyXt-lrYtV4Y_PmP8" target="_blank">凤凰最牛的汽车评测</a>
+</li>
+
+<li>
+<var style="display:none;" v="1431,0,0,NULL,fixture"></var><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3562,3418,729&cid=1262,45,1&sid=8220&advid=314&camid=792&show=ignore&url=http://edu.ifeng.com/" target="_blank">凤凰打造教育声音源</a>
+</li>
+
+<li>
+<var style="display:none;" v="1432,0,0,NULL,fixture"></var><a href="http://bc.ifeng.com/main/c?db=ifeng&bid=3564,3420,729&cid=1262,45,1&sid=8223&advid=314&camid=792&show=ignore&url=http://news.ifeng.com/" target="_blank">来凤凰网了解新资讯</a>
+</li>
+<!--/s_finance_index_ad_text_01-->
+
+			   </ul>
+        </div>
+        <div class="space44"></div>
+        <div class="box_06">
+        	        <div>
+            <div class="title_04">
+                <h4 style="margin-right:5px;"><a target="_blank" title="凤凰财经 财富派,财富生活,名流奢族，精英潮流，职场新范，品位艺术">凤凰出品</a></h4>
+             </div>
+              <div class="chulist">
+              
+              
+              
+              
+              <div class="box_03_head">
+                    <div class="clearfix">
+                    <div class="box_03_pic"><a href="http://finance.ifeng.com/news/picture/" target="_blank"><img src="http://y0.ifengimg.com/a/2014_14/53e4afc74d42848.jpg" width="100" height="50"/></a></div>
+                    <div class="box_03_word">
+                        <h3><a id="specialCom_1" href="http://finance.ifeng.com/news/special/picture93/" target="_blank" title="中国豪车市场高速刹车">中国豪华车高速刹车</a></h3>
+                        <div class="timefen">第93期</div>
+                    </div>
+                    </div>
+                    <p class="zhuant" style="border-bottom:none;">中国豪车市场高速刹车，增长趋缓，日系等二线阵营集体发飙。<a href="http://finance.ifeng.com/news/special/picture93/" target="_blank" class="cRed">[详细]</a></p>
+                </div>
+              
+
+              
+              
+              
+              
+     <div class="box_03_head">
+                    <div class="clearfix">
+                    <div class="box_03_pic"><a href="http://finance.ifeng.com/business/pic/" target="_blank"><img src="http://y1.ifengimg.com/a/2014_15/99efca42e01af10.jpg" width="100" height="50"  title="凤凰财经《传奇》"/></a></div>
+                    <div class="box_03_word">
+                        <h3><a id="specialCom_1" href="http://finance.ifeng.com/a/20141207/13335355_0.shtml" target="_blank" title="赵本山:卑贱者更聪明">赵本山:卑贱者更聪明</a></h3>
+                        <div class="timefen">第64期</div>
+                    </div>
+                    </div>
+                    <p class="zhuant" style="border-bottom:none;">人民需要赵本山，因为他所演绎的苦与乐，都是中国人的真是写照。
+<a href="http://finance.ifeng.com/a/20141207/13335355_0.shtml" target="_blank" class="cRed">[详细]</a></p>
+                </div>            
+                       
+              
+              
+              
+            
+                
+              
+           <div class="box_03_head">
+                    <div class="clearfix">
+                    <div class="box_03_pic"><a href="http://finance.ifeng.com/news/special/zyh05/" target="_blank"><img src="http://y2.ifengimg.com/a/2014_29/1f0539dae2a64a7.bmp" width="100" height="50"/></a></div>
+                    <div class="box_03_word">
+                        <h3><a id="specialCom_1" href="http://finance.ifeng.com/news/special/zyh05/" target="_blank" title="智友会">周其仁与城乡中国
+</a></h3>
+<div class="timefen">第5期</div>
+                       
+                    </div>
+                    </div>
+                    <p class="zhuant" style="border-bottom:none;">根深蒂固的偏见歧视形成城乡二元化中国，土地集中在政府手里，很多贪腐案和此有关。<a href="http://finance.ifeng.com/news/special/zyh05/" target="_blank" class="cRed">[详细]</a></p>
+                </div>   
+              
+              
+   
+              
+              <div class="box_03_head">
+                    <div class="clearfix">
+                    <div class="box_03_pic"><a href="http://finance.ifeng.com/news/special/xiaobg49/" target="_blank"><img src="http://y1.ifengimg.com/a/2014/0321/b_27.png" width="100" height="50"/></a></div>
+                    <div class="box_03_word">
+                        <h3><a id="specialCom_1" href="http://finance.ifeng.com/news/special/xiaobg49/" target="_blank" title="2014两会：市场闯关">中央经济会议的信号</a></h3>
+                        <div class="timefen">第49期</div>
+                    </div>
+                    </div>
+                    <p class="zhuant" style="border-bottom:none;">中央经济工作会议，明确定调中国经济转型新的路径选择，也同时释放了经济政策信号。
+<a href="http://finance.ifeng.com/news/special/xiaobg49/" target="_blank" class="cRed">[详细]</a></p>
+                </div>
+                
+                <div class="box_03_head">
+                    <div class="clearfix">
+                    <div class="box_03_pic"><a href="http://finance.ifeng.com/business/special/zczx95/" target="_blank"><img src="http://y2.ifengimg.com/a/2014_14/9c185dc623b8f6a.jpg" width="100" height="50"/></a></div>
+                    <div class="box_03_word">
+                        <h3><a id="specialCom_1" href="http://finance.ifeng.com/business/special/zczx96/" target="_blank" title="">“股市狂人”李大霄
+
+              </a></h3>
+                        <div class="timefen">第96期</div>
+                    </div>
+                    </div>
+                    <p class="zhuant" style="border-bottom:none;">万点还很遥远，股市要冷静再冷静。操纵市场仍旧存在，出来混迟早要还。
+<a href="http://finance.ifeng.com/business/special/zczx96/" target="_blank" class="cRed">[详细]</a></p>
+                </div>
+               
+                
+                
+                
+                <div class="box_03_head">
+                    <div class="clearfix">
+                    <div class="box_03_pic"><a href="http://finance.ifeng.com/news/special/caizhidao/" target="_blank"><img src="http://y1.ifengimg.com/a/2014/0321/b_25.png" width="100" height="50"/></a></div>            
+                    <div class="box_03_word">
+                        <h3><a id="specialCom_1" href="http://finance.ifeng.com/news/special/caizhidao256/" target="_blank" title="财知道">立即废除社会抚养费
+</a></h3>
+                        <div class="timefen">第256期</div>
+                    </div>
+                    </div>
+                    <p class="zhuant" style="border-bottom:none;">公平与否，看权利是否受侵犯，而不是大家受到同等侵犯。取消社会抚养费是恢复公平。<a href="htp://finance.ifeng.com/news/special/caizhidao255/" target="_blank" class="cRed">[详细]</a></p>
+                </div>
+                
+                
+                
+                
+                
+                
+               
+                <div class="box_03_head" style="padding-bottom:7px;">
+                    <div class="clearfix">
+                    <div class="box_03_pic"><a href="http://phtv.ifeng.com/program/jscj/" target="_blank"><img src="http://y1.ifengimg.com/a/2014_14/492ee3c693f8159.jpg" width="100" height="50"/></a></div>
+                    <div class="box_03_word">
+                        <h3><a id="specialCom_1" href="http://phtv.ifeng.com/program/jscj/" target="_blank" title="金石财经">金石财经：每日政经</a></h3>
+                        <div class="timefen">每周一到周五</div>
+                    </div>
+                    </div>
+                    <p class="zhuant" style="border-bottom:none;">金石财经是资讯台名牌栏目，工作日五点半首播，掌握当天政经大事，更为观众看见价值。<a href="http://phtv.ifeng.com/program/jscj/" target="_blank" class="cRed">[详细]</a></p>
+                </div>
+              </div>
+        </div>
+        </div>
+        <div class="space37"></div>
+        <div class="scrNews" id="tabControlArea">
+                <ul class="label_01 clearfix" id="tab1">
+                  <li class="current">点击排行</li>
+                  <li style="margin-right:0px;">评论排行</li>
+                </ul>
+                <div style="padding-top:10px;">
+				  				<ul class="list04" id="bc1">
+								<li>
+								<span class="no1">1</span>
+							<span class="plsm">784931</span>
+							<a href="http://finance.ifeng.com/a/20141219/13367743_0.shtml" target="_blank" title="人民币汇率再现大跌：急跌近200点 创下近5个月收盘新低" >人民币汇率再现大跌：急跌近200点 创下近</a></li>
+								<li>
+								<span class="no1">2</span>
+							<span class="plsm">331534</span>
+							<a href="http://finance.ifeng.com/a/20141219/13367900_0.shtml" target="_blank" title="探密俄罗斯卢布印钞车间：面值1000钞票是怎么印出来的" >探密俄罗斯卢布印钞车间：面值1000钞票是</a></li>
+								<li>
+								<span class="no1">3</span>
+							<span class="plsm">275003</span>
+							<a href="http://finance.ifeng.com/a/20141219/13367805_0.shtml" target="_blank" title="国际油价暴跌4.2%上演过山车 俄罗斯危机风险加剧" >国际油价暴跌4.2%上演过山车 俄罗斯危机</a></li>
+								<li>
+								<span class="no">4</span>
+							<span class="plsm">269722</span>
+							<a href="http://finance.ifeng.com/a/20141219/13369117_0.shtml" target="_blank" title="人民币若贬值8类人损失惨重" >人民币若贬值8类人损失惨重</a></li>
+								<li>
+								<span class="no">5</span>
+							<span class="plsm">256742</span>
+							<a href="http://finance.ifeng.com/a/20141219/13367882_0.shtml" target="_blank" title="普京：和中国签天然气合同 即便打折也赚钱了" >普京：和中国签天然气合同 即便打折也赚</a></li>
+								<li>
+								<span class="no">6</span>
+							<span class="plsm">198085</span>
+							<a href="http://finance.ifeng.com/a/20141219/13368020_0.shtml" target="_blank" title="“虫草第一股”操盘手张雪峰夫妇身价或暴涨至百亿(图)" >“虫草第一股”操盘手张雪峰夫妇身价或暴</a></li>
+								<li>
+								<span class="no">7</span>
+							<span class="plsm">187558</span>
+							<a href="http://finance.ifeng.com/a/20141219/13369554_0.shtml" target="_blank" title="证监会：已对18只股票的市场操纵案件进行调查" >证监会：已对18只股票的市场操纵案件进行</a></li>
+								<li>
+								<span class="no">8</span>
+							<span class="plsm">172804</span>
+							<a href="http://finance.ifeng.com/a/20141219/13367956_0.shtml" target="_blank" title="社科院报告指工资不会大涨 收入翻番目标遭质疑" >社科院报告指工资不会大涨 收入翻番目标</a></li>
+								<li>
+								<span class="no">9</span>
+							<span class="plsm">160912</span>
+							<a href="http://finance.ifeng.com/a/20141219/13369799_0.shtml" target="_blank" title="东风汽车副总裁任勇涉嫌严重违纪违法被查" >东风汽车副总裁任勇涉嫌严重违纪违法被查</a></li>
+								<li class="end"><span class="no">10</span>
+							<span class="plsm">144535</span>
+							<a href="http://finance.ifeng.com/a/20141219/13368071_0.shtml" target="_blank" title="赵本山奢华家居揭秘 富到不知自己有多少钱" >赵本山奢华家居揭秘 富到不知自己有多少</a></li>
+                </ul>
+                  <ul class="list04" style="display: none;" id="bc2">
+		<li>
+			<span class="no1">1</span>
+		<span class="plsm">34430</span>
+		<a href="http://finance.ifeng.com/a/20141216/13360553_0.shtml" target="_blank" title="卢布崩盘暴跌近18% 普京或剩最后一大招" >卢布崩盘暴跌近18% 普京或剩最后一大招</a></li>
+		<li>
+			<span class="no1">2</span>
+		<span class="plsm">32527</span>
+		<a href="http://finance.ifeng.com/a/20141120/13293197_0.shtml" target="_blank" title="内蒙古高院举行呼格吉勒图案发布会" >内蒙古高院举行呼格吉勒图案发布会</a></li>
+		<li>
+			<span class="no1">3</span>
+		<span class="plsm">24365</span>
+		<a href="http://finance.ifeng.com/a/20141219/13367989_0.shtml" target="_blank" title="澳媒：习近平访澳门将发表重要讲话 或促博彩业调整" >澳媒：习近平访澳门将发表重要讲话 或促</a></li>
+		<li>
+		<span class="no">4</span>
+		<span class="plsm">22884</span>
+		<a href="http://finance.ifeng.com/a/20141219/13367974_0.shtml" target="_blank" title="台媒：习近平今访澳门 反腐严打使博彩股全面重挫" >台媒：习近平今访澳门 反腐严打使博彩股</a></li>
+		<li>
+		<span class="no">5</span>
+		<span class="plsm">22695</span>
+		<a href="http://finance.ifeng.com/a/20141219/13368330_0.shtml" target="_blank" title="习近平要求早日完成中韩自贸协定后续谈判 六股将腾飞" >习近平要求早日完成中韩自贸协定后续谈判</a></li>
+		<li>
+		<span class="no">6</span>
+		<span class="plsm">19049</span>
+		<a href="http://finance.ifeng.com/a/20141219/13367743_0.shtml" target="_blank" title="人民币汇率再现大跌：急跌近200点 创下近5个月收盘新低" >人民币汇率再现大跌：急跌近200点 创下近</a></li>
+		<li>
+		<span class="no">7</span>
+		<span class="plsm">12987</span>
+		<a href="http://finance.ifeng.com/a/20141218/13366161_0.shtml" target="_blank" title="曝朱云来曾让瑞信异常懊悔：员工称领导看不出人才" >曝朱云来曾让瑞信异常懊悔：员工称领导看</a></li>
+		<li>
+		<span class="no">8</span>
+		<span class="plsm">10291</span>
+		<a href="http://finance.ifeng.com/a/20141219/13367956_0.shtml" target="_blank" title="社科院报告指工资不会大涨 收入翻番目标遭质疑" >社科院报告指工资不会大涨 收入翻番目标</a></li>
+		<li>
+		<span class="no">9</span>
+		<span class="plsm">9829</span>
+		<a href="http://finance.ifeng.com/a/20141219/13367882_0.shtml" target="_blank" title="普京：和中国签天然气合同 即便打折也赚钱了" >普京：和中国签天然气合同 即便打折也赚</a></li>
+		<li class="end"><span class="no">10</span>
+		<span class="plsm">7510</span>
+		<a href="http://finance.ifeng.com/a/20141217/13361547_0.shtml" target="_blank" title="美国务卿：若普京识相 可结束对俄制裁" >美国务卿：若普京识相 可结束对俄制裁</a></li>
+</ul>
+           </div>
+        </div>
+    </div>
+</div>
+<div class="space37"></div>
+<div class="w1000 clearfix">
+	<div class="col_left">
+    	<div class="clearfix">
+        	<div class="title05">股票
+        		<div class="ad04">
+        			
+<!--s_finance_index_131011_ad_label_gupiao 2014.12.19 09:19:13-->
+<script type="text/javascript">try{aptracker.add(7481);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="7481,0,0,NULL,fixture"></var>
+
+<!--/s_finance_index_131011_ad_label_gupiao-->
+
+    			</div>
+			</div>
+        	<div class="w400">
+            	<div class="zhengc">
+                    <div class="title09"><a href="http://finance.ifeng.com/stock/fhbp/" target="_blank" title="政策">独家解盘</a></div>
+					<div>
+															<h4><a href="http://finance.ifeng.com/a/20141219/13369330_0.shtml" target="_blank" title="沪指创49月新高升破3100点 中字头股票爆发">沪指创49月新高升破3100点 中字头股票爆发</a></h4>
+								<p>截至收盘，沪指报3108.6点， 涨1.67%，深成指报10627.11点， 跌0.36%，创业板报1596.81点， 跌2.28%。板块方面：钢铁、港口航运、<a href="http://finance.ifeng.com/a/20141219/13369330_0.shtml" class="cRed" target="_blank" title="沪指创49月新高升破3100点 中字头股票爆发"> [详细]</a></p>
+						</div>
+					<ul>
+													<li><a href="http://finance.ifeng.com/a/20141219/13369445_0.shtml" target="_blank" title="比亚迪证实巴菲特未减持 H股涨近20%">比亚迪证实巴菲特未减持 H股涨近20%</a></li>
+							
+							<li><a href="http://finance.ifeng.com/a/20141219/13369419_0.shtml" target="_blank" title="跷跷板行情再现 沪指涨近2%创业板跌超2%">跷跷板行情再现 沪指涨近2%创业板跌超2%</a></li>
+							
+							<li><a href="http://finance.ifeng.com/a/20141219/13369411_0.shtml" target="_blank" title="国际油价持续下行利好航空业 板块大涨超4%">国际油价持续下行利好航空业 板块大涨超4%</a></li>
+							
+							<li><a href="http://finance.ifeng.com/a/20141219/13369397_0.shtml" target="_blank" title="海运股受益海上丝绸之路战略 集体飙升涨近4% ">海运股受益海上丝绸之路战略 集体飙升涨近4% </a></li>
+							
+						</ul>
+					        <div class="paomd" style="overflow: hidden;">
+            <div id="photolist01" class="photolist" style="position: relative; height: 10000px; overflow: visible; top: -123px;">  
+            <ul style="float: left;">
+                                <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369445_0.shtml" target='_blank'>比亚迪证实巴菲特未减持 H股涨近20%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369419_0.shtml" target='_blank'>跷跷板行情再现 沪指涨近2%创业板跌超2%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369411_0.shtml" target='_blank'>国际油价持续下行利好航空业 板块大涨超4%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369397_0.shtml" target='_blank'>海运股受益海上丝绸之路战略 集体飙升涨近4% </a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369386_0.shtml" target='_blank'>煤炭出口关税下调至3% 板块涨近2%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369384_0.shtml" target='_blank'>众筹融资管理办法公布 券商板块冲高回落跌近2%</a></li>
+                    <li><span style='font-weight:bold;'>最��播报</span><a href="http://finance.ifeng.com/a/20141219/13369346_0.shtml" target='_blank'>国资委审议国资改革要点 电力股飙涨近2%两股涨停</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369339_0.shtml" target='_blank'>一带一路炒作逻辑延伸至钢铁 板块大涨近5%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369330_0.shtml" target='_blank'>沪指创49月新高升破3100点 中字头股票爆发</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369220_0.shtml" target='_blank'>国资委审议国资改革要点 电力股集体飙升涨近3%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369189_0.shtml" target='_blank'>两桶油发力 沪指涨近2%站稳3100点</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369177_0.shtml" target='_blank'>沪指探底回升大涨近2%冲破3100点</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369162_0.shtml" target='_blank'>一带一路炒作逻辑延伸至钢铁 板块大涨超5%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369128_0.shtml" target='_blank'>跷跷板行情再现 沪指涨1%创业板跌近3%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13369118_0.shtml" target='_blank'>沪指午后探底回升大涨超1% 高铁领涨两市</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368926_0.shtml" target='_blank'>跷跷板行情再现 沪指跌0.48%创业板跌超3%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368919_0.shtml" target='_blank'>众筹融资管理办法公布 券商板块冲高回落跌超2%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368913_0.shtml" target='_blank'>海运股受益海上丝绸之路战略 集体飙升涨近3% </a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368910_0.shtml" target='_blank'>煤炭出口关税下调至3% 板块冲高回落跌0.14%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368897_0.shtml" target='_blank'>沪指低开低走跌0.48% 创业板大跌超3%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368833_0.shtml" target='_blank'>沪指加速跳水跌超1% 创业板暴跌近4%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368804_0.shtml" target='_blank'>沪指冲高回落跌0.1% 创业板跌2.94%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368746_0.shtml" target='_blank'>沪指冲高不成回落涨0.29% 创业板跌2.44%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368705_0.shtml" target='_blank'>早盘跷跷板行情再现 沪指大涨1%创业板跌2%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368684_0.shtml" target='_blank'>沪指涨1.1%再创新高 航运板块领涨两市</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368654_0.shtml" target='_blank'>浦东金桥参股东方证券 股价连续2天涨停</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368626_0.shtml" target='_blank'>体育产业资源交易平台启动 雷曼光电冲击涨停</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368557_0.shtml" target='_blank'>煤炭出口关税下调至3% 煤炭板块大涨超2%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368546_0.shtml" target='_blank'>沪指低开高走涨0.21% 港口航运板块领涨两市</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368508_0.shtml" target='_blank'>国际油价持续下行利好航空业 空运板块大涨近2%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368491_0.shtml" target='_blank'>海运股受益海上丝绸之路战略 集体飙升涨近3% </a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368474_0.shtml" target='_blank'>私募股权众筹融资管理办法 券商板块拉升近2%</a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368454_0.shtml" target='_blank'>招商轮船一字涨停 受益海上丝绸之路战略部署 </a></li>
+                    <li><span style='font-weight:bold;'>最新播报</span><a href="http://finance.ifeng.com/a/20141219/13368444_0.shtml" target='_blank'>两市双双低开 沪指跌0.15%</a></li>
+            </div>
+        </div>	
+                </div>
+                <div class="space13"></div>
+                <div class="zhengc">
+                   <div class="title06"><a href="http://finance.ifeng.com/stock/jshq/index.shtml" target="_blank" title="市场消息">市场消息</a></div>
+  					
+
+
+                        <ul class="pnone">
+                        
+                         
+   
+   <li>  <a href="http://finance.ifeng.com/a/20141219/13368000_0.shtml"
+target="_blank">湄公河合作促铁路出海 铁路建设板块迎机遇</a> </li> 
+ 
+  
+ 
+   
+
+ <li><a href="http://finance.ifeng.com/a/20141219/13367917_0.shtml"
+target="_blank">中央农村工作会议将召开 一号文件概念迎来播种期(股)</a>
+</li>
+
+
+
+
+  <li><a href="http://finance.ifeng.com/a/20141219/13367582_0.shtml"
+target="_blank">园林企业分食生态环保万亿市场 有望迎来估值提升</a></li>
+     
+    <li><a href="http://finance.ifeng.com/a/20141219/13367637_0.shtml"
+ target="_blank">31亿元兜底“黑天鹅”成飞集成</a> <a href="http://finance.ifeng.com/a/20141219/13367412_0.shtml"
+ target="_blank">游资成救世主</a> <a href="http://finance.ifeng.com/a/20141219/13367565_0.shtml"
+ target="_blank">散户悲喜交加</a>  </li> 
+
+   
+   <li> <a href="http://finance.ifeng.com/a/20141219/13367597_0.shtml"
+target="_blank">券商股调整引机构博弈</a> <a href="http://finance.ifeng.com/a/20141219/13367397_0.shtml"
+target="_blank">融资买入额增近五倍</a> <a href="http://finance.ifeng.com/a/20141219/13367491_0.shtml"
+target="_blank">评：暴涨是空涨</a> </li> 
+
+
+
+    
+ 
+          
+                       
+                       
+                        </ul>
+                 </div>
+                <div class="space13"></div>
+                <div class="tydm">
+                    <div class="title06"><a href="http://finance.ifeng.com/stock/ssgs/" target="_blank" title="上市公司">上市公司</a></div>
+					<ul class='list_06_01'><li><span class="cGreen">-4.31%</span><span><a href="http://finance.ifeng.com/app/hq/stock/sz002487/" target="_blank">大金重工</a></span><a href='http://finance.ifeng.com/a/20141219/13369783_0.shtml' target='_blank' title='大金重工董事节洪臣豪掷1.3亿增持自家股'>大金重工董事节洪臣豪掷1.3亿增持自家股</a></li><li><span class="cGreen">-1.95%</span><span><a href="http://finance.ifeng.com/app/hq/stock/sh600293/" target="_blank">三峡新材</a></span><a href='http://finance.ifeng.com/a/20141219/13369705_0.shtml' target='_blank' title='三峡新材虚增利润遭证监会警告并罚款40万'>三峡新材虚增利润遭证监会警告并罚款40万</a></li><li><span class="cGreen">-1.86%</span><span><a href="http://finance.ifeng.com/app/hq/stock/sh600660/" target="_blank">福耀玻璃</a></span><a href='http://finance.ifeng.com/a/20141219/13367756_0.shtml' target='_blank' title='卢布大贬值 福耀玻璃俄罗斯项目蒙尘'>卢布大贬值 福耀玻璃俄罗斯项目蒙尘</a></li><li><span class="cRed">0.42%</span><span><a href="http://finance.ifeng.com/app/hq/stock/sh600016/" target="_blank">民生银行</a></span><a href='http://finance.ifeng.com/a/20141219/13367746_0.shtml' target='_blank' title='安邦成民生银行第一大股东 '>安邦成民生银行第一大股东 </a></li><li><span class="cRed">2.85%</span><span><a href="http://finance.ifeng.com/app/hq/stock/sz002594/" target="_blank">比亚迪</a></span><a href='http://finance.ifeng.com/a/20141219/13367734_0.shtml' target='_blank' title='比亚迪暴跌或因某富豪被斩仓 '>比亚迪暴跌或因某富豪被斩仓 </a></li></ul>
+                </div>
+                <div class="box400_01">
+                	
+<!--s_finance_index_131011_ad_banner06 2014.12.19 09:19:13-->
+<script type="text/javascript">try{aptracker.add(7472);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="7472,24944,8590,夏岩,B1"></var><script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?bc06267c5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLkbrAyNdvv3HbD__EUH46RxUJHeHehHiB5iE3oYi0pE1cbwdla4D-bMkGcwwUBFvf0FTFPhUBupM50qGIVOw4XfkgV4su4At34IIEndTcMtW4F0d029DFdxFSg_7q_1LRk5qVlmsfEqlaEFszShWaArWkhmjEXU3HAXJRDgwhRt4nF6eo-Ke2O8XaLjUOh5K50F92SotmUcsKaBrbGHEKOC16p_mJW1KaZpinD4jg-OBci3g7SItwxPfzsVUYCcePgO6tnLM_lE1V-yot9ecyJHIlCtl_57NhfehtSfxdzpU8N-PYx7qFXQDIRFUWxWQIbY_WFb0iY10SEWOqx8T-hRH_8ABpVSq-cDXD3jncoloBaDMV85GpayfwKo6Okyj0cM_CumIy4sqEozkZx_0df';
+var ad = 'http://y0.ifengimg.com/mappa/2014/12/16/3863924f169107250e54901e0df8fe37.swf';
+var w = '400';var h = '150';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+<script type="text/javascript">
+var mfp_channel =  "1";
+var mfp_host = "http://q.s.cr-nielsen.com/mfp/mfpMultipleDelivery.do";
+var mfp_user_cookie_name = "mfp_uid";
+var mfp_js="http://s.cr-nielsen.com/survey.js";
+var pv_rate=0.1;
+var mfp_attrs = "";
+(function () {
+   var D=document;
+	this.MFP = {displays:[]};
+	var h = D.getElementsByTagName("head")[0];
+	var s = D.createElement("script");
+	s.type = "text/javascript";
+	s.charset = "utf-8";
+	s.src = mfp_js;
+	h.firstChild?h.insertBefore(s,h.firstChild):h.appendChild(s);
+})();
+MFP.displays.push("div-guru-ad-464");
+</script>
+
+<!--/s_finance_index_131011_ad_banner06-->
+
+				</div>
+             </div>
+            <div class="w240">
+            	<div class="bankdx">
+            		                  <div class="title10 clearfix">
+                        <a class="tesd" href="http://finance.ifeng.com/zjlx/" title="资金流向" target="_blank">资金流向</a>
+                  </div>    
+                  <ul class="clearfix">
+					    <li  >
+      <p><a href="http://app.finance.ifeng.com/list/stock_cate.php?c=400116097" target="_blank">水运板块</a></p>
+      <span  >9.14%</span>
+    </li>
+    <li  >
+      <p><a href="http://app.finance.ifeng.com/list/stock_cate.php?c=400116083" target="_blank">建筑板块</a></p>
+      <span  >8.49%</span>
+    </li>
+    <li  style="margin-right:0px;"  >
+      <p><a href="http://app.finance.ifeng.com/list/stock_cate.php?c=400116102" target="_blank">航空板块</a></p>
+      <span  >7.47%</span>
+    </li>
+
+
+    <li  >
+      <p><a href="http://app.finance.ifeng.com/list/stock_cate.php?c=400116214" target="_blank">出版板块</a></p>
+      <span  class="green_02" >-3.17%</span>
+    </li>
+    <li  >
+      <p><a href="http://app.finance.ifeng.com/list/stock_cate.php?c=400116232" target="_blank">林业板块</a></p>
+      <span  class="green_02" >-3.06%</span>
+    </li>
+    <li  style="margin-right:0px;"  >
+      <p><a href="http://app.finance.ifeng.com/list/stock_cate.php?c=400116221" target="_blank">广电板块</a></p>
+      <span  class="green_02" >-2.97%</span>
+    </li>
+
+                  </ul>
+              </div>
+                <div class="space18"></div>
+                <div class="fangwen">
+                   <ul id="yb01" class="labe_01 clearfix">
+                     <li class="current">最近访问股</li>
+                     <li class="">我的自选股</li>
+                   </ul>
+                   <div id="yb01-1" style="display: block; height: 270px;">
+                      <div id="latest_stock" class="abo_02"><table width="100%" border="0"><thead><tr><th width="65">股票名称</th><th width="50">股价</th><th width="65">涨跌幅</th><th>研报</th></tr></thead><tbody><tr><td><a href="http://finance.ifeng.com/app/hq/stock/sh000001/" target="_blank">上证指数</a></td><td class="glv fl14">2021.73</td><td class="glv fl14">-0.17%</td><td>--</td></tr></tbody></table></div>
+                   </div>
+                   <div id="yb01-2" style="display: none; height: 270px;">
+					<style>
+						.add_stock{display: block;width: 80px;border: 1px solid #c7dbef;height: 19px;background: #fff;margin: auto;}
+						.tb0{ margin:30px auto 0;}
+                        .tb0 td{ text-align:right;padding: 0;border: 0;height: 28px;line-height: 28px;}
+						.add_stock a:link, .add_stock a:visited{display: block;height: 18px;line-height: 18px ;padding: 0 10px;margin-top: 1px;background: #ebf5ff;color: #334fa0;width: 60px;position: relative;text-align: center;}
+                        .add_stock a:hover, .add_stock a:active, .add_stock a:focus{text-decoration: none;background: #f5faff;color: #334fa0;}
+                        </style>
+                      <div id="mystock3"><div class="login">	<form name="usr_login_box" action="" method="get">		<label><span>用户名：</span><input type="text" id="username3" name="username3" class="input_style01"></label><br>		<label><span>密&nbsp;&nbsp;码：</span><input type="password" id="password3" name="password3" onKeyDown="mystock3_key_evt(event)" class="input_style01"></label>        <label class="clearfix"><div class="seach_right clearfix"><a style="cursor:pointer;" onClick="javasript:mystock3_login();" class="dl">登录</a><a class="dl2" href="http://ucenter.ifeng.com/new-account" target="_blank">注册</a>    </div></label></form></div>
+                            <table class="tb0">
+                        	<tbody id="tbodyPort">
+                        		<tr><td style="line-height: 40px; text-align: center; color: rgb(153, 153, 153);" colspan="3">您尚未添加自选股</td></tr>
+                        		<tr><td style="text-align: center;" colspan="3">
+                        			<span class="add_stock"><a href="http://app.finance.ifeng.com/custom/mystock.php" target="_blank">添加股票+</a></span>
+                    				</td>
+                				</tr>
+            				</tbody>
+        				</table>
+</div>
+                   </div>			
+                   <script src="http://y3.ifengimg.com/38716b164e0f5e63/2013/1009/nav.1.2.js"></script>
+                </div>
+                <div class="space18"></div>
+                <div class="jspx">
+ 					                 <div class="title10 clearfix">
+                    <a href="http://app.finance.ifeng.com/list/stock.php?t=ha"  class="tesd" target="_blank" title="即时排行">即时排行</a>
+                    <div class="sjky">
+                        <span id="nowtime">15:36</span>
+                        <a href="http://finance.ifeng.com/app/hq/" target="_blank" title="行情中心">行情中心</a>
+                    </div>
+                 </div>
+                  <div class="paih">
+                      <div class="title_03a clearfix"><a class="gpmc" id="zd_name">股票名称</a><a style="cursor: pointer;" class="zdfj" id="zd_type" onClick="checkLi()">涨跌幅</a></div>
+                      <!--130906a end这块如果点击变成向下箭头的为class="zdfj_02"  向上为class="zdfj"   无样式 zdfj_01-->
+                      <div id="tabControlTheme">
+                          <ul id="yb02" class="labe_02">
+                              <li class="current" onClick="rTab1.childShow(0, 0)"><a href="javascript:void(0);">个股涨跌</a></li>
+                              <li onClick="rTab1.childShow(6, 1)"><a href="javascript:void(0);">5分钟涨跌</a></li>
+                              <li onClick="rTab1.childShow(5, 2)"><a href="javascript:void(0);">量比排名</a></li>
+                              <li onClick="rTab1.childShow(9, 3)"><a href="javascript:void(0);">换手排名</a></li>
+                              <li onClick="rTab1.childShow(2, 4)"><a href="javascript:void(0);">板块涨幅</a></li>
+                              <li onClick="rTab1.childShow(12, 5)"><a href="javascript:void(0);">概念涨跌</a></li>
+                          </ul>
+                      </div> 
+                      <div class="ybkey" id="rankResult">
+                      <table width="100%" border="0" cellpadding="0" cellspacing="0" class="listR1115"><tbody><tr><td style="width:85px"><a href="http://finance.ifeng.com/app/hq/stock/sz002463/" target="_blank">沪电股份</a></td><td class="gred"><span style="font-size:14px; text-align:right; padding-right:10px;">10.14%</span></td></tr><tr><td><a href="http://finance.ifeng.com/app/hq/stock/sh600063/" target="_blank">皖维高新</a></td><td class="gred"><span style="font-size:14px; text-align:right; padding-right:10px;">10.09%</span></td></tr><tr><td><a href="http://finance.ifeng.com/app/hq/stock/sh600606/" target="_blank">金丰投资</a></td><td class="gred"><span style="font-size:14px; text-align:right; padding-right:10px;">10.09%</span></td></tr><tr><td><a href="http://finance.ifeng.com/app/hq/stock/sh600480/" target="_blank">凌云股份</a></td><td class="gred"><span style="font-size:14px; text-align:right; padding-right:10px;">10.07%</span></td></tr><tr><td><a href="http://finance.ifeng.com/app/hq/stock/sz002442/" target="_blank">龙星化工</a></td><td class="gred"><span style="font-size:14px; text-align:right; padding-right:10px;">10.07%</span></td></tr><tr><td><a href="http://finance.ifeng.com/app/hq/stock/sz002342/" target="_blank">巨力索具</a></td><td class="gred"><span style="font-size:14px; text-align:right; padding-right:10px;">10.07%</span></td></tr><tr><td><a href="http://finance.ifeng.com/app/hq/stock/sz002254/" target="_blank">泰和新材</a></td><td class="gred"><span style="font-size:14px; text-align:right; padding-right:10px;">10.05%</span></td></tr><tr><td><a href="http://finance.ifeng.com/app/hq/stock/sz000401/" target="_blank">冀东水泥</a></td><td class="gred"><span style="font-size:14px; text-align:right; padding-right:10px;">10.05%</span></td></tr><tr><td><a href="http://finance.ifeng.com/app/hq/stock/sz002282/" target="_blank">博深工具</a></td><td class="gred"><span style="font-size:14px; text-align:right; padding-right:10px;">10.05%</span></td></tr></tbody></table></div>
+                  </div>
+                  
+<script>	
+var pos1 = true;
+var pos2 = '0';
+var _arr = [[0, 1], [6, 7], [5], [9], [2, 3], [12, 13]];
+function checkLi()
+{
+    var isNum;
+    var a = _arr[parseInt(pos2)];
+    if(a.length === 1) {
+        isNum = a[0];
+    } else {
+        isNum = pos1 ? a[1] : a[0];
+    }
+    pos1 = !pos1;
+    rTab1.childShow(isNum, pos2);
+}
+var financeRankTab = function () {
+    var li_dom  = null,
+        li_len  = 0,
+        c_name  = '',
+        r_type  = 0,
+        callback= '',
+        timer;
+    function G(val) { return document.getElementById(val)}
+    function show (val, cb, cls) {
+        li_dom = G(val).getElementsByTagName('li');
+        li_len = li_dom.length;
+        c_name = cls || 'current';
+        callback = cb;
+    }
+    function child_show (val, i) {
+        pos2 = i;
+        // 清除记时器
+        // clearTimeout(timer);
+        r_type = val;
+        for (var i = 0; i < li_len; i++) {
+            li_dom[i].className = '';
+        }
+        li_dom[pos2].className = c_name;
+        getResult();	
+        if( val == 5 ) {
+            G('zd_type').innerHTML  = '量比';
+            G('zd_type').className  = 'zdfj_01';
+        } else if ( val == 9 ) {
+            G('zd_type').innerHTML  = '换手率';
+            G('zd_type').className  = 'zdfj_01';
+        } else if ( val == 2 || val == 3 || val == 12 || val == 13 ) {
+            G('zd_type').innerHTML  = "涨跌幅";
+            if(val==3 || val == 13 )
+            {
+                G('zd_type').className  = 'zdfj_02';
+            }else
+            {
+                G('zd_type').className  = 'zdfj';
+            }
+        } else {
+            if ( val == 1 || val ==7) {
+                G('zd_type').className  = 'zdfj_02';
+            }else
+            {
+                G('zd_type').className  = 'zdfj';
+            }
+            G('zd_name').innerHTML  = '股票名称';
+            G('zd_type').innerHTML  = '涨跌幅';
+        }
+    }
+    function loadScript(url) {
+        var ahead   = document.head || document.getElementsByTagName( "head" )[0] || document.documentElement;
+        var ascript = document.createElement('script');
+        ascript.src = url;
+        ascript.type= 'text/javascript';
+        ahead.appendChild(ascript);
+        ascript.onload = ascript.onreadystatechange = function() {
+            if( !ascript.readyState || /loaded|complete/.test( ascript.readyState ) ) {
+                ahead.removeChild(ascript);
+            }
+        }
+    }
+    function getResult() {
+        G('rankResult').innerHTML = '<img src="http://img.ifeng.com/tres/finance/deco/2011/1029/loading.gif" border="0px" width="150px" height="29px" style="margin-left:4px; margin-top: 90px;" />';
+        var url = 'http://app.finance.ifeng.com/stockindex/getStockRank.php?type=' + r_type + '&callback=rTab1.showResult';
+        loadScript(url);
+        // 设置计时器
+        //timer = setTimeout(function() { getResult() }, 60000);
+    }
+    function showResult(data) {
+        var sh_html = '';
+        sh_html = '<table width="100%" border="0" cellpadding="0" cellspacing="0" class="listR1115">';
+        if (data['type'] == 0 || data['type'] == 1) {
+                var tmp_arr = data['data'];
+                for ( var i in tmp_arr ) {
+                    if ( i < 9 ) {
+                    var __s = i == 0 ? ' style="width:85px" ' : '';
+                    var pct  = parseFloat(tmp_arr[i].chg_pct);
+                    var cls  = pct > 0 ? 'gred' : 'glv';
+                    var _val = data['type'] == 4 ? parseInt(parseFloat(tmp_arr[i].volume) / 100) : pct.toFixed(2) + '%';
+                    sh_html += '<tr>';
+                    sh_html += '<td '+__s+'><a href="http://finance.ifeng.com/app/hq/stock/'+tmp_arr[i].code+'/" target="_blank">'+tmp_arr[i].name+'</a></td>';
+                    sh_html += '<td class="'+cls+'"><span style="font-size:14px; text-align:right; padding-right:10px;">'+_val+'</span></td>';
+                    sh_html += '</tr>';
+                    }
+                }
+            
+        } else if ( data['type'] == 2 || data['type'] == 3 ) {
+            var tmp_arr = data['data'];
+            for ( var i in tmp_arr ) {
+                if ( i < 9 ) {
+                var __s  = i == 0 ? ' style="width:85px" ' : '';
+                var _c_n = tmp_arr[i].code.toString();
+                var _n   = tmp_arr[i].name.toString();
+                var pct  = parseFloat(tmp_arr[i].chg_pct);
+                var cls  = pct > 0 ? 'gred' : 'glv';
+                sh_html += '<tr>';
+                sh_html += '<td '+__s+'><a href="http://app.finance.ifeng.com/list/stock_cate.php?c='+_c_n.substring(3)+'/" target="_blank">'+_n.substring(0, 5)+'</a></td>';
+                sh_html += '<td class="'+cls+'"><span style="font-size:14px; text-align:right; padding-right:10px;">'+pct.toFixed(2)+'%</sqan></td>';
+                sh_html += '</tr>';
+                }
+            }
+        } else if ( data['type'] == 5 ) {
+            var tmp_arr = data['data'];
+            for ( var i in tmp_arr ) {
+                if ( i < 9 ) {
+                var __s  = i == 0 ? ' style="width:85px" ' : '';
+                var _c_n = tmp_arr[i].code.toString();
+                var _n   = tmp_arr[i].name.toString();
+                var pct  = parseFloat(tmp_arr[i].chg_pct);
+                var cls  = pct > 0 ? 'gred' : 'glv';
+                var _last= parseFloat(tmp_arr[i].last);
+                var _vol = parseFloat(tmp_arr[i].vol_ratio);
+                sh_html += '<tr>';
+                sh_html += '<td '+__s+'><a href="http://finance.ifeng.com/app/hq/stock/'+_c_n+'/" target="_blank">'+_n.substring(0, 5)+'</a></td>';
+                sh_html += '<td class="'+cls+'"><span style="font-size:14px; text-align:right; padding-right:10px;">'+_vol.toFixed(2)+'</span></td>';
+                sh_html += '</tr>';
+                }
+            }
+        } else if ( data['type'] == 6 || data['type'] == 7 ) {
+            var tmp_arr = data['data'];
+            for ( var i in tmp_arr ) {
+                if ( i < 9 ) {
+                var __s  = i == 0 ? ' style="width:85px" ' : '';
+                var _c_n = tmp_arr[i].code.toString();
+                var _n   = tmp_arr[i].name.toString();
+                var pct  = parseFloat(tmp_arr[i].chg_pct_5);
+                var cls  = pct > 0 ? 'gred' : 'glv';
+                var _last= parseFloat(tmp_arr[i].last);
+                sh_html += '<tr>';
+                sh_html += '<td '+__s+'><a href="http://finance.ifeng.com/app/hq/stock/'+_c_n+'/" target="_blank">'+_n.substring(0, 5)+'</a></td>';
+                sh_html += '<td class="'+cls+'"><span style="font-size:14px; text-align:right; padding-right:10px;">'+pct.toFixed(2)+'%</span></td>';
+                sh_html += '</tr>';
+                }
+            }
+        } else if ( data['type'] == 9 ) {
+            var tmp_arr = data['data'];
+            for ( var i in tmp_arr ) {
+                if ( i < 9 ) {
+                var __s  = i == 0 ? ' style="width:85px" ' : '';
+                var _c_n = tmp_arr[i].code.toString();
+                var _n   = tmp_arr[i].name.toString();
+                var pct  = parseFloat(tmp_arr[i].chg_pct);
+                var _last= parseFloat(tmp_arr[i].last);
+                var _val = parseFloat(tmp_arr[i].turnover_rate);
+                var cls  = _val > 0 ? 'gred' : 'glv';
+                sh_html += '<tr>';
+                sh_html += '<td '+__s+'><a href="http://finance.ifeng.com/app/hq/stock/'+_c_n+'/" target="_blank">'+_n.substring(0, 5)+'</a></td>';
+                sh_html += '<td class="'+cls+'"><span style="font-size:14px; text-align:right; padding-right:10px;">'+_val.toFixed(2)+'%</span></td>';
+                sh_html += '</tr>';
+                }
+            }
+        } else if ( data['type'] == 10 || data['type'] == 11 ) {
+            var tmp_arr = data['data'];
+            for ( var i in tmp_arr ) {
+                if ( i < 9 ) {
+                var __s  = i == 0 ? ' style="width:85px" ' : '';
+                var _c_n = tmp_arr[i].code.toString();
+                var _n   = tmp_arr[i].name.toString();
+                var _nums = tmp_arr[i].hq_time;
+                var cls  = _nums > 0 ? 'gred' : 'glv';
+                var _last= parseFloat(tmp_arr[i].last);
+                sh_html += '<tr>';
+                sh_html += '<td '+__s+'><a href="http://finance.ifeng.com/app/hq/stock/'+_c_n+'/" target="_blank">'+_n.substring(0, 5)+'</a></td>';
+                sh_html += '<td class="'+cls+'"><span style="font-size:14px; text-align:right; padding-right:10px;">'+_nums+'</span></td>';
+                sh_html += '</tr>';
+                }
+            }
+        } else if ( data['type'] == 12 || data['type'] == 13 ) {
+            var tmp_arr = data['data'];
+            for ( var i in tmp_arr ) {
+                if ( i < 9 ) {
+                var __s  = i == 0 ? ' style="width:85px" ' : '';
+                var _c_n = tmp_arr[i].code.toString();
+                var _n   = tmp_arr[i].name.toString();
+                var _val = parseFloat(tmp_arr[i].chg_pct);
+                var cls  = _val > 0 ? 'gred' : 'glv';
+                sh_html += '<tr>';
+                sh_html += '<td '+__s+'><a href="http://app.finance.ifeng.com/list/stock_cate.php?c='+_c_n.substring(3)+'/" target="_blank">'+_n.substring(0, 4)+'</a></td>';
+                sh_html += '<td class="'+cls+'"><span style="font-size:14px; text-align:right; padding-right:10px;">'+_val.toFixed(2)+'%</span></td>';
+                sh_html += '</tr>';
+                }
+            }
+        }
+        sh_html += '</table>';
+        G('rankResult').innerHTML = sh_html;
+    }
+    return {show: show, getResult: getResult, showResult: showResult, childShow: child_show}
+};
+var rTab1 = financeRankTab();
+window.onload = function () {
+    rTab1.show('yb02', 'rTab1.showResult');
+    rTab1.getResult();
+}
+</script>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="col_right">
+		<div class="box09">
+    <div class="title_04">
+        <h4 style="margin-right:5px;">
+            <a href="http://finance.ifeng.com/news/pic/index.shtml
+" target="_blank" title="凤凰财经">图片新闻</a>
+        </h4>
+    </div>
+    <a href="http://finance.ifeng.com/a/20141219/13367900_0.shtml#p=1" target="_blank">
+        <img src="http://y1.ifengimg.com/a/2014_51/731b85948ae105f.jpg" />
+    </a>
+    <h5>
+        <a href="http://finance.ifeng.com/a/20141219/13367900_0.shtml#p=1" target="_blank">探密俄罗斯卢布印钞车间
+</a>
+    </h5>
+    <p>当地时间2014年12月4日，俄罗斯彼尔姆边疆区首府。彼尔姆印钞厂内，工作人员在包装成摞的面值1000的卢布钞票。<a href="http://finance.ifeng.com/a/20141219/13367900_0.shtml#p=1" class="cRed" target="_blank">[详细]</a>
+    </p>
+    
+</div>
+        <div class="space26"></div>		
+		<div class="lcExpress w270">
+			<div class="title_04"><h4><a href="http://18.ifeng.com" target="_blank" title="理财超市">理财超市</a></h4></div>
+			<div class="">
+				<ul id="nTab4" class="lcExp_tab clearfix">
+					<li>千元起</li>
+					<li>百万起</li>
+				</ul>
+			</div>
+			<div id="nTab4_Con1" class="lcExp_con2">
+<dl>
+    <dt class="clearfix"><span class="rt">类型　&nbsp;&nbsp;近一年收益</span>产品名称</dt>
+    <dd >
+        <div class="n">
+          <strong class="cRed">92.25%</strong>
+        <i class="h_risk">股票型</i><a target="_blank" href="http://finance.ifeng.com/app/hq/fund/of000251/index.shtml">工银金融地产</a></div>
+        <p><span>推荐理由：深度挖掘个股机会，行情趋势判断准确，主攻金融地产股，赚了指数更赚钱。</span></p>
+        <div class="lcExp_tools"><a onClick="isLoginFun('http://18.ifeng.com/gm?fundCode=000251'); return false;" href="javascript:void(0);"><img src="http://y0.ifengimg.com/77c0c5b26309970d/2014/0620/gs_05.png" width="46" height="18"/></a></div>
+    </dd>
+    <dd >
+        <div class="n">
+        <strong class="cRed">54.23%</strong>
+        <i class="h_risk">混合型</i><a target="_blank" href="http://finance.ifeng.com/app/hq/fund/of630015/">华商大盘精选配置</a></div>
+        <p><span>推荐理由：</span>优选大盘蓝筹股，成功把握市场轮动合理进行配置，近一年混合形型基金排名第一。</p>
+         <div class="lcExp_tools" style="display: none;"><a onClick="isLoginFun('http://18.ifeng.com/gm?fundCode=630015'); return false;" href="javascript:void(0);"><img src="http://y0.ifengimg.com/77c0c5b26309970d/2014/0620/gs_05.png" width="46" height="18"/></a></div>
+    </dd>
+    <dd >
+        <div class="n">
+        <strong class="cRed">20.60%</strong>
+        <i class="h_risk">QDII</i><a target="_blank" href="http://finance.ifeng.com/app/hq/fund/of160213/">国泰纳指100</a></div>
+        <p><span>推荐理由：</span>跟踪美国高新技术股，如苹果、谷歌、微软等，成长空间大。</p>
+        <div class="lcExp_tools" style="display: none;"><a onClick="isLoginFun('http://18.ifeng.com/gm?fundCode=160213'); return false;" href="javascript:void(0);"><img src="http://y0.ifengimg.com/77c0c5b26309970d/2014/0620/gs_05.png" width="46" height="18"/></a></div>
+    </dd>
+</dl>
+</div>
+			<div id="nTab4_Con2" class="lcExp_con2">
+ <dl>
+    <dt class="clearfix">产品名称</dt>
+    <dd class="clearfix">
+        <div class="bar1 lt">
+            <h6><a href="http://finance.ifeng.com/fund/xt/howtrust/TG0000765.shtml" tagert="_blank">盐城开新3期</a></h6>
+            <p><span>推荐理由：</span>一年期限政信产品，经济发达地区项目。</p>
+        </div>
+         <div class="bar2 rt">
+            <strong>预期收益</strong>
+            <span class="cRed">9.5%</span> 
+            <a href="http://finance.ifeng.com/fund/xt/subject/yckx3q.shtml" tagert="_blank">预约</a>
+                        </div>
+                    </dd>
+   
+   
+   
+    
+                   <dd class="clearfix">
+                        <div class="bar1 lt">
+                            <h6><a href="http://finance.ifeng.com/fund/xt/howtrust/TG0000763.shtml" tagert="_blank">沈阳和平国资应收账款8期</a></h6>
+                            <p><span>推荐理由：</span>资金用于受让标的应收账款债权。</p>
+                        </div>
+                         <div class="bar2 rt">
+                            <strong>预期收益</strong>
+                            <span class="cRed">9.8%</span> 
+                            <a href="http://finance.ifeng.com/fund/xt/subject/syhpgzyszk6q.shtml" tagert="_blank">预约</a>
+        </div>
+                    </dd>
+    
+    
+    
+    
+    <dd class="clearfix">
+        <div class="bar1 lt">
+            <h6><a href="http://finance.ifeng.com/fund/xt/howtrust/TG0000766.shtml" tagert="_blank">富甲桂林优先级2号</a></h6>
+                            <p><span>推荐理由：</span>地政府大力扶持基础建设增信措施完善。</p>
+                        </div>
+                         <div class="bar2 rt">
+                            <strong>预期收益</strong>
+                            <span class="cRed">11%</span> 
+                            <a href="http://finance.ifeng.com/fund/xt/subject/fjglyxj2h.shtml" tagert="_blank">预约</a>
+        </div>
+    </dd>
+</dl>
+</div>
+		</div>
+		<script>
+		var yb01=new TabControl();
+			yb01.addRange($('nTab4').getElementsByTagName('li'),['nTab4_Con1','nTab4_Con2']);
+			yb01.triggerType = "mouseover";
+			yb01.init();
+
+		jQuery(function ($){//理财超市
+				$(".lcExp_con2 dl dd").hover(function(){
+					$(this).find(".lcExp_tools").show();
+					$(this).css({background:"#ffffff"});
+				},function(){
+					$(this).find(".lcExp_tools").hide();
+					$(this).css({background:"#f8f8f8"})
+				});
+			})
+		</script>
+    </div>
+</div>
+<div class="space37"></div>
+<div class="w1000 clearfix">
+	<div class="col_left">
+    	<div class="clearfix">
+        	<div class="title05">金融</div>
+			<div class="w400">
+    <div class="zhen_pic02">
+        <a href="http://finance.ifeng.com/itfinance/index.shtml" target="_blank" title="imoney推荐：股权众筹监管落地 屌丝金融变高富帅游戏？">
+            <img src="http://y1.ifengimg.com/a/2014/1219/65a4d7b75f4f0b3.jpg" width="400" height="200" />
+        </a>
+    </div>
+    <div class="zhengcx">
+        <h4>
+            <a href="http://finance.ifeng.com/itfinance/index.shtml" target="_blank" title="imoney推荐：股权众筹监管落地 屌丝金融变高富帅游戏？">
+imoney推荐：股权众筹监管落地 屌丝变高富帅游戏？</a>
+        </h4>
+        <p>12月18日,在证监会创新业务监管部支持下，中国证券业协会发布了《私募股权众筹融资管理办法(试行)(征求意见稿)》。<a href="http://finance.ifeng.com/a/20141120/13292355_0.shtml" class="cRed" target="_blank" title="imoney推荐：股权众筹监管落地 屌丝金融变高富帅游戏？">[详细]</a>
+        </p>
+        <div class="space10">
+        </div>
+        <h4>
+            <a href="http://finance.ifeng.com/money/special/yxxtcs/" target="_blank" title="年收益超10%信托火爆在售">年收益超10%信托火爆在售</a>
+            <a href="http://finance.ifeng.com/money/special/yxsmcs/" target="_blank" title="王牌私募基金玩转A股">王牌私募基金玩转A股</a>
+        </h4>
+        <p>目前市场还处于牛市的形成阶段，往往上涨与调整相伴，投资者应对可能出现的适度回调有一定的预见，并抓住宝贵的入场机会。<a href="http://finance.ifeng.com/money/special/yxsmcs/" class="cRed" target="_blank" title="王牌私募基金玩转A股">[详细]</a>
+        </p>
+        <ul>
+        
+        
+         <li>
+                <a href="http://finance.ifeng.com/a/20141219/13367981_0.shtml" target="_blank">私募股权众筹办法征求意见：平台禁止联营P2P
+</a>
+            </li> 
+            
+            
+        
+         <li>
+                <a href="http://finance.ifeng.com/a/20141219/13368019_0.shtml" target="_blank">融资成本近两成 P2P股票配资谁敢玩</a>
+            </li>    
+            
+            
+          <li>
+         <a href="http://finance.ifeng.com/a/20141219/13368009_0.shtml" target="_blank">众筹平台不得兼营P2P业 投资者资产不低于300万
+</a>
+            </li>
+            
+            
+        
+     
+            
+            
+         <li>
+                <a href="http://finance.ifeng.com/a/20141219/13368442_0.shtml" target="_blank">P2P平台开启烧钱揽客模式 成本涨至少10倍</a>
+                 </li>
+                 
+                 
+          <li>
+                <a href="http://finance.ifeng.com/a/20141218/13364945_0.shtml
+" target="_blank">北京网贷协会成立：将设行业互助基金</a>
+            </li>
+            
+          
+            <li>
+                <a href="http://finance.ifeng.com/a/20141218/13365186_0.shtml
+" target="_blank">股市抢钱致赎回暴增 互联网金融苦战“提现潮”</a>
+            </li>
+            
+         <li>
+                <a href="http://finance.ifeng.com/a/20141218/13365193_0.shtml
+" target="_blank">2015年比特币猜想：可能会被其他物品取代</a>
+            </li>
+            
+        
+            
+            
+       
+            
+            
+            
+         
+                 
+                 
+               
+       
+                 
+            
+            
+   
+            
+            
+        
+         
+       
+            
+
+             
+           
+        
+           
+           
+           
+           
+         
+           
+            
+          
+           
+        </ul>
+    </div>
+</div>
+			           <div class="w240">
+                <ul class="list02" id="box_pictxt07">
+                  
+                  
+                  
+                   <li class="">
+                      <div class="pic">
+                      
+                        <a href="http://finance.ifeng.com/a/20141219/13367994_0.shtml" target="_blank">
+              <img src="http://y1.ifengimg.com/a/2014/1219/b649f3e66ee588c.jpg" width="238" height="158" title="【逝者】一个宜信业务员的死去" alt="【逝者】一个宜信业务员的死去">
+           </a>
+                      </div>
+                      <div class="txt02"><a href="http://finance.ifeng.com/a/20141219/13367994_0.shtml" target="_blank">【逝者】一个宜信业务员的死去</a></div>
+                    </li>
+                    
+                    
+                    
+                <li class="">
+                      <div class="pic">
+                       <a href="http://finance.ifeng.com/a/20141219/13368069_0.shtml" target="_blank">
+              <img src="http://y1.ifengimg.com/a/2014/1218/488fb6039ea2ee6.jpg" width="238" height="158" title="
+众筹或告别“屌丝天使”" alt="
+众筹或告别“屌丝天使”">
+           </a>
+                      </div>
+                      <div class="txt02"><a href="http://finance.ifeng.com/a/20141219/13368069_0.shtml" target="_blank">
+众筹或告别“屌丝天使”</a></div>
+                     
+                    </li>  
+                    
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                    <li class="" style="margin-top:0px;">
+            
+                      <div class="pic">
+                                
+                     
+                       <a href="http://finance.ifeng.com/a/20141218/13365204_0.shtml" target="_blank">
+              <img src="http://y1.ifengimg.com/a/2014/1218/dbf3499bd36c02a.jpg" width="238" height="158" title="互联网金融是金融发展未来方向" alt="互联网金融是金融发展未来方向">
+           </a>
+                      </div>
+                      <div class="txt02"><a href="http://finance.ifeng.com/a/20141218/13365204_0.shtml" target="_blank">互联网金融是金融发展未来方向</a></div>
+                    </li>
+                    
+                    
+                
+                    
+                    
+                   
+                 </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col_right">
+            <div class="title_04 mt6">
+             <h4 style="margin-right:5px;"><a href="http://finance.ifeng.com/zhuanti/hy/" target="_blank" title="凤凰财经 财富派,财富生活,名流奢族，精英潮流，职场新范，品位艺术">会议报道</a></h4>
+        </div>
+        <div>
+    <div class="hybd clearfix">
+        <a href="http://finance.ifeng.com/news/special/xiyatuhuiyi/" target="_blank" title="2014中国绿公司年会"><img src="http://y0.ifengimg.com/a/2014_38/1e19c51f72791b3.png" width="105" height="70"></a>
+        <h3><a href="http://finance.ifeng.com/news/special/xiyatuhuiyi/" target="_blank" title="博鳌论坛西雅图会议">博鳌论坛西雅图会议</a></h3>
+        <p>
+            9月4日-9月6日
+        </p>
+    </div>
+    
+             <div class="hybd clearfix">
+            <h3><a href="http://finance.ifeng.com/news/special/2014summerdavos/" target="_blank" title="凤凰财经">2014年达沃斯论坛</a></h3>
+            <p>9月10日-9月12日</p>
+        </div>  
+    
+       <div class="hybd clearfix">
+            <h3><a href="http://finance.ifeng.com/news/special/2014summerdavos/jjjfh.shtml" target="_blank" title="京津冀一体化峰会">京津冀一体化峰会</a></h3>
+            <p>9月8日-9月9日</p>
+        </div>
+        
+        
+        
+             
+    
+
+        
+       <div class="hybd clearfix" style="border-bottom:none;"
+>
+            <h3><a href="http://finance.ifeng.com/news/special/2014wudaokou/" target="_blank" title="凤凰财经">清华五道口全球金融论坛</a></h3>
+            <p>5月10日-5月12日</p>
+        </div>
+    
+
+         <div class="hybd clearfix">
+            <h3><a href="http://finance.ifeng.com/news/special/2014lgs/" target="_blank" title="2014中国绿公司年会">2014中国绿公司年会</a></h3>
+            <p>4月20日-4月22日</p>
+        </div>
+
+           <div class="hybd clearfix">
+            <h3><a href="http://finance.ifeng.com/news/special/chengzhenhua2014/" target="_blank" title="2014城镇化">2014中国城镇化高层国际论坛</a></h3>
+            <p>4月18日-4月20日</p>
+        </div>
+   
+    
+                <div class="hybd clearfix">
+            <h3><a href="http://finance.ifeng.com/news/special/2014boao/" target="_blank" title="凤凰财经">博鳌亚洲论坛2014年年会</a></h3>
+            <p>4月8日-4月11日</p>
+        </div>
+   
+   
+    <div class="hybd clearfix">
+            <h3><a href="http://finance.ifeng.com/news/special/2014zgfzgc/" target="_blank" title="凤凰财经">2014中国发展高层论坛</a></h3>
+            <p>3月22日-3月24日</p>
+        </div>
+
+</div>
+    </div>
+</div>
+<div class="foot" id="foot">
+    <div class="w1000">
+    	<div class="col_02 clearfix">
+          <div class="col_02_l">
+			            <div class="box_12">
+    <div class="title11">友情链接</div>
+    <div class="list10">
+        <ul>
+            <li>
+                <a title="凤凰周刊" target="_blank" href="http://www.ifengweekly.com/">凤凰周刊</a>
+                <a title="财经网" target="_blank" href="http://www.caijing.com.cn/?ifeng">财经网</a>
+                <a title="21世纪网" target="_blank" href="http://www.21cbh.com/?ifeng">21世纪网</a>
+                <a title="环球企业家" target="_blank" href="http://www.gemag.com.cn/?ifeng">环球企业家</a>
+                <a title="一财网" target="_blank" href="http://www.yicai.com/?ifeng">一财网</a>
+            </li>
+            <li>
+                 <a title="百度财富" href="http://caifu.baidu.com/?zt=18feng" target="_blank">百度财富</a>
+               <a title="路透" href="http://cn.reuters.com/?ifeng" target="_blank">路透</a>
+                <a title="凤凰金融" target="_blank" href="http://www.fengjr.com/">凤凰金融</a>
+                <a title="全景网" target="_blank" href="http://www.p5w.net/?ifeng">全景网</a>
+                <a title="华夏能源网" target="_blank" href="http://www.sinoergy.com/">华夏能源网</a>
+            </li>
+            <li>
+               <a title="经济观察网" target="_blank" href="http://www.eeo.com.cn/?ifeng">经济观察报</a>
+                 <a title="每经网" href="http://www.nbd.com.cn/?ifeng" target="_blank">每日经济新闻</a> 
+                <a title="哈佛商业评论" href="http://cn.hbr.org/?ifeng" target="_blank">哈佛商业评论</a>
+
+                <a title="乐钱" href="https://www.leqian.com/?ifeng" target="_blank">乐钱</a>
+            </li>
+            <li>
+                <a title="中国央行" href="http://www.pbc.gov.cn/?ifeng" target="_blank">中国央行</a>
+                <a title="香港金管局" target="_blank" href="http://www.hkma.gov.hk/chi/?ifeng">香港金管局</a>
+                <a title="中国证监会" href="http://www.csrc.gov.cn/pub/newsite/?ifeng" target="_blank">中国证监会</a>
+                
+                <a title="凤凰金融" href="http://www.fengjr.com/?ifeng" target="_blank">凤凰金融</a>
+
+            </li>
+        </ul>
+    </div>
+</div>  	
+          </div>
+          <div class="col_02_m">
+			                        <div class="box_13">
+              <div class="title11">优势栏目与产品</div>
+              <div class="list10">
+                <ul>
+                  <li>
+                                    <a title="财知道" target="_blank" href="http://finance.ifeng.com/news/special/caizhidao/">财知道</a>
+                  <a title="总裁在线" target="_blank" href="http://finance.ifeng.com/news/ceoonline/">总裁在线</a>
+                  <a title="传奇" target="_blank" href="http://finance.ifeng.com/news/legends/">传奇</a>
+                                                      <a title="财富派" target="_blank" href="http://finance.ifeng.com/lifeofwealth/">财富派</a></li>          
+                  <li><a title="炒股大赛" target="_blank" href="http://chaogu.ifeng.com/">炒股大赛</a>
+                  <a title="图解资金流向" target="_blank" href="http://tjzj.finance.ifeng.com/">图解资金流向</a>
+                  <br>
+                                    <a title="股民维权平台" target="_blank" href="http://315.ifeng.com/">股民维权平台</a>                 
+                  <a title="基金筛选器" target="_blank" href="http://app.finance.ifeng.com/finance/fundhtml/indexsearch.php">基金筛选器</a></li>
+                </ul>
+              </div>
+            </div>	
+          </div>
+          <div class="col_02_r">
+			                        <div class="box_14">
+              <div class="logo"><img src="http://y0.ifengimg.com/a/2013/0930/g51.png" width="131" height="27"></div>
+              <div class="list10">
+                <ul>
+                  <li>凤凰新媒体  财经频道</li>
+                  <li>互动邮箱：<a href="mailto:all_cj@ifeng.com">all_cj@ifeng.com</a></li>
+                  <li style="margin-right:0;">凤凰财经官方微博<br>
+                  <a target="_blank" href="http://weibo.com/financeifeng/">http://weibo.com/financeifeng/</a></li>
+                </ul>
+              </div>
+            </div>  	
+          </div>
+		 <div class="col_wei"><img src="http://y0.ifengimg.com/a/2013/1031/weixin.gif" width="83px" height="98px"/></div>	
+        </div>
+        <div class="space30"></div>
+        <div style="height:90px;overflow:hidden;" class="w1000">
+        	
+<!--s_finance_index_ad_banner_bottom_1000x90 2014.12.19 09:17:37-->
+<script type="text/javascript">try{aptracker.add(265);}catch(e){}</script>
+
+
+<div id="AP479" style="display:none;">
+<code>
+<!--BOF
+
+<var style="display:none;" v="265,0,0,NULL,fixture"></var><iframe src="http://www.ifeng.com/ssi-incs/s_all_index_ad_banner_bottom.inc.html" scrolling="no" frameborder="0" style="width:1000px; height:90px; border:0px;background-color=transparent;" allowtransparency="true"></iframe>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		document.write("<div id='div-gpt-ad-1414131347567-0' style='width:1000px; height:90px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1414131347567-0'); });</" + "script></div>");	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP479"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+
+
+<!--/s_finance_index_ad_banner_bottom_1000x90-->
+
+    	</div>
+        <div align="center">
+			<style>
+	.footer { width: 1000px; margin: 0 auto; }
+	.footer .footlink { color: #000; height: 28px; line-height: 28px; padding-top: 15px; border-top: 1px solid #fff; overflow: hidden; }
+	.footer .footlink a { color: #000; }
+	.footer .footlink span { padding: 0 5px; }
+	.footer .fk_l { float: left; }
+	.footer .fk_r { width: 200px; float: right; }
+	.footer .fk_r ul { overflow: hidden; }
+	.footer .fk_r ul li { height: 28px; line-height: 28px; overflow: hidden; float: left; }
+	.footer .fk_r ul .l_bg001 { background: url(http://y1.ifengimg.com/38716b164e0f5e63/2013/0716/nav0416_14.gif) no-repeat left 9px; padding-left: 19px; }
+	.footer .fk_r ul .l_bg002 { background: url(http://y3.ifengimg.com/9db17ab793eef980/2013/0403/nav0416_17.gif) no-repeat left 9px; padding-left: 17px; margin-left: 18px; }
+	.footer .copyright { font-family: Arial; color: #666; height: 28px; line-height: 28px; text-align: center; overflow: hidden; }
+	.footer .copyright span { font-family: "宋体"; }
+</style>
+<div class="footer mt02" id="footer">
+	<div class="footlink clearfix">
+		<div class="fk_l">
+			<a href="http://www.ifeng.com/corp/about/intro/" target="_blank">凤凰新媒体介绍</a><span>|</span><a href="http://ir.ifeng.com/" target="_blank">投资者关系 Investor Relations</a><span>|</span><a href="http://biz.ifeng.com/" target="_blank">广告服务</a><span>|</span><a href="http://career.ifeng.com/" target="_blank">诚征英才</a><span>|</span><a href="http://www.ifeng.com/corp/privacy/" target="_blank">保护隐私权</a><span>|</span><a href="http://www.ifeng.com/corp/exemption/" target="_blank">免责条款</a><span>|</span><a href="http://help.ifeng.com/" target="_blank">意见反馈</a><span>|</span><a href="http://phtv.ifeng.com/intro/" target="_blank">凤凰卫视介绍</a>
+		</div>
+		<div class="fk_r">
+			<ul class="clearfix">
+				<li class="l_bg001"><a href="http://v.ifeng.com/" target="_blank" title="视频">视频</a></li>
+				<li>·<a href="http://v.ifeng.com/documentary/index.shtml" target="_blank" title="纪实">纪实</a></li>
+				<li>·<a href="http://v.ifeng.com/live/" target="_blank" title="直播">直播</a></li>
+				<li class="l_bg002"><a href="http://phtv.ifeng.com/" target="_blank" title="凤凰卫视">凤凰卫视</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="copyright"><span>凤凰新媒体&nbsp;版权所有</span>&nbsp;&nbsp;&nbsp;&nbsp;Copyright © 2013 Phoenix New Media Limited All Rights Reserved.</div>
+</div>
+<script>
+if((typeof device==="object")&&device.type!=="pc"){
+document.getElementById("footer").style.display="none";
+}
+</script>
+<script>var sta_collection_time = new Date().getTime();</script>
+<script src="http://y0.ifengimg.com/20140429/sta_collection.3.3.15.min.js" id="sta_collection_new"></script>
+<script src="http://m0.ifengimg.com/ifeng/sources/120331-iImpression.js"></script>
+<script>try{aptracker.collection();}catch(e){}</script>
+<!-- START WRating v1.0 -->
+<script type="text/javascript" src="http://y2.ifengimg.com/e01ed39fc2da5d4a/2014/0113/wrating.js"></script>
+<script type="text/javascript">
+	var vjAcc = "860010-2063990101";
+	var wrUrl = "http://ifeng.wrating.com/";
+	vjTrack("");
+</script>
+<noscript><img src="http://ifeng.wrating.com/a.gif?a=&c=860010-2063990101" width="1" height="1"/></noscript>
+<!-- END WRating v1.0 -->
+<!--[if !IE]>footer.140729<![endif]-->
+        </div>
+
+        
+    </div>
+</div>
+<!-- 有凤 begin -->
+<script src="http://finance.ifeng.com/js/youfeng2.min.js?321"></script>
+<!-- 有凤 end -->
+<script>
+
+(function(){
+   var oUl=document.getElementById('dl01');
+   var aLi=oUl.getElementsByTagName('dl');
+   for(var i=0;i<aLi.length;i++){
+   aLi[i].onmouseover=function(){
+	this.className='dl_bg';
+   };
+   aLi[i].onmouseout=function(){
+	this.className='';
+   };
+   }
+ })();
+				 
+var yb01=new TabControl();
+yb01.addRange($('yb01').getElementsByTagName('li'),['yb01-1','yb01-2']);
+yb01.triggerType = "mouseover";
+yb01.init();
+//跑马灯
+	var scroll_01= new ifeng_Scroll("photolist01","pre_9","next_9");
+	scroll_01.Speed=80;
+	scroll_01.IsSmoothScroll= false;
+	scroll_01.PauseTime = 2000;
+	scroll_01.Direction = "N";
+	scroll_01.Step =2;
+	scroll_01.ControllerType = "none";
+	scroll_01.BackCall = null;
+	scroll_01.Init();
+	scroll_01.Start();
+
+	var sign_map = Array();
+		sign_map['1'] = 'true';
+		sign_map['2'] = 'false';
+		sign_map['3'] = 'false';
+		sign_map['4'] = 'false';
+		sign_map['5'] = 'false';
+	var map = Array();
+		map['1'] = "http://finance.ifeng.com/app/img/small/nf_sh000001.gif";
+		map['2'] = "http://finance.ifeng.com/app/img/small/nf_sz399001.gif";
+		map['3'] = "http://finance.ifeng.com/app/img/small/nf_sh000011.gif";
+		map['4'] = "http://finance.ifeng.com/app/img/small/nf_hk10000.gif";
+		map['5'] = "http://finance.ifeng.com/app/img/small/rmb_usd3.gif";
+	//加载行情图
+	var load_hq_img = function(id) {
+		//设置舌签的开闭
+		for (var i = 1; i <= 5; i++)
+		{
+			document.getElementById("hq"+i).className = "";
+			document.getElementById("hq"+i+"_Layer").style.display = "none";				
+		}
+		document.getElementById("hq"+id).className = "current";
+		document.getElementById("hq"+id+"_Layer").style.display = "block";
+		
+		if (sign_map[id] == 'false') {
+		if(id<6){
+			document.getElementById("hq"+id+"_img").src = map[id];
+			sign_map[id] = true;
+			}
+		}			
+	};    
+</script>
+<script>
+//财富派焦点图
+	var tabControlSlide1=new TabControl();
+	tabControlSlide1.addRange($("controlSlide").getElementsByTagName("li"),getElementsByClassName($("tabSlide"),"div","bigPic03"));
+	tabControlSlide1.preButton='prevSlide';
+	tabControlSlide1.nextButton='nextSlide';
+	tabControlSlide1.autoLoop= true;
+	tabControlSlide1.triggerType='mouseover';
+	tabControlSlide1.enableSlide=true;
+	tabControlSlide1.slideInterval=5000;
+	tabControlSlide1.init();        
+	$("prevSlide").onmouseover=function(){O.setClass(this.getElementsByTagName("div")[0],"btnBgHover")};
+	$("nextSlide").onmouseover=function(){O.setClass(this.getElementsByTagName("div")[0],"btnBgHover")};
+	$("prevSlide").onmouseout=function(){O.setClass(this.getElementsByTagName("div")[0],"btnBg")};
+	$("nextSlide").onmouseout=function(){O.setClass(this.getElementsByTagName("div")[0],"btnBg")};
+
+	function onindex()
+	{
+		document.getElementById('prevSlide').style.display="block";
+		document.getElementById('nextSlide').style.display="block";
+	}
+	function outindex()
+	{
+		document.getElementById('prevSlide').style.display="none";
+		document.getElementById('nextSlide').style.display="none";
+	}
+
+	(function(){
+	var oUl=document.getElementById('box_pictxt05');
+	var aLi=oUl.getElementsByTagName('li');
+	for(var i=0;i<aLi.length;i++){
+	aLi[i].onmouseover=function(){
+	   this.className='bg_b';
+	};
+	aLi[i].onmouseout=function(){
+	   this.className='';
+	};
+	}
+	})();
+	
+	(function(){
+	var oUl=document.getElementById('box_pictxt06');
+	var aLi=oUl.getElementsByTagName('li');
+	for(var i=0;i<aLi.length;i++){
+	aLi[i].onmouseover=function(){
+	   this.className='bg_b';
+	};
+	aLi[i].onmouseout=function(){
+	   this.className='';
+	};
+	}
+	})();
+	
+	var entbest=new TabControl();
+	entbest.addRange($("tab1").getElementsByTagName("li"),['bc1','bc2']);	
+	entbest.triggerType = 'click'; 
+	entbest.defaultPage =0;
+	entbest.init();
+	
+	(function(){
+	var oUl=document.getElementById('box_pictxt07');
+	var aLi=oUl.getElementsByTagName('li');
+	for(var i=0;i<aLi.length;i++){
+	aLi[i].onmouseover=function(){
+	 this.className='bg_b';
+	};
+	aLi[i].onmouseout=function(){
+	 this.className='';
+	};
+	}
+	})();
+ </script>
+ <script src="http://y3.ifengimg.com/bdcf4cf3e91a35f5/2013/0704/78.js"></script>
+<script>
+/*鼠标滑过
+	jq(function () {
+    jq('.xpic').each(function () {
+        var sliders = jq(this).find('.Focus');
+        sliders.hover(
+        function () {
+            var jqthis = jq(this);
+            jqthis.find('.caption').stop(true, true).slideDown(0);
+        }, function () {
+            var jqthis = jq(this);
+            jqthis.find('.caption').stop(true, true).slideUp(300);
+        });
+    });
+});
+*/
+	jq(function () {
+        var sliders = jq("#addweixin1").find('td.Focus');
+        sliders.click(
+        function () {
+            jq(this).find('.caption').stop(true, true).slideDown(0);
+        }); 
+		sliders.mouseenter(function(){jq(this).find("span").addClass("current")})
+		sliders.mouseleave(function () {
+			jq(this).find("span").removeClass("current")
+            jq(this).find('.caption').stop(true, true).slideUp(300);
+        });
+	});
+
+//行情中心搜索
+var Suggest_hq =
+{
+	line : 0,
+	count : 0,
+	keyword : "",
+	type : "all",
+	form : "",
+	list_id : "",
+	move : function (_evt)
+	{
+		switch (_evt.keyCode)
+		{
+			case 38: //up
+				if (this.line > 1)
+				{
+					document.getElementById("suggest_"+this.line).className = "";
+					this.line = this.line - 1;
+					document.getElementById("suggest_"+this.line).className = "current";
+				}
+				break;
+			case 40: //down
+				if (this.line > 0 && this.line < this.count)
+				{
+					document.getElementById("suggest_"+this.line).className = "";
+				}
+				if (this.line < this.count)
+				{
+					this.line = this.line + 1;
+					document.getElementById("suggest_"+this.line).className = "current";
+				}
+				break;
+			case 13: //enter
+				if (this.line >= 1 && this.line <= this.count)
+				{
+					document.getElementsByName(this.form)[0].select_type.disabled = false;
+					document.getElementsByName(this.form)[0].select_code.disabled = false;
+					document.getElementsByName(this.form)[0].select_type.value = suggest_json[this.line-1]["t"];
+					document.getElementsByName(this.form)[0].select_code.value = suggest_json[this.line-1]["c"];
+				}
+				break;
+			default:				
+				break;
+		}	},
+	display : function (_display)
+	{
+		if (_display == "inline")
+		{				
+			var table_html = document.getElementById(this.list_id).innerHTML;
+			if (table_html != "")
+			{document.getElementById(this.list_id).style.display = _display;}
+		}
+		else if (_display == "none")
+		{document.getElementById(this.list_id).style.display = _display;}
+	},
+	mark_keyword : function (_str, _keyword)
+	{return _str.replace(_keyword, "<span>"+_keyword+"</span>");},
+	work : function ()
+	{
+		var _type_conf = {"stock":"股票","fund":"基金","hkstock":"港股","forex":"外汇","bond":"债券"};
+		var table_html = "";
+		this.line = 0;
+		this.count = 0;
+		document.getElementsByName(this.form)[0].select_type.disabled = true;
+		document.getElementsByName(this.form)[0].select_code.disabled = true;
+		document.getElementsByName(this.form)[0].select_type.value = "";
+		document.getElementsByName(this.form)[0].select_code.value = "";		
+		for(var i=0; i<suggest_json.length; i++)
+		{
+			this.count++;
+			var code = suggest_json[i]["c"];
+			var symbol = suggest_json[i]["s"];
+			var name = suggest_json[i]["n"];
+			var pinyin = suggest_json[i]["p"];
+			var type = suggest_json[i]["t"];			
+			var _type = _type_conf[type];
+			var bgcolor = "";
+			if (i % 2 == 1)
+			{bgcolor = "bgcolor='#F5F5F5'";}
+			if (type == "forex")
+			{
+				table_html += "  <tr id=\"suggest_"+(parseInt(i)+1)+"\" onmouseover=\"javascript:this.className='current';this.style.cursor='pointer'\" onmouseout=\"javascript:this.className=''\" onclick=\"javascript:window.open('http://finance.ifeng.com/app/hq/"+type+"/"+symbol+"/')\" >";
+			}
+			else 
+			{
+				var code_begin = code.substring(0,4);
+				var open_url = "http://finance.ifeng.com/app/hq/"+type+"/"+code+"/";
+				table_html += "  <tr id=\"suggest_"+(parseInt(i)+1)+"\" onmouseover=\"javascript:this.className='current';this.style.cursor='pointer'\" onmouseout=\"javascript:this.className=''\" onclick=\"javascript:window.open('"+open_url+"')\" >";
+			}
+			table_html += "    <td "+bgcolor+">"+Suggest_hq.mark_keyword(symbol.toUpperCase(), this.keyword.toUpperCase())+"</td>";
+			table_html += "    <td "+bgcolor+">"+Suggest_hq.mark_keyword(name, this.keyword)+"</td>";
+			table_html += "    <td "+bgcolor+">"+Suggest_hq.mark_keyword(pinyin.toUpperCase(), this.keyword.toUpperCase())+"</td>";
+			table_html += "    <td "+bgcolor+">"+_type+"</td>";
+			table_html += "  </tr>";
+		}
+		if (table_html != "")
+		{
+			table_html = "<table width='100%' border='0' cellspacing='0' cellpadding='0' class='tab'>"+table_html+"</table>";
+		}
+		document.getElementById(this.list_id).innerHTML = table_html;
+		 (table_html != "")?Suggest_hq.display("inline"):Suggest_hq.display("none");	},
+	typewrite : function (_keyword)
+	{
+		if (_keyword != this.keyword)
+		{
+			this.keyword = _keyword;			
+			var oHead = document.getElementsByTagName('HEAD').item(0);
+			var oScript = document.createElement("script");
+			oScript.type = "text/javascript";
+			oScript.src = "http://app.finance.ifeng.com/hq/suggest_v2.php?t="+this.type+"&q="+_keyword+"&cb=Suggest_hq.work();";
+			oHead.appendChild(oScript); 
+		}
+		
+	}
+};
+
+//最近访问
+/**
+ * This js provide a simple way to operate cookie in javascript
+ * function getCookie(name);
+ * function setCookie(name,value[,expireDays]);
+ * function deleteCookie(name);
+ */
+function getCookie(name)
+{
+    var arg = name + "=";
+    var alen = arg.length;
+    var clen = document.cookie.length;
+    var i = 0;
+    while (i < clen)
+    {
+        var j = i + alen;
+        if (document.cookie.substring(i, j) == arg)
+            return getCookieVal(j);
+        i = document.cookie.indexOf(" ", i) + 1;
+        if (i == 0) break;
+    }
+    return "";
+}
+
+function setCookie(name, value)
+{
+    var domain = 'finance.ifeng.com';
+    var path = '/';
+    
+    var argv = setCookie.arguments;
+    var argc = setCookie.arguments.length;
+    var expDay = (argc > 2) ? argv[2] : -1;
+    try
+    {
+        expDay = parseInt(expDay);
+    }
+    catch(e)
+    {
+        expDay = -1;
+    }
+    if(expDay < 0) {
+        setCookieVal(name, value, null, path, domain);
+    } else {
+        var expDate = new Date();
+        // The expDate is the date when the cookie should expire, we will keep it for a month
+        expDate.setTime(expDate.getTime() + (expDay * 24 * 60 * 60 * 1000));
+        
+        //setCookieVal(name, value, expDate, path);
+        setCookieVal(name, value, expDate, path, domain);
+    }
+}
+
+function deleteCookie(name)
+{
+    var exp = new Date();
+    exp.setTime(exp.getTime() - 1);
+    // This cookie is history
+    var cval = getCookie(name);
+    document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
+}
+
+function getCookieVal(offset)
+{
+    var endstr = document.cookie.indexOf(";", offset);
+    if (endstr == -1)
+        endstr = document.cookie.length;
+    return unescape(document.cookie.substring(offset, endstr));
+}
+
+function setCookieVal(name, value)
+{
+    var argv = setCookieVal.arguments;
+    var argc = setCookieVal.arguments.length;
+    var expires = (argc > 2) ? argv[2] : null;
+    var path = (argc > 3) ? argv[3] : null;
+    var domain = (argc > 4) ? argv[4] : null;
+    var secure = (argc > 5) ? argv[5] : false;
+    document.cookie = name + "=" + escape(value) +
+                      ((expires == null || expires < 0) ? "" : ("; expires=" + expires.toGMTString())) +
+                      ((path == null) ? "" : ("; path=" + path)) +
+                      ((domain == null) ? "" : ("; domain=" + domain)) +
+                      ((secure == true) ? "; secure" : "");
+}
+var setUsersSaw = function(cookiename, code, expDay) {
+    var user_saw_list = getCookie(cookiename);
+    if (code != '') {
+        if (user_saw_list == '') {
+             user_saw_list += code;
+        } else {
+            var temp_arr = code.split(':');
+            var sign = temp_arr[0]+':'+temp_arr[1]; //代码:名称
+            var arr = user_saw_list.split(',');
+            var dot_sign = false;
+            if (arr.length < 20) {
+                if (user_saw_list.indexOf(sign) != -1) {//该内容的代码和名称已经存在
+					user_saw_list = '';
+                    for (var i in arr) {
+                        if (arr[i].indexOf(sign) != -1) {//去除
+                            
+                        } else {
+                            user_saw_list = arr[i] + ',';
+                            dot_sign = true;
+                        }
+                    }
+                    if (dot_sign == true) {
+                        user_saw_list = user_saw_list.substr(0, user_saw_list.length-1);
+                    }
+                }
+                user_saw_list += ',' + code;
+            } else {//当已经浏览过20只时，则删除最早的一只，补充新进的一只
+                for (i = 1; i < 20; i++) {
+                    user_saw_list += code + ',' + arr[i];
+                }
+                user_saw_list += code;
+            }
+        }
+    }
+    setCookie(cookiename, user_saw_list, expDay);
+};
+setUsersSaw('user_saw_channel_map', 'stock:股票:'+(new Date()).getTime(), 10000);
+
+var sid="";
+var login_state=false;
+function display_hot_stock(type)
+{
+	var index = 0;
+	for(var code in json_q)
+	{
+		var last = json_q[code][0];
+		var chg = json_q[code][2];
+		var chg_pct = json_q[code][3];
+		var color = '';
+		if (chg_pct > 0) {
+			color = "color_red fl14";
+		} else if (chg_pct <= 0) {
+			color = "glv fl14";
+		}
+		var str = '';
+
+		str += '<td class="'+color+'">';
+		str += ((last == undefined) ? '0' : YouFeng._formatNumber(last,2));
+		str += '</td>';
+		str += '<td class="'+color+'">';		
+		str += ((chg_pct == undefined) ? '0%' : YouFeng._formatNumber(chg_pct,2)+'%');
+		str += '</td>';
+		//str += '<td><a href="http://app.finance.ifeng.com/data/stock/tab_zjlx.php?code='+code+'" target="_blank">资金流向</a></td>';
+		str += '<td><a href="http://app.finance.ifeng.com/report/search.php?yb_search_type=stock&code='+code.substring(2)+'" target="_blank">研报</a></td>';
+		jQuery("#"+type+" .tabTd:eq("+index+")").append(str);
+		index++;
+	}
+}
+
+function display_stock(type, str_data)
+{
+	if (type == "mystock3" && str_data != undefined)
+	{
+		var str = "";		
+	}
+	else
+	{
+		var str = '<table width="100%" border="0"><thead><tr><th width="65">股票名称</th><th width="50">股价</th><th width="65">涨跌幅</th><th>研报</th></tr></thead><tbody>';
+	}
+	if (str_data != undefined)
+	{
+		str += str_data;
+	}
+	else
+	{
+		if (typeof(json_q) == 'undefined')
+		{//变量json_q没有定义
+		}
+		else
+		{
+			for(var code in json_q)
+			{
+				var last = json_q[code][0];
+				var chg = json_q[code][2];
+				var chg_pct = json_q[code][3];
+				var color = '';
+				var arrow_state = '';
+				var yb_str = '';
+				//var guba_str = '';
+				if(is_usstock(code))
+				{
+					if (chg_pct > 0) {
+						color = "glv fl14";
+					} else if (chg_pct < 0) {
+						color = "color_red fl14";
+					} else
+					{
+						color = "fl14";
+					}
+				}
+				else
+				{
+					if (chg_pct > 0) {
+						color = "color_red fl14";
+					} else if (chg_pct <0) {
+						color = "glv fl14";
+					} else
+					{
+						color = "fl14";
+					}
+				}
+				str += '<tr><td>';
+				if (code.indexOf('hk') != -1)
+				{//港股
+					str += '<a href="http://finance.ifeng.com/app/hq/hkstock/'+code+'/" target="_blank">'+YouFeng.arr_data[code].substr(0,5)+'</a></td>';
+					yb_str = "<td>--</td>";
+				}else if(code =='sh000001' || code == 'sz399001'){
+                    str += '<a href="http://finance.ifeng.com/app/hq/stock/'+code+'/" target="_blank">'+YouFeng.arr_data[code].substr(0,5)+'</a></td>';
+					yb_str = "<td>--</td>";
+				}else if(is_usstock(code))
+				{
+					str += '<a href="http://finance.ifeng.com/app/hq/usstock/'+code+'/" target="_blank">'+YouFeng.arr_data[code].substr(0,5)+'</a></td>';
+					yb_str = "<td>--</td>";
+				}
+				else
+				{
+					str += '<a href="http://finance.ifeng.com/app/hq/stock/'+code+'/" target="_blank">'+YouFeng.arr_data[code].substr(0,5)+'</a></td>';
+					yb_str = '<td><a href="http://app.finance.ifeng.com/report/search.php?yb_search_type=stock&code='+code.substring(2)+'" target="_blank">研报</a></td>';
+				}
+				str += '<td class="'+color+'">';
+				str += ((last == undefined) ? '0' : YouFeng._formatNumber(last,2));
+				str += '</td>';
+				str += '<td class="'+color+'">';
+				str += ((chg_pct == undefined) ? '0%' : YouFeng._formatNumber(chg_pct,2)+'%');
+				str += '</td>';
+				str += yb_str;
+				str += '</tr>'; 
+			}
+		}
+	}
+	if (type == "mystock3" && str_data != undefined)
+	{
+	}
+	else if (type == "mystock3")
+	{
+		str += '<tr><td colspan=5 style="text-align:right;padding-right:15px;"><a href="http://app.finance.ifeng.com/custom/mystock.php" target="_blank">查看我的自选股>></a></td></tr>';
+		str += '</tbody></table>';
+	}
+	else
+	{
+		str += '</tbody></table>';
+	}
+	jQuery("#"+type).html(str);
+}
+
+function is_usstock(code)
+{
+	var pattern = "^[A-Z\.a-z]+$";
+	if (code.match(pattern))
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+function mystock3_key_evt(_evt)
+{
+	switch (_evt.keyCode)
+	{
+		case 13: //enter
+			mystock3_login();
+			break;
+		default:
+			break;
+	}
+}
+
+function mystock3_login_cb(rlt_arr)
+{
+	eval("var _rlt_arr = "+rlt_arr+";");	// 获取json数据
+	if(_rlt_arr[0] == 0)
+	{
+		alert("用户名或密码错误");
+	}
+	else 
+	{
+		sid = getCookie('sid');
+		login_state = true;
+		getMyStock();
+	}
+}
+
+function mystock3_login()
+{
+	var username = document.getElementById("username3").value;
+	var password = document.getElementById("password3").value;
+	if(login_state)
+	{
+		var l_theurl = "http://app.finance.ifeng.com/custom/logincheck.php?rn=@cache@";
+		var loadjs = new LoadScript_youfeng("loadscript1", l_theurl, mystock3_login_cb, "login_rlt", "@cache@");
+		loadjs.loading();
+	}
+	else
+	{
+		if(""==username||""==password)
+		{
+			alert("请输入用户名和密码！");
+			return ;
+		}
+		else
+		{
+			var l_theurl = "http://app.finance.ifeng.com/custom/logincheck.php?rn=@cache@&username="+username+"&password="+md5(password);
+			var loadjs = new LoadScript_youfeng("logindatascript001", l_theurl, mystock3_login_cb, "login_rlt", "@cache@");
+			loadjs.loading();
+		}
+	}
+	return ;
+}
+
+function setUsrLogin()
+{//设置登陆框
+	var str = '';
+	str += '<div class="login">';
+	str += '	<form name="usr_login_box" action="" method="get">';
+	str += '		<label><span>用户名：</span><input type="text" id="username3" name="username3" class="input_style01"></label><br />';
+	str += '		<label><span>密&nbsp;&nbsp;码：</span><input type="password" id="password3" name="password3"  onkeydown="mystock3_key_evt(event)" class="input_style01"></label>';
+	str += '        <label class="clearfix"><div class="seach_right clearfix"><a style="cursor:pointer;" onclick="javasript:mystock3_login();" class="dl">登录</a><a class="dl2" href="http://ucenter.ifeng.com/new-account" target="_blank" >注册</a></label>';
+	str += '    </form>';
+	str += '</div>';
+	jQuery('#mystock3').removeClass('abo_02');
+	display_stock('mystock3', str);
+}
+
+function getMyStock()
+{
+	jQuery.getJSON(
+		"http://app.finance.ifeng.com/custom/api/youfeng2.php?callback=?",
+		{
+			sid: decodeURIComponent(escape(sid)),
+			iter_type: 'mystock',	//mystock, myfund  abo_02
+			req_type: 'json',
+			req_num: 6  //我的自选股显示数量
+		},
+		function(data){
+			jQuery('#mystock3').addClass('abo_02');
+			if (data != null)
+			{
+				var arr = Array();
+				var code_str = '';
+				for (key in data)
+				{
+					var code = data[key]["code"];
+					YouFeng.arr_data[code] = data[key]["name"];
+					code_str = code_str + code + ",";
+				}
+				code_str = code_str.substr(0, code_str.length - 1);
+				jQuery.getScript('http://hq.finance.ifeng.com/q.php?l='+code_str+'&f=json&e=display_stock("mystock3");');
+			}
+			else
+			{
+				str = '<table class="tb0"><tbody id="tbodyPort"><tr><td style="line-height: 40px; text-align: center; color: rgb(153, 153, 153);" colspan="3">您尚未添加自选股</td></tr><tr><td style="text-align: center;" colspan="3"><span class="add_stock"><a href="http://app.finance.ifeng.com/custom/mystock.php" target="_blank">添加股票+</a></span></td></tr></tbody></table>';
+				jQuery('#mystock3').removeClass('abo_02');
+				display_stock('mystock3', str);				
+			}
+		}
+	);
+}
+var user_saw_list = '';
+eval("var user_saw_map = YouFengCookie.getCookie('user_saw_stock_map');");   //最近列表(user_saw_stock_map,user_saw_fund_map)
+if (user_saw_map != '') {
+	var n = 0;
+	var arr = user_saw_map.split(',');
+	for (var i in arr) {
+		if (arr[i] != '' && n < 8)  //最近访问股显示条数
+		{
+			var t = arr[i].split(':');
+			YouFeng.arr_data[t[0]] = t[1];  //获取代码和名称的全局对照数组
+			user_saw_list += t[0] + ',';
+			n++;
+		}
+	}
+	user_saw_list = user_saw_list.substr(0, user_saw_list.length-1);
+}
+if (user_saw_list != null && user_saw_list != '')
+{
+	jQuery.getScript("http://hq.finance.ifeng.com/q.php?l="+user_saw_list+"&f=json&e=display_stock('latest_stock');");
+}
+else
+{
+	jQuery.getScript("http://app.finance.ifeng.com/hq/hot_stock.php?type=latest_stock&num=6&style=stock");//热门股票
+}
+
+if (getCookie('sid') != '') {
+	sid = getCookie('sid');
+	login_state = true;
+    getMyStock();
+}
+else
+{
+	setUsrLogin();
+}
+
+var yb01=new TabControl();
+yb01.addRange($('yb01').getElementsByTagName('li'),['yb01-1','yb01-2']);
+yb01.triggerType = "mouseover";
+yb01.init();
+
+function refreshCalendarClock(){
+	var now = new Date();
+	var time='';
+	var hours=now.getHours();
+	if(hours<10)
+	{
+		hours = "0"+hours;
+	}
+	time += hours+":";
+	var minutes =now.getMinutes();
+	if(minutes<10)
+	{
+		minutes = "0"+minutes;
+	}
+	time += minutes;
+	document.getElementById("nowtime").innerHTML=time;
+} 
+refreshCalendarClock();
+setInterval('refreshCalendarClock()',2000); 
+</script>
+
+
+<script>
+(function () 
+{
+	var rgLength = 6;
+	for(var j = 1;j<=rgLength;j++)
+	{
+		if ($("f_rg_ad_"+j)) {
+			if(j==2 ||j==3)
+			{
+				document.getElementById("f_rg_2_3").style.display="none";
+			}
+			var infos = document.getElementById("f_rg_"+j);
+			if(j>3)
+			{
+				infos.className="langao";
+			}
+			var adinfo = document.getElementById("f_rg_ad_"+j);
+			document.getElementById("f_rg_"+j).style.cssText="color:#71aad7";
+			infos.innerHTML = adinfo.innerHTML;
+		}
+	}
+})();
+</script>
+
+<script>
+//评论数显示
+getcomments(1);
+function getcomments(ii) {
+    var id="comment_"+ii;
+	var pecid="comments_"+ii;
+    var thisinfo = $(id);
+    var docurl=thisinfo;
+    var docname=thisinfo.innerHTML;
+	var skeyWprds ="Ifeng888"+docname+docurl;
+	var skey=hex_md5(skeyWprds).substr(2,6);  
+	var strinfo = "http://comment.ifeng.com/view.php?docName="+encodeURIComponent(docname)+"&docUrl="+encodeURIComponent(docurl)+"&skey="+skey;
+	$(pecid).href=strinfo;
+    var thisurl = "http://comment.ifeng.com/get.php?job=1&format=js&docurl="+docurl;
+    var results = getScript_cds(thisurl,getCommentCount_v2,ii);
+}
+function getCommentCount_v2(aid)
+{
+    var data =commentJsonVarStr___;
+    var allcount = data.join_count;//allcount;
+    $("comments_"+aid).innerHTML=allcount;
+	if(aid<3){
+	 getcomments(aid+1);
+    }
+}
+</script>
+<style>
+.Focus{ position:relative;}
+.caption{ position:absolute; top:-98px; left:-120px; background:#FFF;}
+.xpic{position: fixed; left: 50%; bottom: 0px; display: block; margin-left: 520px; width:60px;z-index:1000;}
+.ie6{_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight-this.offsetHeight); }
+.rta_01 tr td a{ display:block; height:60px; margin-bottom:5px; background:#85c0f2; text-align:center; color:#73ade5;}
+.rta_01 tr td a:hover{ background:#4c9adb; color:#FFF; text-decoration:none;}
+.rta_01 tr td a p {word-wrap: break-word; font-size:"微软雅黑"; text-align:center;color:#ffffff;}
+.rta_01 tr td a:hover p{ color:#FFF;}
+
+.rta_01 tr td span{ display:block; height:60px; margin-bottom:5px; background:#85c0f2; text-align:center; color:#73ade5;}
+.rta_01 tr td span.current{ background:#4c9adb; color:#FFF; text-decoration:none;}
+.rta_01 tr td span p {word-wrap: break-word; font-size:"微软雅黑"; text-align:center;color:#ffffff;}
+.rta_01 tr td span.current p{ color:#FFF;}
+.Focus b{ display:block; height:40px; width:60px; background:url(http://y0.ifengimg.com/a/2013/1014/g52a.png) left top no-repeat; cursor:pointer}
+.Focus .current b{ background:url(http://y2.ifengimg.com/a/2013/1029/hangqing.gif) no-repeat;}
+.sut{ width:176px; height:44px; padding:16px 0px 0px 12px; background:url(http://y0.ifengimg.com/a/2013/1014/g56.png) no-repeat;}
+.sut input.input_02a{ float:left; width:106px; height:28px; line-height:28px; border:0px; padding-left:7px; margin-right:1px;}
+.rta_01 tr td .sut form a{ display:block; width:48px; height:28px; line-height:28px; overflow:hidden;background:url(http://y0.ifengimg.com/a/2013/0930/g58.png) no-repeat left top; border:none;text-align:center; color:#666666; cursor:pointer; float:left; text-decoration:none;}
+.rta_01 tr td .sut form a:hover{ background:url(http://y0.ifengimg.com/a/2013/0930/g58.png) no-repeat left -28px; color:#666666;}
+.sut{ width:176px; height:44px; padding:16px 0px 0px 12px; background:url(http://y0.ifengimg.com/a/2013/1014/g56.png) no-repeat;}
+.sut input.input_02a{ float:left; width:106px; height:28px; line-height:28px; border:0px; padding-left:7px; margin-right:1px;}
+.rta_01 tr td .sut form a{ display:block; width:48px; height:28px; line-height:28px; overflow:hidden;background:url(http://y0.ifengimg.com/a/2013/0930/g58.png) no-repeat left top; border:none;text-align:center; color:#666666; cursor:pointer; float:left; text-decoration:none;}
+.rta_01 tr td .sut form a:hover{ background:url(http://y0.ifengimg.com/a/2013/0930/g58.png) no-repeat left -28px; color:#666666;}
+#sea_04 b{ display:block; height:40px; width:60px; background:url(http://y0.ifengimg.com/a/2013/1014/g52a.png) left -195px no-repeat;}
+#sea_04:hover b{ background:url(http://y0.ifengimg.com/a/2013/1015/g53a.png) left -195px no-repeat;}
+</style>
+<div id="addweixin1" class="xpic ie6">
+   <table width="60" border="0" class="rta_01">
+      <tr>
+        <td class=" Focus">
+		<span id="sea_01"><b> </b><p>查行情</p></span>
+		<div class="caption" style="display:none; left:-128px; top:0;">
+        	<div class="sut">
+                <form id="finance_search_2_2" name="finance_search_2_2" action="http://app.finance.ifeng.com/hq/search.php?type=stock" method="get" target="_blank">
+					<input class="input_02a" type="text" id="q2" name="q" value="代码/拼音/名称" autocomplete="off" onfocus="if(value=='代码/拼音/名称') {value=''};" onblur="if (value=='') {value='代码/拼音/名称'};"><a onclick="search_sz('q2','finance_search_2_2')">搜索</a>
+                </form>
+            </div>
+        </div>
+        </td>
+      </tr>
+      <tr>
+        <td><a  href="#" id="sea_04" style="display:none;"><b> </b></a></td>
+      </tr>
+    </table>
+</div>
+<script>
+body_height=document.documentElement.clientHeight;//浏览器高度
+all_height=document.body.clientHeight;
+div_top=jq("#foot").offset();
+div_top_h=div_top.top;
+window.onscroll=function(){
+	var scrollTop01 = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;//滚动条移动的距离	
+	if(scrollTop01<100){jq("#sea_04").hide();}
+	else if(scrollTop01>100){jq("#sea_04").show();if(scrollTop01>div_top.top-body_height){jq("#addweixin1").css("margin-bottom",(scrollTop01+body_height+450-all_height)+"px")}else{jq("#addweixin1").css("margin-bottom","0px")}}
+}
+
+function search_sz(search_type,formName)
+{
+	var key_v=document.getElementById(search_type).value; 
+	document.getElementById(formName).submit();
+}
+</script>
+<script type = "text/javascript" src = "http://s.wrating.com/screen.2.0.js"></script>
+<script type = "text/javascript">
+var dr_ad_acc = "860010-2332010100";        // 为要采集的ID，具体为布码页面的ID
+var dr_ad_url = "http://s.wrating.com/";    // 采集地址
+var dr_ad_max_time = 3;                     // 回传间隔时间
+</script>
+<!-- START WRating v1.0 -->
+<script type="text/javascript" src="http://click.wrating.com/c3.js"></script>
+<script type="text/javascript">
+var vjClickAcc="860010-2061160100";
+var wrUrl = "http://click.wrating.com/";
+initMouseClick();
+</script>
+<!-- END WRating v1.0 -->
+
+<!--s_finance_index_ad_interstitial 2014.12.19 09:18:35-->
+<script type="text/javascript">try{aptracker.add(3000);}catch(e){}</script>
+
+
+<script>
+	var fullScreenList = [];
+</script>
+<div id="Ap1869" style="display:none;">
+<var style="display:none;" v="3000,0,0,NULL,fixture"></var>
+</div>
+<script language="javascript">
+if(INice.getCookie('prov') != '9999'){
+	new AdRotator({maxTimes : 1, identifier : 'Ap1869'});
+}
+</script>
+<script>
+if(INice.getCookie('prov') == '9999'){
+		(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_finance_index_ad_interstitial';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();
+	}
+</script>
+<script type="text/javascript" src="http://y0.ifengimg.com/89df2be17e58f8ab/2014/1218/fullscreen20141212.js"></script>
+<!--/s_finance_index_ad_interstitial-->
+
+
+<!--s_finance_index_ad_floatmedia 2014.12.19 09:17:36-->
+<script type="text/javascript">try{aptracker.add(1814);}catch(e){}</script>
+
+
+<div id="AP481" style="display:none;">
+<var style="display:none;" v="1814,25173,7624,宋斯文,B1"></var><code>
+<!--BOF
+<script language="javascript" type="text/javascript">
+var adflashbig = 'http://y3.ifengimg.com/mappa/2014/12/18/40305df33018b920c5be881232fa3b38.swf';
+var adflashsmall = 'http://y1.ifengimg.com/mappa/2014/12/18/6a298dffe2d32a929ebaef19df1c0cb8.gif';
+var adclickurl = 'http://dol.deliver.ifeng.com/c?4bb9d0d65MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFIJWDyfQP0EMDy1xqY1Vmo6NBrRflheEwXeVyNwCVP621cbwdla4D-bU4laC7zc_l78CZttx8uJiA';
+var flat_stream_t_showtimer = '0';
+var float_stream_t_small_bottom = '30';
+ 
+var float_stream_width = 258;  //主动画宽度
+var float_stream_height = 215; //主动画高度
+var float_stream_top = 150;//主动画上边距
+var float_stream_left = 0;//主动画左边距
+var ifcl_stylebigBg= 1;  //是否透明
+var closetimer = 8;   //主动画展示时长
+var maxopentime = 2;   //主动展示次数
+var float_stream_small_right = 0; //浮标右边距
+var float_stream_interaction = 0; //1为互动素材，0为非互动素材
+</script>
+
+<script type="text/javascript" src="http://y2.ifengimg.com/zhishaofei/js/140421-fubiao.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="1814,24923,7624,夏岩,B1"></var><code>
+<!--BOF
+<script language="javascript" type="text/javascript">
+var adflashbig = 'http://y0.ifengimg.com/mappa/2014/12/09/8b55e9eb5b6dad62d0d659f13d5cea16.jpg';
+var adflashsmall = 'http://y3.ifengimg.com/mappa/2014/12/09/0b93a1b73776d7f9869fb2a09fe068df.jpg';
+var adclickurl = 'http://dol.deliver.ifeng.com/c?cafccce45MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFL36cyuuR0eQqqWmTENS1HXK35h6mYTO7KSVEfXZ01ZyVcbwdla4D-bMkGcwwUBFvf0FTFPhUBupM50qGIVOw4Xclx6zvAfZv-i4aEnlgW0IhCWHGF765vfgORvFLlGxrI';
+var flat_stream_t_showtimer = '0';
+var float_stream_t_small_bottom = '30';
+ 
+var float_stream_width = 258;  //主动画宽度
+var float_stream_height = 215; //主动画高度
+var float_stream_top = 150;//主动画上边距
+var float_stream_left = 0;//主动画左边距
+var ifcl_stylebigBg= 1;  //是否透明
+var closetimer = 8;   //主动画展示时长
+var maxopentime = 2;   //主动展示次数
+var float_stream_small_right = 0; //浮标右边距
+var float_stream_interaction = 0; //1为互动素材，0为非互动素材
+</script>
+
+<script type="text/javascript" src="http://y2.ifengimg.com/zhishaofei/js/140421-fubiao.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="1814,0,0,NULL,fixture"></var><cite>
+<!--BOF
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+	(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_finance_index_ad_floatmedia';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP481"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_finance_index_ad_floatmedia-->
+
+
+<!--s_finance_index_ad_couplet 2014.12.19 09:17:36-->
+<script type="text/javascript">try{aptracker.add(2835);}catch(e){}</script>
+
+
+<div id="AP484" style="display:none;">
+
+<var style="display:none;" v="2835,24014,8632,魏层层,B1"></var><code>
+	<!--BOF
+	<script type="text/javascript">
+		var OtherCoupletObj = {
+			swfUrl: "http://y0.ifengimg.com/mappa/2014/12/15/b247a014e1ea7cecfb784492ddb4dc1b.jpg",
+			clickUrl:"http://dol.deliver.ifeng.com/c?0ea44a465MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFKh4Fy_nHNyOxK_z0hEBe03ahIGSKtgoAiv_FXlRVbV2lcbwdla4D-btvxvsO9E0w_7yCwfELswDy1LhDhWcSt9_P2lRUX-1U3HeNXv7hK3-V5xnmi69f2F",
+			interac:0,
+			delay:0
+		}
+	</script>
+	<script type="text/javascript" src="http://y2.ifengimg.com/zhishaofei/js/20140313-OtherCouplet.js"></script>
+	EOF-->
+</code>
+
+<var style="display:none;" v="2835,22254,8632,魏层层,B1"></var><code>
+	<!--BOF
+	<script type="text/javascript">
+		var OtherCoupletObj = {
+			swfUrl: "http://y3.ifengimg.com/mappa/2014/12/02/586b0f07b18c844a24d3cf7acce7da60.swf",
+			clickUrl:"http://dol.deliver.ifeng.com/c?ada9fa0b5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFI2qNA8cRd4k4g9U-jKWEdJtrzoAkIVHu64QA9lPoetWlcbwdla4D-b8AhxREctDPU61TqLxjfo-1imePH1yJw6EBjb4R9Wv83VMagIWq3KRl2HFCZt5bEESO6O6azpjLhQLAr_bOY9FffQgdRvr75eq4YzUKL4573bC-ltPmM2pi7K5qZCJjMu8y7DkQBqmR7h2pXaugjK5w",
+			interac:0,
+			delay:0
+		}
+	</script>
+	<script type="text/javascript" src="http://y2.ifengimg.com/zhishaofei/js/20140313-OtherCouplet.js"></script>
+	EOF-->
+</code>
+
+<var style="display:none;" v="2835,0,0,NULL,fixture"></var>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+	(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_finance_index_ad_couplet';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP484"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_finance_index_ad_couplet-->
+
+
+<!--s_finance_index_ad_popunder 2014.12.19 09:19:08-->
+<script type="text/javascript">try{aptracker.add(2299);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="2299,0,0,NULL,fixture"></var>
+
+<!--/s_finance_index_ad_popunder-->
+
+
+<!--s_finance_index_ad_floatpause 2014.12.19 09:17:36-->
+<script type="text/javascript">try{aptracker.add(2410);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="2410,24803,3944,夏岩,B1"></var><style type="text/css">
+body { _background-image:url(0); _background-attachment:fixed; }
+</style>
+<script type="text/javascript" src="http://img.ifeng.com/tres/html/110119adbr/swfobj.js"></script>
+<script type="text/javascript">
+    var ifengAehovering_swfUrl = "http://y3.ifengimg.com/mappa/2014/12/04/300dcb55c65bb91abc1e2b3e1118aa26.jpg";
+    var ifengAehovering_clickUrl = "http://dol.deliver.ifeng.com/c?1c5ad0b55MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFJSHOakEQa6yvFp5gmi26rB8tP6EQ7FMvTq69Tznx5VeFcbwdla4D-bMkGcwwUBFvf0FTFPhUBupM50qGIVOw4Xw2KqRZPtmrzXB4qAIAm2jNNT8CwqDSI_gORvFLlGxrI";
+    var ifengAehovering_isactive = 0;//是否互动
+    var ifengAehovering_flag_dodge_time = '0'; //废弃参数,没用了
+    var ifengAehovering_dodge_time = '0'; //延时
+    var ifengAehovering_dodge_left = '40'; //距左
+    var ifengAehovering_dodge_bottom = '50'; //距底
+
+    document.write('<div id="ifengAehovering_small" style="z-index: 9999999; position: fixed; display:none; width: 80px; height: 96px; bottom: ' + ifengAehovering_dodge_bottom + 'px; left: ' + ifengAehovering_dodge_left + 'px; display:block; _position:absolute; _top:expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight - ' + ifengAehovering_dodge_bottom + '); _left:' + ifengAehovering_dodge_left + 'px;"><div id="hoveringSource" style="width:80px;height:80px;"></div></div>');
+
+    function ifengAehovering_play(ifengAehovering_swfUrl, ifengAehovering_clickUrl, ifengAehovering_dodge_left, ifengAehovering_dodge_bottom) {
+        //var ifengAehovering_clickUrl = encodeURIComponent(ifengAehovering_clickUrl);
+        document.getElementById('ifengAehovering_small').display = "block";
+        var srcExt = ext(ifengAehovering_swfUrl);
+        if(srcExt.toLowerCase() == "jpg" || srcExt.toLowerCase() == "gif" || srcExt.toLowerCase() == "png"){
+            document.getElementById('ifengAehovering_small').innerHTML = '<div style="display: block; width: 80px; height: 80px;"><a href="' + ifengAehovering_clickUrl + '" target="_blank"><img src="' + ifengAehovering_swfUrl + '" width="80" height="80"></a></div><div style="width: 80px; height: 16px;"><a href="javascript:ifengAehovering_closeAll();" style="float: right">关闭</a></div>';
+        }else{
+            ifengAehovering_flash(ifengAehovering_swfUrl, ifengAehovering_clickUrl);
+            if(!ifengAehovering_isactive){
+                document.getElementById("ifengAehovering_small").innerHTML += "<div style='width:80px;height:80px;position:absolute;z-index:999;left:0;top:0;'><a href='" + ifengAehovering_clickUrl + "' target='_blank'><img src='http://y0.ifengimg.com/34c4a1d78882290c/2012/0528/1x1.gif' style='width:100%;height:100%;' /></a></div>";
+            }
+            document.getElementById("ifengAehovering_small").innerHTML += "<div style='width: 80px; height: 16px;'><a href='javascript:ifengAehovering_closeAll();' style='float: right;color:#000;'>关闭</a></div>";
+        }
+    }
+
+    function ifengAehovering_flash(ifengAehovering_swfUrl, ifengAehovering_clickUrl) {
+        
+        ifengAehovering_clickUrl = encodeURIComponent(ifengAehovering_clickUrl);
+        /*
+        var fo = new SWFObject("http://img.ifeng.com/tres/html/110119adbr/hovering_80X96_20110126.swf", "ifengAehovering_flash", "80", "96", 9, "#ffffff");
+        fo.addVariable("swfUrl", ifengAehovering_swfUrl);
+        */
+        var fo = new SWFObject(ifengAehovering_swfUrl, "ifengAehovering_flash", "80", "80", 9, "#ffffff");
+        fo.addVariable("clickUrl", ifengAehovering_clickUrl);
+        fo.addParam("wmode", "transparent");
+        fo.addParam("allowFullScreen", "true");
+        fo.addParam("allowScriptAccess", "always");
+        fo.write("hoveringSource");
+    }
+
+    function ifengAehovering_closeAll() {
+        document.getElementById('ifengAehovering_small').style.display = "none";
+        document.getElementById('ifengAehovering_small').innerHTML = "";
+        document.getElementById('ifengAehovering_small').style.display = "none";
+    }
+
+    function ext(s) {
+        var pairs;
+        var file;
+        var s = s.replace(/(\\+)/g, '#');
+        pairs = s.split('#');
+        file = pairs[pairs.length - 1];
+        pairs = file.split('.');
+        ext = pairs[pairs.length - 1];
+        return ext.toLowerCase();
+    }
+
+    function ifengAehovering_start() {
+        if(ifengAehovering_dodge_time == '0') {
+            ifengAehovering_play(ifengAehovering_swfUrl, ifengAehovering_clickUrl, ifengAehovering_dodge_left, ifengAehovering_dodge_bottom);
+        } else {
+            setTimeout('ifengAehovering_play(ifengAehovering_swfUrl, ifengAehovering_clickUrl, ifengAehovering_dodge_left, ifengAehovering_dodge_bottom);', ifengAehovering_dodge_time*1000)
+        }
+    }
+
+    if(ifengAehovering_flag_dodge_time === "1") {
+        IFENGDODGE.set_stock('hovering', {"timer":"8","func":ifengAehovering_start,"level":3});
+    } else {
+        ifengAehovering_start();
+    }
+</script>
+
+<!--/s_finance_index_ad_floatpause-->
+
+
+<!--s_finance_index_ad_media 2014.12.19 09:17:35-->
+<script type="text/javascript">try{aptracker.add(920);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="920,0,0,NULL,fixture"></var>
+<div id="Ap472" style="display:none;">
+
+	<code>
+		<!--BOF
+<script>
+try{
+	if(INice.getCookie('prov') == '9999'){
+		(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_finance_index_ad_media';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();
+	}else{
+	(function () {
+		var mfp_base = "http://mfp.deliver.ifeng.com/mfp/mfpMultipleDelivery.do?t=html&ADUNITID=203&CHANNEL=finance";
+		var mfp_user_cookie_name = "userid";
+		var mfp_preview_cookie_name = "PID";
+		function mfp_getCookie(c_name) {
+			var start = document.cookie.indexOf(c_name+"=");
+			if (start ==-1) {return "";}
+			start = start+c_name.length+1;
+			var end = document.cookie.indexOf(";",start);
+			if (end==-1) {end = document.cookie.length;}
+			return decodeURIComponent(document.cookie.substring(start,end));
+		};
+		var mfppid="&"+mfp_preview_cookie_name+"="+mfp_getCookie(mfp_preview_cookie_name);
+		
+		var mfp_url=mfp_base+"&USERID="+mfp_getCookie(mfp_user_cookie_name)+mfppid;
+		document.write('<scr'+'ipt src="'+mfp_url+'"></scr'+'ipt>');
+		
+	})();
+	}
+}catch(e){}
+</script>
+
+	EOF-->
+	</code>
+	
+	<cite>
+		<!--BOF
+	
+		EOF-->
+	</cite>
+</div>
+
+<script>
+	var ifengWindow = function(obj){
+		var _ = this;
+		//轮播控制
+		var identifier = obj.identifier;
+		var wrapper = document.getElementById(identifier);
+		var maxTimes = obj.maxTimes;
+		var adContent = '';
+		var elements = wrapper.getElementsByTagName('code');
+		var fixtures = wrapper.getElementsByTagName('cite');
+		//轮播控制cookie
+		var cookieFlag = 'ifengRotator_'+ identifier;
+		var current = _.getcookie(cookieFlag);
+		var timeOut = 43200;//过期时间
+		var element,tempStr;
+		if(typeof current === 'undefined' || current == ''){
+			current =  parseInt(Math.random() * 100000) % maxTimes;
+		}
+		//频次控制cookie
+		var ifengWindowCookieName = 'ifengWindowCookieName' + _.getSecondDomain();
+		if(_.getcookie(ifengWindowCookieName)!=1){
+			_.setcookie(cookieFlag, ((parseInt(current) + 1) % maxTimes), timeOut);
+			if(typeof elements[current] != 'undefined'){
+			element = elements[current];
+			adContent = element.innerHTML;
+		}
+		if(adContent == ''){
+			if(typeof fixtures[0] != 'undefined'){
+				element = fixtures[0];
+				adContent = element.innerHTML;
+			}
+		}
+		adContent = adContent.replace('<!--BOF', '');
+		adContent = adContent.replace('EOF-->', '');
+		}
+		//频次控制
+		var date=new Date();
+		if(_.getcookie(ifengWindowCookieName)!=1){
+			showIfengWindow();
+		}
+		function showIfengWindow(){
+			document.write(adContent);
+			_.setcookie(ifengWindowCookieName, 1, obj.showIntervalTime);	
+		}
+	};
+	ifengWindow.prototype = {
+		//得到一个cookie的值
+		getcookie : function(name) {
+			var splitCookie = document.cookie.split("; ");
+			for(var i = 0; i < splitCookie.length; i++) {
+				var cookieNameValue = splitCookie[i].split("=");
+				if(cookieNameValue[0] == name) {
+					return unescape(cookieNameValue[1]);
+				}
+			}
+			return '';
+		},
+		//种一个cookie
+		setcookie : function(name, value, time) {
+			var date = new Date();
+			var expiresTime = new Date(date.getTime() + time * 1000);
+			document.cookie = name + "=" + escape(value) + ";path=/;expires=" + expiresTime.toGMTString() + ";";
+		},
+		//获得二级域名（频道域名）
+		getSecondDomain : function() {
+				var arr_domain=document.domain.split(".");
+				return arr_domain[0];
+		}
+	}
+	new ifengWindow({
+		showIntervalTime :600,  //视窗showIntervalTime秒内展示一次
+		maxTimes : 1, //广告流量
+		identifier : 'Ap472'
+	});
+</script>
+<!--/s_finance_index_ad_media-->
+
+
+<!--s_finance_index_ad_pvcount 2014.12.19 09:17:36-->
+<script type="text/javascript">try{aptracker.add(3776);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="3776,0,0,NULL,fixture"></var><!---->
+<img height=1 width=1 src="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&ci=23&cg=22&c=29&or=232&l=734&bg=734&b=732&u=http://y0.ifengimg.com/34c4a1d78882290c/2012/0528/1x1.gif" />
+<img height=1 width=1 src="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&ci=23&cg=22&c=29&or=232&l=735&bg=735&b=733&u=http://y0.ifengimg.com/34c4a1d78882290c/2012/0528/1x1.gif" />
+<!--/s_finance_index_ad_pvcount-->
+ 
+<style>
+.box_04 .box_04_mid p{ line-height:22px; padding-top:9px; padding-bottom:11px; color:#666666;}
+</style>
+
+<!--s_finance_indexs_ad_floatmedia06 2014.12.19 09:19:43-->
+<script type="text/javascript">try{aptracker.add(9202);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="9202,0,0,NULL,fixture"></var>
+
+<!--/s_finance_indexs_ad_floatmedia06-->
+
+<script src="http://y0.ifengimg.com/fe/staytime/201403201134/staytime.min.js"></script>
+</body>
+</html>

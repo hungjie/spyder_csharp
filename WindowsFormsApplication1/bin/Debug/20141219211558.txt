@@ -1,0 +1,2725 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <title>凤凰纪录片-打开观世界的门-</title>
+    <meta name="description" content="凤凰视频纪实频道汇聚众多珍贵影像资源，秉承“全球视野、兼容开放”之精髓，追求“还原历史真相，记录世间百态”之目标，专注服务高端用户需求，已成为互联网纪录片内容平台的领军者。" />
+    <meta name="keywords" content="凤凰卫视，凤凰视频，凤凰纪录片，纪录片，凤凰大视野" />
+    <style>
+        .anim {
+            -webkit-transition: 0.3s;
+            -ms-transition: 0.3s;
+            -moz-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s;
+        }
+    </style>
+    <script src="http://h1.ifengimg.com/f3a90b93df336b6f/2013/0704/device.js"></script>
+    <script src="http://h2.ifengimg.com/f3a90b93df336b6f/2013/0329/loader.min.js"></script>
+    <script >
+    var SEARCH_PARAM = {
+        url:"http://so.v.ifeng.com/video",
+        c: '5',
+        agentPageUrl:'http://so.v.ifeng.com/modules/sofeng/views/video/height.html'
+    };
+    // 根据设备类型加载不同的meta和样式
+    if (device.type !== "pc") {
+        document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">');
+    }
+    if (device.type !== "mobile") {
+        if (device.type === "pc") {
+            document.write('<link rel="stylesheet" href="http://m0.ifengimg.com/084f0f3021c4226b/2014/0303/header-public.css" />');
+            document.write('<link rel="stylesheet" href="http://m0.ifengimg.com/084f0f3021c4226b/2014/0303/documentary2014_pc.css" />');
+            document.write('<link rel="stylesheet" href="http://m0.ifengimg.com/084f0f3021c4226b/2014/0303/documentary2014_pc_resize.css" />');
+            document.write('<script src="http://y1.ifengimg.com/BX/min/BX.1.0.1.U.js"><\/script>');
+            document.write('<script src="http://y1.ifengimg.com/JCore/min/TabControl.1.2.js"><\/script>');
+         }
+         if (device.type === "pad") {
+             document.write('<link rel="stylesheet" rev="stylesheet" href="http://m0.ifengimg.com/084f0f3021c4226b/2014/0303/documentary2014_pc.css" />');
+             document.write('<link rel="stylesheet" href="http://m0.ifengimg.com/084f0f3021c4226b/2014/0303/header-public.css" />');
+            document.write('<link rel="stylesheet" rev="stylesheet" href="http://m0.ifengimg.com/084f0f3021c4226b/2014/0303/documentary2014_pad.css" />');
+            loader.add("base", {path: "http://h1.ifengimg.com/f3a90b93df336b6f/2013/0704/zepto1.01.js"});
+            creatTasker(1, "base", "http://m3.ifengimg.com/f8fe07623a924fa0/2014/0603/vlongHeadMobile1.js", true, "焦点图，头部脚本，图片延迟加载");
+            creatTasker(2, "", "http://h2.ifengimg.com/084f0f3021c4226b/2014/0326/preventAhchorsD.js", true, "屏蔽没用的a标签");
+            creatTasker(3, "base",   "http://h2.ifengimg.com/084f0f3021c4226b/2014/0728/pad_slide_documentary.js", true, "焦点图");
+            creatTasker(4, "base",   "http://h0.ifengimg.com/084f0f3021c4226b/2014/0728/home_top_pad0728.js", true, "头部脚本，图片延迟加载");
+         }
+         loader.add("F", {
+             path: "http://y0.ifengimg.com/base/origin/F-1.1.0.min.js"
+         });
+		// creatTasker(1, "base", "http://h0.ifengimg.com/2013/08/27/dty/vlongHeadMobile.min.js", true, "焦点图，头部脚本，图片延迟加载");
+         tasker.runAfterDomReady();
+     } else {
+         document.write('<link rel="stylesheet" rev="stylesheet" href="http://m0.ifengimg.com/084f0f3021c4226b/2014/0303/documentary2014_mobile.css" type="text/css" />');
+         if (!device.config.os.wphone) {
+             loader.add("base", {
+                 path: "http://h1.ifengimg.com/f3a90b93df336b6f/2013/0704/zepto1.01.js"
+             });
+	 if (device.config.os.iphone) {
+			creatTasker(2, "base", "http://m2.ifengimg.com/f8fe07623a924fa0/2014/0527/video_addScreen.js", true, "添加到主屏");
+		}	
+         } else {
+             loader.add("base", {
+                 path: "http://y0.ifengimg.com/base/jQuery/jquery-1.9.1.min.js"
+             });
+         }
+         tasker.runAfterDomReady();
+         creatTasker(3, "base",   "http://h1.ifengimg.com/25852dfe6a0682f3/2013/1231/home_top_mobile.js", true, "焦点图，头部脚本，图片延迟加载");
+         //creatTasker(1, "base", "http://h0.ifengimg.com/2013/08/27/dty/vlongHeadMobile.min.js", true, "焦点图，头部脚本，图片延迟加载");
+         creatTasker(2, "", "http://h2.ifengimg.com/084f0f3021c4226b/2014/0326/preventAhchorsD.js", true, "屏蔽没用的a标签");
+} 
+    </script>
+
+    <script src="http://img.ifeng.com/tres/pub_res/JCore/scroll.v.1.2.js"></script>
+    <script src="http://h2.ifengimg.com/f3a90b93df336b6f/2012/1130/buiness_v2.js"></script>
+    <script src="http://h1.ifengimg.com/f3a90b93df336b6f/2013/0704/html5.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 9]>
+    <script>
+    (function(win, doc) {
+        var resizeCss = function() {
+            docW = doc.documentElement.clientWidth;
+            if (docW >= 1300 && doc.body.className !== "v1300") {
+                doc.body.className = "v1300";
+            }
+            if (docW < 1300 && doc.body.className === "v1300") {
+                doc.body.className = "";
+            }
+            //doc.title = doc.documentElement.clientWidth;
+        }
+        win.attachEvent("onresize", resizeCss);
+        resizeCss();
+    }(window, document));
+    </script>
+    <![endif]-->
+
+
+    <!--header begin-->
+    <header>
+        <!-- 手机端顶通广告 -->
+        <!--头部 begin-->
+        <!--顶通拉起 begin-->
+ <style>
+.ad_top.ad_top {position:relative;top:0px;left:0px;width:100%;min-width:320px;height: 40px;overflow: hidden;background:#e9e9e7;margin:0;}
+.ad_top_right .download_btn,.ad_top_close,.ad_top_right,#footAD_box{display:block}
+@media screen and (min-width:768px){
+    .ad_top.ad_top {width:100%;}
+}
+@media screen and (min-width:1000px){
+    .ad_top.ad_top {width:100%;}
+}
+.ad_top_left{float:left;margin:2px 0 0 14px;width:auto;height:auto;}
+.ad_top_left .vifeng_logo{display: block;width:152px;height:33px;overflow: hidden;) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.ad_top_right{float:right;margin:7px 14px 0 0;}
+.ad_top_right .download_btn{display: block; width:91px;height: 27px;margin-right:15px; overflow: hidden;) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.ad_top_close{position:absolute;top:0;right:0;width:21px;height:22px;cursor:pointer; ) no-repeat;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;}
+</style>
+<div id="footAD_box"  >
+<div class="ad_top" id="ad_top"  style="display:none;">
+<div class="ad_top_wrap">
+<div class="ad_top_left"><a href="#" class="vifeng_logo" ></a></div>
+<div class="ad_top_right"><a href="#" class="download_btn" ></a>
+<span class="ad_top_close" id="ad_close1" ></span></div>
+</div>
+</div>
+</div>
+
+<script>
+var AdData = [{image: 'http://y2.ifengimg.com/a/2014_51/95bc7433fdc4d53.png'},{image: 'http://y1.ifengimg.com/a/2014_51/50053800e0b1c9e.png'},{image: 'http://y1.ifengimg.com/a/2014_19/2a584941b2db593.png'},{background: '#000000'}];
+if (device.type === "mobile"||device.type === "pad") {
+	creatTasker(3, "base", 
+		 (function(){
+		 	
+			var ad_top=document.getElementById("ad_top");
+		    ad_top.style.backgroundColor=AdData[3].background;
+
+			var vifeng_logo = $("#ad_top .vifeng_logo")[0];
+			$(vifeng_logo).css({"background":"url("+AdData[0].image+")","background-size":"100% 100%"});
+
+			var download_btn= $("#ad_top,.download_btn")[1];
+			     $(download_btn).css({"background":"url("+AdData[1].image+")","background-size":"100% 100%"});
+
+			var ad_close1= $("#ad_close1");
+			     $(ad_close1).css({"background":"url("+AdData[2].image+")","background-size":"100% 100%"}); 	
+			 }), true, 'h5顶通广告');
+}
+</script>
+<!--顶通拉起 end-->
+        <script src="http://img.ifeng.com/tres/pub_res/JApp/keywords.js"></script> 
+  		<script src="http://m1.ifengimg.com/ifeng/sources/inice_v1.js" type="text/javascript"></script>
+
+        <!--头部搜索及登录 begin-->
+        <div class="header">
+            <h1 class="logo_documentary" title="凤凰视频纪实"><a href="http://v.ifeng.com/" id="js_vtop_logo">凤凰视频综艺</a>
+            </h1>
+            <!--[新版]视频纪实频道频道冠名广告 begin-->
+             <div class="cooperate">
+   
+<!--s_itv_vdocumentary_index_ad_label_pdgm 2014.12.19 09:18:32-->
+<script type="text/javascript">try{aptracker.add(5649);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="5649,0,0,NULL,fixture"></var>
+
+<!--/s_itv_vdocumentary_index_ad_label_pdgm-->
+
+</div>
+            <!--[新版]视频纪实频道频道冠名广告 end-->
+            
+                    <div class="sotool" id="js_top_search"> 
+     <span class="s_input_box"> <input id="s_input" class="s_input" type="text" x-webkit-speech="" value="" /> </span> 
+     <input id="s_button_top" value="凤搜" class="s_button" hidefocus="true" /> 
+    </div> 
+    
+	<div id="minilogin" class="minilogin"> 
+     <ul> 
+      <li id="header_userSpan" style="display:none" class="mininame"> 
+       <div class="miniuser" id="header_userName"> 
+        <span> <em><a id="js_showLoginName" href="javascript:void(0);"></a></em> <a style="display:none" title="您有新的消息" id="js_newMsg" class="update_tips" href="#"></a> </span> 
+       </div> 
+       <div style="display:none" id="header_userCenter" class="minicenter"> 
+        <ul> 
+         <li><a target="_blank" href="http://my.ifeng.com/?_c=index&amp;_a=my"><span class="icon_uc"></span>个人中心</a></li> 
+         <li><a target="_blank" href="http://my.ifeng.com/?_c=video&amp;_a=upload"><span class="icon_uv"></span>上传视频</a></li> 
+         <li><a target="_blank" href="http://my.ifeng.com/?_c=user&amp;_a=send"><span class="icon_cm"></span> 评论消息</a></li> 
+         <li class="nobg"><a id="header_userLogout" href="#">退出</a></li> 
+        </ul> 
+        <!--评论消息提醒 begin--> 
+        <div style="display:none" id="js_newMsgDiv" class="vmegtip"> 
+         <a id="js_newMsgCounts" href="#8"><span>99+</span></a> 
+        </div> 
+        <!--评论消息提醒 end--> 
+       </div> </li> 
+      <!-- cl:登录、注册 加入了id属性  begin--> 
+      <li style="display:block;" id="header_loginBtn"> <a class="js_login" href="javascript:void(0);" data-fid="f803a0a00d0">登录</a> </li> 
+      <li style="display:block;" id="header_regBtn"> <a class="js_register" href="javascript:void(0);" data-fid="f75ba9377c4">注册</a> </li> 
+      <!-- cl:登录、注册 加入了id属性  end--> 
+      <li id="header_record" class="miniview" data-fid="f94d19556ae"> 
+       <div class="minisee" data-fid="fe1936601d8"> 
+        <a href="javascript:void(0);">观看记录</a> 
+       </div> 
+       <div style="display: none;" id="record_container" class="miniseebox"> 
+        <div style="display:none;" id="record_loading" class="upload"> 
+         <img src="http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/uploading.gif" />观看记录导入中... 
+        </div> 
+        <div style="display: none;" class="norecord">
+          您暂时没有观看记录 
+        </div> 
+        <div style="display: block;" class="clear_play"> 
+         <a href="javascript:void(0);" data-fid="f153be8afce">清空记录</a>| 
+         <a title="" href="javascript:void(0);" data-fid="f386b3661f">查看全部</a> 
+        </div> 
+        <div style="display: none;" class="clearplaybox"> 
+         <p class="tips">是否清空您在电脑、平板电脑、手机、电视上观看凤凰视频的全部观看记录？</p> 
+         <p class="btn"><a id="sure" title="" href="#">确 定</a> <a id="cancel" title="" href="#">取 消</a></p> 
+        </div> 
+        <ul style="display: block;" class="overflowy" id="h_record_list"></ul> 
+        <div style="display: none;" class="toolbar"> 
+         <a title="" id="importRecords" href="#" data-fid="f1c0e722351">点击导入未登录时的观看记录</a> 
+        </div> 
+        <div style="display: block;" class="toolbar"> 
+         <p><a class="js_login" title="" href="#" data-fid="f366abe92c5">登录</a>后将永久保存观看记录<a class="js_register" title="" href="#" data-fid="f8004823001">免费注册</a></p> 
+         <span><img src="http://y0.ifengimg.com/2013/3/22/baserecords.jpg" id="cloudNote" alt="" title="" style="display: block;" /></span> 
+        </div> 
+       </div>
+	   <div id="place_holder" style="display:none;position:absolute;left: -179px;top:324px;height:30px;width:283px;background:#FFFFFF;filter: alpha(opacity=0);-moz-opacity: 0;opacity: 0;"></div>
+	   </li> 
+      <li class="last"><a href="http://my.ifeng.com/?_c=video&amp;_a=upload" target="_blank">上传</a></li> 
+     </ul> 
+    </div> 
+            
+        </div>
+        
+            <script>
+creatTasker("auto", "", "http://y0.ifengimg.com/p/login/20131227/public_login.min.js", true, "登陆功能");
+if(device.type !== "mobile"){
+	loader.add("allhot", {path: "http://h0.ifengimg.com/508df9aec9e2a/data/allhot.js"});	
+	loader.add("keyword", {path: "http://h0.ifengimg.com/508df9aec9e2a/data/index1.js"});
+	creatTasker(3, "F", "http://h0.ifengimg.com/fe/subscribe/baseSubscribe-1.0.7.min.js", true, "订阅功能");
+	creatTasker(4, ["F", "keyword", "allhot"], "http://h1.ifengimg.com/fe/media/2014/0306/header.min.js", true, "头部功能");
+}
+</script>
+        
+        <!--头部搜索及登录 end-->
+        <!--头部 end-->
+
+        <!--一级导航 begin-->
+        <div class="nav">
+            <div class="navBox clearfix">
+                <ul class="clearfix"  id="nav_ul"> 
+  <li class="home" ><a href="http://v.ifeng.com/" target="_blank">首页</a></li>
+  
+  <li ><a href="http://v.ifeng.com/news/" target="_blank">资讯</a></li>
+  
+  <li ><a href="http://v.ifeng.com/mil/" target="_blank">军事</a></li>
+  
+  <li class="current"><a href="http://v.ifeng.com/documentary/" target="_blank">纪实</a></li>
+  
+  <li ><a href="http://v.ifeng.com/history/" target="_blank">历史</a></li>
+  
+  <li ><a href="http://v.ifeng.com/ent/" target="_blank">娱乐</a></li>
+  
+  <li ><a href="http://v.ifeng.com/ent/zongyi/" target="_blank">综艺</a></li>
+  
+  <li ><a href="http://tv.v.ifeng.com/" target="_blank">影视</a></li>
+  
+  <li ><a href="http://v.ifeng.com/fashion/" target="_blank">时尚</a></li>
+  <li class="more"><a href="javascript:void(0);"></a></li> 
+  <li ><a href="http://v.ifeng.com/vblog/" target="_blank">播客</a></li>
+  
+  <li ><a href="http://v.ifeng.com/gongkaike/" target="_blank">公开课</a></li>
+  
+  <li ><a href="http://phtv.ifeng.com/" target="_blank">卫视</a></li>
+  
+  <li ><a href="http://v.ifeng.com/live/" target="_blank">直播</a></li>
+  
+  <li ><a href="http://v.ifeng.com/program/" target="_blank">原创</a></li>
+  
+  <li ><a href="http://vip.v.ifeng.com/" target="_blank">VIP</a></li>
+  
+  <li ><a href="http://v.ifeng.com/game/" target="_blank">游戏</a></li>
+  
+</ul>
+ 
+                <div class="subnav">
+       <a href="http://v.ifeng.com/apps/index.shtml" target="_blank">客户端</a>
+       <a href="http://v.ifeng.com/vlist/nav/nius/update/1/list.shtml" target="_blank">凤凰焦点</a>
+       <a href="http://www.ifeng.com/" target="_blank">凤凰首页</a>
+</div> 
+            </div>
+        </div>
+        <!--一级导航 end-->
+
+        <!--二级导航 begin-->
+        <div class="navMovers">
+            <ul class="clearfix">
+	<li class="first"><a href="http://doc.ifeng.com/" target="_blank">凤凰视频纪录片盛典</a></li>
+        
+	<li><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0001/update/1/list.shtml" target="_blank">历史</a></li>
+        
+	<li><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0000/update/1/list.shtml" target="_blank">军事</a></li>
+        
+	<li><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0002/update/1/list.shtml" target="_blank">社会</a></li>
+        
+	<li><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0004/update/1/list.shtml" target="_blank">人物</a></li>
+        
+	<li><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0007/update/1/list.shtml" target="_blank">探索</a></li>
+        
+	<li><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0008/update/1/list.shtml" target="_blank">文化</a></li>
+        
+	<li><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0010/update/1/list.shtml" target="_blank">旅游</a></li>
+        
+	<li><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0011/update/1/list.shtml" target="_blank">风尚</a></li>
+        </ul>
+</div>
+        <!--二级导航 end-->
+    </header>
+    <!--header end-->
+
+    <!--焦点图 begin-->
+    <div id="js_focus_box_f">
+<script>
+var focusData = [{title: '援交学生调查：大部分人表示不后悔 只有伤心',url: 'http://v.ifeng.com/documentary/society/201112/8dec6432-ba93-4015-8c30-79e47dd6cda6.shtml',image: 'http://y1.ifengimg.com/a/2014_51/2c2043983bfa0ed.jpg',colorvalue:'#504937',smallImage:'http://y2.ifengimg.com/a/2014_51/5feaec856e8d44a.jpg'},{title: '山头惊现罕见玉料',url: 'http://v.ifeng.com/documentary/discovery/201208/3b7b82b4-dc11-4945-a90d-f67e394f4e2c.shtml',image: 'http://y0.ifengimg.com/a/2014_51/e478c3927b5049d.jpg',colorvalue:'#d1cdec',smallImage:'http://y3.ifengimg.com/a/2014_51/66adac603e29c4e.jpg'},{title: '实拍彭丽媛老山高歌：戴钢盔与战士兴奋振臂',url: 'http://v.ifeng.com/documentary/military/201310/03aa3da4-96ca-400b-b8bb-3d6760a41f8d.shtml',image: 'http://y2.ifengimg.com/a/2014_51/c026a38568dca82.jpg',colorvalue:'#a9b1d5',smallImage:'http://y3.ifengimg.com/a/2014_51/c594ff1c115ca52.jpg'},{title: '采药飞侠绝壁采摘“还魂草” 每公斤几十万',url: 'http://v.ifeng.com/documentary/discovery/201305/090e2da2-c58c-48c8-98ae-45b395181443.shtml',image: 'http://y0.ifengimg.com/a/2014_51/a43fe3c3eeac345.jpg',colorvalue:'#151213',smallImage:'http://y3.ifengimg.com/a/2014_51/dc396e133106f61.jpg'},{title: '张志新被行刑前最后说了六个字',url: 'http://v.ifeng.com/documentary/figure/201208/1cb39ed2-0e00-48fa-8452-66d21f1a6141.shtml',image: 'http://y0.ifengimg.com/a/2014_51/4f8d25fe2b64374.jpg',colorvalue:'#191514',smallImage:'http://y1.ifengimg.com/a/2014_51/2154b5cc5add576.jpg'},{title: '六个孩子失踪 64岁猎人与狼群搏斗',url: 'http://v.ifeng.com/documentary/discovery/2014007/03563879-f33c-4093-9c39-10eaa8ed165d.shtml',image: 'http://y2.ifengimg.com/a/2014_51/2f5de045662b69e.jpg',colorvalue:'#6b3c20',smallImage:'http://y1.ifengimg.com/a/2014_51/50981090f7581ef.jpg'},{title: '开国大典绝密行动：100多名反动分子被集体枪决',url: 'http://v.ifeng.com/documentary/history/2014007/03e0c0a6-8f8a-4fb3-808b-986a423e3408.shtml',image: 'http://y3.ifengimg.com/a/2014_51/9e95ac17c508c3f.jpg',colorvalue:'#64605d',smallImage:'http://y0.ifengimg.com/a/2014_51/113bcc7d4eb92e4.jpg'},{title: '2014年第三届凤凰视频纪录片大奖',url: 'http://v.ifeng.com/documentary/special/2014docaward/index.shtml',image: 'http://y1.ifengimg.com/a/2014_51/6f15d2cb8fe14cd.jpg',colorvalue:'#303940',smallImage:'http://y1.ifengimg.com/a/2014/0929/807d4e2341aaee6.jpg'},{title: '以匠人之心 琢一世酱事',url: 'http://dol.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=5754&l=22490&bg=22490&b=23739&u=http://v.ifeng.com/biz/201411/01df5751-f6dd-474b-86b1-c4ae117a01f0.shtml',image: 'http://y1.ifengimg.com/mappa/2014/12/17/0d3348549da67fb0be201253e90f9ca5.jpg',colorvalue:'#000000',smallImage:'http://y0.ifengimg.com/mappa/2014/12/17/27508c42ae33849e2a0d53e7a24b291c.jpg'}];
+</script>
+</div>
+<script>
+(function (doc) {
+    "use strict";
+    if (device.type === "mobile") {
+        var creatFocusList = function () {
+                var box = doc.getElementById("js_focus_box_f");
+                var htmls = ['<div class="focus" id="js_focus_box"><div class="piccont" id="js_focus"><div id="js_focus_in">'];
+                htmls.push(creatOneList(focusData[focusData.length - 1]));
+                for(var i = 0, iLen = focusData.length; i < iLen; i++) {
+                    htmls.push(creatOneList(focusData[i]));
+                }
+                htmls.push(creatOneList(focusData[0]));
+                htmls.push('</div></div><div class="fucusbar"><a class="prev" href="javascript:void(0);"></a><a class="next" href="javascript:void(0);"></a></div></div>');
+                box.innerHTML = htmls.join("");
+
+        };
+        var creatOneList = function (data) {
+            return '<div class="pic"><a href="' + data.url + '" title="' + data.title + '" target="_self" class="pic_img" style="background-image:url(' + data.image + ');background-color:' + data.colorvalue + '"></a><span class="shadow"><a href="' + data.url + '" title="' + data.title + '" target="_self">' + data.title + '</a></span></div>';
+        }
+        creatFocusList();
+    } else {
+            var fcDomId = 'js_focus_box_f';
+            var $id = function (id) {
+                return document.getElementById(id);
+            };
+            var fcDom = $id(fcDomId);
+            if (fcDom !== null && typeof focusData !== 'undefined') {
+                //整体模板
+            var whole = function () {
+                var arr = [];
+                arr.push('<div class="fv_site_focus fucusbar">');
+                arr.push('<div class="fv_site_focus_inner" id="fv_site_focus_ins">');
+                arr.push('<div class="fv_site_focus_list" id="scrnBoxList">');
+                arr.push('</div>');
+                arr.push('<div class="focus_control" id="scrnTab">');
+                arr.push('<div id="scrnBtnL">');
+                arr.push('<a href="javascript:;" hidefocus="true" title="上一个" class="btn_prev prev" style="height:55px;">上一个</a>');
+                arr.push('</div>');
+                arr.push('<div class="focus_control_list" id="focus_control_list_id">');
+                arr.push('</div>');
+                arr.push('<div id="scrnBtnR">');
+                arr.push('<a href="javascript:;" hidefocus="true" title="下一个" class="btn_next next" style="height:55px;">下一个</a>');
+                arr.push('</div>');
+                arr.push('</div>');
+                arr.push('</div>');
+                arr.push('</div>');
+                return arr.join('');
+            }
+            //文字列表模板
+              var wordsList = function (dataList) {
+                var arr = [];
+                arr.push('<ul id="tabControler">');
+                var className = '';           
+                for (var i = 0, l = dataList.length; i < l; i++) {
+                    className = (i === 0) ? 'current' : '';
+                    var data = dataList[i];
+                  arr.push('<li class="' + className + '" id="scrnLi_' + i + '">');
+                  arr.push(  '<a href="'+ data.url + '" target="video">');
+                  arr.push('<img src="'+data.smallImage+'" alt="'+data.title+'" title="'+data.title+'">');
+                  arr.push('<span class="shadow"></span>');
+                  arr.push('</a>');
+                  arr.push('</li>');
+                }
+                arr.push('</ul>')
+                return arr.join('');
+              };
+            //图片列表模板
+              var imgsList = function (dataList) {
+                var arr = [];
+                var displayStyle = '';
+                for (var i = 0, l = (dataList.length+2); i < l; i++) {
+                    displayStyle = (i === 0) ? 'block' : 'none';
+                    if(i < (l-2)){
+                        var data = dataList[i];
+                    }else{
+                        var data = dataList[i-dataList.length];
+                    }
+                    arr.push('<div class="fv_site_focus_box" style="display:'+displayStyle+'">');
+                    arr.push( '<a href="' + data.url + '" target="video" style="background-image:url('+data.image+');background-color:'+data.colorvalue+';">');
+                    arr.push( '</a>');
+                    arr.push('</div>');
+                }
+
+                return arr.join('');
+              }; 
+            //内容生成
+              fcDom.innerHTML = whole();
+
+              var wordsListDom = $id('focus_control_list_id'),
+                  imgsListDom = $id('scrnBoxList');
+              //拼装数据
+              wordsListDom.innerHTML = wordsList(focusData);
+              imgsListDom.innerHTML = imgsList(focusData); 
+            }
+    }
+}(document));
+</script>
+    <!--焦点图 end-->
+
+    <!--通栏广告1 begin-->
+    <div class="ad1000_box">
+    <div class="ad1000">
+    
+<!--s_itv_vdocumentary_index_banner_01 2014.12.19 09:17:40-->
+<script type="text/javascript">try{aptracker.add(2333);}catch(e){}</script>
+
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/51332160/s_itv_vdocumentary_index_banner_01', [1000, 90], 'div-gpt-ad-1406009424711-0').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_itv_vdocumentary_index_banner_02', [1000, 90], 'div-gpt-ad-1406009424711-1').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_itv_vdocumentary_index_ad_banner_03', [1000, 90], 'div-gpt-ad-1406009424711-2').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_itv_vdocumentary_index_140212_ad_banner04', [1000, 90], 'div-gpt-ad-1406009424711-3').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_itv_vdocumentary_index_couplet', [90, 300], 'div-gpt-ad-1406009424711-4').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_itv_vdocumentary_index_button_01', [300, 250], 'div-gpt-ad-1406009424711-5').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_itv_vdocumentary_index_button_02', [300, 250], 'div-gpt-ad-1406009424711-6').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+<script type="text/javascript">
+      var placeIdentifier = "banner_01_marker" ; 
+      document.write('<div id="' + placeIdentifier + '" style="display:none;"></div>');
+</script>
+<div id="AP647" style="display:none;">
+<code>
+<!--BOF
+<var style="display:none;" v="2333,0,0,NULL,fixture"></var><script type="text/javascript">
+	var a = 'http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=12712&bg=12712&b=12717&u=http://v.ifeng.com/vlist/orig/lcping/all/0/1/detail.shtml';
+	var narrow_screen_ad = 'http://y0.ifengimg.com/mappa/2014/06/16/befbaf4b90f4a039b4c43a01e1d28e11.html';
+	var narrow_screen_w = '1000';var narrow_screen_h = '90';var narrow_screen_isActive = 0;
+	var wide_screen_ad = 'http://y1.ifengimg.com/mappa/2014/06/26/3c722fa1035904e38b5118b37e229bd2.jpg'
+	var wide_screen_w = '1230';var wide_screen_h = '90';var wide_screen_isActive = 0;
+</script>
+<script type="text/javascript" src="http://y3.ifengimg.com/6e99b17a6eb74b14/2014/1014/v_responsive.js"></script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_itv_vdocumentary_index_banner_01';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();	
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP647"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_itv_vdocumentary_index_banner_01-->
+
+    </div>
+</div>
+    <!--通栏广告1 end-->
+
+    <!--通栏模块 begin-->
+    <div class="column_box">
+        <div class="column_content">
+            <div class="mod_title">
+    <span class="subtitle">
+        <a href="http://v.ifeng.com/vlist/nav/doc/update/1/list.shtml" target="_blank" class="more">更多</a>
+    </span>
+    <h2><a href="http://v.ifeng.com/vlist/nav/doc/update/1/list.shtml" target="_blank">首播剧场</a>
+    </h2>
+</div> <div class="mod_box plateType1">
+    <ul>
+                        <li>
+                    <div class="type_title">
+                        <a href="http://v.ifeng.com/documentary/society/201412/03cce785-3da2-4bea-8006-4ef53afc160e.shtml" target="video">
+                            <img src="http://y1.ifengimg.com/a/2014_49/ef5d774ea3c1986.jpg" alt="" title="">
+                        </a>
+                        <i>|</i>
+                        <span><a href="http://v.ifeng.com/documentary/society/201412/03cce785-3da2-4bea-8006-4ef53afc160e.shtml" target="video">尴尬的牛场</a>
+                        </span>
+                    </div>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/society/201412/03cce785-3da2-4bea-8006-4ef53afc160e.shtml" target="video">
+                            <img src="http://y1.ifengimg.com/a/2014_51/0a5a7fade953068.jpg" alt="现代牧业通山牧场因污染被下“逐客令” 被村民堵门15天" title="现代牧业通山牧场因污染被下“逐客令” 被村民堵门15天">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <em>现代牧业通山牧场因污染被下“逐客令” 被村民堵门15天</em>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="type_title">
+                        <a href="http://v.ifeng.com/documentary/society/201412/03645e5e-9a18-4cd7-bb1c-79e8344c91ec.shtml" target="video">
+                            <img src="http://y2.ifengimg.com/a/2014_13/73c45a874429e53.jpg" alt="" title="">
+                        </a>
+                        <i>|</i>
+                        <span><a href="http://v.ifeng.com/documentary/society/201412/03645e5e-9a18-4cd7-bb1c-79e8344c91ec.shtml" target="video">北京知青在陕北</a>
+                        </span>
+                    </div>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/society/201412/03645e5e-9a18-4cd7-bb1c-79e8344c91ec.shtml" target="video">
+                            <img src="http://y1.ifengimg.com/a/2014_51/102174e3e0ef37b.jpg" alt="北京知青郭春萍来到延安一年后患精神病 被唤作“郭疯子”" title="北京知青郭春萍来到延安一年后患精神病 被唤作“郭疯子”">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <em>北京知青郭春萍来到延安一年后患精神病 被唤作“郭疯子”</em>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="type_title">
+                        <a href="http://v.ifeng.com/documentary/history/201412/03079af3-30ca-42f2-af08-668a49893d3f.shtml" target="video">
+                            <img src="http://y2.ifengimg.com/a/2014_51/676664575b17863.jpg" alt="" title="">
+                        </a>
+                        <i>|</i>
+                        <span><a href="http://v.ifeng.com/documentary/history/201412/03079af3-30ca-42f2-af08-668a49893d3f.shtml" target="video">澳门五百年风雨路</a>
+                        </span>
+                    </div>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/history/201412/03079af3-30ca-42f2-af08-668a49893d3f.shtml" target="video">
+                            <img src="http://y0.ifengimg.com/a/2014_51/cd61a7b5596ad64.jpg" alt="林则徐澳门行：禁烟恩威并施 英国鸦片商打道回府" title="林则徐澳门行：禁烟恩威并施 英国鸦片商打道回府">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <em>林则徐澳门行：禁烟恩威并施 英国鸦片商打道回府</em>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="type_title">
+                        <a href="http://v.ifeng.com/documentary/history/201412/0366422e-dfe4-406c-b6ce-de479297d734.shtml" target="video">
+                            <img src="http://y1.ifengimg.com/2014/03/20/16384132.jpg" alt="" title="">
+                        </a>
+                        <i>|</i>
+                        <span><a href="http://v.ifeng.com/documentary/history/201412/0366422e-dfe4-406c-b6ce-de479297d734.shtml" target="video">1937南京真相</a>
+                        </span>
+                    </div>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/history/201412/0366422e-dfe4-406c-b6ce-de479297d734.shtml" target="video">
+                            <img src="http://y2.ifengimg.com/a/2014_51/bc1357b11fe2640.jpg" alt="南京大屠杀：日军占领南京后发布密令 凡活物一律杀掉" title="南京大屠杀：日军占领南京后发布密令 凡活物一律杀掉">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <em>南京大屠杀：日军占领南京后发布密令 凡活物一律杀掉</em>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="type_title">
+                        <a href="http://v.ifeng.com/documentary/figure/201412/0393ba5a-224f-4163-824d-a450cb59a10e.shtml" target="video">
+                            <img src="http://y2.ifengimg.com/a/2014_51/6976b990f6c6db0.jpg" alt="" title="">
+                        </a>
+                        <i>|</i>
+                        <span><a href="http://v.ifeng.com/documentary/figure/201412/0393ba5a-224f-4163-824d-a450cb59a10e.shtml" target="video">张治中</a>
+                        </span>
+                    </div>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/figure/201412/0393ba5a-224f-4163-824d-a450cb59a10e.shtml" target="video">
+                            <img src="http://y3.ifengimg.com/a/2014_51/b874fdf35a7be88.jpg" alt="张治中与周恩来谋划 解救新疆被押政治犯" title="张治中与周恩来谋划 解救新疆被押政治犯">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <em>张治中与周恩来谋划 解救新疆被押政治犯</em>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="type_title">
+                        <a href="http://v.ifeng.com/documentary/military/201412/037d4360-bfdf-4f7f-b8f9-013344da8d40.shtml" target="video">
+                            <img src="http://y0.ifengimg.com/2014/03/20/16423532.jpg" alt="" title="">
+                        </a>
+                        <i>|</i>
+                        <span><a href="http://v.ifeng.com/documentary/military/201412/037d4360-bfdf-4f7f-b8f9-013344da8d40.shtml" target="video">台海局势</a>
+                        </span>
+                    </div>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/military/201412/037d4360-bfdf-4f7f-b8f9-013344da8d40.shtml" target="video">
+                            <img src="http://y3.ifengimg.com/a/2014_50/83ccb809f37d896.jpg" alt="解放军上将：必要时将依法武力解决台湾问题" title="解放军上将：必要时将依法武力解决台湾问题">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <em>解放军上将：必要时将依法武力解决台湾问题</em>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="type_title">
+                        <a href="http://v.ifeng.com/documentary/history/201412/030e20b3-4740-4f26-83fd-9a805cb7abe1.shtml" target="video">
+                            <img src="http://y2.ifengimg.com/a/2014_13/73c45a874429e53.jpg" alt="" title="">
+                        </a>
+                        <i>|</i>
+                        <span><a href="http://v.ifeng.com/documentary/history/201412/030e20b3-4740-4f26-83fd-9a805cb7abe1.shtml" target="video">香港往事</a>
+                        </span>
+                    </div>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/history/201412/030e20b3-4740-4f26-83fd-9a805cb7abe1.shtml" target="video">
+                            <img src="http://y3.ifengimg.com/a/2014_50/b41b5dd2a9b2dd8.jpg" alt="昔日古惑仔双面人生：从砍人打手到虔诚基督徒" title="昔日古惑仔双面人生：从砍人打手到虔诚基督徒">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <em>昔日古惑仔双面人生：从砍人打手到虔诚基督徒</em>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div class="type_title">
+                        <a href="http://v.ifeng.com/documentary/history/201412/0389d5fd-1b98-4273-b165-dd602c3c843f.shtml" target="video">
+                            <img src="http://y3.ifengimg.com/a/2014_13/715cd3e3b603fcc.jpg" alt="" title="">
+                        </a>
+                        <i>|</i>
+                        <span><a href="http://v.ifeng.com/documentary/history/201412/0389d5fd-1b98-4273-b165-dd602c3c843f.shtml" target="video">西北津梁——杨虎城</a>
+                        </span>
+                    </div>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/history/201412/0389d5fd-1b98-4273-b165-dd602c3c843f.shtml" target="video">
+                            <img src="http://y2.ifengimg.com/a/2014_50/d29594c5c8c98c0.jpg" alt="杨虎城曾是黑社会头子 连开三枪令一人毙命" title="杨虎城曾是黑社会头子 连开三枪令一人毙命">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <em>杨虎城曾是黑社会头子 连开三枪令一人毙命</em>
+                        </a>
+                    </div>
+                </li>
+    </ul>
+</div>
+        </div>
+
+        <div class="column_aside">
+            <!--纪录片来源 begin-->
+            <div class="mod_title">
+    <h2><a target="_blank" href="http://v.ifeng.com/vlist/nav_category_cp/doc_all_all/update/1/list.shtml">纪录片来源</a>
+    </h2>
+</div> 
+            <div class="sourceBox">
+    <p>
+        <a href="http://v.ifeng.com/vlist/nav_category_cp/doc_all_%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86/update/1/list.shtml" target="_blank">凤凰卫视</a>
+    <a href="http://v.ifeng.com/vlist/nav_category_cp/doc_all_%E5%A4%AE%E8%A7%86/update/1/list.shtml" target="_blank">央视</a>
+    <a href="http://v.ifeng.com/vlist/nav_category_cp/doc_all_%E4%BA%AC%E8%A7%86%E4%BC%A0%E5%AA%92/update/1/list.shtml" target="_blank">京视传媒</a>
+    <a href="http://v.ifeng.com/documentary/special/bjdoc/index.shtml" target="_blank">北京纪实</a>
+    </p><p>
+    <a href="http://v.ifeng.com/bbc/index.shtml" target="_blank">BBC</a>
+    <a href="http://v.ifeng.com/vlist/nav_category_cp/doc_all_%E4%B8%8A%E6%B5%B7%E7%BA%AA%E5%AE%9E/update/1/list.shtml" target="_blank">上海纪实</a>
+    <a href="http://v.ifeng.com/vlist/nav_category_cp/doc_all_%E6%9C%97%E6%80%9D%E4%BC%A0%E5%AA%92/update/1/list.shtml" target="_blank">朗思传媒</a>
+    <a href="http://v.ifeng.com/vlist/nav_category_cp/doc_all_%E6%B3%95%E5%9B%BD%E9%99%88%E6%B0%8F/update/1/list.shtml" target="_blank">法国陈氏</a>
+    </p><p>
+    <a href="http://v.ifeng.com/vlist/nav_category_cp/doc_all_%E4%BD%B3%E9%9F%B5%E7%A4%BE/update/1/list.shtml" target="_blank">佳韵社</a>
+    <a href="http://v.ifeng.com/vlist/nav_category_cp/doc_all_%E5%A4%A7%E9%99%86%E6%A1%A5CP/update/1/list.shtml" target="_blank">大陆桥</a>
+    <a href="http://v.ifeng.com/vlist/nav_cp/doc_%E5%9B%BD%E5%AE%B6%E5%9C%B0%E7%90%86/update/1/list.shtml" target="_blank">美国国家地理</a>
+    <a href="http://v.ifeng.com/vlist/nav_cp/doc_%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%9B%BD%E5%AE%B6%E7%94%B5%E5%BD%B1%E5%B1%80/update/1/list.shtml" target="_blank">NFB</a>
+    </p>
+</div>
+            <!--纪录片来源 end-->
+
+            <!--[新版]播放排行榜 begin-->
+            
+                <div class="seetop">
+                    <div class="seetop_box">
+                        <ul id="tabControler_83" class="seetab">
+                            <li class="current">日播放榜</li>
+                            <li>周播放榜</li>
+                            <li>我看过的</li>
+                        </ul>
+                        <div id="tabView_83" class="seeview">
+                            <div class="Ranklist">
+                                <ol>
+                                    <li class="spe"> <a href="http://v.ifeng.com/documentary/society/201412/03ae6d66-6ee7-4e93-be13-079b05d1eb6e.shtml" target="video" title="清代不腐美女尸体容颜鲜亮 通体散发香气" class="rank_photo"><img src="http://d.ifengimg.com/w120_h90/y0.ifengimg.com/pmop/2014/12/15/79dabc2e-6fc2-414a-b968-220d14801947.jpg" alt="清代不腐美女尸体容颜鲜亮 通体散发香气" title="清代不腐美女尸体容颜鲜亮 通体散发香气" /> <span class="num01">1</span> <em><i>清代不腐美女尸体容颜鲜亮 通体散发香气</i></em> </a> </li> <li> <span class="num02">2</span> <p><a href="http://v.ifeng.com/documentary/discovery/2014007/03563879-f33c-4093-9c39-10eaa8ed165d.shtml" target="video" title="探索 超级食人狼">探索 超级食人狼</a></p> </li> <li> <span class="num03">3</span> <p><a href="http://v.ifeng.com/documentary/society/201408/0341d50a-fb38-4de1-844f-ca0ba2d9f55b.shtml" target="video" title="真相 殒命长江的玫瑰女郎">真相 殒命长江的玫瑰女郎</a></p> </li> <li> <span class="num04">4</span> <p><a href="http://v.ifeng.com/documentary/figure/2014002/0315d560-7a67-46af-9dc5-bd90be6bb94e.shtml" target="video" title="皇牌大放送 尊前谈笑人依旧——华国锋影像记忆">皇牌大放送 尊前谈笑人依旧——华国锋影像记忆</a></p> </li> <li> <span class="num05">5</span> <p><a href="http://v.ifeng.com/documentary/figure/201312/035dc486-6818-4893-9016-016453a80159.shtml" target="video" title="鲁豫有约 吴胜明：从阶下囚到千万老太">鲁豫有约 吴胜明：从阶下囚到千万老太</a></p> </li> <li> <span class="num06">6</span> <p><a href="http://v.ifeng.com/documentary/society/201412/033d8503-cbf9-4d67-98c1-7f3fbe2e6d6e.shtml" target="video" title="实拍：非洲水牛群铁蹄犄角悬抛玩死成年雄狮">实拍：非洲水牛群铁蹄犄角悬抛玩死成年雄狮</a></p> </li> <li> <span class="num07">7</span> <p><a href="http://v.ifeng.com/documentary/history/201412/0366422e-dfe4-406c-b6ce-de479297d734.shtml" target="video" title="皇牌大放送 1937南京真相">皇牌大放送 1937南京真相</a></p> </li> <li> <span class="num08">8</span> <p><a href="http://v.ifeng.com/documentary/discovery/201305/090e2da2-c58c-48c8-98ae-45b395181443.shtml" target="video" title="地理中国 绝壁仙草">地理中国 绝壁仙草</a></p> </li> <li> <span class="num09">9</span> <p><a href="http://v.ifeng.com/documentary/discovery/201304/e4ef9503-a30a-44c5-99fc-a31fc3644bb5.shtml" target="video" title="经典传奇 野人遇上外星人——寻找西藏野人">经典传奇 野人遇上外星人——寻找西藏野人</a></p> </li> <li> <span class="num10">10</span> <p><a href="http://v.ifeng.com/documentary/figure/201308/034f47a9-5123-4c53-b72b-ac2e7d29b500.shtml" target="video" title="非常说名 女司令康克清">非常说名 女司令康克清</a></p> </li> 
+                                </ol>
+                            </div>
+                            <div class="Ranklist">
+                                <ol>
+                                    <li class="spe"> <a href="http://v.ifeng.com/documentary/society/201411/03f4e6b6-62ce-4971-811a-91f9cf617828.shtml" target="video" title="社会能见度 性治疗师" class="rank_photo"><img src="http://d.ifengimg.com/w120_h90/y0.ifengimg.com/pmop/2014/11/06/75b470c3-820d-4075-972b-036770ae1204.jpg" alt="社会能见度 性治疗师" title="社会能见度 性治疗师" /> <span class="num01">1</span> <em><i>社会能见度 性治疗师</i></em> </a> </li> <li> <span class="num02">2</span> <p><a href="http://v.ifeng.com/documentary/society/201407/039358ba-d957-4a5b-8b76-f8129ae089a3.shtml" target="video" title="探秘时刻 鱼塘里的宝贝">探秘时刻 鱼塘里的宝贝</a></p> </li> <li> <span class="num03">3</span> <p><a href="http://v.ifeng.com/documentary/discovery/201309/03ba3ded-3eed-4afb-bf15-3d9cf147d9f4.shtml" target="video" title="走近科学 封土下的亡灵（下）">走近科学 封土下的亡灵（下）</a></p> </li> <li> <span class="num04">4</span> <p><a href="http://v.ifeng.com/documentary/society/201410/0327c130-5d11-498a-92bc-92704182e157.shtml" target="video" title="北京记忆 40年别样收藏路">北京记忆 40年别样收藏路</a></p> </li> <li> <span class="num05">5</span> <p><a href="http://v.ifeng.com/documentary/society/201408/03b5c3ea-3089-49ec-aa57-e2fe1b243473.shtml" target="video" title="真相 殒命宿舍的跳舞女孩">真相 殒命宿舍的跳舞女孩</a></p> </li> <li> <span class="num06">6</span> <p><a href="http://v.ifeng.com/documentary/history/201412/03ff530f-dd67-40f6-9314-b8a945a323ec.shtml" target="video" title="清东陵被盗：慈禧上衣被剥尸体鲜活如初">清东陵被盗：慈禧上衣被剥尸体鲜活如初</a></p> </li> <li> <span class="num07">7</span> <p><a href="http://v.ifeng.com/documentary/history/201412/034f9888-c8e2-4fb6-bdfd-af5af88809f6.shtml" target="video" title="新疆现150个神秘圆坑：内存天然干尸">新疆现150个神秘圆坑：内存天然干尸</a></p> </li> <li> <span class="num08">8</span> <p><a href="http://v.ifeng.com/documentary/society/201412/03ae6d66-6ee7-4e93-be13-079b05d1eb6e.shtml" target="video" title="清代不腐美女尸体容颜鲜亮 通体散发香气">清代不腐美女尸体容颜鲜亮 通体散发香气</a></p> </li> <li> <span class="num09">9</span> <p><a href="http://v.ifeng.com/documentary/discovery/2014007/03563879-f33c-4093-9c39-10eaa8ed165d.shtml" target="video" title="探索 超级食人狼">探索 超级食人狼</a></p> </li> <li> <span class="num10">10</span> <p><a href="http://v.ifeng.com/documentary/history/201410/0338440a-816e-469a-bcf7-06ab88c39dc2.shtml" target="video" title="两岸秘密档案 特约茶室另类风景 军中乐园慰藉官兵">两岸秘密档案 特约茶室另类风景 军中乐园慰藉官兵</a></p> </li> 
+                                </ol>
+                            </div>
+                            <div id="seenRecord" class="miniseebox">
+                                <span style="display:block;" id="clearPlay" class="dele"><a id="recordCleaner" href="javascript:void(0);"> 清空观看记录</a>
+                                </span>
+                                <ul id="listMs"></ul>
+                                <span style="display:none;" id="noRecord" class="norecord">您暂时没有播放记录</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            <!--[新版]播放排行榜 end-->
+        </div>
+    </div>
+    <!--通栏模块 end-->
+
+    <!--通栏模块 begin-->
+    <div class="column_box">
+        <div class="column_content">
+            <div class="mod_title">
+    <span class="subtitle">
+        <a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0001/update/1/list.shtml" target="_blank" class="more">更多</a>
+    </span>
+    <h2><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0001/update/1/list.shtml" target="_blank">历史</a>
+    </h2>
+</div> 
+            <div class="mod_box plateType2 hideFive">
+            <div class="left">
+        <div class="type_pic">
+        <a href="http://v.ifeng.com/documentary/history/201412/0357bf0c-a95e-461c-a135-d823feb74b1a.shtml" target="_blank">
+            <img src="http://y2.ifengimg.com/a/2014_51/00f5a07abb74eb6.jpg" alt="拉贝日记：南京一九三七" title="拉贝日记：南京一九三七">
+            <span class="photos_shadow"><i></i>
+            </span>
+            <em></em>
+        </a>
+    </div>
+    <div class="type_text">
+        <h4><a href="http://v.ifeng.com/documentary/history/201412/0357bf0c-a95e-461c-a135-d823feb74b1a.shtml" target="_blank">拉贝日记：南京一九三七</a>
+        </h4>
+        <p>
+                那时的南京城，弥漫着死亡与绝望的气息。日本法西斯在城内肆意妄为。而一个德国纳粹，却成为了南京人民的大救星。
+        </p>
+    </div>
+</div>
+            <div class="right">
+    <ul>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/history/201105/6eb1ea9e-eae9-4de3-87ba-a418be5e1ba4.shtml" target="_blank">
+                    <img src="http://y0.ifengimg.com/a/2014_51/f374dc72a112ba9.jpg" alt="寻找太平轮:中国版泰坦尼克" title="寻找太平轮:中国版泰坦尼克">
+                    <span class="photos_shadow"><i></i></span>
+                    <span class="photos_tit">寻找太平轮:中国版泰坦尼克</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/history/201105/6eb1ea9e-eae9-4de3-87ba-a418be5e1ba4.shtml" target="_blank">船上乘客多为国府高官及社会名流</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/history/201409/035e99ef-8606-4dc2-b2eb-47c3f2705f52.shtml" target="_blank">
+                    <img src="http://y1.ifengimg.com/a/2014_49/35c0812f80e28fa.jpg" alt="伊朗655空难真相：美军误炸？" title="伊朗655空难真相：美军误炸？">
+                    <span class="photos_shadow"><i></i></span>
+                    <span class="photos_tit">伊朗655空难真相：美军误炸？</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/history/201409/035e99ef-8606-4dc2-b2eb-47c3f2705f52.shtml" target="_blank">美军军舰为何误判民航客机为战斗机？</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/history/201110/3054e3bb-354f-4f97-9bf3-9e3129c60160.shtml" target="_blank">
+                    <img src="http://y2.ifengimg.com/a/2014_48/96532cfae8057ba.jpg" alt="驼峰航线：平均每天坠毁一架飞机" title="驼峰航线：平均每天坠毁一架飞机">
+                    <span class="photos_shadow"><i></i></span>
+                    <span class="photos_tit">驼峰航线：平均每天坠毁一架飞机</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/history/201110/3054e3bb-354f-4f97-9bf3-9e3129c60160.shtml" target="_blank">创造飞行运输史奇迹 至今无法超越</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/history/201411/03bffb32-a2a7-45a6-9739-de4d0943b161.shtml" target="_blank">
+                    <img src="http://y0.ifengimg.com/a/2014_47/0a0d06d9e3025bd.jpg" alt="宋美龄与蒋经国：“母子”恩仇录" title="宋美龄与蒋经国：“母子”恩仇录">
+                    <span class="photos_shadow"><i></i></span>
+                    <span class="photos_tit">宋美龄与蒋经国：“母子”恩仇录</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/history/201411/03bffb32-a2a7-45a6-9739-de4d0943b161.shtml" target="_blank">蒋经国与宋美龄仅相差13岁</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/history/201211/f8c225c7-11bb-40d4-8c59-d0392cace945.shtml" target="_blank">
+                    <img src="http://y3.ifengimg.com/a/2014_47/e9d03230f71352e.jpg" alt="撒旦降临：恐怖组织制造东京惨案" title="撒旦降临：恐怖组织制造东京惨案">
+                    <span class="photos_shadow"><i></i></span>
+                    <span class="photos_tit">撒旦降临：恐怖组织制造东京惨案</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/history/201211/f8c225c7-11bb-40d4-8c59-d0392cace945.shtml" target="_blank">受害者超过五千人 沙林毒气案轰动世界</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/history/201410/034820e1-417e-4ba9-953a-ccd991e4b3c8.shtml" target="_blank">
+                    <img src="http://y2.ifengimg.com/a/2014_45/ac67d3a6631263b.jpg" alt="中途岛海战：5分钟断送日本海军" title="中途岛海战：5分钟断送日本海军">
+                    <span class="photos_shadow"><i></i></span>
+                    <span class="photos_tit">中途岛海战：5分钟断送日本海军</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/history/201410/034820e1-417e-4ba9-953a-ccd991e4b3c8.shtml" target="_blank">山本五十六战前过分相信下属 以致大败</a>
+            </div>
+        </li>
+    </ul>
+</div>
+            </div>
+        </div>
+
+        <div class="column_aside">
+            <!--[新版]矩形广告1 begin-->
+            <div class="ad300_box">
+    
+<!--s_itv_vdocumentary_index_button_01 2014.12.19 09:18:05-->
+<script type="text/javascript">try{aptracker.add(4326);}catch(e){}</script>
+
+
+<div id="AP1123" style="display:none;">
+<code>
+<!--BOF
+<var style="display:none;" v="4326,23103,5115,夏岩,B1"></var><script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?56317bc45MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFIhD4mgvou07zpiGS2Qn6dLIUQSwE7U0bib8KTHHXMJqVcbwdla4D-bMkGcwwUBFvf0FTFPhUBupM50qGIVOw4XrOwHoIRzmuDoKkZi5cBWyxCWHGF765vfgORvFLlGxrI';
+var ad = 'http://y3.ifengimg.com/mappa/2014/12/16/935d09939a46e11ff9a4dde1a242dbd8.jpg';
+var w = '300';var h = '250';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		document.write("<div id='div-gpt-ad-1406009424711-5' style='width:300px; height:250px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1406009424711-5'); });</" + "script></div>");	
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP1123"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_itv_vdocumentary_index_button_01-->
+
+</div>
+            <!--[新版]矩形广告1 end-->
+            <!--[新版]矩形广告1 begin-->
+            <div class="client_box">
+    <a href="http://v.ifeng.com/apps/index.shtml?_v_tuiguang_1" target="_blank">
+        <img src="http://y0.ifengimg.com/62634fff1f0dc8b6/2014/0317/rdn_5326949958cfd.jpg" alt="" title="">
+    </a>
+</div>
+            <!--[新版]矩形广告1 end-->
+        </div>
+    </div>
+    <!--通栏模块 end-->
+
+
+    <!--通栏模块 begin-->
+    <div class="column_box">
+        <div class="column_content">
+            <!--[新版]视频纪实频道页军事栏title begin-->
+            <div class="mod_title">
+    <span class="subtitle">
+        <a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0000/update/1/list.shtml" target="_blank" class="more">更多</a>
+    </span>
+    <h2><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0000/update/1/list.shtml" target="_blank">军事</a>
+    </h2>
+</div>
+            <!--[新版]视频纪实频道页军事栏title end-->
+            <!--[新版]视频纪实频道页军事栏推荐 begin-->
+            <div class="mod_box plateType2 sigleRow">
+    <ul>
+                        <li>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/military/201408/03f2939b-bda3-4b22-bd9a-bcb321f4f0ee.shtml" target="_blank">
+                            <img src="http://y3.ifengimg.com/a/2014_51/6646148f874a637.jpg" alt="幻影2000：中东地区空中王者" title="幻影2000：中东地区空中王者">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <span class="photos_tit">幻影2000：中东地区空中王者</span>
+                        </a>
+                    </div>
+                    <div class="type_details">
+                        <a href="http://v.ifeng.com/documentary/military/201408/03f2939b-bda3-4b22-bd9a-bcb321f4f0ee.shtml" target="_blank">在中东的历次战争中享有超高出镜率</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/military/201412/0363492b-33cc-4d3a-a528-38e10efe4851.shtml" target="_blank">
+                            <img src="http://y2.ifengimg.com/a/2014_50/17dd627d20822ed.jpg" alt="零式战机：因何称霸太平洋战场" title="零式战机：因何称霸太平洋战场">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <span class="photos_tit">零式战机：因何称霸太平洋战场</span>
+                        </a>
+                    </div>
+                    <div class="type_details">
+                        <a href="http://v.ifeng.com/documentary/military/201412/0363492b-33cc-4d3a-a528-38e10efe4851.shtml" target="_blank">零式战机的致命弱点又是什么?</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/military/201311/035afabc-20d6-4161-9cfc-96984b65492e.shtml" target="_blank">
+                            <img src="http://y0.ifengimg.com/a/2014_49/47cfbd8fbe8d10c.jpg" alt="陆战新霸主：超级坦克M1" title="陆战新霸主：超级坦克M1">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <span class="photos_tit">陆战新霸主：超级坦克M1</span>
+                        </a>
+                    </div>
+                    <div class="type_details">
+                        <a href="http://v.ifeng.com/documentary/military/201311/035afabc-20d6-4161-9cfc-96984b65492e.shtml" target="_blank">一款典型的依靠改进获得高性能的坦克</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="type_pic">
+                        <a href="http://v.ifeng.com/documentary/military/201106/e95ee564-140c-4227-b22f-83b54454b028.shtml" target="_blank">
+                            <img src="http://y3.ifengimg.com/a/2014_48/0ada1bd93e7b18e.jpg" alt="蛟龙入海：书写中国深潜新神话" title="蛟龙入海：书写中国深潜新神话">
+                            <span class="photos_shadow"><i></i>
+                            </span>
+                            <span class="photos_tit">蛟龙入海：书写中国深潜新神话</span>
+                        </a>
+                    </div>
+                    <div class="type_details">
+                        <a href="http://v.ifeng.com/documentary/military/201106/e95ee564-140c-4227-b22f-83b54454b028.shtml" target="_blank">成为第五个掌握大深度深潜技术的国家</a>
+                    </div>
+                </li>
+    </ul>
+</div>
+            <!--[新版]视频纪实频道页军事栏推荐 end-->
+        </div>
+
+        <div class="column_aside">
+            <!--[新版]品牌专区title begin-->
+            <div class="mod_title">
+    <h2><a target="_blank" href="http://v.ifeng.com/vlist/nav/doc/update/1/list.shtml">品牌专区</a>
+    </h2>
+</div>
+            <!--[新版]品牌专区title end-->
+            <!--[新版]品牌专区box begin-->
+            <div class="s_box">
+    <ul>
+        <li>
+            <div class="s_pic">
+                <a href="http://v.ifeng.com/documentary/special/cicsep2014/index.shtml" target="_blank">
+                    <img src="http://y1.ifengimg.com/a/2014_38/9d810041006365d.jpg" alt="2014科影年会" title="2014科影年会">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">2014科影年会</span>
+                </a>
+            </div>
+            <div class="s_details">
+                <a href="http://v.ifeng.com/documentary/special/cicsep2014/index.shtml" target="_blank">科影界奥斯卡</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="s_pic">
+                <a href="http://v.ifeng.com/documentary/special/asiansideofthedoc/" target="_blank">
+                    <img src="http://y0.ifengimg.com/a/2014_12/187b56b9e8b3d1a.jpg" alt="阳光纪录片大会" title="阳光纪录片大会">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">阳光纪录片大会</span>
+                </a>
+            </div>
+            <div class="s_details">
+                <a href="http://v.ifeng.com/documentary/special/asiansideofthedoc/" target="_blank">首度进驻中国</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="s_pic">
+                <a href="http://v.ifeng.com/bbc/index.shtml" target="_blank">
+                    <img src="http://y0.ifengimg.com/a/2014_12/4ab121ce670f506.jpg" alt="BBC" title="BBC">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">BBC</span>
+                </a>
+            </div>
+            <div class="s_details">
+                <a href="http://v.ifeng.com/bbc/index.shtml" target="_blank">顶级佳片大赏</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="s_pic">
+                <a href="http://v.ifeng.com/documentary/special/cnex/index.shtml" target="_blank">
+                    <img src="http://y3.ifengimg.com/a/2014_26/6bde2ef8317f4c2.jpg" alt="CNEX纪录片" title="CNEX纪录片">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">CNEX纪录片</span>
+                </a>
+            </div>
+            <div class="s_details">
+                <a href="http://v.ifeng.com/documentary/special/cnex/index.shtml" target="_blank">独立纪录片展映</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="s_pic">
+                <a href="http://v.ifeng.com/documentary/special/bjdoc/index.shtml" target="_blank">
+                    <img src="http://y0.ifengimg.com/a/2014_12/1450d0554844310.jpg" alt="北京纪实" title="北京纪实">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">北京纪实</span>
+                </a>
+            </div>
+            <div class="s_details">
+                <a href="http://v.ifeng.com/documentary/special/bjdoc/index.shtml" target="_blank">用心纪录世界</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="s_pic">
+                <a href="http://v.ifeng.com/documentary/special/fxzl/index.shtml" target="_blank">
+                    <img src="http://y1.ifengimg.com/a/2014_12/16a44fc92094efe.jpg" alt="CCTV-发现之旅" title="CCTV-发现之旅">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">CCTV-发现之旅</span>
+                </a>
+            </div>
+            <div class="s_details">
+                <a href="http://v.ifeng.com/documentary/special/fxzl/index.shtml" target="_blank">开启非凡之旅</a>
+            </div>
+        </li>
+    </ul>
+</div>
+            <!--[新版]品牌专区box end-->
+        </div>
+    </div>
+    <!--通栏模块 end-->
+
+    <!--通栏广告位2 begin-->
+    <div class="ad1000_box">
+     <div class="ad1000">
+        
+<!--s_itv_vdocumentary_index_banner_02 2014.12.19 09:17:40-->
+<script type="text/javascript">try{aptracker.add(2334);}catch(e){}</script>
+
+
+<script type="text/javascript">
+      var placeIdentifier = "banner_02_marker" ; 
+      document.write('<div id="' + placeIdentifier + '" style="display:none;"></div>');
+</script>
+<div id="AP648" style="display:none;">
+<code>
+<!--BOF
+<var style="display:none;" v="2334,13867,10059,魏层层,6"></var><script type="text/javascript">
+	var a = 'http://dol.deliver.ifeng.com/c?210642d95MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFI43DLawawpdyciY19BSq6iy7VSzcMhzNBCk1H_5nQ2z1cbwdla4D-bIN1J2QwsJRA';
+	var narrow_screen_ad = 'http://y3.ifengimg.com/mappa/2014/04/01/ee4a4afaa1b623613c670092d935444e.html';
+	var narrow_screen_w = '1000';var narrow_screen_h = '90';var narrow_screen_isActive = 1;
+	var wide_screen_ad = 'http://y1.ifengimg.com/mappa/2014/04/01/7f3fe5523d1073b2244063547f4c9107.html'
+	var wide_screen_w = '1230';var wide_screen_h = '90';var wide_screen_isActive = 1;
+</script>
+<script type="text/javascript" src="http://y3.ifengimg.com/6e99b17a6eb74b14/2014/1014/v_responsive.js"></script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_itv_vdocumentary_index_banner_02';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();	
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP648"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<img height=1 width=1 src="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&ci=23&cg=22&c=29&or=232&l=754&bg=754&b=752&u=http://y0.ifengimg.com/34c4a1d78882290c/2012/0528/1x1.gif" />
+<!--/s_itv_vdocumentary_index_banner_02-->
+
+    </div>
+</div>
+    <!--通栏广告位2 end-->
+
+    <!--通栏模块 begin-->
+    <div class="column_box">
+        <div class="column_content">
+            <!--[新版]探索栏title begin-->
+            <div class="mod_title">
+    <span class="subtitle">
+        <a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0007/update/1/list.shtml" target="_blank" class="more">更多</a>
+    </span>
+    <h2><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0007/update/1/list.shtml" target="_blank">探索</a>
+    </h2>
+</div>
+            <!--[新版]探索栏title end-->
+            <!--[新版]视频纪实频道页探索推荐 begin-->
+            <div class="mod_box plateType2 hideFive">
+            <div class="left">
+        <div class="type_pic">
+        <a href="http://v.ifeng.com/documentary/discovery/201109/b3186261-4678-4557-ae24-8945423441c8.shtml" target="_blank">
+            <img src="http://y2.ifengimg.com/a/2014_51/035064bc943d435.jpg" alt="猪笼草：我不是吃素的" title="猪笼草：我不是吃素的">
+            <span class="photos_shadow"><i></i>
+            </span>
+            <em></em>
+        </a>
+    </div>
+    <div class="type_text">
+        <h4><a href="http://v.ifeng.com/documentary/discovery/201109/b3186261-4678-4557-ae24-8945423441c8.shtml" target="_blank">猪笼草：我不是吃素的</a>
+        </h4>
+        <p>
+                在我国沿海地区，生长着一种植物，它像一个瓶子，造型非常奇特，最让人奇怪是这种植物有一项特殊的本领——吃肉。
+        </p>
+    </div>
+</div>
+            <div class="right">
+    <ul>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/discovery/201411/033100f3-b826-4db8-ac85-6fab41a1f407.shtml" target="_blank">
+                    <img src="http://y2.ifengimg.com/a/2014_51/0c3502a9d69ba62.jpg" alt="千洞岛：岛上星罗棋布上千小洞" title="千洞岛：岛上星罗棋布上千小洞">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">千洞岛：岛上星罗棋布上千小洞</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/discovery/201411/033100f3-b826-4db8-ac85-6fab41a1f407.shtml" target="_blank">曾是电影《渔光曲》外景拍摄地</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/discovery/201312/03fc6efa-290b-4e87-a7fa-9c201863949f.shtml" target="_blank">
+                    <img src="http://y1.ifengimg.com/a/2014_50/d7b3036c966119f.jpg" alt="史前冰人" title="史前冰人">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">史前冰人</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/discovery/201312/03fc6efa-290b-4e87-a7fa-9c201863949f.shtml" target="_blank">5000年前尸体仍躺在阿尔卑斯山上？</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/discovery/201411/033bdd4c-4a51-4679-a0dc-16d4e4a79862.shtml" target="_blank">
+                    <img src="http://y2.ifengimg.com/a/2014_49/7b26726e17b1dec.jpg" alt="食人鱼生存法则：团结就是力量" title="食人鱼生存法则：团结就是力量">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">食人鱼生存法则：团结就是力量</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/discovery/201411/033bdd4c-4a51-4679-a0dc-16d4e4a79862.shtml" target="_blank">成群食人鱼猛于虎 落单后胆小如鼠</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/discovery/201411/03f9c895-98a9-4831-ac8c-47fb283eb095.shtml" target="_blank">
+                    <img src="http://y2.ifengimg.com/a/2014_48/e100fee028f0c60.jpg" alt="科学家发现恐龙时期古老生物 " title="科学家发现恐龙时期古老生物 ">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">科学家发现恐龙时期古老生物 </span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/discovery/201411/03f9c895-98a9-4831-ac8c-47fb283eb095.shtml" target="_blank">见过它的人 比上过月球的还少</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/discovery/201410/038a7f01-18a0-4694-9429-064018c48d51.shtml" target="_blank">
+                    <img src="http://y0.ifengimg.com/a/2014_47/8818545cf45b04b.jpg" alt="天生王者：幼狮如何成为草原之王" title="天生王者：幼狮如何成为草原之王">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">天生王者：幼狮如何成为草原之王</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/discovery/201410/038a7f01-18a0-4694-9429-064018c48d51.shtml" target="_blank">自然传奇</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/discovery/201410/03d80312-64fe-4af9-9f87-9c83c2aeb883.shtml" target="_blank">
+                    <img src="http://y1.ifengimg.com/a/2014_45/583db9b9cbac3df.jpg" alt="亚特兰蒂斯：黄金帝国一夜间消亡 " title="亚特兰蒂斯：黄金帝国一夜间消亡 ">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">亚特兰蒂斯：黄金帝国一夜间消亡 </span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/discovery/201410/03d80312-64fe-4af9-9f87-9c83c2aeb883.shtml" target="_blank">寻找数千年前一夜消失的黄金帝国</a>
+            </div>
+        </li>
+    </ul>
+</div>
+            </div>
+            <!--[新版]视频纪实频道页探索推荐 end-->
+        </div>
+
+        <div class="column_aside">
+            <!--[新版]视频纪实频道页甲乙丙丁title begin-->
+            <div class="mod_title">
+    <span class="subtitle">
+        <a href="http://v.ifeng.com/special/jybd/" target="_blank" class="more">更多</a>
+    </span>
+    <h2><a target="_blank" href="http://v.ifeng.com/special/jybd/">甲乙丙丁</a>
+    </h2>
+</div>
+            <!--[新版]视频纪实频道页甲乙丙丁title end-->
+            <!--[新版]视频纪实频道页甲乙丙丁推荐 begin-->
+            <div class="one_box">
+    <ul>
+        <li>
+            <div class="one_pic">
+                <a href="http://v.ifeng.com/documentary/society/201412/03061d7b-50eb-44a0-a1d4-5c4aedcace78.shtml " target="video">
+                    <img src="http://y3.ifengimg.com/a/2014_51/570d3a9718b6e5e.jpg" alt="盗亦有道 80后偷官女贼" title="盗亦有道 80后偷官女贼">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <em></em>
+                </a>
+            </div>
+            <div class="one_text">
+                <h4><a href="http://v.ifeng.com/documentary/society/201412/03061d7b-50eb-44a0-a1d4-5c4aedcace78.shtml " target="_blank">盗亦有道 80后偷官女贼</a>
+                </h4>
+                <p><a href="http://v.ifeng.com/documentary/society/201412/03061d7b-50eb-44a0-a1d4-5c4aedcace78.shtml " target="_blank">女贼潜入高官房间震惊 高档烟如山礼品发霉</a>
+                </p>
+            </div>
+        </li>
+        <li>
+            <div class="one_pic">
+                <a href="http://v.ifeng.com/special/new-life-dreamer/ " target="video">
+                    <img src="http://y1.ifengimg.com/a/2014_50/f4e4cffeac13391.jpg" alt="新的生活梦想者：徐峰" title="新的生活梦想者：徐峰">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <em></em>
+                </a>
+            </div>
+            <div class="one_text">
+                <h4><a href="http://v.ifeng.com/special/new-life-dreamer/ " target="_blank">新的生活梦想者：徐峰</a>
+                </h4>
+                <p><a href="http://v.ifeng.com/special/new-life-dreamer/ " target="_blank">现代徐“敏芝”：孩子们眼中 他是最可爱最可敬的人</a>
+                </p>
+            </div>
+        </li>
+        <li>
+            <div class="one_pic">
+                <a href="http://v.ifeng.com/news/society/201412/01ac4250-f6c9-4bf3-bc56-17903679c639.shtml" target="video">
+                    <img src="http://y1.ifengimg.com/a/2014_49/d3024dd1a0d5b90.jpg" alt="新的生活梦想者：李晓亚" title="新的生活梦想者：李晓亚">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <em></em>
+                </a>
+            </div>
+            <div class="one_text">
+                <h4><a href="http://v.ifeng.com/news/society/201412/01ac4250-f6c9-4bf3-bc56-17903679c639.shtml" target="_blank">新的生活梦想者：李晓亚</a>
+                </h4>
+                <p><a href="http://v.ifeng.com/news/society/201412/01ac4250-f6c9-4bf3-bc56-17903679c639.shtml" target="_blank">暖心出气筒：接受的是抱怨 出去的是快乐</a>
+                </p>
+            </div>
+        </li>
+        <li>
+            <div class="one_pic">
+                <a href="http://v.ifeng.com/special/new-life-dreamer/" target="video">
+                    <img src="http://y0.ifengimg.com/a/2014_47/5f795c6c75e1c7d.jpg" alt="新的生活梦想者：张帆" title="新的生活梦想者：张帆">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <em></em>
+                </a>
+            </div>
+            <div class="one_text">
+                <h4><a href="http://v.ifeng.com/special/new-life-dreamer/" target="_blank">新的生活梦想者：张帆</a>
+                </h4>
+                <p><a href="http://v.ifeng.com/special/new-life-dreamer/" target="_blank">迷笛创始人：摇滚乐手是谦谦君子 音乐可改变世界</a>
+                </p>
+            </div>
+        </li>
+    </ul>
+</div>
+            <!--[新版]视频纪实频道页甲乙丙丁推荐 end-->
+        </div>
+    </div>
+    <!--通栏模块 end-->
+
+    <!--通栏模块 begin-->
+    <div class="column_box">
+        <div class="column_content">
+            <!--[新版]视频纪实频道页社会title begin-->
+            <div class="mod_title">
+    <span class="subtitle">
+        <a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0002/update/1/list.shtml" target="_blank" class="more">更多</a>
+    </span>
+    <h2><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0002/update/1/list.shtml" target="_blank">社会</a>
+    </h2>
+</div>
+            <!--[新版]视频纪实频道页社会title end-->
+            <!--[新版]视频纪实频道页社会推荐 begin-->
+            <div class="mod_box plateType2 sigleRow">
+    <ul>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/society/201412/03b9f8d9-246b-4359-bd7c-c70cfa3417c7.shtml" target="_blank">
+                    <img src="http://y2.ifengimg.com/a/2014_51/afa50569e51bde3.jpg" alt="" title="">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">古井终日“沸腾”不止 水温正常</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/society/201412/03b9f8d9-246b-4359-bd7c-c70cfa3417c7.shtml" target="_blank">六口古井已经有2000多年的历史</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/vblog/others/201412/04167be0-7ea7-4cb8-bbe2-5e34188759c7.shtml" target="_blank">
+                    <img src="http://y2.ifengimg.com/a/2014_51/2c6ec22c7f16cba.jpg" alt="" title="">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">女团1931：集体接受地狱式训练</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/vblog/others/201412/04167be0-7ea7-4cb8-bbe2-5e34188759c7.shtml" target="_blank">队员痛哭流涕</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/society/201412/0335ebd8-7930-4457-998f-7f1047d72c0d.shtml" target="_blank">
+                    <img src="http://y0.ifengimg.com/a/2014_50/769f7fb3eaa9ecb.jpg" alt="" title="">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">农民无意捡到国宝：价值连城</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/society/201412/0335ebd8-7930-4457-998f-7f1047d72c0d.shtml" target="_blank">天然肉石极其罕见</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/society/201409/03f55817-e648-4109-9f52-bfd90756e198.shtml " target="_blank">
+                    <img src="http://y1.ifengimg.com/a/2014_50/67562f03b2a514e.jpg" alt="" title="">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">忏悔录</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/society/201409/03f55817-e648-4109-9f52-bfd90756e198.shtml " target="_blank">妻子夜半时分不顾女儿在侧手刃亲夫</a>
+            </div>
+        </li>
+    </ul>
+</div>
+            <!--[新版]视频纪实频道页社会推荐 end-->
+        </div>
+
+        <div class="column_aside">
+            <!--[新版]视频纪实频道页矩形广告2 begin-->
+            <div class="ad300_box">
+	
+<!--s_itv_vdocumentary_index_button_02 2014.12.19 09:18:05-->
+<script type="text/javascript">try{aptracker.add(4327);}catch(e){}</script>
+
+
+<div id="AP1124" style="display:none;">
+<code>
+<!--BOF
+
+<var style="display:none;" v="4327,24654,6663,夏岩,B1"></var><script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?6c2796c25MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFJ71H45P2Xn6MYVKPUpYTs0wZWzNRAo7JlE74L-FKTsBVcbwdla4D-bMkGcwwUBFvf0FTFPhUBupM50qGIVOw4XLiV3Hjv1Tr_ZGaf1jvsw2tNT8CwqDSI_gORvFLlGxrI';
+var ad = 'http://y0.ifengimg.com/mappa/2014/12/13/2d686a0fae90be03927cb17b5a074968.swf';
+var w = '300';var h = '250';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		document.write("<div id='div-gpt-ad-1406009424711-6' style='width:300px; height:250px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1406009424711-6'); });</" + "script></div>");	
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP1124"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_itv_vdocumentary_index_button_02-->
+
+</div>
+            <!--[新版]视频纪实频道页矩形广告2 end-->
+        </div>
+    </div>
+    <!--通栏模块 end-->
+
+    <!--通栏广告位3 begin-->
+    <div class="ad1000_box">
+    <div class="ad1000">
+    
+<!--s_itv_vdocumentary_index_ad_banner_03 2014.12.19 09:18:35-->
+<script type="text/javascript">try{aptracker.add(5650);}catch(e){}</script>
+
+
+<script type="text/javascript">
+      var placeIdentifier = "banner_03_marker" ; 
+      document.write('<div id="' + placeIdentifier + '" style="display:none;"></div>');
+</script>
+<div id="AP1845" style="display:none;">
+<code>
+<!--BOF
+<var style="display:none;" v="5650,0,0,NULL,fixture"></var><script type="text/javascript">
+	var a = 'http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=15367&bg=15367&b=15372&u=http://book.ifeng.com/dushuhui/special/salon166/';
+	var narrow_screen_ad = 'http://y2.ifengimg.com/mappa/2014/04/01/df37d9656233b3b9167aba1c24009281.jpg';
+	var narrow_screen_w = '1000';var narrow_screen_h = '90';var narrow_screen_isActive = 0;
+	var wide_screen_ad = 'http://y2.ifengimg.com/mappa/2014/04/01/d335345e338853a9c7638fb10f16c259.jpg'
+	var wide_screen_w = '1230';var wide_screen_h = '90';var wide_screen_isActive = 0;
+</script>
+<script type="text/javascript" src="http://y3.ifengimg.com/6e99b17a6eb74b14/2014/1014/v_responsive.js"></script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_itv_vdocumentary_index_ad_banner_03';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP1845"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_itv_vdocumentary_index_ad_banner_03-->
+
+    </div>
+</div>
+    <!--通栏广告位3 end-->
+
+    <!--通栏模块 begin-->
+    <div class="column_box">
+        <div class="column_content">
+            <!--[新版]视频纪实频道页人物title begin-->
+            <div class="mod_title">
+    <span class="subtitle">
+        <a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0004/update/1/list.shtml" target="_blank" class="more">更多</a>
+    </span>
+    <h2><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0004/update/1/list.shtml" target="_blank">人物</a>
+    </h2>
+</div>
+
+            <!--[新版]视频纪实频道页人物title end-->
+            <!--[新版]视频纪实频道页人物推荐 begin-->
+            <div class="mod_box plateType2 hideFive">
+            <div class="left">
+        <div class="type_pic">
+        <a href="http://v.ifeng.com/documentary/figure/201412/03fa836f-36d3-43c5-90cc-f676411d1629.shtml" target="_blank">
+            <img src="http://y2.ifengimg.com/a/2014_51/a69c139b478fabd.jpg" alt="李玉刚：掀起反串风潮" title="李玉刚：掀起反串风潮">
+            <span class="photos_shadow"><i></i>
+            </span>
+            <em></em>
+        </a>
+    </div>
+    <div class="type_text">
+        <h4><a href="http://v.ifeng.com/documentary/figure/201412/03fa836f-36d3-43c5-90cc-f676411d1629.shtml" target="_blank">李玉刚：掀起反串风潮</a>
+        </h4>
+        <p>
+                2012年春晚，李玉刚以一曲《新贵妃醉酒》惊艳全场，这次表演也将“反串艺人”又一次推向舆论的风口浪尖。
+        </p>
+    </div>
+</div>
+            <div class="right">
+    <ul>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/figure/201412/032936fb-4c17-427f-8048-28a3aa3e6e5b.shtml" target="_blank">
+                    <img src="http://y1.ifengimg.com/a/2014_51/413c887bf7b20fa.jpg" alt="凤飞飞：掌声不曾停 天后已逝去" title="凤飞飞：掌声不曾停 天后已逝去">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">凤飞飞：掌声不曾停 天后已逝去</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/figure/201412/032936fb-4c17-427f-8048-28a3aa3e6e5b.shtml" target="_blank">历尽艰辛成为歌后  巅峰时却选择隐退</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/figure/201412/032282ba-978a-4c96-853b-5703062d665a.shtml" target="_blank">
+                    <img src="http://y1.ifengimg.com/a/2014_49/3e115cbd4ab1c11.jpg" alt="林巧稚：终生未婚 却是万婴之母" title="林巧稚：终生未婚 却是万婴之母">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">林巧稚：终生未婚 却是万婴之母</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/figure/201412/032282ba-978a-4c96-853b-5703062d665a.shtml" target="_blank">中国妇产科学的奠基人之一</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/figure/201411/038c914a-8c5f-4a28-87c1-068ef4d63689.shtml" target="_blank">
+                    <img src="http://y0.ifengimg.com/a/2014_49/324d5fb992dcd88.jpg" alt="宋祖英：我的人生被几元钱改变" title="宋祖英：我的人生被几元钱改变">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">宋祖英：我的人生被几元钱改变</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/figure/201411/038c914a-8c5f-4a28-87c1-068ef4d63689.shtml" target="_blank">母亲的一个坚定信念改变了自己一生</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/figure/201411/030742b2-8a55-4b3f-932e-ff5475c3ec7c.shtml" target="_blank">
+                    <img src="http://y2.ifengimg.com/a/2014_48/7ce3a0d7837b990.jpg" alt="帕尔哈提：没有汪峰就没有我" title="帕尔哈提：没有汪峰就没有我">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">帕尔哈提：没有汪峰就没有我</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/figure/201411/030742b2-8a55-4b3f-932e-ff5475c3ec7c.shtml" target="_blank">想成功 就要先放下自己的性格与自由</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/figure/201411/03305c97-e652-48ee-9d9b-e9bef0098573.shtml" target="_blank">
+                    <img src="http://y0.ifengimg.com/a/2014_48/6f2d7171915be0f.jpg" alt="臧天朔：曾觉得搞音乐挺丢人的" title="臧天朔：曾觉得搞音乐挺丢人的">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">臧天朔：曾觉得搞音乐挺丢人的</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/figure/201411/03305c97-e652-48ee-9d9b-e9bef0098573.shtml" target="_blank">访谈中自称：我不做大哥好多年</a>
+            </div>
+        </li>
+
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/figure/201411/03a8065f-898b-49e7-a96a-7bb07852cf3d.shtml" target="_blank">
+                    <img src="http://y0.ifengimg.com/a/2014_47/b6d66bbadf81ee0.jpg" alt="朗朗：年轻就该气盛 必须显摆 " title="朗朗：年轻就该气盛 必须显摆 ">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">朗朗：年轻就该气盛 必须显摆 </span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/figure/201411/03a8065f-898b-49e7-a96a-7bb07852cf3d.shtml" target="_blank">朗朗畅聊学琴生涯中的心路历程</a>
+            </div>
+        </li>
+    </ul>
+</div>
+            </div>
+            <!--[新版]视频纪实频道页人物推荐 end-->
+        </div>
+
+        <div class="column_aside">
+            <!--[新版]视频纪实频道页专题策划title begin-->
+            <div class="mod_title">
+    <span class="subtitle">
+        <a href="http://v.ifeng.com/vlist/nav_category/special1_doc/update/1/list.shtml" target="_blank" class="more">更多</a>
+    </span>
+    <h2><a target="_blank" href="http://v.ifeng.com/vlist/nav_category/special1_doc/update/1/list.shtml">专题策划</a>
+    </h2>
+</div>
+            <!--[新版]视频纪实频道页专题策划title end-->
+            <!--[新版]视频纪实频道页专题策划推荐 begin-->
+            <div class="one_box">
+<ul>
+    <li>
+        <div class="one_pic">
+            <a href="http://doc.ifeng.com/" target="video">
+                <img src="http://y1.ifengimg.com/a/2014_40/5ebd047822996fd.jpg" alt="凤凰视频纪录片大奖" title="凤凰视频纪录片大奖">
+                <span class="photos_shadow"><i></i>
+                </span>
+                <em></em>
+            </a>
+        </div>
+        <div class="one_text">
+            <h4><a href="http://doc.ifeng.com/" target="_blank">凤凰视频纪录片大奖</a>
+            </h4>
+            <p><a href="http://doc.ifeng.com/" target="_blank">鼓励纪录片创作者以人文视角观察现实世界，传播人性关怀。</a>
+            </p>
+        </div>
+    </li>
+    <li>
+        <div class="one_pic">
+            <a href="http://dol.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=4976&l=19325&bg=19325&b=19336&u=http://v.ifeng.com/documentary/special/china/index.shtml" target="video">
+                <img src="http://y0.ifengimg.com/a/2014_46/591f5a7407f005e.jpg" alt="你所不知道的中国" title="你所不知道的中国">
+                <span class="photos_shadow"><i></i>
+                </span>
+                <em></em>
+            </a>
+        </div>
+        <div class="one_text">
+            <h4><a href="http://dol.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=4976&l=19325&bg=19325&b=19336&u=http://v.ifeng.com/documentary/special/china/index.shtml" target="_blank">你所不知道的中国</a>
+            </h4>
+            <p><a href="http://dol.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=4976&l=19325&bg=19325&b=19336&u=http://v.ifeng.com/documentary/special/china/index.shtml" target="_blank">凤凰视频联手江苏卫视，全网独播全媒体大型纪录片。</a>
+            </p>
+        </div>
+    </li>
+    <li>
+        <div class="one_pic">
+            <a href="http://v.ifeng.com/documentary/special/legendyong/index.shtml" target="video">
+                <img src="http://y3.ifengimg.com/a/2014_44/d202d9400d685f2.jpg" alt="传奇剧场" title="传奇剧场">
+                <span class="photos_shadow"><i></i>
+                </span>
+                <em></em>
+            </a>
+        </div>
+        <div class="one_text">
+            <h4><a href="http://v.ifeng.com/documentary/special/legendyong/index.shtml" target="_blank">传奇剧场</a>
+            </h4>
+            <p><a href="http://v.ifeng.com/documentary/special/legendyong/index.shtml" target="_blank">孤身挑战极限荒野，在最危险之地适应生存，是为传奇。</a>
+            </p>
+        </div>
+    </li>
+    <li>
+        <div class="one_pic">
+            <a href="http://v.ifeng.com/documentary/special/bite2/index.shtml" target="video">
+                <img src="http://y2.ifengimg.com/a/2014_14/ac345d8a0a7f620.jpg" alt="舌尖上的中国第二季" title="舌尖上的中国第二季">
+                <span class="photos_shadow"><i></i>
+                </span>
+                <em></em>
+            </a>
+        </div>
+        <div class="one_text">
+            <h4><a href="http://v.ifeng.com/documentary/special/bite2/index.shtml" target="_blank">舌尖上的中国第二季</a>
+            </h4>
+            <p><a href="http://v.ifeng.com/documentary/special/bite2/index.shtml" target="_blank">让人垂涎欲滴的美食，一个异彩纷呈、变化多端味蕾世界。</a>
+            </p>
+        </div>
+    </li>
+</ul>
+</div>
+            <!--[新版]视频纪实频道页专题策划推荐 end-->
+        </div>
+    </div>
+    <!--通栏模块 end-->
+
+    <!--通栏模块 begin-->
+    <div class="column_box">
+        <div class="column_content">
+            <!--[新版]视频纪实频道页专风尚title begin-->
+            <div class="mod_title">
+    <span class="subtitle">
+        <a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0011/update/1/list.shtml" target="_blank" class="more">更多</a>
+    </span>
+    <h2><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0011/update/1/list.shtml" target="_blank">风尚丨生活</a>
+    </h2>
+</div>
+            <!--[新版]视频纪实频道页风尚title end-->
+            <!--[新版]视频纪实频道页风尚推荐 begin-->
+            <div class="mod_box plateType2 sigleRow">
+    <ul>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/fashion/201412/034f1f70-1cb8-44df-a30d-bfe21d3078ee.shtml" target="video">
+                    <img src="http://y3.ifengimg.com/a/2014_51/6710b765df133a7.jpg" alt="圣诞美食宴：享传统法式圣诞大餐" title="圣诞美食宴：享传统法式圣诞大餐">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">圣诞美食宴：享传统法式圣诞大餐</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/fashion/201412/034f1f70-1cb8-44df-a30d-bfe21d3078ee.shtml" target="_blank">完全时尚手册</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/travel/201412/036f89ae-fcaf-4b2c-a5ab-434d1da8fdf8.shtml" target="video">
+                    <img src="http://y0.ifengimg.com/a/2014_49/107c6a3f2378527.jpg" alt="乘坐“海洋量子号”去环游世界" title="乘坐“海洋量子号”去环游世界">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">乘坐“海洋量子号”去环游世界</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/travel/201412/036f89ae-fcaf-4b2c-a5ab-434d1da8fdf8.shtml" target="_blank">豪华程度远超当年泰坦尼克号</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/fashion/201411/03636f28-f0c7-457a-9cb0-00fe03b77ab4.shtml" target="video">
+                    <img src="http://y0.ifengimg.com/a/2014_48/9b871db13a55af3.jpg" alt="日内瓦：见证国际顶级钟表大赏" title="日内瓦：见证国际顶级钟表大赏">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">日内瓦：见证国际顶级钟表大赏</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/fashion/201411/03636f28-f0c7-457a-9cb0-00fe03b77ab4.shtml" target="_blank">号称钟表界“奥斯卡大奖”</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/fashion/201310/03691c23-bac7-47cd-b9d4-a2bbe64a0777.shtml" target="video">
+                    <img src="http://y1.ifengimg.com/a/2014_47/e0f10466a830ba0.jpg" alt="见证：世界上最大梨形鲜彩橙钻" title="见证：世界上最大梨形鲜彩橙钻">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">见证：世界上最大梨形鲜彩橙钻</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/fashion/201310/03691c23-bac7-47cd-b9d4-a2bbe64a0777.shtml" target="_blank">估价高达1700万至2000万美元</a>
+            </div>
+        </li>
+    </ul>
+</div>
+            <!--[新版]视频纪实频道页风尚推荐 end-->
+        </div>
+
+        <div class="column_aside">
+            <!--[新版]视频纪实频道页专精彩片花title begin-->
+            <div class="mod_title">
+    <h2>精彩片花</h2>
+</div>
+            <!--[新版]视频纪实频道页精彩片花title end-->
+            <!--[新版]视频纪实频道页精彩片花推荐 begin-->
+            <div class="b_box">
+    <ul>
+        <li>
+            <div class="b_pic">
+                <a href="http://v.ifeng.com/documentary/culture/201411/031debee-479c-4789-b8ab-0f08068d67ee.shtml" target="video">
+                    <img src="http://y1.ifengimg.com/a/2014_47/0a717c5e2c1e3ff.jpg" alt="旅游卫视《在那摇滚的故乡》 跟许巍行走英国" title="旅游卫视《在那摇滚的故乡》 跟许巍行走英国">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">旅游卫视《在那摇滚的故乡》 跟许巍行走英国</span>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="b_pic">
+                <a href="http://v.ifeng.com/documentary/military/201411/0378888b-6df9-4ab0-b94b-8f03faf7d9c1.shtml" target="video">
+                    <img src="http://y3.ifengimg.com/a/2014_47/7a9ebc38c01e61a.jpg" alt="五集纪录片《腾冲腾冲》全景展现寸土寸血抗战" title="五集纪录片《腾冲腾冲》全景展现寸土寸血抗战">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">五集纪录片《腾冲腾冲》全景展现寸土寸血抗战</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+            <div class="list_box">
+    <ul>
+        <li><a href="http://v.ifeng.com/documentary/society/201307/03209ce0-cf12-4361-a106-b5a29e6c69d5.shtml" target="_blank">晋善晋美：航拍山西纪录片宣传片</a>
+        </li>
+        <li><a href="http://v.ifeng.com/documentary/society/2014001/037eee2e-1cf1-4b68-aa49-b7c68eb041e3.shtml" target="_blank">《犴达罕》：无路可走 却要一路向前</a>
+        </li>
+    </ul>
+</div>
+            <!--[新版]视频纪实频道页精彩片花推荐 end-->
+        </div>
+    </div>
+    <!--通栏模块 end-->
+
+    <!--通栏广告位4 begin-->
+    <div class="ad1000_box">
+    <div class="ad1000">
+        
+<!--s_itv_vdocumentary_index_140212_ad_banner04 2014.12.19 09:19:30-->
+<script type="text/javascript">try{aptracker.add(8242);}catch(e){}</script>
+
+
+<script type="text/javascript">
+      var placeIdentifier = "banner_04_marker" ; 
+      document.write('<div id="' + placeIdentifier + '" style="display:none;"></div>');
+</script>
+<div id="AP3145" style="display:none;">
+<code>
+<!--BOF
+<var style="display:none;" v="8242,0,0,NULL,fixture"></var><script type="text/javascript">
+	var a = 'http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=12713&bg=12713&b=12718&u=http://book.ifeng.com/shidahaoshu/special/2014nian2yue/#_bookch=haoshubang2';
+	var narrow_screen_ad = 'http://y2.ifengimg.com/mappa/2014/04/01/2a282e9818dc4dd135fa980f0010eb4f.jpg';
+	var narrow_screen_w = '1000';var narrow_screen_h = '90';var narrow_screen_isActive = 0;
+	var wide_screen_ad = 'http://y3.ifengimg.com/mappa/2014/04/01/9703626fd99b7aec5b519613b469e7e4.jpg'
+	var wide_screen_w = '1230';var wide_screen_h = '90';var wide_screen_isActive = 0;
+</script>
+<script type="text/javascript" src="http://y3.ifengimg.com/6e99b17a6eb74b14/2014/1014/v_responsive.js"></script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_itv_vdocumentary_index_140212_ad_banner04';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();	
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP3145"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_itv_vdocumentary_index_140212_ad_banner04-->
+
+    </div>
+</div>
+    <!--通栏广告位4 end-->
+
+    <!--通栏模块 begin-->
+    <div class="column_box">
+        <div class="column_content">
+            <!--[新版]视频纪实频道页旅游title begin-->
+            <div class="mod_title">
+    <span class="subtitle">
+        <a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0010/update/1/list.shtml" target="_blank" class="more">更多</a>
+    </span>
+    <h2><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0010/update/1/list.shtml" target="_blank">旅游</a>
+    </h2>
+</div>
+            <!--[新版]视频纪实频道页旅游title end-->
+            <!--[新版]视频纪实频道页旅游推荐 begin-->
+            <div class="mod_box plateType2 sigleRow">
+    <ul>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/travel/201412/03fd7b7f-5302-49d9-acf2-2476772b7386.shtml" target="video">
+                    <img src="http://y1.ifengimg.com/a/2014_51/c5dacb6ec090ef1.jpg" alt="异域斯里兰卡：国宝是一颗牙齿" title="异域斯里兰卡：国宝是一颗牙齿">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">异域斯里兰卡：国宝是一颗牙齿</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/travel/201412/03fd7b7f-5302-49d9-acf2-2476772b7386.shtml" target="_blank">佛牙寺见证千年斯里兰卡</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/travel/201409/03fc3b0d-135f-4cef-bdd7-ba8be9f728a9.shtml" target="video">
+                    <img src="http://y0.ifengimg.com/a/2014_50/af820dc9bab0250.jpg" alt="彩虹赞比亚：来一场“湿身”之旅" title="彩虹赞比亚：来一场“湿身”之旅">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">彩虹赞比亚：来一场“湿身”之旅</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/travel/201409/03fc3b0d-135f-4cef-bdd7-ba8be9f728a9.shtml" target="_blank">跟着空姐去旅行</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/travel/201411/0359f5f2-e72a-4203-b242-008266060d2d.shtml" target="video">
+                    <img src="http://y1.ifengimg.com/a/2014_48/f7f2101317688d1.jpg" alt="古城维罗纳：莎翁写下凄美爱情" title="古城维罗纳：莎翁写下凄美爱情">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">古城维罗纳：莎翁写下凄美爱情</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/travel/201411/0359f5f2-e72a-4203-b242-008266060d2d.shtml" target="_blank">小城的朱丽叶故居 是恋人心中的朝圣地</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/travel/2014006/03026116-621e-4434-ab94-86f73633e948.shtml" target="video">
+                    <img src="http://y2.ifengimg.com/a/2014_46/92830f274b6e3c3.jpg" alt="游法拉利主题公园 感受激情之旅" title="游法拉利主题公园 感受激情之旅">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">游法拉利主题公园 感受激情之旅</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/travel/2014006/03026116-621e-4434-ab94-86f73633e948.shtml" target="_blank">感受法拉利特有的红色速度激情</a>
+            </div>
+        </li>
+    </ul>
+</div>
+            <!--[新版]视频纪实频道页旅游推荐 end-->
+        </div>
+
+        <div class="column_aside">
+            <!--[新版]视频纪实频道页合作专区title begin-->
+            <div class="mod_title">
+    <h2><a target="_blank" href="#">合作专区</a>
+    </h2>
+</div>
+            <!--[新版]视频纪实频道页合作专区title end-->
+            <!--[新版]视频纪实频道页合作专区推荐 begin-->
+            <div class="b_box">
+    <ul>
+        <li>
+            <div class="b_pic">
+                <a href="http://v.ifeng.com/documentary/special/greenchina/index.shtml" target="video">
+                    <img src="http://y2.ifengimg.com/a/2014_29/2eb08970f8b6c47.jpg" alt="看图说话：与我们一起呼唤绿色中国" title="看图说话：与我们一起呼唤绿色中国">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">看图说话：与我们一起呼唤绿色中国</span>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="b_pic">
+                <a href="http://v.ifeng.com/documentary/special/people/index.shtml" target="video">
+                    <img src="http://y2.ifengimg.com/a/2014_44/663f60b3f2d070c.jpg" alt="《人物》杂志专区：何伟回中国聊埃及革命" title="《人物》杂志专区：何伟回中国聊埃及革命">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">《人物》杂志专区：何伟回中国聊埃及革命</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+            <div class="list_box">
+    <ul>
+        <li><a href="http://v.ifeng.com/documentary/bvideo/201309/0375dcfb-50c2-4d26-9e5a-3ca8e68a0786.shtml" target="_blank">浪漫一次又何妨：暮年爱情引发的生活感悟</a>
+        </li>
+        <li><a href="http://v.ifeng.com/documentary/society/201309/03cd1475-9854-4e76-82ee-b033735e0d53.shtml" target="_blank">尘埃中的色彩：贫民窟少年用垃圾创造艺术</a>
+        </li>
+    </ul>
+</div>
+            <!--[新版]视频纪实频道页合作专区推荐 end-->
+        </div>
+    </div>
+    <!--通栏模块 end-->
+
+    <!--通栏模块 begin-->
+    <div class="column_box">
+        <div class="column_content">
+            <!--[新版]视频纪实频道页文化title begin-->
+            <div class="mod_title">
+    <span class="subtitle">
+        <a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0008/update/1/list.shtml" target="_blank" class="more">更多</a>
+    </span>
+    <h2><a href="http://v.ifeng.com/vlist/nav_category/doc_0029-0008/update/1/list.shtml" target="_blank">文化</a>
+    </h2>
+</div>
+            <!--[新版]视频纪实频道页文化title end-->
+            <!--[新版]视频纪实频道页文化推荐 begin-->
+            <div class="mod_box plateType2 sigleRow">
+    <ul>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/culture/201412/0396627e-566c-4f70-b0d6-0a623d31f3e9.shtml" target="video">
+                    <img src="http://y3.ifengimg.com/a/2014_51/1a793ba9acdab0f.jpg" alt="泥人张：一块泥巴塑出世间百态" title="泥人张：一块泥巴塑出世间百态">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">泥人张：一块泥巴塑出世间百态</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/culture/201412/0396627e-566c-4f70-b0d6-0a623d31f3e9.shtml" target="_blank">一堆泥巴 迷倒大师徐悲鸿</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/culture/201411/03a366f6-495d-46e4-b797-6305e1624a0a.shtml" target="video">
+                    <img src="http://y0.ifengimg.com/a/2014_49/bb8de501230216f.jpg" alt="00后放弃学业进入娱乐圈为哪般？" title="00后放弃学业进入娱乐圈为哪般？">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">00后放弃学业进入娱乐圈为哪般？</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/culture/201411/03a366f6-495d-46e4-b797-6305e1624a0a.shtml" target="_blank">这个社会怎么了？</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/culture/201409/03bd7ac6-2dfe-4b31-8ea8-60f54f6c089a.shtml" target="video">
+                    <img src="http://y1.ifengimg.com/a/2014_48/be2ebe0934fc35c.jpg" alt="蔡元培：执掌北大十年 八次辞职" title="蔡元培：执掌北大十年 八次辞职">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">蔡元培：执掌北大十年 八次辞职</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/culture/201409/03bd7ac6-2dfe-4b31-8ea8-60f54f6c089a.shtml" target="_blank">大学教育的长者 小学课本的童心</a>
+            </div>
+        </li>
+        <li>
+            <div class="type_pic">
+                <a href="http://v.ifeng.com/documentary/culture/201305/0d416982-1e48-4500-a7f6-f468cf722516.shtml" target="video">
+                    <img src="http://y3.ifengimg.com/a/2014_46/b8b0b308a141fed.jpg" alt="京剧：方寸之间展示世间善恶忠奸" title="京剧：方寸之间展示世间善恶忠奸">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">京剧：方寸之间展示世间善恶忠奸</span>
+                </a>
+            </div>
+            <div class="type_details">
+                <a href="http://v.ifeng.com/documentary/culture/201305/0d416982-1e48-4500-a7f6-f468cf722516.shtml" target="_blank">七八人百万雄兵 三两步万水千山</a>
+            </div>
+        </li>
+    </ul>
+</div>
+            <!--[新版]视频纪实频道页文化推荐 end-->
+        </div>
+
+        <div class="column_aside">
+            <!--[新版]视频纪实频道页行业动态title begin-->
+            <div class="mod_title">
+	<h2><a target="_blank" href="#">行业动态</a></h2>
+</div>
+            <!--[新版]视频纪实频道页行业动态title end-->
+            <!--[新版]视频纪实频道页行业动态推荐 begin-->
+            <div class="b_box">
+    <ul>
+        <li>
+            <div class="b_pic">
+                <a href="http://v.ifeng.com/documentary/culture/201410/0367c659-9e9b-48ec-b5ab-b1220487980c.shtml" target="video">
+                    <img src="http://y2.ifengimg.com/a/2014_44/236a87cdd4b3e5b.jpg" alt="微纪录片《中国词儿》第一季发布会 " title="微纪录片《中国词儿》第一季发布会 ">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">微纪录片《中国词儿》第一季发布会 </span>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="b_pic">
+                <a href="http://v.ifeng.com/documentary/discovery/201409/03cb385e-7479-4dcf-8224-5688d081889d.shtml" target="video">
+                    <img src="http://y1.ifengimg.com/a/2014_39/6ece634943f3d5c.jpg" alt="山西卫视《飞越山西 晋善晋美》宣传片" title="山西卫视《飞越山西 晋善晋美》宣传片">
+                    <span class="photos_shadow"><i></i>
+                    </span>
+                    <span class="photos_tit">山西卫视《飞越山西 晋善晋美》宣传片</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+            <div class="list_box">
+    <ul>
+        <li><a href="http://v.ifeng.com/documentary/figure/2014003/03ac04e8-9d5a-4ea7-bc0d-f8a77f3afb79.shtml" target="_blank">时间：中国纪录片类型有空白 失去自我最可怕</a>
+        </li>
+        <li><a href="http://v.ifeng.com/news/society/2014003/01b707a1-4d65-448c-8949-4ff539ac2aa2.shtml" target="_blank">北京纪实隆重播出《世界十大危险机场》</a>
+        </li>
+    </ul>
+</div>
+            <!--[新版]视频纪实频道页行业动态推荐 end-->
+        </div>
+    </div>
+    <!--通栏模块 end-->
+    <!--通栏模块 begin-->
+    <div class="column_box flink">
+        <!--[新版]视频纪实频道页友情链接title begin-->
+        <div class="mod_title">
+    <h2><a href="http://v.ifeng.com/documentary/index.shtml" target="_blank">友情链接</a>
+    </h2>
+</div>
+        <!--[新版]视频纪实频道页友情链接title end-->
+        <!--[新版]视频纪实频道页友情链接推荐 begin-->
+        <ul>
+    <li><a href="http://www.docuchina.cn/" target="_blank">中国纪录片网</a></li>
+
+    <li><a href="http://jishi.cntv.cn/" target="_blank">CNTV纪实台</a></li>
+
+    <li><a href="http://www.iqiyi.com/jilupian/" target="_blank">爱奇艺纪录片</a></li>
+
+    <li><a href="http://v.163.com/jishi/" target="_blank">网易纪录片</a></li>
+    </ul>
+        <!--[新版]视频纪实频道页友情链接推荐 end-->
+    </div>
+    <!--通栏模块 end-->
+    <!--底部广告 begin-->
+    <!--iphone style begin-->
+<style>
+	.Add_screen {
+	width: 251px;
+	height: 105.5px;
+	overflow: hidden;
+	background: url(http://y1.ifengimg.com/fe/cl/2013/1213/bg12.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	z-index: 99999;
+	margin-left: -125.5px;
+}
+.Add_screen a {
+float: right;
+width: 33px;
+height: 26px;
+overflow: hidden;
+text-indent: -999999px;
+margin: 5px 8px 0 0;
+}
+ </style>
+<!--iphone style end-->
+  <!--拉起客户端弹层 begin-->
+<div style="display:none;width:230px;height:80px;overflow:hidden;background:url(http://y1.ifengimg.com/a/2014_51/35c5b5fa42a2b50.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;position:fixed;bottom:5px;left:50%;z-index:99999;margin-left:-115px;" id="client-spread">
+    <a href="#"  id="client-spread-close" style="float:right;width:28px;height:26px;overflow:hidden;text-indent:-999999px;">关闭</a>
+    <p>
+        <a href="#" style="padding-left:80px;display:block;padding-top:20px;height:60px;overflow:hidden;color:#fff;font-size:15px;color:#fff;text-decoration:none;">
+            <span style="display:block;height:40px;line-height:20px;overflow:hidden;">  </span>
+        </a>
+    </p>
+</div>
+
+
+<!--拉起客户端弹层 end-->
+<div id="footAD_box"  >
+<div class="ad_top" id="footAd"  style="display:none;">
+  <div class="ad_top_wrap">
+  <div class="ad_top_left"><a href="#" class="vifeng_logo" ></a></div>
+  <div class="ad_top_right"><a href="#" class="download_btn" ></a>
+<span class="ad_top_close" id="ad_close2" ></span></div>
+</div>      </div>
+</div>
+
+<script>
+if (device.type === "mobile"||device.type === "pad") {
+	creatTasker(16, "base",  (function(){
+		 	
+			var footAd=document.getElementById("footAd");
+		    footAd.style.backgroundColor=AdData[3].background;
+
+			var vifeng_logo2 = $("#footAd .vifeng_logo")[0];
+			$(vifeng_logo2).css({"background":"url("+AdData[0].image+")","background-size":"100% 100%"});
+
+			var download_btn2= $("#footAd .download_btn")[0];
+			     $(download_btn2).css({"background":"url("+AdData[1].image+")","background-size":"100% 100%"});
+
+			var ad_close1= $("#ad_close2");
+			     $(ad_close2).css({"background":"url("+AdData[2].image+")","background-size":"100% 100%"}); 	
+			 }), true, 'h5底通广告');
+}
+</script>
+    <!--底部广告 end-->
+
+    <!-- 二维码 begin -->
+    <div class="v_code" id="v_code"> 
+ <div class="v_code_box"> 
+  <div class="backFb"> 
+   <a href="#" class="backtop" id="js_top">返回顶部</a> 
+   <a href="http://v.ifeng.com/help.shtml" target="_blank" class="feedback">反馈</a> 
+  </div> 
+  <div class="quickmark" id="qr_code"> 
+   <em title="关闭" onclick="qr_code.style.display='none'"> <a href="javascript:void(0);">关闭</a> </em> 
+   <h3 style="padding-top:8px;">凤凰视频APP</h3> 
+   <div class="codeimg" style="padding: 0px;"> 
+    <a href="http://v.ifeng.com/apps/index.shtml" title="" target="_blank"> <img style="width:80px;height:80px"src="http://y3.ifengimg.com/2014/04/17/17224980.jpg" alt="" title="" /> </a> 
+   </div> 
+   <p style=" line-height: 14px; padding-top: 3px; ">微信扫一扫100%有红包</p> 
+  </div> 
+ </div> 
+</div>
+    <!-- 二维码 end -->
+<script>
+//焦点切换
+    (function() {
+    if(device.type === "mobile" || device.type === "pad"){
+         return;
+    }
+    var currLiIndex = 0;
+    var infoBoxs = O.getElementsByClassName("scrnBoxList", "fv_site_focus_box", "div");
+    var scrnLis = $("scrnTab").getElementsByTagName("li");
+    var scrnLisSize = scrnLis.length;
+
+    function changeInfo(e) {
+        if(device.type === "pad"){
+            if(e){
+                var _smallTarget = F.find((e.target||e.srcElement),"a")[0];
+                if(e.preventDefault){ 
+                    e.preventDefault();
+                }else{
+                    window.event.returnValue = false;
+                }
+            }
+        }
+        var _id = this.getAttribute("id");
+        var _index = ((currLiIndex + scrnLisSize) + 1) % scrnLisSize;
+        if (_id == "scrnBtnL") _index = ((currLiIndex + scrnLisSize) - 1) % scrnLisSize;
+        if (_id.indexOf("_") > -1) _index = _id.split("_")[1] / 1;
+        if (_index == currLiIndex) return true;
+        for (var i = 0; i < scrnLisSize; i++) {
+            if (i == _index) {
+                scrnLis[i].className = "current";
+            } else {
+                scrnLis[i].className = "";
+            }
+        }
+        O.hide(infoBoxs[currLiIndex]);
+        O.show(infoBoxs[_index]);
+        if(device.type === "pc"){
+        	var browser=navigator.appName 
+			var b_version=navigator.appVersion 
+			var version=b_version.split(";"); 
+			var trim_Version=version[0].replace(/[ ]/g,""); 
+			if(browser=="Microsoft Internet Explorer" && trim_Version=="MSIE6.0") 
+			{ 
+				F.css(infoBoxs[_index],{"filter":"alpha(opacity=30)"})
+            	F.animate(infoBoxs[_index],{"filter":"alpha(opacity=100)"},1000);
+			}else{
+            	F.css(infoBoxs[_index],{"opacity":0.3})
+            	F.animate(infoBoxs[_index],{"opacity":1.0},1000);
+            }
+        }
+        currLiIndex = _index;
+        if(e){
+            var tarEle = e.targetElement||e.srcElement;
+            var tarClassName = tarEle["className"];
+            if(tarClassName == "btn_next" || tarClassName == "btn_prev"){
+                 goOnChange();
+            }
+        }
+    }
+
+    function suspendChange() {
+        clearInterval(_Interval);
+    }
+
+    function goOnChange() {
+        clearInterval(_Interval);
+        _Interval = setInterval(function() {
+            changeInfo.call($("scrnBtnR"));
+        }, 5000);
+    }
+
+    for (var _k = 0; _k < scrnLisSize; _k++) {
+        scrnLis[_k].setAttribute("id", "scrnLi_" + _k);
+        if(device.type === "pad"){
+            V.addListener(scrnLis[_k], "click", changeInfo, scrnLis[_k]);
+        }else{
+            V.addListener(scrnLis[_k], "mouseover", changeInfo, scrnLis[_k]);
+        }
+    }
+    V.addListener($("scrnBtnL"), "click", changeInfo, $("scrnBtnL"));
+    V.addListener($("scrnBtnR"), "click", changeInfo, $("scrnBtnR"));
+    if(device.type !== "pad"){
+        V.addListener($("scrnBoxList"), "mouseover", suspendChange, $("scrnBoxList"));
+        V.addListener($("scrnBoxList"), "mouseout", goOnChange, $("scrnBoxList"));
+        V.addListener($("scrnTab"), "mouseover", suspendChange, $("scrnBoxList"));
+        V.addListener($("scrnTab"), "mouseout", goOnChange, $("scrnBoxList"));
+    }
+    var _Interval = setInterval(function() {
+        changeInfo.call($("scrnBtnR"));
+    }, 5000);
+})();
+
+  
+   //标签切换
+    if(device.type === "pc"){
+        var tc_83=new TabControl();
+         tc_83.addRange($("tabControler_83").getElementsByTagName("li"),$("tabView_83").getElementsByTagName("div"));
+        tc_83.triggerType = 'mouseover'; //鼠标切换方式设置 点击切换：click 鼠标移上去切换: mouseover
+        tc_83.enableSlide=false;           //自动切换功能是否启用
+        tc_83.slideInterval=5000;          //自动切换的间隔时间
+        tc_83.defaultPage =0;            //缺省显示第几页
+        tc_83.init();
+    }
+    if (window.addEventListener)
+	    window.addEventListener("load", function () {
+	        //我看过的视频
+	        this.cookierw = new ifeng.business.VideoRecordRead("clearPlay", "listMs");
+	        ifeng.business.cleanVideoRecord("recordCleaner", "listMs");
+	        //页尾关键词
+	        document.getElementById('js_btSearch').value = PH_HOTWORDS[1];
+	    }, false);
+	else
+	    window.attachEvent("onload", function () {
+	        //我看过的视频
+	        this.cookierw = new ifeng.business.VideoRecordRead("clearPlay", "listMs");
+	        ifeng.business.cleanVideoRecord("recordCleaner", "listMs");
+	        //页尾关键词
+	        document.getElementById('js_btSearch').value = PH_HOTWORDS[1];
+	    });
+</script>
+
+
+<!--s_itv_vdocumentary_index_icon 2014.12.19 09:17:40-->
+<script type="text/javascript">try{aptracker.add(2335);}catch(e){}</script>
+
+
+
+<var style="display:none;" v="2335,0,0,NULL,fixture"></var>
+
+<!--/s_itv_vdocumentary_index_icon-->
+
+<!-- Begin comScore Tag --> 
+<script> 
+  document.write(unescape("%3Cscript src=' " + (document.location.protocol == "https:" ? "https://sb" : "http://b") 
++ ".scorecardresearch.com/beacon.js'  %3E%3C/script%3E")); 
+</script> 
+ 
+<script> 
+  COMSCORE.beacon({ 
+    c1:2, 
+    c2:"6036116", 
+    c3:"", 
+    c4:"", 
+    c5:"", 
+    c6:"", 
+    c15:"" 
+  }); 
+</script> 
+<noscript> 
+  <img src="http://b.scorecardresearch.com/p?c1=2&c2=&c3=&c4=&c5=&c6=&c15=&cj=1" /> 
+</noscript> 
+<!-- End comScore Tag -->
+
+<!--s_itv_vdocumentary_index_couplet 2014.12.19 09:18:08-->
+<script type="text/javascript">try{aptracker.add(4520);}catch(e){}</script>
+
+
+<div id="AP1304" style="display:none;">
+<code>
+<!--BOF
+
+<var style="display:none;" v="4520,25077,6664,谢婷婷,B2"></var><style type="text/css">
+	/*让position:fixed在IE6下可用! */
+	.fixed-top /* 头部固定 */{position:fixed;bottom:auto;top:0px;}
+	.fixed-bottom /* 底部固定 */{position:fixed;bottom:0px;top:auto;}
+	.fixed-left /* 左侧固定 */{position:fixed;right:auto;left:0px;}
+	.fixed-right /* 右侧固定 */{position:fixed;right:0px;left:auto;}
+	/* 上面的是除了IE6的主流浏览器通用的方法 */
+	/** html,* html body *//* 修正IE6振动bug *//*{background-image:url(about:blank);background-attachment:fixed;}*/
+	* html .fixed-top /* IE6 头部固定 */{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));}
+	* html .fixed-right /* IE6 右侧固定 */ {position:absolute;right:auto;left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||0)-(parseInt(this.currentStyle.marginRight,10)||0));}
+	* html .fixed-bottom /* IE6 底部固定 */{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+	* html .fixed-left /* IE6 左侧固定 */{position:absolute;right:auto;left:expression(eval(document.documentElement.scrollLeft));}
+</style>
+<script type="text/javascript">
+    document.write('');
+    if (typeof deconcept == "undefined") {var deconcept = new Object();}
+    if (typeof deconcept.util == "undefined") {deconcept.util = new Object();}
+    if (typeof deconcept.SWFObjectUtil == "undefined") {deconcept.SWFObjectUtil = new Object();}
+    deconcept.SWFObject = function(_1, id, w, h, _5, c, _7, _8, _9, _a, _b) {if (!document.getElementById) {return;}
+        this.DETECT_KEY = _b ? _b: "detectflash";
+        this.skipDetect = deconcept.util.getRequestParameter(this.DETECT_KEY);
+        this.params = new Object();
+        this.variables = new Object();
+        this.attributes = new Array();
+        if (_1) {this.setAttribute("swf", _1);}
+        if (id) {this.setAttribute("id", id);}
+        if (w) {this.setAttribute("width", w);}
+        if (h) {this.setAttribute("height", h);}
+        if (_5) {this.setAttribute("version", new deconcept.PlayerVersion(_5.toString().split(".")));}
+        this.installedVer = deconcept.SWFObjectUtil.getPlayerVersion();
+        if (c) {this.addParam("bgcolor", c);}
+        var q = _8 ? _8: "high";
+        this.addParam("quality", q);
+        this.setAttribute("useExpressInstall", _7);
+        this.setAttribute("doExpressInstall", false);
+        var _d = (_9) ? _9: window.location;
+        this.setAttribute("xiRedirectUrl", _d);
+        this.setAttribute("redirectUrl", "");
+        if (_a) {this.setAttribute("redirectUrl", _a);}};
+    deconcept.SWFObject.prototype = {setAttribute: function(_e, _f) {this.attributes[_e] = _f;},
+        getAttribute: function(_10) {return this.attributes[_10];},
+        addParam: function(_11, _12) {this.params[_11] = _12;},
+        getParams: function() {return this.params;},
+        addVariable: function(_13, _14) {this.variables[_13] = _14;},
+        getVariable: function(_15) {return this.variables[_15];},
+        getVariables: function() {return this.variables;},
+        getVariablePairs: function() {var _16 = new Array();
+            var key;
+            var _18 = this.getVariables();
+            for (key in _18) {_16.push(key + "=" + _18[key]);}
+            return _16;},
+        getSWFHTML: function() {
+            var _19 = "";
+            if (navigator.plugins && navigator.mimeTypes && navigator.mimeTypes.length) {
+                if (this.getAttribute("doExpressInstall")) {this.addVariable("MMplayerType", "PlugIn");}
+                _19 = "<embed type=\"application/x-shockwave-flash\" src=\"" + this.getAttribute("swf") + "\" width=\"" + this.getAttribute("width") + "\" height=\"" + this.getAttribute("height") + "\"";_19 += " id=\"" + this.getAttribute("id") + "\" name=\"" + this.getAttribute("id") + "\" ";var _1a = this.getParams();
+                for (var key in _1a) {_19 += [key] + "=\"" + _1a[key] + "\" ";}
+                var _1c = this.getVariablePairs().join("&");
+                if (_1c.length > 0) {_19 += "flashvars=\"" + _1c + "\"";}_19 += "/>";} else {
+                if (this.getAttribute("doExpressInstall")) {this.addVariable("MMplayerType", "ActiveX");
+                }_19 = "<object id=\"" + this.getAttribute("id") + "\" classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" width=\"" + this.getAttribute("width") + "\" height=\"" + this.getAttribute("height") + "\">";
+                _19 += "<param name=\"movie\" value=\"" + this.getAttribute("swf") + "\" />";
+                var _1d = this.getParams();
+                for (var key in _1d) {_19 += "<param name=\"" + key + "\" value=\"" + _1d[key] + "\" />";}
+                var _1f = this.getVariablePairs().join("&");
+                if (_1f.length > 0) {_19 += "<param name=\"flashvars\" value=\"" + _1f + "\" />";}_19 += "</object>";}return _19;},
+        write: function(_20) {
+            if (this.getAttribute("useExpressInstall")) {var _21 = new deconcept.PlayerVersion([6, 0, 65]);
+                if (this.installedVer.versionIsValid(_21) && !this.installedVer.versionIsValid(this.getAttribute("version"))) {this.setAttribute("doExpressInstall", true);this.addVariable("MMredirectURL", escape(this.getAttribute("xiRedirectUrl")));document.title = document.title.slice(0, 47) + " - Flash Player Installation";this.addVariable("MMdoctitle", document.title);}}
+            if (this.skipDetect || this.getAttribute("doExpressInstall") || this.installedVer.versionIsValid(this.getAttribute("version"))) {var n = (typeof _20 == "string") ? document.getElementById(_20) : _20;n.innerHTML = this.getSWFHTML();return true;} else {if (this.getAttribute("redirectUrl") != "") {document.location.replace(this.getAttribute("redirectUrl"));}}return false;}};
+    deconcept.SWFObjectUtil.getPlayerVersion = function() {var _23 = new deconcept.PlayerVersion([0, 0, 0]);
+        if (navigator.plugins && navigator.mimeTypes.length) {var x = navigator.plugins["Shockwave Flash"];
+            if (x && x.description) {_23 = new deconcept.PlayerVersion(x.description.replace(/([a-zA-Z]|\s)+/, "").replace(/(\s+r|\s+b[0-9]+)/, ".").split("."));}
+        } else {try {var axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");} catch(e) {try {var axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");_23 = new deconcept.PlayerVersion([6, 0, 21]);axo.AllowScriptAccess = "always";} catch(e) {
+                    if (_23.major == 6) {return _23;}}try {axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");} catch(e) {}}
+            if (axo != null) {_23 = new deconcept.PlayerVersion(axo.GetVariable("$version").split(" ")[1].split(","));}}return _23;};
+    deconcept.PlayerVersion = function(_27) {this.major = _27[0] != null ? parseInt(_27[0]) : 0;this.minor = _27[1] != null ? parseInt(_27[1]) : 0;this.rev = _27[2] != null ? parseInt(_27[2]) : 0;};
+    deconcept.PlayerVersion.prototype.versionIsValid = function(fv) {
+        if (this.major < fv.major) {return false;}
+        if (this.major > fv.major) {return true;}
+        if (this.minor < fv.minor) {return false;}
+        if (this.minor > fv.minor) {return true;}
+        if (this.rev < fv.rev) {return false;}
+        return true;};
+    deconcept.util = {getRequestParameter: function(_29) {var q = document.location.search || document.location.hash;if (q) {var _2b = q.substring(1).split("&");for (var i = 0; i < _2b.length; i++) {if (_2b[i].substring(0, _2b[i].indexOf("=")) == _29) {return _2b[i].substring((_2b[i].indexOf("=") + 1));}}}return "";}};deconcept.SWFObjectUtil.cleanupSWFs = function() {if (window.opera || !document.all) {return;}var _2d = document.getElementsByTagName("OBJECT");for (var i = 0; i < _2d.length; i++) {_2d[i].style.display = "none";for (var x in _2d[i]) {if (typeof _2d[i][x] == "function") {_2d[i][x] = function() {};}}}};
+    deconcept.SWFObjectUtil.prepUnload = function() {__flash_unloadHandler = function() {};__flash_savedUnloadHandler = function() {};if (typeof window.onunload == "function") {var _30 = window.onunload;window.onunload = function() {deconcept.SWFObjectUtil.cleanupSWFs();_30();};} else {window.onunload = deconcept.SWFObjectUtil.cleanupSWFs;}};
+    if (typeof window.onbeforeunload == "function") {var oldBeforeUnload = window.onbeforeunload;window.onbeforeunload = function() {deconcept.SWFObjectUtil.prepUnload();oldBeforeUnload();};} else {window.onbeforeunload = deconcept.SWFObjectUtil.prepUnload;}if (Array.prototype.push == null) {Array.prototype.push = function(_31) {this[this.length] = _31;return this.length;};}
+	var getQueryParamValue = deconcept.util.getRequestParameter;
+	var FlashObject = deconcept.SWFObject;
+	var SWFObject = deconcept.SWFObject;
+	var ifengcouplet3 = {
+		flagcookie: "",
+		$: function (id) {
+			return document.getElementById(id);
+		},
+		isBig: function () {
+			var clientW = document.documentElement.clientWidth;
+			var isBig = true;
+			if (typeof device.type != 'undefined' && null != device.type) {
+				if (device.type == 'pc' && clientW >= 1300 && clientW < 1430) {
+					isBig = false;
+				}
+			}
+			return isBig;
+		},
+		getCookie: function (N) {
+			var c = document.cookie.split("; ");
+			for (var i = 0; i < c.length; i++) {
+				var d = c[i].split("=");
+				if (d[0] == N) {
+					return unescape(d[1]);
+				}
+			}
+			return "";
+		},
+		setCookie: function (N, V, Q) {
+			var L = new Date();
+			var z = new Date(L.getTime() + Q * 60000);
+			document.cookie = N + "=" + escape(V) + ";path=/;expires=" + z.toGMTString() + ";"
+		},
+		getflagcookie: function (url) {
+			var flag_cookie = "";
+			var domain = document.domain.substr(0, (document.domain.length - 10)); //处理域名
+			var href = document.location.href;
+			var start = href.lastIndexOf("/") + 1;
+			var end = href.lastIndexOf(".");
+			href = href.substr(start, end - start); //获取页面的唯一值
+			var cookie_time = new Date();
+			var ti = cookie_time.getFullYear().toString() + (cookie_time.getMonth() + 1).toString() + cookie_time.getDate().toString(); //获取日期
+			var url_start = url.indexOf("-") + 1;
+			url = url.substr(url_start, 20);
+			var url_end = url.indexOf("-");
+			url = url.substr(0, url_end);
+			flag_cookie = domain + url + href + ti;
+			return flag_cookie;
+		},
+		init_html: function (style) {
+			var ie6 = !-[1,]&&!window.XMLHttpRequest;
+			if(ie6){
+				var html = '<div class="fixed-top fixed-left" style="z-index:' + ifengcouplet3_flag_index + '; display:none; margin-top: ' + style["top"] + 'px; margin-left: ' + style["left"] + 'px; width: ' + style["width"] + 'px; height: ' + style["height"] + 'px;" id="couplet3_left">' + '<div style="position:absolute;top:0;left:0;"><div style="position: relative; margin:0; padding:0; top: 0px; width: ' + style["width"] + 'px; height: ' + (style["height"] - style["height_close"]) + 'px;" id="couplet3_left_1"></div>' + '<div style="background:#eee;width:' + style["width"] + 'px;height:' + style["height_close"] + 'px;"><div style="float:right;cursor:pointer;text-decoration:underline;width:25px;height:' + style["height_close"] + 'px;line-height:' + style["height_close"] + 'px;" id="couplet3_left_2">关闭</div></div></div>' + '</div>' + '<div class="fixed-top fixed-right" style="z-index:' + ifengcouplet3_flag_index + '; display:none; margin-top: ' + style["top"] + 'px; margin-right: ' + style["left"] + 'px; width: ' + style["width"] + 'px; height: ' + style["height"] + 'px;" id="couplet3_right">' + '<div style="position:absolute;top:0;left:0;"><div style="position: relative; margin:0; padding:0; top: 0px; width: ' + style["width"] + 'px; height: ' + (style["height"] - style["height_close"]) + 'px;" id="couplet3_right_1"></div>' + '<div style="background:#eee;width:' + style["width"] + 'px;height:' + style["height_close"] + 'px;"><div style="float:left;cursor:pointer;text-decoration:underline;width:25px;height:' + style["height_close"] + 'px;line-height:' + style["height_close"] + 'px;" id="couplet3_right_2">关闭</div></div></div>' + '</div>';
+			}else{
+				var html = '<div class="fixed-top fixed-left" style="z-index:' + ifengcouplet3_flag_index + '; display:none; top: ' + style["top"] + 'px; left: ' + style["left"] + 'px; width: ' + style["width"] + 'px; height: ' + style["height"] + 'px;" id="couplet3_left">' + '<div style="position:absolute;top:0;left:0;"><div style="position: relative; margin:0; padding:0; top: 0px; width: ' + style["width"] + 'px; height: ' + (style["height"] - style["height_close"]) + 'px;" id="couplet3_left_1"></div>' + '<div style="background:#eee;width:' + style["width"] + 'px;height:' + style["height_close"] + 'px;"><div style="float:right;cursor:pointer;text-decoration:underline;width:25px;height:' + style["height_close"] + 'px;line-height:' + style["height_close"] + 'px;" id="couplet3_left_2">关闭</div></div></div>' + '</div>' + '<div class="fixed-top fixed-right" style="z-index:' + ifengcouplet3_flag_index + '; display:none; top: ' + style["top"] + 'px; right: ' + style["left"] + 'px; width: ' + style["width"] + 'px; height: ' + style["height"] + 'px;" id="couplet3_right">' + '<div style="position:absolute;top:0;left:0;"><div style="position: relative; margin:0; padding:0; top: 0px; width: ' + style["width"] + 'px; height: ' + (style["height"] - style["height_close"]) + 'px;" id="couplet3_right_1"></div>' + '<div style="background:#eee;width:' + style["width"] + 'px;height:' + style["height_close"] + 'px;"><div style="float:left;cursor:pointer;text-decoration:underline;width:25px;height:' + style["height_close"] + 'px;line-height:' + style["height_close"] + 'px;" id="couplet3_right_2">关闭</div></div></div>' + '</div>';
+			}
+			document.write(html);
+			var couplet3_left = document.getElementById('couplet3_left');
+			var couplet3_right = document.getElementById('couplet3_right');
+			var iframeStr = '<iframe width="' + style["width"] + '" height="' + style["height"] + '" border="0" frameborder="no" marginwidth="0" marginheight="0" scrolling="no"></iframe>';
+			couplet3_left.innerHTML += iframeStr;
+			couplet3_right.innerHTML += iframeStr;
+		},
+		init_close: function () {
+			this.$('couplet3_left_2').onclick = function () {
+				ifengcouplet3.setCookie(ifengcouplet3.flagcookie, '1', 60); //	关闭后 1 小时内不再重复打开
+				ifengcouplet3.$("couplet3_left").style.display = "none";
+				ifengcouplet3.$("couplet3_right").style.display = "none";
+			};
+			this.$('couplet3_right_2').onclick = function () {
+				ifengcouplet3.setCookie(ifengcouplet3.flagcookie, '1', 60); //	关闭后 1 小时内不再重复打开
+				ifengcouplet3.$("couplet3_left").style.display = "none";
+				ifengcouplet3.$("couplet3_right").style.display = "none";
+			};
+		},
+		flash_set: function (swfUrl, clickUrl, flagFilter, width, height, flaginteractive) {//clickUrl = clickUrl.replace(/&/g, '%26');
+			var jiewei = ifengcouplet3.ext(swfUrl), flashHtml;
+			if (jiewei == 'swf') {
+				if (flaginteractive == 0) {//非互动素材
+					flashHtml = '<div><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"	codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="' + ifengcouplet3_width + '" height="' + ifengcouplet3_height + '">' +
+							'<param name="movie" value="' + swfUrl + '" />' +
+							'<param name="quality" value="high" />' +
+							'<param name="wmode" value="opaque" />' +
+							'<embed src="' + swfUrl + '" quality="high" wmode="opaque" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="' + ifengcouplet3_width + '" height="' + ifengcouplet3_height + '"></embed></object></div><div onclick="window.open(\'' + clickUrl + '\');" style = "cursor:pointer; background:red; filter:alpha(opacity=' + 0 + ');-moz-opacity:0;opacity:0;position:relative; top:0px;left:0px; width:' + ifengcouplet3_width + 'px;height:' + ifengcouplet3_height + 'px;position:absolute;"></div>';
+				} else if (flaginteractive == 1) {//互动素材
+					clickUrl = clickUrl.replace(/&/g, '%26');
+					flashHtml = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"	codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="' + ifengcouplet3_width + '" height="' + ifengcouplet3_height + '">' +
+							'<param name="movie" value="' + swfUrl + '?clickTag=' + clickUrl + '" />' +
+							'<param name="quality" value="high" />' +
+							'<embed src="' + swfUrl + '?clickTag=' + clickUrl + '" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="' + ifengcouplet3_width + '" height="' + ifengcouplet3_height + '"></embed></object>';
+				}
+			} else if (jiewei == "jpg" || jiewei == "png" || jiewei == "gif") {
+				flashHtml = '<a href="' + clickUrl + '" target="_blank"><img border="0" src="' + swfUrl + '"/></a>';
+			} else {
+				flashHtml = '<iframe src="' + swfUrl + '" width="' + width + '" height="' + height + '" scrolling="no" frameborder="0"/>';
+			}
+			ifengcouplet3.$('couplet3_left_1').innerHTML = ifengcouplet3.$('couplet3_right_1').innerHTML = flashHtml;
+		},
+		/**
+		 * 截取文件后缀名,返回文件后缀名小写形式  ，如'swf','jpg'
+		 * @param String s
+		 */
+		ext: function (s) {
+			var pairs;var file;var s = s.replace(/(\\+)/g, '#');pairs = s.split('#');file = pairs[pairs.length - 1];pairs = file.split('.');ext = pairs[pairs.length - 1];return ext.toLowerCase();
+		},
+		init_play: function () {
+			if (0) {} else {ifengcouplet3.$("couplet3_left").style.display = "";ifengcouplet3.$("couplet3_right").style.display = "";}
+			if (typeof(IFENGDODGE) != 'undefined') {setTimeout('IFENGDODGE.controller.play("coupletnew");', 1000);}
+		},
+		init: function (swfUrl, clickUrl, filter, bodywidth, flagdodge, flaginteractive, width) {
+			var style = {"top": ifengcouplet3_flag_top, "left": 0, "width": width, "width_close": 32, "height": 315, "height_close": 15};
+			if (document.documentElement.clientWidth > (bodywidth + style["width"] + style["width"])) {	style["left"] = (document.documentElement.clientWidth - (bodywidth + style["width"] + style["width"])) / 2;style["left"] = 1;
+			} else {style["left"] = 0;}
+			ifengcouplet3.init_html(style);
+			ifengcouplet3.init_close();
+			ifengcouplet3.flash_set(swfUrl, clickUrl, filter, style["width"], style["height"] - style["height_close"], flaginteractive);
+			ifengcouplet3.flagcookie = ifengcouplet3.getflagcookie(swfUrl);
+		}
+	};
+	var ifengcouplet3_filter = 0; //是否过滤底色层	1:过滤	0:不过滤
+	var ifengcouplet3_bodywidth = 1000; //页面的宽主
+	var ifengcouplet3_flag_dodge = 1; //是否使用避让机制	1:使用	0:关闭
+	var ifengcouplet3_flag_interactive = 0; //是否有互动	0:否	1:是	//2:gif 图片(
+	var ifengcouplet3_flag_index = 2147483645;
+	var ifengcouplet3_flag_top = 235;
+	var ifengcouplet3_monitor = "http://dolphin.deliver.ifeng.com/s?z=ifeng&c=29&l=5284";
+	var ifengcouplet3_swfUrl,ifengcouplet3_clickUrl,ifengcouplet3_width, ifengcouplet3_height;
+	if(ifengcouplet3.isBig()){
+		ifengcouplet3_swfUrl = 'http://y1.ifengimg.com/mappa/2014/12/12/0e2cd52df8c01389f6349a8a651b3338.swf';//宽素材
+		ifengcouplet3_clickUrl = 'http://dol.deliver.ifeng.com/c?5a3dc8105MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLRbmNNg-chRYMWBBCVbebq03TKUeX7x7rMEFc_sRDXp1cbwdla4D-bMkGcwwUBFvf0FTFPhUBupM50qGIVOw4XC84r3QJLckUlgKUOfymol9xmpQHub3jIgORvFLlGxrI';//宽点击地址
+		ifengcouplet3_width = 90;//宽对联宽
+		ifengcouplet3_height = 300;//宽对联高
+	} else {
+		ifengcouplet3_swfUrl = 'http://y0.ifengimg.com/mappa/2014/12/12/09ea60d19ff6c9926e8f6eef18f4400c.swf';//窄素材
+		ifengcouplet3_clickUrl = 'http://dol.deliver.ifeng.com/c?5a3dc8105MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLRbmNNg-chRYMWBBCVbebq03TKUeX7x7rMEFc_sRDXp1cbwdla4D-bMkGcwwUBFvf0FTFPhUBupM50qGIVOw4XC84r3QJLckUlgKUOfymol9xmpQHub3jIgORvFLlGxrI';//窄点击地址
+		ifengcouplet3_width = 30;//窄对联宽
+		ifengcouplet3_height = 300;//窄对联高
+	}
+	ifengcouplet3.init(ifengcouplet3_swfUrl, ifengcouplet3_clickUrl, ifengcouplet3_filter, ifengcouplet3_bodywidth, ifengcouplet3_flag_dodge, ifengcouplet3_flag_interactive, ifengcouplet3_width);
+	function ifengcouplet3_play() {
+		ifengcouplet3.init_play();
+	}
+	if (typeof(IFENGDODGE) != 'undefined' && ifengcouplet3_flag_dodge == 1) {
+		IFENGDODGE.set_stock('coupletnew', {"timer": "8", "func": ifengcouplet3.init_play, "level": 2});
+	} else {
+		if (typeof device.type != 'undefined' && null != device.type) {
+			if (device.type == 'mobile' || device.type == 'pad') {
+			} else {
+				if (ifengcouplet3_monitor) {
+					var img = new Image();
+					img.src = ifengcouplet3_monitor;
+				}
+				setTimeout(function(){ifengcouplet3.init_play();}, 0000);
+			}
+		}
+	}
+	</script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+	(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_itv_vdocumentary_index_couplet';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP1304"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_itv_vdocumentary_index_couplet-->
+
+<!--底部 begin-->
+<footer>
+    
+        <div class="mfooter">
+   &copy; 2014&nbsp;&nbsp;凤凰视频 
+</div> 
+        <div class="btmsear"> 
+  <div class="sotool"> 
+   <form action="http://so.v.ifeng.com/video?q=&amp;c=5" method="get" target="_blank"> 
+    <span class="s_input_box"> <input type="text" value="" x-webkit-speech="" class="s_input" name="q" id="js_btSearch" /> </span> 
+    <input hidefocus="true" class="s_button" type="submit" value="凤搜" /> 
+   </form> 
+  </div> 
+  <ul class="btmnav"> 
+   <li><a href="http://v.ifeng.com/" target="_blank">视频首页</a></li> 
+   <li><a href="http://v.ifeng.com/news/" target="_blank">资讯</a></li> 
+   <li><a href="http://v.ifeng.com/ent/" target="_blank">娱乐</a></li> 
+   <li><a href="http://v.ifeng.com/documentary/" target="_blank">纪实</a></li> 
+   <li><a href="http://v.ifeng.com/mil/" target="_blank">军事</a></li> 
+   <li><a href="http://v.ifeng.com/vblog/" target="_blank">播客</a></li> 
+   <li><a href="http://phtv.ifeng.com/" target="_blank">卫视</a></li> 
+   <li><a href="http://v.ifeng.com/history/" target="_blank">历史</a></li> 
+   <li><a href="http://tv.v.ifeng.com/" target="_blank">影视</a></li> 
+   <li><a href="http://v.ifeng.com/fashion/" target="_blank">时尚</a></li> 
+   <li><a href="http://v.ifeng.com/program/" target="_blank">原创</a></li> 
+   <li><a href="http://vip.v.ifeng.com/" target="_blank">VIP</a></li> 
+   <li><a href="http://v.ifeng.com/gongkaike/" target="_blank">公开课</a></li> 
+   <li><a href="http://v.ifeng.com/live/" target="_blank">直播</a></li> 
+   <li><a href="http://v.ifeng.com/vlist/nav_category/infor_0019-0062-0006/update/1/list.shtml" target="_blank">体育</a></li> 
+   <li><a href="http://v.ifeng.com/vlist/nav_category/infor_0019-0062-0005/update/1/list.shtml" target="_blank">财经</a></li> 
+   <li><a href="http://v.ifeng.com/vlist/nav_category/infor_0019-0062-0007/update/1/list.shtml" target="_blank">评论</a></li> 
+   <li class="libgno"><a href="http://v.ifeng.com/vlist/nav_category/infor_0019-0062-0004/update/1/list.shtml" target="_blank">拍客</a></li> 
+  </ul> 
+ </div> 
+ <div class="chaFotNav"> 
+  <!--100325 begin--> 
+  <ul class="endNList"> 
+   <li><a href="http://www.ifeng.com/" target="_blank">首页</a></li> 
+   <li><a href="http://news.ifeng.com/" target="_blank">资讯</a></li> 
+   <li><a href="http://news.ifeng.com/taiwan/" target="_blank">台湾</a></li> 
+   <li><a href="http://opinion.ifeng.com/" target="_blank">评论</a></li> 
+   <li><a href="http://finance.ifeng.com/" target="_blank">财经</a></li> 
+   <li><a href="http://auto.ifeng.com/" target="_blank">汽车</a></li> 
+   <li><a href="http://tech.ifeng.com/" target="_blank">科技</a></li> 
+   <li><a href="http://house.ifeng.com/" target="_blank">房产</a></li> 
+   <li><a href="http://fashion.ifeng.com/travel/" target="_blank">旅游</a></li> 
+   <li><a href="http://ent.ifeng.com/" target="_blank">娱乐</a></li> 
+   <li><a href="http://fashion.ifeng.com/" target="_blank">时尚</a></li> 
+   <li><a href="http://news.ifeng.com/sports/" target="_blank">体育</a></li> 
+   <li><a href="http://news.ifeng.com/mil/" target="_blank">军事</a></li> 
+   <li><a href="http://news.ifeng.com/history/" target="_blank">历史</a></li> 
+   <li><a href="http://book.ifeng.com/" target="_blank">读书</a></li> 
+   <li><a href="http://edu.ifeng.com/" target="_blank">教育</a></li> 
+   <li><a href="http://fashion.ifeng.com/health/" target="_blank">健康</a></li> 
+   <li><a href="http://fashion.ifeng.com/baby/" target="_blank">亲子</a></li> 
+   <li><a href="http://games.ifeng.com/" target="_blank">游戏</a></li> 
+   <li><a href="http://city.ifeng.com/" target="_blank">城市</a></li> 
+   <li><a href="http://bbs.ifeng.com/" target="_blank">论坛</a></li> 
+   <li><a href="http://blog.ifeng.com/" target="_blank">博报</a></li> 
+   <li class="end"><a href="http://t.ifeng.com/" target="_blank">微博</a></li> 
+  </ul> 
+  <div class="navFocus"> 
+   <div class="navV"> 
+    <a href="http://v.ifeng.com/" target="_blank">视频</a>&middot; 
+   </div> 
+   <div class="navTmp"> 
+    <a href="http://v.ifeng.com/documentary/index.shtml" target="_blank">纪实</a>&middot; 
+   </div> 
+   <div class="ifengPlay"> 
+    <a href="http://v.ifeng.com/live/" target="_blank">直播</a> 
+   </div> 
+   <div class="tvPlay"> 
+    <a href="http://phtv.ifeng.com/" target="_blank">凤凰卫视</a> 
+   </div> 
+  </div> 
+  <!--100325 end--> 
+  <div class="clear"></div> 
+ </div> 
+ <div class="chaFotNav02"></div> 
+ <div class="chaFooter"> 
+  <div class="footLink"> 
+   <a href="http://www.ifeng.com/corp/about/intro/" target="_blank">凤凰新媒体介绍</a>| 
+   <a href="http://ir.ifeng.com/" target="_blank">投资者关系 Investor Relations</a>| 
+   <a href="http://www.ifeng.com/corp/ad/" target="_blank">广告服务</a>| 
+   <a href="http://career.ifeng.com/" target="_blank">诚征英才</a>| 
+   <a href="http://www.ifeng.com/corp/privacy/" target="_blank">保护隐私权</a>| 
+   <a href="http://www.ifeng.com/corp/exemption/" target="_blank">免责条款</a>| 
+   <a href="http://www.ifeng.com/corp/counselor/" target="_blank">法律顾问</a>| 
+   <a href="http://www.ifeng.com/corp/feedback/" target="_blank">意见反馈</a>| 
+   <a href="http://phtv.ifeng.com/intro/" target="_blank">凤凰卫视介绍</a> 
+  </div> 
+  <div class="copyright">
+    凤凰新媒体 版权所有 
+   <br /> Copyright &copy; 2011 Phoenix New Media Limited All Rights Reserved. 
+  </div>
+<script type="text/javascript" id="sta_collection_new">
+var sta_collection_time = new Date().getTime();
+/*function getStaPara(){return "vtype=player";}*/
+creatTasker(5, "", "http://y0.ifengimg.com/20140429/sta_collection.3.3.15.min.js", true, "统计探针")
+</script>
+<script type="text/javascript" src="http://m0.ifengimg.com/ifeng/sources/120331-iImpression.js"></script> 
+ </div> 
+ <script>try{aptracker.collection();}catch(e){}</script>
+    
+</footer>
+<!--底部 end-->
+
+<script>window.onerror=function(){return true;}</script>                 
+<script src="http://y3.ifengimg.com/9db17ab793eef980/2013/0403/clickheat_sim.js"></script>
+<script>
+clickHeatSite = 'v'; 
+clickHeatGroup = 'documentary';
+clickHeatServer = 'http://map.tongji.ifeng.com/clickheat/click.php';
+initClickHeat(); 
+</script>
+ 
+ <script>
+_iwt_no_flash=0;
+var _iwt_UA="UA-ifeng-000001";
+(function (D) {
+var h=D.getElementsByTagName('head')[0],
+s=D.createElement('script');
+s.type='text/javascript';
+s.charset='utf-8';
+s.src='http://y1.ifengimg.com/8cbe73a7378dafdb/2012/0418/rdn_4f8e8837afe94.js?v=20120411';
+h.firstChild?h.insertBefore(s,h.firstChild):h.appendChild(s);
+})(document);
+</script>
+
+</body>
+</html>

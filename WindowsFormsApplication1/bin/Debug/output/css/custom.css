@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-7-17, 10:05:41
+    Author     : Administrator
+*/
+
+/*
+ * Base structure
+ */
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+#result{
+    border : #ccc 1px solid;
+    padding: 10px;
+}
+
+#content_row{
+    margin-top: 10px;
+}
+
+#list_group{
+    margin-top: 20px;
+}

@@ -1,0 +1,3512 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
+<!--cmpp:start--><title>军事频道-纵览军事热点 解析时事走向-最具媒体价值的综合视频门户-凤凰视频</title>
+<meta name="description" content="凤凰视频军事频道关注台海风云，深度解析环球军力，及时追踪尖端武器装备，深度揭秘军史秘闻，为军迷和军事专家构建最具价值的交流互动平台。" />
+<meta name="keywords" content="凤凰卫视，凤凰网，凤凰军事，军情观察室" /> 
+<script src="http://h1.ifengimg.com/f3a90b93df336b6f/2013/0704/device.js"></script> 
+<script src="http://h2.ifengimg.com/f3a90b93df336b6f/2013/0329/loader.min.js"></script>
+
+<script >
+  var videoinfo = {};
+  var SEARCH_PARAM = {
+    url:"http://so.v.ifeng.com/video",
+    c: '5',
+    agentPageUrl:'http://so.v.ifeng.com/modules/sofeng/views/video/height.html'
+  };
+  // 根据设备类型加载不同的meta和样式
+    if (device.type !== "pc") {
+        document.write('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">');
+    }
+    if (device.type !== "mobile") {
+        if (device.type === "pc") {
+            document.write('<link rel="stylesheet" href="http://h2.ifengimg.com/5887c5da2472fe29/2014/45/header-public.css" />');
+            document.write('<link rel="stylesheet" href="http://h3.ifengimg.com/5887c5da2472fe29/2014/47/vfwar2014_pc.css" />');
+         }
+         loader.add("F", {
+             path: "http://y0.ifengimg.com/base/origin/F-1.2.0.min.js"
+         });
+         tasker.runAfterDomReady();
+         if (device.type === "pad") {
+             document.write('<link rel="stylesheet" rev="stylesheet" href="http://y0.ifengimg.com/5887c5da2472fe29/2014/46/variety-pad.css" />');
+             document.write('<meta name="viewport" content="minimum-scale=0.5, maximum-scale=1.0" >');
+            loader.add("base", {path: "http://h1.ifengimg.com/f3a90b93df336b6f/2013/0704/zepto1.01.js"});
+            creatTasker(3, "base",   "http://h1.ifengimg.com/084f0f3021c4226b/2014/0728/pad_slide_film.js", true, "焦点图");
+            creatTasker(4, "base",   "http://h0.ifengimg.com/084f0f3021c4226b/2014/0728/home_top_pad0728.js", true, "头部脚本，图片延迟加载");
+      creatTasker(1, "base", "http://h0.ifengimg.com/2013/08/27/dty/vlongHeadMobile.min.js", true, "焦点图，头部脚本，图片延迟加载");
+      
+         }
+         
+     } else {
+         document.write('<link rel="stylesheet" rev="stylesheet" href="http://y1.ifengimg.com/5887c5da2472fe29/2014/46/v_topic_mobile.css" type="text/css" />');
+         if (!device.config.os.wphone) {
+             loader.add("base", {
+                 path: "http://h1.ifengimg.com/f3a90b93df336b6f/2013/0704/zepto1.01.js"});
+              if (device.config.os.iphone) {
+                     creatTasker(2, "base", "http://m2.ifengimg.com/f8fe07623a924fa0/2014/0527/video_addScreen.js", true, "添加到主屏");
+             } 
+         } else {
+             loader.add("base", {
+                 path: "http://y0.ifengimg.com/base/jQuery/jquery-1.9.1.min.js"});
+         }
+         tasker.runAfterDomReady();
+         creatTasker(3, "base",   "http://h1.ifengimg.com/25852dfe6a0682f3/2013/1231/home_top_mobile.js", true, "焦点图，头部脚本，图片延迟加载");
+         creatTasker(2, "", "http://h2.ifengimg.com/084f0f3021c4226b/2014/0326/preventAhchorsD.js", true, "屏蔽没用的a标签");
+
+} 
+</script>
+<script>
+        if (device.type === "pc") {
+            document.write('<script src="http://y1.ifengimg.com/BX/min/BX.1.0.1.U.js"><\/script>');
+            document.write('<script src="http://y1.ifengimg.com/JCore/min/TabControl.1.2.js"><\/script>');
+         }
+</script>
+
+    <script src="http://img.ifeng.com/tres/pub_res/JCore/scroll.v.1.2.js"></script>
+    <!--<script src="http://h2.ifengimg.com/f3a90b93df336b6f/2012/1130/buiness_v2.js"></script>-->
+    <script src="http://h1.ifengimg.com/f3a90b93df336b6f/2013/0704/html5.js"></script>
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="http://y2.ifengimg.com/f3a90b93df336b6f/2013/0703/57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://y2.ifengimg.com/f3a90b93df336b6f/2013/0703/72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://y2.ifengimg.com/f3a90b93df336b6f/2013/0703/114.png" />
+</head>
+<body>
+<!--顶通拉起 begin-->
+ <style>
+.ad_top.ad_top {position:relative;top:0px;left:0px;width:100%;min-width:320px;height: 40px;overflow: hidden;background:#e9e9e7;margin:0;}
+.ad_top_right .download_btn,.ad_top_close,.ad_top_right,#footAD_box{display:block}
+@media screen and (min-width:768px){
+    .ad_top.ad_top {width:100%;}
+}
+@media screen and (min-width:1000px){
+    .ad_top.ad_top {width:100%;}
+}
+.ad_top_left{float:left;margin:2px 0 0 14px;width:auto;height:auto;}
+.ad_top_left .vifeng_logo{display: block;width:152px;height:33px;overflow: hidden;) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.ad_top_right{float:right;margin:7px 14px 0 0;}
+.ad_top_right .download_btn{display: block; width:91px;height: 27px;margin-right:15px; overflow: hidden;) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;}
+.ad_top_close{position:absolute;top:0;right:0;width:21px;height:22px;cursor:pointer; ) no-repeat;-webkit-background-size:100% 100%;-moz-background-size:100% 100%;-o-background-size:100% 100%;background-size:100% 100%;}
+</style>
+<div id="footAD_box"  >
+<div class="ad_top" id="ad_top"  style="display:none;">
+<div class="ad_top_wrap">
+<div class="ad_top_left"><a href="#" class="vifeng_logo" ></a></div>
+<div class="ad_top_right"><a href="#" class="download_btn" ></a>
+<span class="ad_top_close" id="ad_close1" ></span></div>
+</div>
+</div>
+</div>
+
+<script>
+var AdData = [{image: 'http://y2.ifengimg.com/a/2014_51/95bc7433fdc4d53.png'},{image: 'http://y1.ifengimg.com/a/2014_51/50053800e0b1c9e.png'},{image: 'http://y1.ifengimg.com/a/2014_19/2a584941b2db593.png'},{background: '#000000'}];
+if (device.type === "mobile"||device.type === "pad") {
+	creatTasker(3, "base", 
+		 (function(){
+		 	
+			var ad_top=document.getElementById("ad_top");
+		    ad_top.style.backgroundColor=AdData[3].background;
+
+			var vifeng_logo = $("#ad_top .vifeng_logo")[0];
+			$(vifeng_logo).css({"background":"url("+AdData[0].image+")","background-size":"100% 100%"});
+
+			var download_btn= $("#ad_top,.download_btn")[1];
+			     $(download_btn).css({"background":"url("+AdData[1].image+")","background-size":"100% 100%"});
+
+			var ad_close1= $("#ad_close1");
+			     $(ad_close1).css({"background":"url("+AdData[2].image+")","background-size":"100% 100%"}); 	
+			 }), true, 'h5顶通广告');
+}
+</script>
+<!--顶通拉起 end-->
+ 
+<!--[if IE]>
+<script>
+(function (win, doc) {
+  var resizeCss = function () {
+  docW = doc.documentElement.clientWidth;
+  if (docW >= 1300 && doc.body.className !== "v1300") {
+    doc.body.className = "v1300";
+}
+
+  if (docW < 1300 && doc.body.className === "v1300") {
+    doc.body.className = "";
+}
+  //doc.title = doc.documentElement.clientWidth;
+}
+  win.attachEvent("onresize", resizeCss);
+  resizeCss();
+}(window, document));
+</script>
+<![endif]-->
+
+
+
+<!--header begin-->
+<header>
+<script src="http://img.ifeng.com/tres/pub_res/JApp/keywords.js"></script> 
+<script src=" http://m1.ifengimg.com/ifeng/sources/inice_v1.js" type="text/javascript"></script>
+<!--头部搜索及登录 begin--> 
+<div class="header">
+<h1 class="logo_mil" title="凤凰视频军事">
+    <a href="http://v.ifeng.com/" id="js_vtop_logo">凤凰视频军事</a>
+</h1>
+
+            
+
+        <div class="sotool" id="js_top_search"> 
+     <span class="s_input_box"> <input id="s_input" class="s_input" type="text" x-webkit-speech="" value="" /> </span> 
+     <input id="s_button_top" value="凤搜" class="s_button" hidefocus="true" /> 
+    </div> 
+    
+	<div id="minilogin" class="minilogin"> 
+     <ul> 
+      <li id="header_userSpan" style="display:none" class="mininame"> 
+       <div class="miniuser" id="header_userName"> 
+        <span> <em><a id="js_showLoginName" href="javascript:void(0);"></a></em> <a style="display:none" title="您有新的消息" id="js_newMsg" class="update_tips" href="#"></a> </span> 
+       </div> 
+       <div style="display:none" id="header_userCenter" class="minicenter"> 
+        <ul> 
+         <li><a target="_blank" href="http://my.ifeng.com/?_c=index&amp;_a=my"><span class="icon_uc"></span>个人中心</a></li> 
+         <li><a target="_blank" href="http://my.ifeng.com/?_c=video&amp;_a=upload"><span class="icon_uv"></span>上传视频</a></li> 
+         <li><a target="_blank" href="http://my.ifeng.com/?_c=user&amp;_a=send"><span class="icon_cm"></span> 评论消息</a></li> 
+         <li class="nobg"><a id="header_userLogout" href="#">退出</a></li> 
+        </ul> 
+        <!--评论消息提醒 begin--> 
+        <div style="display:none" id="js_newMsgDiv" class="vmegtip"> 
+         <a id="js_newMsgCounts" href="#8"><span>99+</span></a> 
+        </div> 
+        <!--评论消息提醒 end--> 
+       </div> </li> 
+      <!-- cl:登录、注册 加入了id属性  begin--> 
+      <li style="display:block;" id="header_loginBtn"> <a class="js_login" href="javascript:void(0);" data-fid="f803a0a00d0">登录</a> </li> 
+      <li style="display:block;" id="header_regBtn"> <a class="js_register" href="javascript:void(0);" data-fid="f75ba9377c4">注册</a> </li> 
+      <!-- cl:登录、注册 加入了id属性  end--> 
+      <li id="header_record" class="miniview" data-fid="f94d19556ae"> 
+       <div class="minisee" data-fid="fe1936601d8"> 
+        <a href="javascript:void(0);">观看记录</a> 
+       </div> 
+       <div style="display: none;" id="record_container" class="miniseebox"> 
+        <div style="display:none;" id="record_loading" class="upload"> 
+         <img src="http://y2.ifengimg.com/f3a90b93df336b6f/2013/0321/uploading.gif" />观看记录导入中... 
+        </div> 
+        <div style="display: none;" class="norecord">
+          您暂时没有观看记录 
+        </div> 
+        <div style="display: block;" class="clear_play"> 
+         <a href="javascript:void(0);" data-fid="f153be8afce">清空记录</a>| 
+         <a title="" href="javascript:void(0);" data-fid="f386b3661f">查看全部</a> 
+        </div> 
+        <div style="display: none;" class="clearplaybox"> 
+         <p class="tips">是否清空您在电脑、平板电脑、手机、电视上观看凤凰视频的全部观看记录？</p> 
+         <p class="btn"><a id="sure" title="" href="#">确 定</a> <a id="cancel" title="" href="#">取 消</a></p> 
+        </div> 
+        <ul style="display: block;" class="overflowy" id="h_record_list"></ul> 
+        <div style="display: none;" class="toolbar"> 
+         <a title="" id="importRecords" href="#" data-fid="f1c0e722351">点击导入未登录时的观看记录</a> 
+        </div> 
+        <div style="display: block;" class="toolbar"> 
+         <p><a class="js_login" title="" href="#" data-fid="f366abe92c5">登录</a>后将永久保存观看记录<a class="js_register" title="" href="#" data-fid="f8004823001">免费注册</a></p> 
+         <span><img src="http://y0.ifengimg.com/2013/3/22/baserecords.jpg" id="cloudNote" alt="" title="" style="display: block;" /></span> 
+        </div> 
+       </div>
+	   <div id="place_holder" style="display:none;position:absolute;left: -179px;top:324px;height:30px;width:283px;background:#FFFFFF;filter: alpha(opacity=0);-moz-opacity: 0;opacity: 0;"></div>
+	   </li> 
+      <li class="last"><a href="http://my.ifeng.com/?_c=video&amp;_a=upload" target="_blank">上传</a></li> 
+     </ul> 
+    </div> 
+
+</div>
+
+<script>
+creatTasker("auto", "", "http://y0.ifengimg.com/p/login/20131227/public_login.min.js", true, "登陆功能");
+if(device.type !== "mobile"){
+	loader.add("allhot", {path: "http://h0.ifengimg.com/508df9aec9e2a/data/allhot.js"});	
+	loader.add("keyword", {path: "http://h0.ifengimg.com/508df9aec9e2a/data/index1.js"});
+	creatTasker(3, "F", "http://h0.ifengimg.com/fe/subscribe/baseSubscribe-1.0.7.min.js", true, "订阅功能");
+	creatTasker(4, ["F", "keyword", "allhot"], "http://h1.ifengimg.com/fe/media/2014/0306/header.min.js", true, "头部功能");
+}
+</script>
+
+<!--头部搜索及登录 end--> 
+<!--头部 end--> 
+
+
+<!--一级导航 begin--> 
+<div class="nav" id="nav-smartSetup"> 
+    <div class="navBox clearfix">
+        <ul class="clearfix"  id="nav_ul"> 
+  <li class="home" ><a href="http://v.ifeng.com/" target="_blank">首页</a></li>
+  
+  <li ><a href="http://v.ifeng.com/news/" target="_blank">资讯</a></li>
+  
+  <li class="current"><a href="http://v.ifeng.com/mil/" target="_blank">军事</a></li>
+  
+  <li ><a href="http://v.ifeng.com/documentary/" target="_blank">纪实</a></li>
+  
+  <li ><a href="http://v.ifeng.com/history/" target="_blank">历史</a></li>
+  
+  <li ><a href="http://v.ifeng.com/ent/" target="_blank">娱乐</a></li>
+  
+  <li ><a href="http://v.ifeng.com/ent/zongyi/" target="_blank">综艺</a></li>
+  
+  <li ><a href="http://tv.v.ifeng.com/" target="_blank">影视</a></li>
+  
+  <li ><a href="http://v.ifeng.com/fashion/" target="_blank">时尚</a></li>
+  <li class="more"><a href="javascript:void(0);"></a></li> 
+  <li ><a href="http://v.ifeng.com/vblog/" target="_blank">播客</a></li>
+  
+  <li ><a href="http://v.ifeng.com/gongkaike/" target="_blank">公开课</a></li>
+  
+  <li ><a href="http://phtv.ifeng.com/" target="_blank">卫视</a></li>
+  
+  <li ><a href="http://v.ifeng.com/live/" target="_blank">直播</a></li>
+  
+  <li ><a href="http://v.ifeng.com/program/" target="_blank">原创</a></li>
+  
+  <li ><a href="http://vip.v.ifeng.com/" target="_blank">VIP</a></li>
+  
+  <li ><a href="http://v.ifeng.com/game/" target="_blank">游戏</a></li>
+  
+</ul> 
+        <div class="subnav">
+       <a href="http://v.ifeng.com/apps/index.shtml" target="_blank">客户端</a>
+       <a href="http://v.ifeng.com/vlist/nav/nius/update/1/list.shtml" target="_blank">凤凰焦点</a>
+       <a href="http://www.ifeng.com/" target="_blank">凤凰首页</a>
+</div> 
+    </div>
+</div>
+<!--一级导航 end-->
+
+<!--二级导航 begin-->
+<div class="navMovers">
+<ul class="clearfix"> 
+	<li class="first"><a target="_blank" href="http://v.ifeng.com/vlist/nav_category/mili_0019-0052-0000/update/1/list.shtml">中国军情</a></li> 
+	<li ><a target="_blank" href="http://v.ifeng.com/vlist/nav_category/mili_0019-0052-0002/update/1/list.shtml">环球视野</a></li> 
+	<li ><a target="_blank" href="http://v.ifeng.com/vlist/nav_category/mili_0019-0052-0003/update/1/list.shtml">尖端武器</a></li> 
+	<li ><a target="_blank" href="http://v.ifeng.com/vlist/nav_category/mili_0019-0052-0004/update/1/list.shtml">军迷影院</a></li> 
+	<li ><a target="_blank" href="http://v.ifeng.com/mil/special/2014zhhz/">珠海航展</a></li> 
+ </ul>
+</div>
+
+<!--二级导航 end-->
+</header> 
+<!--header end-->
+
+<!--广告通栏01 begin-->
+
+<div class="ad1000_box01">
+    <div class="ad1000">
+        
+<!--s_itv_index_ad_banner_top 2014.12.19 09:17:40-->
+<script type="text/javascript">try{aptracker.add(314);}catch(e){}</script>
+
+
+<script type='text/javascript'>
+try{if(INice.getCookie('prov') == '9999'){
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+}}catch(e){}
+</script>
+
+<script type='text/javascript'>
+try{if(INice.getCookie('prov') == '9999'){
+googletag.cmd.push(function() {
+googletag.defineSlot('/51332160/s_v_index_130625_ad_banner_01', [1000, 90], 'div-gpt-ad-1405930969073-0').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_v_index_130625_ad_banner_02', [1000, 90], 'div-gpt-ad-1405930969073-1').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_v_index_130625_ad_banner_03', [1000, 90], 'div-gpt-ad-1405930969073-2').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_v_index_130625_ad_banner_04', [1000, 90], 'div-gpt-ad-1405930969073-3').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_v_index_130625_ad_banner_05', [1000, 90], 'div-gpt-ad-1405930969073-4').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_v_index_130625_ad_banner_06', [1000, 90], 'div-gpt-ad-1405930969073-5').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_itv_index_ad_banner_top', [1000, 90], 'div-gpt-ad-1405930969073-6').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_itv_index_ad_rectangle_00_jx', [300, 250], 'div-gpt-ad-1405930969073-7').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_itv_index_ad_rectangle_01', [300, 250], 'div-gpt-ad-1405930969073-8').addService(googletag.pubads());
+googletag.defineSlot('/51332160/s_itv_index_ad_rectangle_02', [300, 250], 'div-gpt-ad-1405930969073-9').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+}}catch(e){}
+</script>
+<script type="text/javascript">
+      var placeIdentifier = "banner_top_HP_marker" ; 
+      document.write('<div id="' + placeIdentifier + '" style="display:none;"></div>');
+</script>
+<div id="AP636" style="display:none;">
+
+<var style="display:none;" v="314,24815,10123,宋斯文,B1"></var><code>
+<!--BOF
+<script type="text/javascript">
+	var a = 'http://dol.deliver.ifeng.com/c?72bf783b5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFJvuV0XmiJnZnqcCMtVZ4Yoec29DHLuRVgn0GelCIjj31cbwdla4D-bMkGcwwUBFvf0FTFPhUBupM50qGIVOw4XmlfdENJMB0fEplFulmo0vgWBVxSunMwMgORvFLlGxrI';
+	var narrow_screen_ad = 'http://y2.ifengimg.com/mappa/2014/12/18/29c03c6e814debdd3281eff002eb8137.jpg';
+	var narrow_screen_w = '1000';var narrow_screen_h = '90';var narrow_screen_isActive = 0;
+	var wide_screen_ad = 'http://y3.ifengimg.com/mappa/2014/12/18/3d1317036c5858e5d88b35bbf289a7f2.jpg'
+	var wide_screen_w = '1230';var wide_screen_h = '90';var wide_screen_isActive = 0;
+	var isXy = 1;
+	if(!/(http:\/\/tv\.v\.ifeng\.com)|(http:\/\/v\.ifeng\.com(((\/)?$)|(\/ent\/zongyi)|((\/gm)?\/mil)))/.test(location.href)){
+		 isXy = 0;
+		 wide_screen_ad = narrow_screen_ad ;
+		 wide_screen_w = narrow_screen_w; wide_screen_h = narrow_screen_h; wide_screen_isActive = narrow_screen_isActive;	
+	}
+</script>
+<script type="text/javascript" charset="UTF-8"  src="http://y0.ifengimg.com/89df2be17e58f8ab/2014/1119/v_responsive_top.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="314,25216,10123,魏层层,8"></var><code>
+<!--BOF
+<script type="text/javascript">
+	var a = 'http://dol.deliver.ifeng.com/c?803a50055MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFKPh7jIsH-Zc7penaoYH-SmO-PNqcYCFTWhh5R1aAR3-Vcbwdla4D-bg5olP4tf1dCk9gOy1u3bhyUkeSy87jnT';
+	var narrow_screen_ad = 'http://y0.ifengimg.com/mappa/2014/12/18/b5256012e394a2f5452474e4267c1d1e.jpg';
+	var narrow_screen_w = '1000';var narrow_screen_h = '90';var narrow_screen_isActive = 0;
+	var wide_screen_ad = 'http://y3.ifengimg.com/mappa/2014/12/18/f470eb351b418ae4101e3d8ef1ea687e.jpg'
+	var wide_screen_w = '1230';var wide_screen_h = '90';var wide_screen_isActive = 0;
+	var isXy = 1;
+	if(!/(http:\/\/tv\.v\.ifeng\.com)|(http:\/\/v\.ifeng\.com(((\/)?$)|(\/ent\/zongyi)|((\/gm)?\/mil)))/.test(location.href)){
+		 isXy = 0;
+		 wide_screen_ad = narrow_screen_ad ;
+		 wide_screen_w = narrow_screen_w; wide_screen_h = narrow_screen_h; wide_screen_isActive = narrow_screen_isActive;	
+	}
+</script>
+<script type="text/javascript" charset="UTF-8"  src="http://y0.ifengimg.com/89df2be17e58f8ab/2014/1119/v_responsive_top.js"></script>
+EOF-->
+</code>
+
+<var style="display:none;" v="314,0,0,NULL,fixture"></var><cite>
+<!--BOF
+<script type="text/javascript">
+	var a = 'http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&cg=1&c=1&ci=2&or=1174&l=3927&bg=3927&b=3925&u=http://v.ifeng.com/apps/index.shtml';
+	var narrow_screen_ad = 'http://y0.ifengimg.com/mappa/2014/10/29/2b2f7dceb104d6ac4104273dc2de7567.jpg';
+	var narrow_screen_w = '1000';var narrow_screen_h = '90';var narrow_screen_isActive = 0;
+	var wide_screen_ad = 'http://y2.ifengimg.com/mappa/2014/10/29/8c7d5fe481d536580a5c55db0e2576a8.jpg'
+	var wide_screen_w = '1230';var wide_screen_h = '90';var wide_screen_isActive = 0;
+	var isXy = 1;
+	if(!/(http:\/\/tv\.v\.ifeng\.com)|(http:\/\/v\.ifeng\.com(((\/)?$)|(\/ent\/zongyi)|((\/gm)?\/mil)))/.test(location.href)){
+		 isXy = 0;
+		 wide_screen_ad = narrow_screen_ad ;
+		 wide_screen_w = narrow_screen_w; wide_screen_h = narrow_screen_h; wide_screen_isActive = narrow_screen_isActive;	
+	}
+</script>
+<script type="text/javascript" charset="UTF-8"  src="http://y0.ifengimg.com/89df2be17e58f8ab/2014/1119/v_responsive_top.js"></script>
+EOF-->
+</cite>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_itv_index_ad_banner_top';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 2, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP636"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<div style="position:absolute;">
+<img height=1 width=1 src="http://dolphin.deliver.ifeng.com/c?z=ifeng&la=0&si=2&ci=23&cg=22&c=29&or=232&l=756&bg=756&b=754&u=http://y0.ifengimg.com/34c4a1d78882290c/2012/0528/1x1.gif" />
+</div>
+<!--/s_itv_index_ad_banner_top-->
+
+    </div>
+</div>
+
+<!--广告通栏01 end-->
+
+
+<!--首屏通栏 begin-->
+<div class="js_focusbar" id="js_focus_box_f">
+<div class="Vplaymian">
+    <div class="vplayMod">
+        <!-- 视频播放 begin -->
+        <div class="playclear">
+            <div class="playerBox">
+                <div class="focus">
+                    <div class="picture"> 
+                        <div id="picture_main" class="picture_main" style="margin-left:0px;">
+                            <div class="picture_box pic0" >
+	<a href="http://v.ifeng.com/v/mil/jyszj/index.shtml#010f4390-dd5d-4884-a743-bcdb3d6a67b9" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_51/ee606cae9767ee8.jpg" alt="">
+		<div class="focuTxt">
+			<h3>独家：首曝2015号歼-20 中国隐身机进度超俄  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic1" >
+	<a href="http://v.ifeng.com/v/mil/zsjyl/index.shtml#01676f51-17f2-45f6-944a-e94f4516e923" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_51/e0a071dad54ed1a.jpg" alt="">
+		<div class="focuTxt">
+			<h3>张召忠：中国找外星人恐惹事 地球人非对手  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic2" >
+	<a href="http://v.ifeng.com/v/mil/zgqtzl/index.shtml#0190980d-7cbc-46df-b102-42da5e5de395" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_51/bef9058ef5190b6.jpg" alt="">
+		<div class="focuTxt">
+			<h3>央视播报某潜艇带伤与外军缠斗 艇内多处打马赛克  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic3" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01f57c6a-2704-41db-ac6c-396c3afe9dde.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_51/f0677a39c6b2411.jpg" alt="">
+		<div class="focuTxt">
+			<h3>印度强化边境军事部署 叫嚣打进拉萨和北京  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic4" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01278dd7-681d-4a1d-b206-548aa95c7cae.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_51/0a6c9f0052ddcd1.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国潜艇带重伤战备巡航 挫败外军舰机围堵  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic5" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01a5fd44-945c-4a48-b503-04343676d422.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_51/c77ee20a1d745ba.jpg" alt="">
+		<div class="focuTxt">
+			<h3>二炮装备核导弹列车 成草绿色伪装成客车  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic6" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01a01f9b-9564-45d9-923a-2e4ef3e366cf.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_51/9bc208369519029.jpg" alt="">
+		<div class="focuTxt">
+			<h3>解放军单兵特战装备曝光 可直接呼叫轰炸机  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic7" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01692655-d674-495c-8a04-47c30fb2e8a7.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_51/e8457a57cae9725.jpg" alt="">
+		<div class="focuTxt">
+			<h3>实拍中国歼轰-7B挂弹试飞 机体采用部分隐身  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic8" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01f42c26-1b81-43da-ba88-e05c4fdbe5c4.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_51/2d8f6f3e24774d1.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国372潜艇深海突进水 3分钟自救破必沉定律  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic9" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01f26182-fcca-47bd-bc37-0d8cd722e19e.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_51/1ed989cbe50eb79.jpg" alt="">
+		<div class="focuTxt">
+			<h3>越南军舰逼近中国岛礁耀武扬威 若开打必遭击沉  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic10" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01375741-a746-43fc-89e6-a843a710a5f0.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_51/cf9df3ba62ef5a9.jpg" alt="">
+		<div class="focuTxt">
+			<h3>七名缅甸士兵在中缅边境被杀 缅北战火或加剧  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic11" >
+	<a href="http://v.ifeng.com/mil/other/201412/01eece1c-6283-4dd1-8609-98b91dc0af0e.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_51/ed3142cbf7e48ce.jpg" alt="">
+		<div class="focuTxt">
+			<h3>疑似美军战机与UFO交战视频曝光  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic12" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01ffbcb8-0a84-42fd-87b2-eb4e57bf0c4c.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_51/017927e466872ed.jpg" alt="">
+		<div class="focuTxt">
+			<h3>美媒称中国新航母达10万吨：一技术比肩美军  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic13" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01286099-d3ce-4b1d-bb00-f93970472ebe.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_51/b49347c85b7b9f8.jpg" alt="">
+		<div class="focuTxt">
+			<h3>美媒曝中国新隐身轰炸机 称中国空军胜过日本  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic14" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/0134ea45-e897-447e-85bc-d1179ba766d0.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_51/265fac3f2683741.jpg" alt="">
+		<div class="focuTxt">
+			<h3>歼-20弹舱全曝光 两款主战导弹胜过F-22  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic15" >
+	<a href="http://v.ifeng.com/mil/arms/201412/0111e958-40dd-4215-af58-396156c640d7.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_51/678d9ef79472496.jpg" alt="">
+		<div class="focuTxt">
+			<h3>无人机擅闯北京核心禁飞区 军机起飞当空击落  </h3>
+			<p>“黑飞”无人机致航班延误被空军击落 当事人被诉</p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic16" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01c9d56a-ef38-4827-bdcc-85e03e4df778.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_51/3c84322da39ad4f.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国万吨巨舰护卫商船队 鸣枪逼退海盗快艇群  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic17" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/011283d6-ba92-4fc0-a4e1-e017f8f87a71.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_51/aeeefa7993f0350.jpg" alt="">
+		<div class="focuTxt">
+			<h3>俄称中国高超音速武器赶上美俄 可打美航母  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic18" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/016b317e-9c87-43bb-9681-6929af4a9c58.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_51/07254d0280607e9.jpg" alt="">
+		<div class="focuTxt">
+			<h3>官媒曝美军F-35致命弱点：夏季无法飞行作战  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic19" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01e2ea12-f534-4eff-af75-2eaf3795a54d.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_51/30084c8b7cb57a7.jpg" alt="">
+		<div class="focuTxt">
+			<h3>韩网友讽刺歼-31不堪用：中国靠嘴巴证明实力  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic20" >
+	<a href="http://v.ifeng.com/mil/arms/201412/01710c9e-1b01-4a0a-9528-e5fa433cec13.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_51/d7eef0732f1db99.jpg" alt="">
+		<div class="focuTxt">
+			<h3>实拍日政客当街叫嚣：中国核潜艇正瞄准日本  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic21" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/015a5307-6d2b-45f4-8942-dd18c2d18bd6.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_50/d37c750703a2187.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国加固南海核潜艇发射阵地 越军逼近炫耀  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic22" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01a66305-007a-4c17-ab25-faccc0642803.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_50/61020fa5369313b.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国军机1周4次逼近日本 自卫队战机紧急升空  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic23" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/015a157d-2db9-4c35-8b8e-c0c7db653e49.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_50/3dc38e3818b3c72.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国军方罕见承认试射超高音速导弹 美媒诧异  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic24" >
+	<a href="http://v.ifeng.com/mil/strait/201412/017d4360-bfdf-4f7f-b8f9-013344da8d40.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_50/300055b5ba9863b.jpg" alt="">
+		<div class="focuTxt">
+			<h3>军情：中国军机在东海反追日机 测导弹攻击  </h3>
+			<p>原中国军事科学院院长刘精松上将日前谈到台湾问题时表示，台湾问题是中国的核心利益，根据党的十八大以来有关建设海洋强国的战略部署，解决台湾的问题不应该久拖不决。“我们绝不会放弃使用武力这一条，必要时将依法用军事手段解决台湾问题，也是选项。”</p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic25" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/017a8a39-d35f-4178-a533-bdc3db630c30.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_50/c842cf3998ead67.jpg" alt="">
+		<div class="focuTxt">
+			<h3>台媒称歼-31未必有隐形力 曾被美俄雷达侦获  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic26" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/019e1493-bbb4-46e7-95bd-940e0961197d.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_50/162eec7ce27677f.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国军舰在南沙与越南最战舰对峙 掩护填海工程  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic27" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/019b0917-80f8-486c-b0fb-52499c779a41.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_50/a0702a40df0dc9a.jpg" alt="">
+		<div class="focuTxt">
+			<h3>美渲染中国核潜艇抵近夏威夷射导弹：可打遍美国  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic28" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01758b1c-c348-4bd7-aede-9af76c036d93.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_50/1132931a963f8b9.jpg" alt="">
+		<div class="focuTxt">
+			<h3>美称俄仅售华标准版苏-35 拒绝中方技术要求  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic29" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01d59e28-6ac7-4e7c-9452-b62068cee151.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_50/d2a05a0477eb755.jpg" alt="">
+		<div class="focuTxt">
+			<h3>美忧S-400部署山东福建：完控钓岛台湾改战争规则  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic30" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01e1f21e-a2e9-410a-8a9d-8882e2a41e83.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_50/f9545fd5c559949.jpg" alt="">
+		<div class="focuTxt">
+			<h3>疑中国海警船配大口径舰炮 不惧日菲舰船缠斗  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic31" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/016feb6b-1354-4260-8631-dc7ee34bd53b.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_50/ed5afc0aa45f0cd.jpg" alt="">
+		<div class="focuTxt">
+			<h3>外媒曝习近平强军五大动作 再次强调军中反腐  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic32" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/019fba10-db8e-46c1-9413-ce66bde4a9dc.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_50/70894936c340766.jpg" alt="">
+		<div class="focuTxt">
+			<h3>疑中国三艘新航母设计曝光 两艘配弹射器  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic33" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01fe5018-37ef-4a1f-9358-88c6675efa16.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_50/7a28927607ad34b.jpg" alt="">
+		<div class="focuTxt">
+			<h3>解放军百架战机军演 首曝以日本为假想敌  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic34" >
+	<a href="http://v.ifeng.com/mil/annals/201412/01f0a5c0-b43f-432e-a6f8-0d47083d48be.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_50/3fd276f3d85983f.jpg" alt="">
+		<div class="focuTxt">
+			<h3>解放军军演现奇景：红军指挥所十分钟被打掉  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic35" >
+	<a href="http://v.ifeng.com/mil/annals/201412/0162b9b9-6ffd-4e67-a762-bb26cda1541c.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_50/aca74b0687bf73c.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国大型驱逐舰即将问世 配备激光炮  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic36" >
+	<a href="http://v.ifeng.com/mil/arms/201412/01aacddd-fb19-4326-85ab-e3ff4d4e9250.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_50/9aae0d44e421528.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国5架军机连续两日飞越宫古海峡 日战机紧急起飞  </h3>
+			<p>中国军机连续2日飞越宫古海峡</p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic37" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01ee8dbe-1834-444d-a380-5e86ec858460.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_50/352b5f50badedbb.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中航董事长曝歼-31技术世界第一 生产线首曝光   </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic38" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/015e284e-bc75-41eb-8c31-b6219b36b8fd.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_50/de4ca3ff165e55a.jpg" alt="">
+		<div class="focuTxt">
+			<h3>美忧中国超高音速导弹发射：可废掉美军反导  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic39" >
+	<a href="http://v.ifeng.com/mil/arms/201412/017d8283-4fc9-4684-babf-2ce879e2d1aa.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_50/27b4c86142a599d.jpg" alt="">
+		<div class="focuTxt">
+			<h3>越南新舰配尖头撞角 或对中国海警船主动撞击  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic40" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/017aab4b-70f0-44d4-8f3b-4eae39327a9a.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_50/cd2698ef86b6c67.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国五架军机飞越宫古海峡 海空联动逼近日本  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic41" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/0175b786-395d-4f80-a2c0-c047b439684d.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_50/d51596f3f0cccf7.jpg" alt="">
+		<div class="focuTxt">
+			<h3>越防长批某大国南沙扩建岛礁 向美俄军购武器  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic42" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/0176aa25-acec-49f5-af65-3638f8ed301c.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_50/b6c9a3c19432cda.jpg" alt="">
+		<div class="focuTxt">
+			<h3>实拍印尼海军出动特种部队炸沉三艘越南渔船  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic43" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01b88ae5-2ee5-495f-ac76-1bd4171b8bc7.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_50/742bc385e562f9a.jpg" alt="">
+		<div class="focuTxt">
+			<h3>日战机增新设备应对中国军机 或助歼-31大卖  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic44" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/019c1cdb-d4f2-44b9-823e-6d6eef2c8e97.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_49/881110aa6219dd3.jpg" alt="">
+		<div class="focuTxt">
+			<h3>曝中国第二艘航母上海开建 命名广东舰守南海  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic45" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/0117ff04-efd9-4fde-98e3-3a499e997701.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_49/897c85c8562c98e.jpg" alt="">
+		<div class="focuTxt">
+			<h3>太原拍摄到中国绝密武器试射 或系未来核弹头  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic46" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01d16032-c52b-4110-9d18-1a384a341da6.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_49/4f541e6ceaa4e21.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国舰队一出海就被日本得知 全程被抵近拍照  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic47" >
+	<a href="http://v.ifeng.com/mil/arms/201412/01f4e3dd-d16b-4311-9cbc-00cb48884e2f.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_49/a2748578f792aa1.jpg" alt="">
+		<div class="focuTxt">
+			<h3>太狠了！3艘越南渔船因非法捕鱼被印尼海军炸沉  </h3>
+			<p>3艘越南渔船因非法捕鱼被印尼海军炸沉</p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic48" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/0144465c-8ed7-4e77-a403-9d8121aeb6af.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_49/51b5a275f18d0fd.jpg" alt="">
+		<div class="focuTxt">
+			<h3>实拍：军方神秘大厦现身南沙 或成核潜艇基地  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic49" >
+	<a href="http://v.ifeng.com/mil/worldwide/201412/0136114a-8170-4cd4-914b-29626d312f25.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_49/89de180fd8efb76.jpg" alt="">
+		<div class="focuTxt">
+			<h3>传中国加速研发牺牲性能 歼-20用老旧发动机  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic50" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01e63ef0-b2c8-497f-a856-64c9f60749ce.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_49/4549aac6708b9b3.jpg" alt="">
+		<div class="focuTxt">
+			<h3>传中国军舰数量将超美 055舰配激光和轨道炮  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic51" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/01d02d2e-c3e9-4c6a-a001-03ef6c8e11f0.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_49/bf5ae3b515d9cdf.jpg" alt="">
+		<div class="focuTxt">
+			<h3>解放军女少将高小燕涉贪被查 带走当晚住宅被查抄  </h3>
+			<p>解放军女少将高小燕涉贪被查 带走当晚住宅被查抄</p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic52" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/017a0348-3d40-4d17-8474-4f5148430246.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_49/95fbade534ba0d9.jpg" alt="">
+		<div class="focuTxt">
+			<h3>军情：俄印中国边境实弹演习 专家称俄对华大不敬  </h3>
+			<p>“中国在研发空警2000的后续机型，即主要担任防空识别区警戒监视任务的空警3000”。近日，日本媒体以“中国炫耀防空识别区取得的‘成绩’”为题，发表评论说“空警2000是中国军队将在东海防空识别区部署的机型，这次公开非常罕见”，并对中国下一代预警机的发展表示出浓厚的兴趣。</p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic53" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/015c5ebb-e76c-4a52-8d0b-4948a5345c29.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_49/56a1f7f9d71fad2.jpg" alt="">
+		<div class="focuTxt">
+			<h3>外媒恶炒中国在永暑礁建机场：可闪击越南  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic54" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/0162fd65-bff5-461b-b432-671b1f0683fd.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_49/5fe6c9e421dc4c6.jpg" alt="">
+		<div class="focuTxt">
+			<h3>实拍海盗趁夜偷袭 被中国海军连发6弹击退  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic55" >
+	<a href="http://v.ifeng.com/mil/worldwide/201412/01fac3a6-7f59-4894-bca1-67e0db3f5be2.shtml" target="video">
+		<img src="http://y2.ifengimg.com/a/2014_49/4d9a91008f637ed.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国将王牌导弹卖给美军死敌 号称无法拦截  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic56" >
+	<a href="http://v.ifeng.com/mil/mainland/201412/0107a027-6cce-4663-ba7b-672634ec58ba.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_49/2fed784ce4ae04e.jpg" alt="">
+		<div class="focuTxt">
+			<h3>越南少将率最强军舰犯华 登中国南沙岛屿  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic57" >
+	<a href="http://v.ifeng.com/mil/worldwide/201412/0124405f-47b4-4474-a2ff-3c1fc64c9ac1.shtml" target="video">
+		<img src="http://y3.ifengimg.com/a/2014_49/0d705b17e3a9389.jpg" alt="">
+		<div class="focuTxt">
+			<h3>挪威F-16险遭俄米格-31撞击 飞行员骂“搞什么鬼”  </h3>
+			<p>挪威F-16险遭俄米格-31撞击 飞行员大叫“搞什么鬼”</p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic58" >
+	<a href="http://v.ifeng.com/mil/worldwide/201412/01baba84-bcaf-4dd9-93a4-746c36153bc4.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_49/6a49a05c5e84740.jpg" alt="">
+		<div class="focuTxt">
+			<h3>俄称售华定制版S-400 可摧毁钓鱼岛上空  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic59" >
+	<a href="http://v.ifeng.com/mil/worldwide/201412/0176c787-5ac1-4c4d-967a-24fdf047dd5e.shtml" target="video">
+		<img src="http://y1.ifengimg.com/a/2014_49/84434cb879fce87.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国购4艘二手野牛气垫船 或赴南海抢滩登陆  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<div class="picture_box pic60" >
+	<a href="http://v.ifeng.com/mil/worldwide/201412/016c34f6-0e87-46b3-bd78-b538a66c7173.shtml" target="video">
+		<img src="http://y0.ifengimg.com/a/2014_49/a07c868acd71dc6.jpg" alt="">
+		<div class="focuTxt">
+			<h3>中国承认军力落后美军几十年 媒体反思红裤衩现象  </h3>
+			<p></p>
+		</div>
+	</a>
+</div>
+<script>
+var focusData = [{title: '独家：首曝2015号歼-20 中国隐身机进度超俄',url: 'http://v.ifeng.com/v/mil/jyszj/index.shtml#010f4390-dd5d-4884-a743-bcdb3d6a67b9',image: 'http://y1.ifengimg.com/a/2014_51/ee606cae9767ee8.jpg'},{title: '张召忠：中国找外星人恐惹事 地球人非对手',url: 'http://v.ifeng.com/v/mil/zsjyl/index.shtml#01676f51-17f2-45f6-944a-e94f4516e923',image: 'http://y0.ifengimg.com/a/2014_51/e0a071dad54ed1a.jpg'},{title: '央视播报某潜艇带伤与外军缠斗 艇内多处打马赛克',url: 'http://v.ifeng.com/v/mil/zgqtzl/index.shtml#0190980d-7cbc-46df-b102-42da5e5de395',image: 'http://y1.ifengimg.com/a/2014_51/bef9058ef5190b6.jpg'},{title: '印度强化边境军事部署 叫嚣打进拉萨和北京',url: 'http://v.ifeng.com/mil/mainland/201412/01f57c6a-2704-41db-ac6c-396c3afe9dde.shtml',image: 'http://y0.ifengimg.com/a/2014_51/f0677a39c6b2411.jpg'}];
+</script>			
+ 
+                        </div>
+                    </div>
+                    <ul id="m_small">
+						<li class="current">
+							<a href="http://v.ifeng.com/v/mil/jyszj/index.shtml#010f4390-dd5d-4884-a743-bcdb3d6a67b9" target="video">
+								<img src="http://y3.ifengimg.com/a/2014_51/2d78a998e595c93.jpg" alt="">
+								<span class="curbg"></span>
+							</a>
+						</li>
+						<li >
+							<a href="http://v.ifeng.com/v/mil/zsjyl/index.shtml#01676f51-17f2-45f6-944a-e94f4516e923" target="video">
+								<img src="http://y1.ifengimg.com/a/2014_51/4c1a080b087abb1.jpg" alt="">
+								<span class="curbg"></span>
+							</a>
+						</li>
+						<li >
+							<a href="http://v.ifeng.com/v/mil/zgqtzl/index.shtml#0190980d-7cbc-46df-b102-42da5e5de395" target="video">
+								<img src="http://y1.ifengimg.com/a/2014_51/bfde82ba6227931.jpg" alt="">
+								<span class="curbg"></span>
+							</a>
+						</li>
+						<li >
+							<a href="http://v.ifeng.com/mil/mainland/201412/01f57c6a-2704-41db-ac6c-396c3afe9dde.shtml" target="video">
+								<img src="http://y3.ifengimg.com/a/2014_51/c0b3b94e4b127fa.jpg" alt="">
+								<span class="curbg"></span>
+							</a>
+						</li>
+						<li >
+							<a href="http://v.ifeng.com/mil/mainland/201412/01278dd7-681d-4a1d-b206-548aa95c7cae.shtml" target="video">
+								<img src="http://y0.ifengimg.com/a/2014_51/c51222e4d5ede84.jpg" alt="">
+								<span class="curbg"></span>
+							</a>
+						</li>
+						<li >
+							<a href="http://v.ifeng.com/mil/mainland/201412/01a5fd44-945c-4a48-b503-04343676d422.shtml" target="video">
+								<img src="http://y0.ifengimg.com/a/2014_51/3e0ab6927f4e6ba.jpg" alt="">
+								<span class="curbg"></span>
+							</a>
+						</li>
+						<li >
+							<a href="http://v.ifeng.com/mil/mainland/201412/01a01f9b-9564-45d9-923a-2e4ef3e366cf.shtml" target="video">
+								<img src="http://y2.ifengimg.com/a/2014_51/cfa1d6ce860445c.jpg" alt="">
+								<span class="curbg"></span>
+							</a>
+						</li>
+					</ul> 
+                    <i class="fouRightBg"></i>
+                </div>  
+            </div>
+            <script type="text/javascript" src="http://y0.ifengimg.com/base/jQuery/jquery-1.9.1.min.js"></script>
+            <script type="text/javascript">
+            if(device.type !== "mobile") {
+                (function($){
+                var size = $("#m_small").children().size(); 
+                var timer = setInterval(go, 5000);
+                var slid = function() {
+
+                    $("#m_small .current").removeClass();
+                    
+                    $(this).addClass("current");    
+                    var index = $(this).index();
+                    var pic = "pic" + index;
+                    var div = $("." + pic);
+                    var newdiv = '<div class="picture_box pic' + index+ ' ">' + $(div).html() + '</div>';
+                    $($("#picture_main").children()[0]).before(newdiv);
+                    $(div).remove();
+                    clearInterval(timer);
+                }
+                $("#m_small li").hover(slid);
+                $("#m_small li").mouseleave(
+                    function(){timer = setInterval(go, 5000)}
+                );
+                function go(){
+                    var i = $("#m_small .current").index();
+                    $("#m_small .current").removeClass();
+                    
+                    i ++;
+                    i = i % 4;
+                    $("#m_small .current").removeClass();
+                    $($("#m_small").children()[i]).addClass("current"); 
+                    var pic = "pic" + i;
+                    var div = $("." + pic);
+                    var newdiv = '<div class="picture_box pic' + i + ' ">' + $(div).html() + '</div>';
+                    $($("#picture_main").children()[0]).before(newdiv);
+                    $(div).remove();
+                                                        
+                }
+            })(jQuery)
+            } else {
+                document.getElementById("js_focus_box_f").removeAttribute("class");
+                var focusMobil = [];
+                focusMobil.push('<div class="focus" id="js_focus_box">');
+                focusMobil.push('<div class="piccont" id="js_focus">');
+                focusMobil.push('<div id="js_focus_in" class="anim" style="-webkit-transform: translate3d(0px, 0px, 0px);">');
+                for(var i=0,len=focusData.length; i<(len+2); i++){
+                    focusMobil.push('<div class="pic">');
+                    var index = i % len;
+                    focusMobil.push('<a href="'+focusData[index].url+'" title="'+focusData[index].title+'" target="_self" class="pic_img" style="background-image:url('+focusData[index].image+');background-color:'+focusData[index].colorvalue+'"></a>');
+                    focusMobil.push('<span class="shadow"><a href="'+focusData[index].url+'" title="'+focusData[index].title+'" target="_self">'+focusData[index].title+'</a>');
+                    focusMobil.push('</span>');
+                    focusMobil.push('</div>');
+                }
+                focusMobil.push('</div>');
+                focusMobil.push('</div>');
+                focusMobil.push('<div class="fucusbar">');
+                focusMobil.push('<a class="prev" href="javascript:void(0);" target="_self"></a>');
+                focusMobil.push('<a class="next" href="javascript:void(0);" target="_self"></a>');
+                focusMobil.push('</div>');
+                focusMobil.push('</div>');
+                document.getElementById("js_focus_box_f").innerHTML = focusMobil.join("");
+            } 
+            </script>
+            <!--播放列表 begin-->
+            <div class="playItems">
+				<div class="news">
+					<h2><a href="http://v.ifeng.com/v/mil/jyszj/index.shtml#010f4390-dd5d-4884-a743-bcdb3d6a67b9" target="_blank">独家首曝2015号歼-20 隐身机进度超俄</a></h2>
+					<ul>
+						<li><a href="http://v.ifeng.com/mil/arms/201412/016b1bd4-092f-4c7a-9bdd-e9a67caf7da0.shtml" target="_blank">中方抗议遭无视 奥巴马批准售台4艘军舰</a></li>
+						<li><a href="http://v.ifeng.com/mil/mainland/201412/01676f51-17f2-45f6-944a-e94f4516e923.shtml" target="_blank">张召忠：中国找外星人恐惹事 地球人非对手</a></li>
+					</ul> 
+				</div>
+				<div class="news newsCon2">
+					<h2><a href="http://v.ifeng.com/mil/mainland/201412/0190980d-7cbc-46df-b102-42da5e5de395.shtml" target="_blank">央视曝某潜艇与外军缠斗 艇内打马赛克</a></h2>
+					<ul>
+						<li><a href="http://v.ifeng.com/mil/worldwide/201412/014cb37d-fd0d-4f4c-bb86-ef3a1ee9cfe2.shtml" target="_blank">新疆库尔勒现“美军基地” 遭东风-16摧毁</a></li>
+						<li><a href="http://v.ifeng.com/mil/strait/201412/01dec5fd-2bc6-478e-baf8-037f746e9ed9.shtml" target="_blank">台湾秘密向美求援 忧被大陆航母抄后路</a></li>
+					</ul> 
+				</div>
+				<div class="news newsCon3">
+					<h2><a href="http://v.ifeng.com/mil/mainland/201412/019b0b6b-6315-4fb6-9620-b2f128c2af23.shtml" target="_blank">曝中国再试射东风-41 首测分导式多弹头</a></h2>
+					<ul>
+						<li><a href="http://v.ifeng.com/mil/mainland/201412/01cd12b7-92ab-45db-92c2-4463f88ab183.shtml" target="_blank">中国潜艇全副武装赴印度洋 军舰为后盾</a></li>
+						<li><a href="http://v.ifeng.com/mil/other/201412/01f5b260-254f-4f26-8f2b-96669ccddc70.shtml" target="_blank">英国军迷父亲开坦克送儿子上学 警察羡慕</a></li>
+						<li><a href="http://v.ifeng.com/mil/mainland/201412/0160902f-dedc-4004-84a2-c1104665370c.shtml" target="_blank">澳门特战演练：解放军穿越障碍隐蔽射击</a></li>
+					</ul> 
+				</div>
+			</div> 
+            <!--播放列表 end-->
+        </div>  
+        <!-- 视频播放 end -->
+        
+        <!-- 原创列表 begin -->
+        <div class="originalList">
+      <ul>
+      
+        <li>
+          <a href="http://v.ifeng.com/mil/arms/201412/0125a5f2-9c6b-4d7c-b3e8-1f440ede448a.shtml" target="_blank">
+            <span class="photos_shadow"><i></i></span>
+            <img src="http://y2.ifengimg.com/a/2014_51/c9e99c839235243.jpg" alt="">
+            <em>实拍塔利班在伊朗边境被狠揍 子弹如倾盆大雨</em>
+          </a>
+        </li>
+
+
+        <li>
+          <a href="http://v.ifeng.com/mil/arms/201412/0160308a-b693-4a36-8f4c-4ca06b832004.shtml" target="_blank">
+            <span class="photos_shadow"><i></i></span>
+            <img src="http://y0.ifengimg.com/a/2014_51/a62b6bd227bdcf5.jpg" alt="">
+            <em>普京记者会宣传片曝光 凄惨如世界末日降临</em>
+          </a>
+        </li>
+
+
+        <li>
+          <a href="http://v.ifeng.com/mil/mainland/201412/01645902-2d5d-4df4-bff3-af7a441c9042.shtml" target="_blank">
+            <span class="photos_shadow"><i></i></span>
+            <img src="http://d.ifengimg.com/w120_h90/y0.ifengimg.com/pmop/2014/12/16/de67a334-5ee5-4de7-8212-fd336112bbe9.jpg" alt="">
+            <em>零下51度B-52轰炸机冻住了 赶紧浇开水暖暖</em>
+          </a>
+        </li>
+
+
+        <li>
+          <a href="http://v.ifeng.com/mil/worldwide/201412/0181abfa-1c46-41b5-9607-608284b0d5c1.shtml" target="_blank">
+            <span class="photos_shadow"><i></i></span>
+            <img src="http://y0.ifengimg.com/a/2014_50/b52cc70f3a2ba57.jpg" alt="">
+            <em>实拍美军激光武器最新试验 靶标瞬间成齑粉</em>
+          </a>
+        </li>
+
+
+        <li>
+          <a href="http://v.ifeng.com/mil/worldwide/201412/01dec0ea-f4d2-4615-a42b-e93aee92b268.shtml" target="_blank">
+            <span class="photos_shadow"><i></i></span>
+            <img src="http://y2.ifengimg.com/a/2014_50/5e82a57fb4bf6b4.jpg" alt="">
+            <em>实拍荷兰F-16紧跟俄罗斯苏-34战机 几乎相撞</em>
+          </a>
+        </li>
+
+      </ul>
+    </div> 
+        <!-- 原创列表 end -->
+    </div>
+    <div class="originalShow">
+    <div class="originalShowCon originalShowConfir">
+      <h3><a href="http://v.ifeng.com/mil/worldwide/201412/01aff610-1603-4b29-85ff-d31f77ec167f.shtml" target="_blank">【全球零距离】</a></h3>
+      <dl>
+        <dt><a href="http://v.ifeng.com/mil/worldwide/201412/01aff610-1603-4b29-85ff-d31f77ec167f.shtml" target="_blank"><span class="photos_shadow"><i></i></span><img src="http://d.ifengimg.com/w120_h90/y0.ifengimg.com/pmop/2014/12/17/9e9f9d7d-517c-4611-84de-099817a4429a.jpg" alt=""></a></dt>
+        <dd>
+          <p><a href="http://v.ifeng.com/mil/worldwide/201412/01aff610-1603-4b29-85ff-d31f77ec167f.shtml" target="_blank">解码“枭龙”战机：曾在军演中多次战胜F-16</a></p>
+          <span>2014-12-17 </span>
+        </dd>
+      </dl>
+    </div>
+    <div class="originalShowCon ">
+      <h3><a href="http://v.ifeng.com/mil/mainland/201412/013a7599-ee4a-49c7-83d1-60fa5372e36d.shtml" target="_blank">【防务新时空】</a></h3>
+      <dl>
+        <dt><a href="http://v.ifeng.com/mil/mainland/201412/013a7599-ee4a-49c7-83d1-60fa5372e36d.shtml" target="_blank"><span class="photos_shadow"><i></i></span><img src="http://d.ifengimg.com/w120_h90/y0.ifengimg.com/pmop/2014/12/15/01431a98-473e-4d45-9784-755ebee70f3f.jpg" alt=""></a></dt>
+        <dd>
+          <p><a href="http://v.ifeng.com/mil/mainland/201412/013a7599-ee4a-49c7-83d1-60fa5372e36d.shtml" target="_blank">官媒曝美军F-35致命弱点 夏季无法作战</a></p>
+          <span>2014-12-15 </span>
+        </dd>
+      </dl>
+    </div>
+    <div class="originalShowCon ">
+      <h3><a href="http://v.ifeng.com/mil/mainland/201412/018047ef-4afe-4297-aff8-0cc7ab479cd2.shtml" target="_blank">【决胜海陆空】</a></h3>
+      <dl>
+        <dt><a href="http://v.ifeng.com/mil/mainland/201412/018047ef-4afe-4297-aff8-0cc7ab479cd2.shtml" target="_blank"><span class="photos_shadow"><i></i></span><img src="http://d.ifengimg.com/w120_h90/y0.ifengimg.com/pmop/2014/12/10/32928a21-2aef-4bd3-a7f7-bfd71408a74b.jpg" alt=""></a></dt>
+        <dd>
+          <p><a href="http://v.ifeng.com/mil/mainland/201412/018047ef-4afe-4297-aff8-0cc7ab479cd2.shtml" target="_blank">揭秘阿尔法特种部队 中国055战舰被指落后</a></p>
+          <span>2014-12-10 </span>
+        </dd>
+      </dl>
+    </div>
+    <div class="originalShowCon ">
+      <h3><a href="http://v.ifeng.com/mil/mainland/201412/0144d486-a2d3-40e2-af0c-d3e029bfd7ec.shtml" target="_blank">【军情直播间】</a></h3>
+      <dl>
+        <dt><a href="http://v.ifeng.com/mil/mainland/201412/0144d486-a2d3-40e2-af0c-d3e029bfd7ec.shtml" target="_blank"><span class="photos_shadow"><i></i></span><img src="http://d.ifengimg.com/w120_h90/y0.ifengimg.com/pmop/2014/12/10/3e4c2fb8-7309-4325-918f-7a95751d9049.jpg" alt=""></a></dt>
+        <dd>
+          <p><a href="http://v.ifeng.com/mil/mainland/201412/0144d486-a2d3-40e2-af0c-d3e029bfd7ec.shtml" target="_blank">中国试验高超音速飞行器 可破美国“反导弧”</a></p>
+          <span>2014-12-10 </span>
+        </dd>
+      </dl>
+    </div>
+  </div>
+
+</div>
+</div>
+<!--首屏通栏 end-->
+
+<!--广告通栏02 begin-->
+<div class="ad1000_box">
+    <div class="ad1000">
+        
+<!--s_v_index_130625_ad_banner_01 2014.12.19 09:18:58-->
+<script type="text/javascript">try{aptracker.add(1882);}catch(e){}</script>
+
+
+<script type="text/javascript">
+      var placeIdentifier = "banner_01_HP_marker" ; 
+      document.write('<div id="' + placeIdentifier + '" style="display:none;"></div>');
+</script>
+<div id="AP2523" style="display:none;">
+<code>
+<!--BOF
+<var style="display:none;" v="1882,24169,10121,夏岩,B1"></var><script type="text/javascript">
+	var a = 'http://dol.deliver.ifeng.com/c?5abb8af25MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFLZBE3X8hs_ueAMBPrBWGykOINzSTK1rY9TrLpX_ufU_Fcbwdla4D-bboMoUW4ZqHHKXVHxj662Hhl0FOVR6UWWn2qWlyKve7phP2KGFeUfK71Qn9FZAuEMeYINsefeeiQCve_RXZTNk096ciXUVJO2BbuAwOikyssxBhTKLijAxioERrSTX8Wt';
+	var narrow_screen_ad = 'http://y0.ifengimg.com/mappa/2014/12/05/c51f0db58c33c4ea3e235642accb5c15.swf';
+	var narrow_screen_w = '1000';var narrow_screen_h = '90';var narrow_screen_isActive = 0;
+	var wide_screen_ad = 'http://y2.ifengimg.com/mappa/2014/12/05/713addc73c1d85294f9b8d4f61af41fa.swf'
+	var wide_screen_w = '1230';var wide_screen_h = '90';var wide_screen_isActive = 0;
+</script>
+<script type="text/javascript" src="http://y3.ifengimg.com/6e99b17a6eb74b14/2014/1014/v_responsive.js"></script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_v_index_130625_ad_banner_01';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP2523"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_v_index_130625_ad_banner_01-->
+
+    </div>
+</div>
+<!--广告通栏02 end-->
+
+
+
+<!--通栏列表01 begin-->
+<div class="column_box">
+    <div class="column_content">
+        <div class="mod_title">
+            <h2>
+                <a target="_blank" href="http://v.ifeng.com/vlist/nav_category/mili_0019-0052-0000/update/1/list.shtml">中国军情</a>
+            </h2>
+        </div>
+        <div class="mod_box">
+            <div class="left">
+				<a class="col_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01dfd9f7-3f40-486c-8298-8ccfb2ce2103.shtml">
+					<img alt="" title="" src="http://y1.ifengimg.com/a/2014_51/c44a44afdb5ba2d.jpg">
+					<span class="shadow"></span>
+					<span class="photos_shadow">
+						<i></i>
+					</span>
+					<span class="coltit">中国军情</span>
+					<span class="coldes">曝中国核武库爆发性增长 美国已保护不了日本</span>
+				</a>
+			</div> 
+            <div class="right">                 
+				<ul>
+                                					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01ae29d0-27e1-452c-bcbc-e55f23ebca12.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/28196a7a5ed084c.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>军方曝单兵外骨骼系统 解放军变身“钢铁侠”</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/018fbde1-2885-4d98-9a8e-3c2ab160843d.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/161cb02eebd8261.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>实拍解放军步枪在泥水中浸泡 拿出来照样开火</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/0105a066-006e-47a6-ba58-ff5a1605b7a2.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/b0593275488ad3d.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>武警霸王花讲解解放军95式步枪 称精度很好</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01f42c26-1b81-43da-ba88-e05c4fdbe5c4.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_51/10e1a8b700398c7.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国372潜艇深海突进水 3分钟自救破必沉定律</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/011a0ae2-047f-43d7-8692-6645722bbed4.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/77bfcc0fc759792.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>美官员谈对台军售：美国曾承诺协助台湾防务</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01648bf9-c8c6-48d2-9c13-25989ac84e62.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_51/9e9ccd48e28e390.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>海豹突击队训练现场曝光 解放军特种部队模仿</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01978c1e-bfc0-45af-9e80-51a52717b48d.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/6338e81cb74ebd2.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国花20年仍研制不出空空导弹 只能靠进口</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01a2b043-fa15-4f90-9bc1-eea7a30370f7.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/0384b6139076ed3.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>曝成飞上世纪已开始隐身研制 在歼-7上搞实验</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01fbd3e7-c4b1-4bf5-a71d-e1609f858874.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_51/5319bc0a75b1230.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国歼-31发动机推力仅8吨 不到美军F-35一半</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/019dcebd-1eff-48aa-a346-83a229ce2f9a.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_51/cc09b7b47787ee5.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国疑在试验一种苏联战术 目标直指美军航母</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/annals/201412/01344f58-ba0e-4b23-aba6-2ab7949fb6b9.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/a3a0b824c104dcf.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>大校曝三亚亚龙湾海军码头没兵 军舰连夜开走</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/019d70f9-cf93-4a30-8274-a2a6685d52a3.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/4329955e5660036.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>歼-31战机大量新图曝光 背部细节一览无余</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01260fb1-8d50-4d27-8b1f-6e2366b94192.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/c8e256eec13835c.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>美日抵近侦察中国 搜集电磁频谱有特殊目的</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01b1802c-1f34-45da-8c65-d0a83e59baca.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_51/f3628c3830cb978.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>北斗卫星获联合国认可 中国捍卫利益边疆</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01702c29-5f92-4a2e-9bca-71afb19360d9.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/4f0101b8e70c0b5.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>大校：台军所购佩里舰战绩差 曾被伊拉克胖揍</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01d66612-27b6-4dea-999d-93d3b73f25eb.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/387ec2d462f7da7.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中美海军举行联合演习 美军官赞中方表现不错</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01519a88-067a-4b0c-a3f0-d6d27aa9a47d.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/62a7f65610c624f.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国南海再添一大助力 7000吨巨舰交付使用</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/annals/201412/0185337a-ebfb-4dee-bb07-7506aa10a145.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_50/91ad42e397f2433.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中方在主权岛礁上进行建设无可厚非</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/0162ef6c-4a4b-4484-b324-714eca0b30ff.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_50/080b61aec177a5e.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>袁卓坚：中国高超音速武器仍在试验尚无战力</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/013e9086-e338-4c17-a82e-7fcb17b76585.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_50/1b0377cff863d36.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>曹卫东：美借中国潜艇威胁论建造其新型潜艇</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01f1d4b8-ebb3-4ba3-975a-fea89a2d524b.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_50/f87ec36b2de87c9.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国空军出动100架战机进行大规模对抗演练</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01863d2d-4d68-421e-a4af-3842cc709b80.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_50/efccea55c50b9db.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>S-400导弹或部署山东福建 改变东亚军力格局</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01170c6d-5930-48cc-85e8-6691f70f4f1e.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_49/3480abd6ddfc0cc.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国曾拿最好的武器向国外卖遭拒 实在没好的 </em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01fdb1da-8a09-4835-868b-fc847d1e7724.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_50/d8d42ab608e537a.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国被指向中东国家出口落后装备 实为中方最好</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01422778-6ee3-4584-9d17-ecfd13f8f67b.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_50/5944e2e5b1db460.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>美售台战舰老掉牙 被美军嘲讽为海上贫民窟</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01ff0e5f-bfb9-481a-b783-ae5ecba21204.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_49/b11a9aba674c9c3.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国军机编队出航 不同机型搭配分工完善</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01f4fded-afb0-4386-ae33-a2b7e0abdfb8.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_50/1c4b0325359d4a5.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国北斗获世界认可 成为全球第三大导航系统</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/annals/201412/01be4576-4d40-4c65-b398-c97a4c8940a3.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_50/f98a26884113377.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国助非洲联盟建快反部队意在维护区域稳定</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01514d90-46d5-41cb-a6fe-9ef32fb5359f.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_50/02c508aa26dbf5e.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>评：中俄地中海军演施重击 警告西方勿生事</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01e17d2e-057a-456d-b95c-7a8746bbb961.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_50/b3b8acdb38f0f0e.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国海军舰队赴西太平洋演习 日本军机监视 </em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/0180770f-f4b0-43be-9439-7db1e3d39f3b.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_50/5944e2e5b1db460.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>外交部：中方坚决反对美国对台湾出售武器</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/0117e32e-abd0-455d-812e-44211c222b7e.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_50/e3d5edc35943a7d.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>沈阳军区某炮兵团：年终总结再把问题找一遍</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01f9a0a7-30a4-4bee-9923-ae585bc22234.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_50/ac40ae7532cd6eb.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中航董事长：歼-31模式少见 中俄合作是共赢</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/013c62ae-5a96-4de0-b79b-30de9af08160.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_50/5543ea6175021f2.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>杜文龙：越南配新型海警船后执法将更野蛮</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01a46f82-35e7-464a-9e3a-0648397e7740.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_50/472701561adc881.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>美称中国第三次试验超高音速飞行器</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/annals/201412/01941146-6243-4b70-b39c-e4bf1127f36f.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_49/b976340144d0c0a.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>未来中国预警机将更着重弹射起飞</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/annals/201412/013a243c-fee9-47d2-9c51-df85fedbaf1f.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_49/2f0af0a00c227bb.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国航母基地导弹库长达数百米 供应未来多年</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01df7e03-5ec2-447b-8cda-1ef98df9303c.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_49/01098ea560e81af.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>习近平：填补军事装备体系空白 补短板弱项</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/016df29f-58b6-4e9d-8c5b-675e13e28ce7.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_49/b5446f70879ea27.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中美澳三国军事人员在澳洲北部丛林展开训练</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/016c651f-e2eb-4c6f-b50a-ac4df5d4b69e.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_49/f2d51d25fe84c22.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>最新2013号歼-20战机首飞成功 外观现新变化 </em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/010afc39-cd52-4d1a-973e-cc565c47677b.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_49/b5773c17bff3a12.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>上合演习明年下半年在中国举行 俄将参演</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/019d3e11-cb50-47db-a534-504bd20bbd87.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_49/7a4760b745fe2fa.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>俄印空军在中国边境演习 俄否认向华售S-400</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01b9a1f8-1135-470f-9b2a-facb600b2792.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_49/23d37326a5a69b7.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>袁卓坚：中国导弹预警能力弱 需建海外基地</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01e0e962-a9b8-4dc4-8763-21fb011eaca3.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_49/ef9fd4c307973d0.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>美计划在韩部署“萨德” 被指主要针对中国</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/019e8b0a-17a6-4492-91dd-7269162c66e7.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_49/1851186793a32aa.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>女兵擒拿格斗不输男兵 被称“女汉子”</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/0114dcb3-850c-486e-975b-a896a0a918e0.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_49/ab3f319cbbec266.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>实拍新兵投弹失手 队长迅速将其拉入避弹壕</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01a4dbed-392d-46cc-bff1-5188626423ea.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_49/371b652f4138eae.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>日本正建“出云”级军舰 实力或覆盖钓鱼岛</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01210a39-4b4e-45c6-bf7e-afb4b62ba336.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_49/3480abd6ddfc0cc.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>尹卓：中国新型护卫舰可用于南海深水区</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01bbe381-c6f8-4f25-91f7-b607194ae0a1.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_49/b11a9aba674c9c3.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>北海舰队航空兵利用信息化提升飞行保障效益</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/0198f4c4-3f1e-4c21-94a3-c0a5d6e3d439.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_49/d0ad132512025ed.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>国防部：中俄联合军演不威胁任何国家</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/0170b5e8-c667-4990-bbb5-1f652edae221.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_48/78e0cfd123ac6c7.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>聚焦中国国防发展 已进入自主研发高级阶段</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/01a42a51-5e65-461e-b6b8-b23ed7fd6fd8.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_49/f16cf7f7d362a93.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国海警船虽采用056护卫舰设计 但标准不同</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/0158ccbd-966a-46b5-a88b-9365e8f53b71.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_49/6f3311bb6b02060.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>实拍2013号歼-20滑跑测试 首飞成功</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/011c906c-59ab-477e-9d2c-34da4d4fb241.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_49/baef2b6b9674614.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国东风-21D可机动变轨 可攻击移动中航母</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01627766-6c3a-4ab7-9bb6-1a06f4d7585e.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_49/4ee8e2cc15b5b76.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国潜艇与美方声纳相撞 美军未发现潜艇</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/01a63d13-82a6-43a8-bd4a-fcf6c657cde1.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_49/eabbd0a3b513726.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国海军1天服役两艘新舰 航母再添守护神</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/01e38946-4c59-4903-960e-02e343bb0232.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_48/089b641bf35a377.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>印度记者急问：中国是否售巴基斯坦隐身战机</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/01f86034-0ee8-429a-a813-6ecf1a845348.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_48/a04fa371a26ebf6.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>揭秘“世纪号”战舰：全身隐身设计雷达难测</em>
+						</a>
+					</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/014c40cc-e042-4a36-b947-973168c60923.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_48/dfac3bc9fa92e61.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>曝明年两会中国将立法允许出兵海外 保护利益</em>
+						</a>
+					</li>
+				</ul>
+			</div> 
+            
+        </div>
+    </div>
+    <div class="column_aside">
+              <div class="mod_title">
+            <h2>
+                <a target="_blank" href="#">军事叠报</a>
+            </h2>
+        </div>
+        <div class="list_aside_box">
+        <ul>
+				<li>
+					<a target="_blank" href="http://v.ifeng.com/v/mil/j31export/index.shtml">争议：中国歼-31将卖向何方 </a>
+				</li>
+				<li>
+					<a target="_blank" href="http://v.ifeng.com/v/mil/zhhzhg/index.shtml">第十届珠海航展精彩视频回顾 </a>
+				</li>
+				<li>
+					<a target="_blank" href="http://v.ifeng.com/v/mil/dhlj/index.shtml">中国战斗机挂导弹拦截美军侦察机 </a>
+				</li>
+			</ul> 
+        <div class="list_aside_ad">
+            
+<!--s_itv_index_ad_rectangle_00 2014.12.19 09:17:55-->
+<script type="text/javascript">try{aptracker.add(2382);aptracker.add(1883);}catch(e){}</script>
+<div id="AP836" style="display:none;">
+<code>
+<!--BOF
+
+<var style="display:none;" v="2382,0,0,NULL,fixture"></var>
+
+
+
+<var style="display:none;" v="1883,21065,3043,宋斯文,B1"></var><script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?ce71a3fc5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFL_sGk8AdSFSQLYRU-KUXPJgFI1NQXO4whSU7IjucHZz1cbwdla4D-bMkGcwwUBFvf0FTFPhUBupM50qGIVOw4XxIqYDYYiqWfkZEM_4F44ngWBVxSunMwMgORvFLlGxrI';
+var ad = 'http://y0.ifengimg.com/mappa/2014/11/28/4f855c56d5bc7a85cb78eaefe7d15b92.swf';
+var w = '300';var h = '250';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		document.write("<div id='div-gpt-ad-1405930969073-7' style='width:300px; height:250px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1405930969073-7'); });</" + "script></div>");	
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP836"});
+		}catch(e){}
+	}
+}catch(e){}
+</script><!--/s_itv_index_ad_rectangle_00-->
+
+        </div>
+
+        
+        </div>
+    </div>
+</div>
+<!--通栏列表01 end-->
+
+
+<!--通栏列表02 begin-->
+<div class="column_box">
+    <div class="column_content">
+        <div class="column_mod">
+            <div class="mod_title">
+                <h2>
+                    <a target="_blank" href="http://v.ifeng.com/vlist/nav_category/mili_0019-0052-0002/update/1/list.shtml">环球视野</a>
+                </h2>
+            </div> 
+            <div class="mod_box_bot">
+  <ul>
+      <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/012debdd-5455-40c1-8876-befdbc83531f.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_51/3b41065c49133da.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>朝鲜展开邻国外交新攻势 被指唯独绕开中国 </em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01942152-b2bb-46a3-8c29-e12e801c91ef.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/0e59b35f39d3178.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>巴基斯坦白沙瓦学校遭袭事件 141人遇难</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/010205e4-8fe2-4b37-86d8-af0e541bb000.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/12d17bd0d95f21f.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>韩国拟部署美制反导雷达 侦测面覆盖京沪粤</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/0159d885-101f-47d2-9db1-1a2edcaaa4e4.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_51/c04100542f643fd.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>实拍美军王牌V-22鱼鹰运输机坠毁 机身粉碎</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/01fbe1a4-1bca-4cce-8f1f-47ee4bbceee0.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/7e6629ece396213.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄正研制重型洲际导弹 可携带至少8枚分弹头</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01c02c9e-8fe0-467d-91dd-009ca2c54e55.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_51/323d7434b6f25be.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美军首批潜艇女兵洗澡遭偷拍 男兵相互传阅</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/018b6d8a-5ddd-4de4-9cd8-005db248968c.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/7092b7ca0876128.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>媒体批美国F-35发动机还不如中国歼-31可靠</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/annals/201412/01bdcef6-06ec-4029-878a-6d8e48714827.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/08f78fa4dd18677.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>印度首艘国产核潜艇歼敌者号海试画面曝光</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/0143244a-44d1-47d8-98e3-6200a12a7216.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_51/7890ff6c1fe5504.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>奥巴马宣布将结束长达13年阿富汗作战任务</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01f08632-d0d7-45a5-89af-23eac108defa.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/6764ec5e28c70c9.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>曝美军监狱成恐怖主义温床 ISIS头目进出自如</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/019b0c36-d6d9-46cc-9054-b859d3f222d5.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/02cd02328f6187e.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美“机械间谍鱼”亮相 可避敌方声呐系统</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/016953b0-f208-48fa-94af-7e50c0574c3f.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/74025494eef6303.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄将恢复制造“导弹列车” 配12枚SS24导弹</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/011e6d64-b529-47a0-b243-911353b4ece2.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/b7705fad7f2a2f4.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄军欲将S-400装入“光荣级”导弹巡洋舰</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01924ba8-3485-46e5-874b-5d20408d6de7.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/746942cb7c686c5.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄将恢复苏联时大杀器 绿皮火车内藏巨型导弹</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/other/201412/01eece1c-6283-4dd1-8609-98b91dc0af0e.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/b982199bcffad25.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>疑似美军战机与UFO交战视频曝光</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01a5f6cf-5021-40b1-89f3-7c8e0d983b8a.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_51/8c6626c54a0fb99.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美方称俄图-95轰炸机多次闯入美防空识别区</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/017d0d5e-461c-471e-b1cb-27238132f1db.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_50/bb7f3a24116944d.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美国海基核力量王牌组合：俄亥俄与三叉戟</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/010f2d7a-8c72-4bfb-8840-b7c0a669ceab.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_50/be16cee8fe22464.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>第三艘北风之神级战略核潜艇交付俄海军</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01da1e7c-50f6-4e4b-ac99-1a3303a73748.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_50/f8cf0c30b93cb39.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>房兵：俄西北风舰设备被盗 或涉及对俄制裁</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/018db201-a507-495c-9695-c7d7bc88375e.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_50/572895dc5139250.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>驻日美军基地举行开放日 美巡洋舰开放参观</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01a299fb-4b5d-4a0c-ac3a-4966b1040f01.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_50/b43e5d2a695cb51.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄布拉瓦洲际导弹试射 射程达11000公里</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/015c54db-7101-4419-8be9-15bbbc7762cb.shtml">
+        <img title="" alt="" src="http://d.ifengimg.com/w120_h90/y0.ifengimg.com/pmop/2014/12/10/74aa7b6a-dc65-4b98-9c34-1cabe5f1831d.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>日美频繁举行联合军演 有意加强离岛作战</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/011421c5-a01a-4721-88b8-c2312d626bed.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_50/20d9bc5f5235914.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄罗斯将部署新反导系统 称拦截效率比美高</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/012e42ca-dddd-4027-b5d5-9afcfd489484.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_50/5f5264ceb79f5eb.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>印尼为中国仗义执言 斥菲有不可告人目的</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01f3dea0-83f7-48fb-9480-6f04d93a5d15.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_50/a2bfc822210333a.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美海豹突击队解救人质行动失败</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01cafb49-e8ce-44cf-91ae-d61fb421ac05.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_50/09c1d40de20555f.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>莫斯科市中心举办俄军装备防空系统展览</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01b41e0d-1e5d-4e0c-a44a-dbda2f48c588.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_50/ec114311a2f2278.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄罗斯向克里米亚部署首批14架战机</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/annals/201412/0182d90a-26a1-4d5b-9b34-3a262571e17a.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_50/7b8cbe25413d814.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄发展高超音速导弹反击美反导系统</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01a6993c-bf12-4e6c-bcd1-394e16ae9bf2.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_50/c2ac2da61ee31b6.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美军无人机空袭巴基斯坦西北部致5人死亡</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/012c8ba7-e800-47b4-897b-995b128c7250.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_50/92fa5c034aeb088.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>也美特种部队发起人质营救行动 营救失败</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/0136b10d-4f20-4647-9d9c-440204f76ce2.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_50/3c787e681b8efd3.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>菲律宾欲为汉密尔顿级军舰加装导弹发射系统</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01332165-1e48-4707-acf1-9cc568a8d371.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_50/33d07835ecf22ac.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>菲律宾派出最大军舰参加美日菲首次南海军演</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/012172a5-5ab2-481e-86a1-b3c5a2c3daf1.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_49/e6a80991d967fb9.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>曝朝鲜秘密进行核试验 中国全程监视</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01dbb90d-7fa5-41d7-a4fc-38c5c08c972d.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_49/de7d765459c408d.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄军方多架战机飞抵克里米亚 展开飞行测试</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/0110d26d-74ee-472c-846e-6830b5e9bf4c.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_49/0e271b12acac9e8.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>印度米格-29K战机经历拦阻索“惊魂” </em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/0159a0bf-4920-4966-8f38-c11348fd6720.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_49/2e33e1cec6f906d.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>实拍美军F-15超高速低空连续拐弯穿峡谷 </em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/011948f2-a4fd-4271-8163-fe47b3615404.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_49/1338d05643a5b79.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>印度烈火-4导弹成功试射命中目标 可带核武</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01f94a9f-1d66-444a-85a6-c97bbd064bb2.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_49/3085333298c385a.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>普京回应北约：抗议万次不如轰炸机飞一次</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/014ac8d8-384e-4afd-97e9-559db0f7e9b3.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_49/6ae2549c75edaaa.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美神秘网战进攻部队曝光 指责中国网络攻击</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01cff628-2881-4442-9714-72d3c902e2c1.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_49/3c3d747f95c710f.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>伊朗出动战机空袭“伊斯兰国”在伊拉克据点</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/012d9759-1bd5-43a0-b181-01a985c98c1b.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_49/f7eb896ff684e1f.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄罗斯军队接收首架伊尔-476军用运输机</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01d3f5d7-e230-48a6-9e9e-e0e43bc9704a.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_49/8d01185f417bc8c.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>法国延迟交付俄罗斯西北风两栖攻击舰</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/0186e6bd-f537-40b7-a1d6-4e3c027d15f8.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_49/6339aef4e740602.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄或斥巨资造核弹火车 抗击美全球攻击系统</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/0118b55d-be8f-4624-8353-c8fe0118bac5.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_49/02fd77d65b6cf35.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄媒记者独家探访：米格-31改造车间曝光</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/01ea7f56-54fc-45ba-9be6-8902c9efac46.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_49/b9c0b542ee917ae.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>日本面临开战风险 募兵数量暴跌10%</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/016083ee-a969-4f53-8a36-c18a5efeed95.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_49/19d8cc1a2a83585.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>英国海军军舰抵达古巴访问 成50多年来第2艘</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/012dd6b9-6789-4ec5-a8a4-087f20af60e0.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_49/9c99dfaa192fd22.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>韩国欲引进空中加油站 欧美公司相互抢单</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01325745-0262-489b-8d11-9ffe08535e75.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_48/f6bed514bdd1037.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>阿富汗母亲为儿报仇 击毙25名塔利班成员</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/0127bcc7-a8fe-416c-a12d-abea16901fca.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_48/fd40950b34122dc.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>英军有航母无战机遇尴尬 拟邀美军执行试飞</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01c53ffc-6c4d-461c-b3d3-01f0bae139eb.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_48/3319bb2346a4ea8.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美欲在东欧部署坦克战车 或小规模分散驻扎</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/annals/201411/01ca7418-bd4e-4695-b895-fdb6bc6f4460.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_48/bec6a23978782a8.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄军派14架战斗机入驻克里米亚</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/annals/201411/01c78e84-030b-4c58-a7e2-a3c37fce7fa6.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_48/d33aa42d72aa0d6.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>北约最高军事长官称已制定援助乌军计划</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/011873c9-2bf5-4627-80a8-8490e8d64c92.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_48/02407ac7ba4a4ab.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美军F-35太先进 记者第一次开就能降落航母</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/0173bbb9-3ac8-4479-8466-0622b9e11a5b.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_48/d852fba39bf685f.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美前防长曾狠批奥巴马决策小圈圈：管得太多</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01cc92fb-c5f9-4cd4-b34c-0ce5bc806813.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_48/47d91dee3fa629f.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>越南海军主力战舰首次抵达菲律宾访问</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01b6b128-eb31-4894-8ece-2f686b3065bc.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_48/0e62f22323ad3c0.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>韩国军方举行独岛例行防御军演引日本抗议</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/01c15c8f-bf35-4da9-bd9f-d6b5e7e33143.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_48/5d786d2244cdc57.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>据美媒报道称中巴将联合升级“枭龙”战机</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/013c14f0-dc37-422f-ac7e-c57733dc3a8b.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_48/5e62e934b77dbdf.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美国防部长哈格尔突然辞职 已获奥巴马接纳</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/0152d9ac-3764-4985-8570-0f57d302e9c5.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_48/23186ceb4ea7a9c.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>俄北极战略司令部12月运作 以完善武装力量</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/012b0fd1-3167-487e-a8b8-5470b38d76b0.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_48/d4b821d12e3bb3b.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>韩国在韩日争议岛屿举行防御军演</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01eb0c1b-4860-4e23-9079-b30d4e69afc6.shtml">
+        <img title="" alt="" src="http://y2.ifengimg.com/a/2014_48/27273298f848c14.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美韩变策应对朝核问题 借人权促朝内部生变</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/0162b911-8520-41a0-9b30-4acae3d6c268.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_48/ef89e9c23b6d55d.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美国F-22和F-35首次举行联合演练</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/0109c41d-f41c-41b1-a162-74a8cd0209be.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_48/305301f69022968.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>伊朗核设施发生爆炸 西方担心其研制核武器 </em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01d0348a-0b7f-49b0-ba7b-07d131fd6eb3.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_48/caf4096c428a01d.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>法国不顾美国反对 向俄移交西北风两栖舰</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/0195580d-86ca-4530-9ef7-b3d486dbc637.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_48/a6d5d2996fe7517.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>乌军向民众征集厕所纸 称为抵御叛军进攻</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01cc63a3-94d0-43dc-b1a5-42fbdf134c40.shtml">
+        <img title="" alt="" src="http://y0.ifengimg.com/a/2014_48/8113b45e6087008.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>罗马尼亚一军用直升机坠毁8人遇难</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/01d43d17-c01d-4d68-a6e7-c980c603a687.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_47/7f467069ac40869.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>纳米无人机已进入实验阶段 手掌能容三架</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01acd589-46c6-4901-8806-c659f6aa9b29.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_47/c96302c584e3d5a.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>苏-35战机特技表演惊艳四座 为“终极侧卫”</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/018db38c-3178-4f83-b072-ee8d69e95682.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_47/7eead7d7ed1aced.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>C17可运送主战装备 有效任务半径达4000公里</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/014cc825-1953-45da-a9e7-9f6105d7c3ca.shtml">
+        <img title="" alt="" src="http://y1.ifengimg.com/a/2014_47/107c41095da0638.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>美军开始训练伊拉克士兵 欲歼灭伊斯兰国</em>
+      </a>
+    </li>
+    <li>
+      <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/018d2606-d0e4-4b8f-aa9e-ba0d1768429b.shtml">
+        <img title="" alt="" src="http://y3.ifengimg.com/a/2014_47/298941d28939b54.jpg">
+        <span class="photos_shadow">
+          <i></i>
+        </span>
+        <em>韩国拟购美“爱国者”导弹 以加强对朝威慑</em>
+      </a>
+    </li>
+  </ul>
+</div> 
+        </div>
+        <div class="column_mod column_mod_bot">
+            <div class="mod_title">
+                <h2>
+                    <a target="_blank" href="http://v.ifeng.com/vlist/nav_category/mili_0019-0052-0003/update/1/list.shtml">尖端武器</a>
+                </h2>
+            </div>
+            <div class="mod_box_bot">
+    <ul>
+        <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01414c6e-914c-4222-9c9d-c0bbf71d7f07.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/fd4484a7c641598.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>越南秘密向俄订购12架苏30MK2 重点部署南海</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/018d6826-0564-4f3c-bc10-fdb20f6ca982.shtml">
+          <img title="" alt="" src="http://y3.ifengimg.com/a/2014_51/54c491e2f91574d.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>俄大规模突击演习 陆军最强武器亮相</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/0102c606-a049-4910-8e1b-429ef895e95e.shtml">
+          <img title="" alt="" src="http://y0.ifengimg.com/a/2014_51/af75b946256882d.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>美国排名陆军五大致命武器：阿帕奇位列第一</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/0152a27a-0750-4ab9-b4a9-6d5f69d30729.shtml">
+          <img title="" alt="" src="http://y0.ifengimg.com/a/2014_51/d9f53d4b5d73e9a.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>美媒：M1坦克在伊拉克遭俄“短号”导弹痛宰</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/0109af0a-76f7-404c-abc1-6b48b8edb5b4.shtml">
+          <img title="" alt="" src="http://y0.ifengimg.com/a/2014_51/1caa770fcf7424e.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>菲律宾海军拟购超8亿美元武器应对南海局势</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/012a8a5d-9ba4-47d6-8be2-cbd61332b911.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/0fa6cc987d08ad8.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>曹卫东：“福特”号航母有三大软肋</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01cc2eea-3b47-4536-89d4-ef440c19352c.shtml">
+          <img title="" alt="" src="http://y0.ifengimg.com/a/2014_51/3072d90caed6686.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>实拍美国间谍机器鱼试验 摇尾巴神似金枪鱼</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/0110d912-b90f-4978-a5e7-3752f0566425.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_51/694e96ee3558abc.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>俄罗斯推出新型运兵车时速超过110公里</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/news/world/201412/01cc8176-9be7-4242-93c7-c971093678a5.shtml">
+          <img title="" alt="" src="http://y1.ifengimg.com/a/2014_50/5e4c698e90d2c80.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>美逮捕中国籍工程师 指控窃取F35发动机机密</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01734ce3-59b0-46a5-b364-728f1a17ef1c.shtml">
+          <img title="" alt="" src="http://y0.ifengimg.com/a/2014_50/07d0d39bbd6d273.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>专家还原F-117隐形战斗机折戟南斯拉夫真相</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/013703ce-51ca-4db7-8040-1d1bbef1f752.shtml">
+          <img title="" alt="" src="http://y1.ifengimg.com/a/2014_50/42e4a42fababb32.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>中国购苏-35向俄方提一要求 遭直接拒绝</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01d6c4ba-2c74-45c0-8a8f-380c0cbff8de.shtml">
+          <img title="" alt="" src="http://y3.ifengimg.com/a/2014_50/e915a823f49740b.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>美军将在日部署F-35战机以配合日本战略南移</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/010c3823-6739-4452-ac05-711fa2763efe.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_50/ea50e37c527c138.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>日本“出云”号直升机航母完成第五次试航</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01800220-df4d-46ce-8ffc-a310bb9205d0.shtml">
+          <img title="" alt="" src="http://y3.ifengimg.com/a/2014_50/300a1a12d3f760e.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>印法就“阵风”战机军售项目进行正式谈判</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/01199eaf-5621-42f9-b486-28b69306e9e4.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_50/6ff50128c87dda9.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>澳最大战舰堪培拉号直升机登陆舰服役</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01466e5a-4252-48d9-af7c-f39850963d59.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_50/f1efd9f38b26df4.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>美50枚民兵3型核弹失联 45分钟后恢复</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201412/0163a77e-a291-4b68-9479-b208381c72cf.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_50/f63584fb4f0063a.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>英媒：中国一在建海警船外观与056型舰相似</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01081db9-996b-43b6-a499-aea8999137e2.shtml">
+          <img title="" alt="" src="http://d.ifengimg.com/w120_h90/y0.ifengimg.com/pmop/2014/12/03/eed2a1db-0504-4a1f-86f0-399779deeec2.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>实拍俄罗斯男子驾车迎面冲击逼坦克紧急转向</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201412/01cf87ef-0f12-4a1d-bc07-6d81388e37f9.shtml">
+          <img title="" alt="" src="http://y1.ifengimg.com/a/2014_49/7f19f34fd15c559.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>俄军成功试射“布拉瓦”战略核导弹</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201412/01550779-0670-4565-a965-91034d4b2e19.shtml">
+          <img title="" alt="" src="http://y1.ifengimg.com/a/2014_49/a219982ac29c29d.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>美媒盘点俄空军5种武器 图-160位列其中</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/010dfaaa-f091-4368-a78e-0cf4385b0427.shtml">
+          <img title="" alt="" src="http://y1.ifengimg.com/a/2014_48/5263ae882a87171.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>韩国耗资千亿韩元打造救援舰 被指系豆腐渣</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/01410475-4dba-4f3a-8a08-96b04904a750.shtml">
+          <img title="" alt="" src="http://y3.ifengimg.com/a/2014_48/4253dd39a7cf260.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>记者体验模拟驾驶F-35战机：就像打游戏</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/012a4e20-8d0f-459f-b83d-c81eff8f82aa.shtml">
+          <img title="" alt="" src="http://y0.ifengimg.com/a/2014_48/54ef0c1f17c603f.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>揭秘俄罗斯新一代自动步枪AK-12</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01401c44-80ee-41a6-8bf2-6a4d8dba5163.shtml">
+          <img title="" alt="" src="http://y0.ifengimg.com/a/2014_48/7b7b5cfe39295bd.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>伊拉克购买10架苏-24战机 用于打击极端武装</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/01548ca2-d471-43c8-8cc8-a6a40c6da162.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_48/90e0ecf4e643eee.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>日本准航母搭载F-35 战力辐射南海威胁歼-15</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/0183791c-58d2-4111-8d93-fe0d3fdbf90c.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_48/105684b193723de.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>曝中国或售俄攻击无人机 军工设备超越俄罗斯</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/01f19555-3db0-4555-bf5c-aac97e4191fc.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_48/130ccfbdc9f4082.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>张召忠：052D若为10分 印加尔各答号是4分</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/016df3c0-dc0c-4bfe-9cca-903fd162f01b.shtml">
+          <img title="" alt="" src="http://y0.ifengimg.com/a/2014_48/1bb6739b9359aaa.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>曝运-20不敌美军命门：核心配件遭嘲笑 </em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01c0ab18-0c14-43ac-b7e2-a98653aca6be.shtml">
+          <img title="" alt="" src="http://y1.ifengimg.com/a/2014_48/1193a2c2797e6ae.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>英媒称巴基斯坦欲购至少三十架架歼-31</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/013b8400-7c2c-40a1-90d6-459695a0557d.shtml">
+          <img title="" alt="" src="http://y0.ifengimg.com/a/2014_47/fa1595f762c2d90.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>冷战后核武在美地位下降 军方或削减核武库</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/018d2606-d0e4-4b8f-aa9e-ba0d1768429b.shtml">
+          <img title="" alt="" src="http://y1.ifengimg.com/a/2014_47/41d0dd0113272f7.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>韩国拟购美爱国者导弹 以加强对朝威慑</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/01245b31-26c6-46c7-83d1-fdd5412e90ee.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_47/773e86d0c7e3cdb.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>俄就中国购苏35设下限 严防中国“仿制”</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/0175f31c-8a01-4f34-b32c-167901053ba3.shtml">
+          <img title="" alt="" src="http://y1.ifengimg.com/a/2014_47/0026d93905ce22e.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>专家预测歼-31出口前景：肯定超过美战机</em>
+        </a>
+      </li>
+      <li>
+        <a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/0184a605-6ddf-48ce-bced-81b8071a247a.shtml">
+          <img title="" alt="" src="http://y2.ifengimg.com/a/2014_47/3396cae013c5b2a.jpg">
+          <span class="photos_shadow">
+            <i></i>
+          </span>
+          <em>曝运-20发动机三大弊病 中国军工加紧补救</em>
+        </a>
+      </li>
+    </ul>
+</div>   
+        </div>
+    </div>
+    <div class="column_aside">
+        <div class="mod_title">
+            <h2>
+                <a target="_blank" >一周军事热点</a>
+            </h2>
+        </div>
+        <div class="hot_aside_box">
+                <div class="Ranklist">
+                    <ul>
+                                 <li>
+            <span class="num01" >1</span>
+            <p>
+              <a title="" target="video" href="http://v.ifeng.com/mil/arms/201412/01d1aa30-dfa1-48ed-8b38-d59baf8ff910.shtml">兰宁利：中越在南海开战 台湾将在后方策应</a>
+            </p>
+          </li>
+          <li>
+            <span class="num02" >2</span>
+            <p>
+              <a title="" target="video" href="http://v.ifeng.com/mil/mainland/201412/01f57c6a-2704-41db-ac6c-396c3afe9dde.shtml">军情观察室 曝二炮高调试射东风16导弹 可面杀美日机场</a>
+            </p>
+          </li>
+          <li>
+            <span class="num03" >3</span>
+            <p>
+              <a title="" target="video" href="http://v.ifeng.com/mil/mainland/201412/01278dd7-681d-4a1d-b206-548aa95c7cae.shtml">绝境重生 海军372潜艇显示艇员过硬素质</a>
+            </p>
+          </li>
+          <li>
+            <span class="num04" >4</span>
+            <p>
+              <a title="" target="video" href="http://v.ifeng.com/mil/arms/201412/01de743f-0752-43f9-afe7-e572c0aff203.shtml">越南最新战舰闯赤瓜礁捣乱 中国军舰落下风</a>
+            </p>
+          </li>
+          <li>
+            <span class="num05" >5</span>
+            <p>
+              <a title="" target="video" href="http://v.ifeng.com/mil/arms/201412/018dd0e6-632c-4932-bc34-05cdb2f6cdcf.shtml">马鼎盛：越南胆敢开第一枪 中国必后发制人</a>
+            </p>
+          </li>
+
+                    </ul>
+             </div>
+    
+            <div class="list_aside_ad">
+                
+<!--s_itv_index_ad_rectangle_01 2014.12.19 09:17:40-->
+<script type="text/javascript">try{aptracker.add(2325);}catch(e){}</script>
+
+
+<div id="AP642" style="display:none;">
+<code>
+<!--BOF
+<var style="display:none;" v="2325,24080,3045,夏岩,B1"></var><script type="text/javascript">
+var a = 'http://dol.deliver.ifeng.com/c?cdaf40cc5MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFIK3-XVUoiHc18ejh6EiQcToPwI1wwTSs-Kd90UIRZv6Vcbwdla4D-bQMAs5fos9uPLrbSUvuU1iH3OZPF9QBxM_0AtlAZZEtKQQMQs-5bkB10SC-J0yjs-JVEwziX6TiViTDwNEOHaNhixs_LfvdF-x-JDKA2txtY';
+var ad = 'http://y0.ifengimg.com/mappa/2014/11/26/4be5fb774deb881693c33d91cc807c02.swf';
+var w = '300';var h = '250';var isActive = 0;
+</script>
+<script type="text/javascript" src="http://h0.ifengimg.com/ifeng/sources/yingguang-20140307.js"></script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		document.write("<div id='div-gpt-ad-1405930969073-8' style='width:300px; height:250px;'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1405930969073-8'); });</" + "script></div>");	
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP642"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_itv_index_ad_rectangle_01-->
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--通栏列表02 end-->
+
+<!--广告通栏03 begin-->
+<div class="ad1000_box">
+    <div class="ad1000">
+        
+<!--s_v_index_130625_ad_banner_02 2014.12.19 09:18:59-->
+<script type="text/javascript">try{aptracker.add(315);}catch(e){}</script>
+
+
+<script type="text/javascript">
+      var placeIdentifier = "banner_02_HP_marker" ; 
+      document.write('<div id="' + placeIdentifier + '" style="display:none;"></div>');
+</script>
+<div id="AP2526" style="display:none;">
+<code>
+<!--BOF
+<var style="display:none;" v="315,23963,10196,魏层层,B1"></var><script type="text/javascript">
+	var a = 'http://dol.deliver.ifeng.com/c?bb5276925MluuVuLEVCrlk7CiF1N5piUjVsuTNmWaw1nose1ZFIOct8iA9nBorZsmmlwkFH2Nvtgj_cL7aCBgf0lvn0U0lcbwdla4D-bZXg2ErovEY1Z5tI7702rsPo0b8xFvk6PlYUpsoE6JqfyhFV1DZuxwQlX-QnhTlmJxow3kFaHJ3HJTls4BXXIgRC75xfEylTefHfZOv6Sj9zbEjQQ7DXvUEkIhmguyqbc0fJ73v2YxkiYdfmNIB3ksuulrJK6cflgI3aDq2cX5cZDZQWgw6hzVk8PkdQpREPvGFG5s1rCuibEw_dBUOE9MecUsl5hpuoz';
+	var narrow_screen_ad = 'http://y2.ifengimg.com/mappa/2014/12/11/516fdbcff1d432e8559c60ba943eb835.jpg';
+	var narrow_screen_w = '1000';var narrow_screen_h = '90';var narrow_screen_isActive = 0;
+	var wide_screen_ad = 'http://y0.ifengimg.com/mappa/2014/12/11/5cd87af3a7718fe5c227c443c1bcf494.jpg'
+	var wide_screen_w = '1230';var wide_screen_h = '90';var wide_screen_isActive = 0;
+</script>
+<script type="text/javascript" src="http://y3.ifengimg.com/6e99b17a6eb74b14/2014/1014/v_responsive.js"></script>
+<script type="text/javascript">
+var mfp_channel =  "1";
+var mfp_host = "http://q.s.cr-nielsen.com/mfp/mfpMultipleDelivery.do";
+var mfp_user_cookie_name = "mfp_uid";
+var mfp_js="http://s.cr-nielsen.com/survey.js";
+var pv_rate=0.05000;
+var mfp_attrs = "";
+
+
+(function () {
+   var D=document;
+	this.MFP = {displays:[]};
+	var h = D.getElementsByTagName("head")[0];
+	var s = D.createElement("script");
+	s.type = "text/javascript";
+	s.charset = "utf-8";
+	s.src = mfp_js;
+	h.firstChild?h.insertBefore(s,h.firstChild):h.appendChild(s);
+})();
+MFP.displays.push("div-guru-ad-642");
+</script>
+EOF-->
+</code>
+</div>
+<script language="javascript">
+try{
+	if(INice.getCookie('prov') == '9999'){
+		(function(){var u='http://pubads.g.doubleclick.net/gampad/adx?m=text/javascript&sz=1x1&iu=/51332160/s_v_index_130625_ad_banner_02';
+u+="&c="+Math.floor(Math.random()*1000000);p=null;var r=window.location.search.substr(1).match(new RegExp("(^|&)google_preview=([^&]*)(&|$)","i"));
+if(r!=null)p=unescape(r[2]);if(null!=p)u+='&gct='+p;document.write("<script type='text/javascript' src='"+u+"'></"+"script>")})();
+	}else{
+		try{
+			var defaultAdRotatorConfig = {maxTimes : 1, saleMode : "CPD"};
+			new adRotatorFactory({identifier : "AP2526"});
+		}catch(e){}
+	}
+}catch(e){}
+</script>
+<!--/s_v_index_130625_ad_banner_02-->
+
+    </div>
+</div>
+
+<!--广告通栏03 end-->
+
+
+<!--通栏列表03 begin-->
+<div class="column_box">
+    <div class="column_content">
+        <div class="mod_title">
+            <h2>
+                <a target="_blank" href="http://v.ifeng.com/vlist/nav_category/mili_0019-0052-0004/update/1/list.shtml">军迷影院</a>
+            </h2>
+        </div>
+        <div class="mod_box">
+            <div class="left">
+				<a class="col_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/01bf1428-a3a6-4f4f-a493-077bf9c27fa3.shtml">
+					<img alt="" title="" src="http://y1.ifengimg.com/a/2014_48/9a7b681e46f3377.jpg">
+					<span class="shadow"></span>
+					<span class="photos_shadow">
+						<i></i>
+					</span>
+					<span class="coltit">军迷影院</span>
+					<span class="coldes">电影《狂怒》首映 军装美女低胸亮相</span>
+				</a>
+			</div>
+            <div class="right">                 
+				<ul>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/019dc21c-50a9-4a1a-8458-337960f5b2ae.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_49/360be8c64e970e8.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>《壮志凌云》让美国征兵爆满 中国拍一片仿效</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/01175890-c2f8-4b37-aaa3-a554e2800fde.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_48/c61780f33e575d4.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>直击珠海：凤凰视频专访国产大飞机航电供应商</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/019dd461-33ce-42b2-bced-bc1103f0548f.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_48/bebc3efd38fb3d4.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>实拍中国售泰WS-1火箭炮连续怒射</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01266d56-f07a-4b6c-b9e9-56396be00ca9.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_48/996ca2836724ca1.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>实拍世界一流飞行表演队飞行 不靠女人博噱头</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/019cff79-6c2b-4fd4-a303-a845ebd6a5aa.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_48/de9c9ebd655d985.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>苏-35单机表演展现超强机动性能</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/01ccd491-62de-4f6a-86e8-34b364e3277c.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_48/e9593a39f02550b.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>实拍伊朗隐身无人机首飞 美国人气死也没用</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01737a07-d5cf-4c17-9e80-644c241072ab.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_48/11d47cd6ee2e61f.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>真相：叙利亚小英雄勇救小女孩欺骗全世界</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01d000ee-942b-4f1b-9c3c-908cd338cbb6.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_48/cf6502661c9f5a3.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>英国核爆试验罕见视频公开 场面震撼</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/015287b2-a693-426c-af7c-dfc3a57b96a1.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_48/b70902bcf60a121.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>中国中型舰载无人机试飞 挂载先进导弹可反舰</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/0143fc00-c7be-41d5-9407-987de0f162cc.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_47/9717c9563090751.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>永暑礁3000米跑道轮廓初现 稳坐南沙第一大岛</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201410/010666ef-84b8-4f08-86c9-5c6d6d840cbe.shtml">
+							<img title="" alt="" src="http://d.ifengimg.com/w120_h90/y0.ifengimg.com/pmop/2014/10/25/9c6109b7-e1a5-44fe-9f53-bbf7a9fef185.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>美军放精美大片炫耀战力 分分钟打爆敌战舰</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/worldwide/201411/01a9d0d3-3860-4ce0-8d1b-1d78893cc11c.shtml">
+							<img title="" alt="" src="http://y1.ifengimg.com/a/2014_47/ecada2c8cd2227d.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>解放军全空域防空导弹系统首秀珠海航展</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/016777e1-010a-4149-a5fb-6cd785fce55b.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_47/6912016088d3b66.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>珠海航展闭幕日惊险一幕：阿联酋飞机冲出跑道 </em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/011385de-0133-418b-ba51-07e54627bf70.shtml">
+							<img title="" alt="" src="http://y3.ifengimg.com/a/2014_47/2b22919cbf05cf4.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>珠海航展观众超10万人 多警种协同护卫安全</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/mainland/201411/019703d5-f48e-43e9-84e2-cf71b8a5c4c4.shtml">
+							<img title="" alt="" src="http://y0.ifengimg.com/a/2014_47/1efe9cce8198361.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>山河飞行表演队三机表演 飞行员经历丰富</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01724d7d-34e9-4fa0-a040-fbd14567d5ef.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_47/81bf7c9dae3d538.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>美军空袭效果渐显 伊斯兰国多处受挫</em>
+						</a>
+				</li>
+					<li>
+						<a class="list_area_link" target="_blank" href="http://v.ifeng.com/mil/arms/201411/01acf1c5-6e37-41dd-a502-988d6fd4822c.shtml">
+							<img title="" alt="" src="http://y2.ifengimg.com/a/2014_47/2d1522764d4fcf4.jpg">
+							<span class="photos_shadow">
+								<i></i>
+							</span>
+							<em>第十届珠海航展闭幕 签约金额超200亿美元</em>
+						</a>
+				</li>
+				</ul>
+			</div> 
+            
+        </div>
+    </div>
+    <div class="column_aside">
+        <div class="mod_title">
+            <h2>
+                <a target="_blank" href="http://v.ifeng.com/vlist/nav/mili/update/1/list.shtml">军事专题</a>
+            </h2>
+        </div>
+        <div class="list_aside_box">
+        
+<div class="mod_format">
+				<a class="mod_format_link" href="http://v.ifeng.com/mil/special/2014xslt/" target="_blank">
+					<img src="http://y1.ifengimg.com/a/2014_48/024adabd27a53a9.jpg" alt="" title="">
+					<span class="photos_shadow">
+						<i></i>
+					</span>
+				</a>
+			</div>
+<div class="mod_format">
+				<a class="mod_format_link" href="http://v.ifeng.com/mil/special/2014zhhz/" target="_blank">
+					<img src="http://y1.ifengimg.com/a/2014_48/0aa0efe15453fb3.jpg" alt="" title="">
+					<span class="photos_shadow">
+						<i></i>
+					</span>
+				</a>
+			</div>
+ 
+        <div class="mod_format mod_format_bot">
+        <div class="one_pic">
+          <a target="video" href="http://v.ifeng.com/mil/mainland/201409/0191470a-4994-45f4-b922-c6494dd3e4c0.shtml">
+            <img title="" alt="" src="http://y0.ifengimg.com/a/2014_48/0b1715f361a2a84.jpg">
+            <span class="photos_shadow">
+              <i></i>
+            </span>
+            <em></em>
+            <span class="icon"></span>
+          </a>
+        </div>
+        <div class="one_text">
+          <h4>
+            <a target="_blank" href="http://v.ifeng.com/mil/mainland/201409/0191470a-4994-45f4-b922-c6494dd3e4c0.shtml">网友PS中国逆火轰炸机神图 骗倒一片人</a>
+          </h4>
+          <p>
+            <a target="_blank" href="http://v.ifeng.com/mil/mainland/201409/0191470a-4994-45f4-b922-c6494dd3e4c0.shtml">中国网友神PS，解放军开始装备俄罗斯逆火轰炸机，骗倒一帮人。</a>
+          </p>
+        </div>
+</div>       
+        </div>
+    </div>
+</div>
+<!--通栏列表03 end-->
+
+<div class="links">
+<!--合作专区 begin-->
+<dl>
+		<dt>合作专区</dt> 
+		<dd>
+			<a target="_blank" href="http://v.ifeng.com/">军情观察室</a>
+			<a target="_blank" href="http://v.ifeng.com/show/jqjm/index.shtml">军情解码</a>
+			<a target="_blank" href="http://v.ifeng.com/show/fwxgc/index.shtml">防务新观察</a>
+			<a target="_blank" href="http://v.ifeng.com/show/jskj/index.shtml">军事科技</a>
+			<a target="_blank" href="http://v.ifeng.com/show/jsjs/index.shtml">军事纪实</a>
+			<a target="_blank" href="http://v.ifeng.com/show/xsy/index.shtml">新视野</a>
+			<a target="_blank" href="http://v.ifeng.com/show/jszgd/index.shtml">决胜制高点</a>
+		</dd>                            
+	</dl> 
+<!--合作专区 end-->
+
+<!--友情链接 begin-->
+<dl>
+		<dt>友情链接</dt> 
+		<dd>
+			<a target="_blank"  href="http://v.ifeng.com/">中华军事</a>
+			<a target="_blank"  href="http://mil.tiexue.net/">铁血军事</a>
+			<a target="_blank"  href="http://www.qianyan001.com/">军事前沿</a>
+			<a target="_blank"  href="http://www.junshishu.com/">军事小说</a>
+			<a target="_blank"  href="http://www.fxingw.com/">复兴军事</a>
+			<a target="_blank"  href="http://www.zhqiangjun.com/">强军网</a>
+			<a target="_blank"  href="http://www.js811.com/">军事视频大全</a>
+			<a target="_blank"  href="http://mil.iqiyi.com/">爱奇艺军事</a>
+			<a target="_blank"  href="http://www.top81.com.cn/">鼎盛军事</a>
+			<a target="_blank"  href="http://youth.chinamil.com.cn/">青年军事</a>
+			<a target="_blank"  href="http://www.81tech.com/">国防科技网</a>
+			<a target="_blank"  href="http://www.xinjunshi.com/">环球新军事</a>
+			<a target="_blank"  href="http://www.zhjunshi.com/">振华军事</a>
+			<a target="_blank"  href="http://www.bilin.net/">比邻军事</a>
+			<a target="_blank"  href="http://www.qianzhan.com/military/">前瞻军事</a>
+			<a target="_blank"  href="http://www.xunleimil.com/">迅雷军事</a>
+			<a target="_blank"  href="http://www.huangpujs.cn/">中国军事</a>
+			<a target="_blank"  href="http://lt.cjdby.net/">超级大本营</a>
+			<a target="_blank"  href="http://www.ltaaa.com/">龙腾网</a>
+			<a target="_blank"  href="http://junshi.xilu.http://junshi.xilu.com/com/">西陆军事</a>
+			<a target="_blank"  href="http://www.chn2007.com/">CHN强国网</a>
+</dd>                            
+	</dl>
+
+<!--友情链接 end-->
+</div>
+<!--iphone style begin-->
+<style>
+	.Add_screen {
+	width: 251px;
+	height: 105.5px;
+	overflow: hidden;
+	background: url(http://y1.ifengimg.com/fe/cl/2013/1213/bg12.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	z-index: 99999;
+	margin-left: -125.5px;
+}
+.Add_screen a {
+float: right;
+width: 33px;
+height: 26px;
+overflow: hidden;
+text-indent: -999999px;
+margin: 5px 8px 0 0;
+}
+ </style>
+<!--iphone style end-->
+  <!--拉起客户端弹层 begin-->
+<div style="display:none;width:230px;height:80px;overflow:hidden;background:url(http://y1.ifengimg.com/a/2014_51/35c5b5fa42a2b50.png) no-repeat;-webkit-background-size: 100% 100%;-moz-background-size: 100% 100%;-o-background-size: 100% 100%;background-size: 100% 100%;position:fixed;bottom:5px;left:50%;z-index:99999;margin-left:-115px;" id="client-spread">
+    <a href="#"  id="client-spread-close" style="float:right;width:28px;height:26px;overflow:hidden;text-indent:-999999px;">关闭</a>
+    <p>
+        <a href="#" style="padding-left:80px;display:block;padding-top:20px;height:60px;overflow:hidden;color:#fff;font-size:15px;color:#fff;text-decoration:none;">
+            <span style="display:block;height:40px;line-height:20px;overflow:hidden;">  </span>
+        </a>
+    </p>
+</div>
+
+
+<!--拉起客户端弹层 end-->
+<div id="footAD_box"  >
+<div class="ad_top" id="footAd"  style="display:none;">
+  <div class="ad_top_wrap">
+  <div class="ad_top_left"><a href="#" class="vifeng_logo" ></a></div>
+  <div class="ad_top_right"><a href="#" class="download_btn" ></a>
+<span class="ad_top_close" id="ad_close2" ></span></div>
+</div>      </div>
+</div>
+
+<script>
+if (device.type === "mobile"||device.type === "pad") {
+	creatTasker(16, "base",  (function(){
+		 	
+			var footAd=document.getElementById("footAd");
+		    footAd.style.backgroundColor=AdData[3].background;
+
+			var vifeng_logo2 = $("#footAd .vifeng_logo")[0];
+			$(vifeng_logo2).css({"background":"url("+AdData[0].image+")","background-size":"100% 100%"});
+
+			var download_btn2= $("#footAd .download_btn")[0];
+			     $(download_btn2).css({"background":"url("+AdData[1].image+")","background-size":"100% 100%"});
+
+			var ad_close1= $("#ad_close2");
+			     $(ad_close2).css({"background":"url("+AdData[2].image+")","background-size":"100% 100%"}); 	
+			 }), true, 'h5底通广告');
+}
+</script>
+<!--统计探针代码-->
+
+    <div class="mfooter">
+   &copy; 2014&nbsp;&nbsp;凤凰视频 
+</div> 
+     <div class="btmsear"> 
+  <div class="sotool"> 
+   <form action="http://so.v.ifeng.com/video?q=&amp;c=5" method="get" target="_blank"> 
+    <span class="s_input_box"> <input type="text" value="" x-webkit-speech="" class="s_input" name="q" id="js_btSearch" /> </span> 
+    <input hidefocus="true" class="s_button" type="submit" value="凤搜" /> 
+   </form> 
+  </div> 
+  <ul class="btmnav"> 
+   <li><a href="http://v.ifeng.com/" target="_blank">视频首页</a></li> 
+   <li><a href="http://v.ifeng.com/news/" target="_blank">资讯</a></li> 
+   <li><a href="http://v.ifeng.com/ent/" target="_blank">娱乐</a></li> 
+   <li><a href="http://v.ifeng.com/documentary/" target="_blank">纪实</a></li> 
+   <li><a href="http://v.ifeng.com/mil/" target="_blank">军事</a></li> 
+   <li><a href="http://v.ifeng.com/vblog/" target="_blank">播客</a></li> 
+   <li><a href="http://phtv.ifeng.com/" target="_blank">卫视</a></li> 
+   <li><a href="http://v.ifeng.com/history/" target="_blank">历史</a></li> 
+   <li><a href="http://tv.v.ifeng.com/" target="_blank">影视</a></li> 
+   <li><a href="http://v.ifeng.com/fashion/" target="_blank">时尚</a></li> 
+   <li><a href="http://v.ifeng.com/program/" target="_blank">原创</a></li> 
+   <li><a href="http://vip.v.ifeng.com/" target="_blank">VIP</a></li> 
+   <li><a href="http://v.ifeng.com/gongkaike/" target="_blank">公开课</a></li> 
+   <li><a href="http://v.ifeng.com/live/" target="_blank">直播</a></li> 
+   <li><a href="http://v.ifeng.com/vlist/nav_category/infor_0019-0062-0006/update/1/list.shtml" target="_blank">体育</a></li> 
+   <li><a href="http://v.ifeng.com/vlist/nav_category/infor_0019-0062-0005/update/1/list.shtml" target="_blank">财经</a></li> 
+   <li><a href="http://v.ifeng.com/vlist/nav_category/infor_0019-0062-0007/update/1/list.shtml" target="_blank">评论</a></li> 
+   <li class="libgno"><a href="http://v.ifeng.com/vlist/nav_category/infor_0019-0062-0004/update/1/list.shtml" target="_blank">拍客</a></li> 
+  </ul> 
+ </div> 
+ <div class="chaFotNav"> 
+  <!--100325 begin--> 
+  <ul class="endNList"> 
+   <li><a href="http://www.ifeng.com/" target="_blank">首页</a></li> 
+   <li><a href="http://news.ifeng.com/" target="_blank">资讯</a></li> 
+   <li><a href="http://news.ifeng.com/taiwan/" target="_blank">台湾</a></li> 
+   <li><a href="http://opinion.ifeng.com/" target="_blank">评论</a></li> 
+   <li><a href="http://finance.ifeng.com/" target="_blank">财经</a></li> 
+   <li><a href="http://auto.ifeng.com/" target="_blank">汽车</a></li> 
+   <li><a href="http://tech.ifeng.com/" target="_blank">科技</a></li> 
+   <li><a href="http://house.ifeng.com/" target="_blank">房产</a></li> 
+   <li><a href="http://fashion.ifeng.com/travel/" target="_blank">旅游</a></li> 
+   <li><a href="http://ent.ifeng.com/" target="_blank">娱乐</a></li> 
+   <li><a href="http://fashion.ifeng.com/" target="_blank">时尚</a></li> 
+   <li><a href="http://news.ifeng.com/sports/" target="_blank">体育</a></li> 
+   <li><a href="http://news.ifeng.com/mil/" target="_blank">军事</a></li> 
+   <li><a href="http://news.ifeng.com/history/" target="_blank">历史</a></li> 
+   <li><a href="http://book.ifeng.com/" target="_blank">读书</a></li> 
+   <li><a href="http://edu.ifeng.com/" target="_blank">教育</a></li> 
+   <li><a href="http://fashion.ifeng.com/health/" target="_blank">健康</a></li> 
+   <li><a href="http://fashion.ifeng.com/baby/" target="_blank">亲子</a></li> 
+   <li><a href="http://games.ifeng.com/" target="_blank">游戏</a></li> 
+   <li><a href="http://city.ifeng.com/" target="_blank">城市</a></li> 
+   <li><a href="http://bbs.ifeng.com/" target="_blank">论坛</a></li> 
+   <li><a href="http://blog.ifeng.com/" target="_blank">博报</a></li> 
+   <li class="end"><a href="http://t.ifeng.com/" target="_blank">微博</a></li> 
+  </ul> 
+  <div class="navFocus"> 
+   <div class="navV"> 
+    <a href="http://v.ifeng.com/" target="_blank">视频</a>&middot; 
+   </div> 
+   <div class="navTmp"> 
+    <a href="http://v.ifeng.com/documentary/index.shtml" target="_blank">纪实</a>&middot; 
+   </div> 
+   <div class="ifengPlay"> 
+    <a href="http://v.ifeng.com/live/" target="_blank">直播</a> 
+   </div> 
+   <div class="tvPlay"> 
+    <a href="http://phtv.ifeng.com/" target="_blank">凤凰卫视</a> 
+   </div> 
+  </div> 
+  <!--100325 end--> 
+  <div class="clear"></div> 
+ </div> 
+ <div class="chaFotNav02"></div> 
+ <div class="chaFooter"> 
+  <div class="footLink"> 
+   <a href="http://www.ifeng.com/corp/about/intro/" target="_blank">凤凰新媒体介绍</a>| 
+   <a href="http://ir.ifeng.com/" target="_blank">投资者关系 Investor Relations</a>| 
+   <a href="http://www.ifeng.com/corp/ad/" target="_blank">广告服务</a>| 
+   <a href="http://career.ifeng.com/" target="_blank">诚征英才</a>| 
+   <a href="http://www.ifeng.com/corp/privacy/" target="_blank">保护隐私权</a>| 
+   <a href="http://www.ifeng.com/corp/exemption/" target="_blank">免责条款</a>| 
+   <a href="http://www.ifeng.com/corp/counselor/" target="_blank">法律顾问</a>| 
+   <a href="http://www.ifeng.com/corp/feedback/" target="_blank">意见反馈</a>| 
+   <a href="http://phtv.ifeng.com/intro/" target="_blank">凤凰卫视介绍</a> 
+  </div> 
+  <div class="copyright">
+    凤凰新媒体 版权所有 
+   <br /> Copyright &copy; 2011 Phoenix New Media Limited All Rights Reserved. 
+  </div>
+<script type="text/javascript" id="sta_collection_new">
+var sta_collection_time = new Date().getTime();
+/*function getStaPara(){return "vtype=player";}*/
+creatTasker(5, "", "http://y0.ifengimg.com/20140429/sta_collection.3.3.15.min.js", true, "统计探针")
+</script>
+<script type="text/javascript" src="http://m0.ifengimg.com/ifeng/sources/120331-iImpression.js"></script> 
+ </div> 
+ <script>try{aptracker.collection();}catch(e){}</script>
+    <script>window.onerror=function(){return true;}</script>                 
+<script src="http://y3.ifengimg.com/9db17ab793eef980/2013/0403/clickheat_sim.js"></script>
+<script>
+clickHeatSite = 'v'; 
+clickHeatGroup = 'mil';
+clickHeatServer = 'http://map.tongji.ifeng.com/clickheat/click.php';
+initClickHeat(); 
+</script>
+  
+    <script>
+_iwt_no_flash=0;
+var _iwt_UA="UA-ifeng-000001";
+(function (D) {
+var h=D.getElementsByTagName('head')[0],
+s=D.createElement('script');
+s.type='text/javascript';
+s.charset='utf-8';
+s.src='http://y1.ifengimg.com/8cbe73a7378dafdb/2012/0418/rdn_4f8e8837afe94.js?v=20120411';
+h.firstChild?h.insertBefore(s,h.firstChild):h.appendChild(s);
+})(document);
+</script>
+
+
+
+<script type="text/javascript">
+if(("undefined" != typeof INice) && !INice.getBrowser().IPAD){
+var mfp_channel =  "1";
+var mfp_host = "http://q.s.cr-nielsen.com/mfp/mfpMultipleDelivery.do";
+var mfp_user_cookie_name = "mfp_uid";
+var mfp_js="http://s.cr-nielsen.com/survey.js";
+var pv_rate=0.50000;
+var mfp_attrs = "";
+//用户自定义参数定义,格式为Qsystem_X,X为1到10的数字
+
+(function () {
+   var D=document;
+    this.MFP = {displays:[]};
+    var h = D.getElementsByTagName("head")[0];
+    var s = D.createElement("script");
+    s.type = "text/javascript";
+    s.charset = "utf-8";
+    s.src = mfp_js;
+    h.firstChild?h.insertBefore(s,h.firstChild):h.appendChild(s);
+})();
+MFP.displays.push("div-guru-ad-579");
+}
+</script>
+</body>
+</html>

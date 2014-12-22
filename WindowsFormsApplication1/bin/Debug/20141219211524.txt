@@ -1,0 +1,1164 @@
+﻿
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<base target="_blank" />
+<link href="http://y1.ifengimg.com/a/2013/0625/client_dl_2.css" rel="stylesheet"/>
+<script src="http://y0.ifengimg.com/a/2013_19/971eb2163c2b469.js"></script>
+<script src="http://y3.ifengimg.com/a/2013_19/3e07c21cd2f10f5.js"></script>
+<script src="http://y0.ifengimg.com/a/2013_19/fac3378f6f551b5.js"></script>
+<script src="http://y0.ifengimg.com/a/2013_19/f0c818d7d491d73.js"></script>
+<script src="http://y2.ifengimg.com/a/2013_19/bac66140e7666a8.js"></script>
+<script src="http://y2.ifengimg.com/a/2013_19/efad59683ae6aeb.js"></script>
+<style type="text/css">
+
+.clearfix:after{ visibility:hidden; display:block; font-size:0; content:" "; clear:both; height:0;}
+.clearfix{ display:block;}
+* html .clearfix{ height:1%;}
+    .scroll-img{
+        
+    }
+    .auto-scroll>div{
+        opacity: 0;
+        position: absolute;
+        top: 105px;
+        left: 0;
+        width: 100%;
+        display: block;
+
+        transition: opacity .5s ease-in-out;
+        -ms-transition: opacity .5s ease-in-out;
+        -moz-transition: opacity .5s ease-in-out;
+        -o-transition: opacity .5s ease-in-out;
+        -webkit-transition: opacity .5s ease-in-out;
+
+    }
+    .auto-bar{
+        /*position: absolute;*/
+        /*top: 519px;*/
+        margin: 0 auto;
+        width: 100%;
+    }
+	.help{ padding:0;}
+	.auto1{
+  background:none;
+  }
+</style>
+<script>
+    function crossAjax(url){
+        var script = document.createElement('script');
+        script.setAttribute('src', url);
+        document.getElementsByTagName('head')[0].appendChild(script);
+    }
+
+    function listen(src,type,callback){
+        if (document.all){
+          src.attachEvent(type,callback,false)//IE
+        }else{
+          src.addEventListener(type,callback,false);//FireFox,chrome,safari
+        }
+    }
+    function getIndex(doms, activeDom){
+        var i=0, index = null;
+        while(i<doms.length){
+            if(activeDom == doms[i]){
+                index = i;
+            }
+            ++i;
+        }
+        return index;
+    }
+    function setCss(dom, css){
+        if(dom){
+           if(dom.style.cssText){
+                dom.style.cssText += ';'+css;//IE
+            }
+            else{
+                dom.style.cssText = css;
+            }
+                
+        }
+    }
+    function showOne(doms, activeIndex, onCss,offCss){
+        var i=0;
+        while(i<doms.length){
+            if(i == activeIndex){
+                setCss(doms[i],onCss);
+            }else{
+                setCss(doms[i],offCss);
+            }
+            ++i;
+        }
+    }
+    function toArray(doms){
+        var row_array = [];
+        for (var i = 0; i < doms.length; i++) {
+          row_array.push(doms[i]);
+        }
+        return row_array;
+    }
+    function play(covers, indicators, index){
+		
+        //showOne(covers,index,'z-index: 10;opacity: 1;','z-index: 1;opacity: 1;');
+        //showOne(indicators,index,'background: url(http://s1.mimg.ifeng.com/upload/day_130507/201305070957002325.gif) 0 -74px no-repeat;','background: url(http://s1.mimg.ifeng.com/upload/day_130507/201305070957002325.gif) -15px -74px no-repeat;');
+		
+        showOne(covers,index,'z-index: 10;opacity: 1; height:480px;','z-index: 10;opacity: 1; height:480px;');//修改了透明度，高度
+        showOne(indicators,index,'background: url(http://s1.mimg.ifeng.com/upload/day_130507/201305070957002325.gif) 0 -74px no-repeat;','background: url(http://s1.mimg.ifeng.com/upload/day_130507/201305070957002325.gif) 0 -74px no-repeat;');
+    }
+
+
+    var curvyCornersVerbose = false, scrollCover = null, scrollIndex = 0;
+    $(function(){
+        play(covers,indicators,scrollIndex);++scrollIndex;
+        scrollCover = setInterval(function(){
+            if(scrollIndex > 3) scrollIndex = 0;
+            play(covers,indicators,scrollIndex);
+            ++scrollIndex;
+        },1000*3);
+        //send sms
+        $('#send-sms').click(function(e){
+            var m = document.getElementById('mobile');
+            if(m.value){
+                crossAjax('http://3g.ifeng.com/client_sms_api?mobile='+m.value);
+            }else{
+                alert("请输入手机号码!");
+            }    
+        });
+
+        $("#news-wrapper").scrollbars();
+
+    });
+
+
+</script>
+<title>凤凰客户端</title>
+</head>
+
+<body>
+<script>
+function getParameter(paraStr, url)  
+{  
+    var result = "";  
+ 
+    var str = "&" + url.split("?")[1];  
+    var paraName = paraStr + "=";  
+
+    if(str.indexOf("&"+paraName)!=-1)  
+    {
+        if(str.substring(str.indexOf(paraName),str.length).indexOf("&")!=-1)  
+        {  
+  
+            var TmpStr=str.substring(str.indexOf(paraName),str.length);    
+            result=TmpStr.substr(TmpStr.indexOf(paraName),TmpStr.indexOf("&")-TmpStr.indexOf(paraName));    
+        }  
+        else  
+        {    
+            result=str.substring(str.indexOf(paraName),str.length);    
+        }  
+    }    
+    else  
+    {    
+        result="";    
+    }    
+    return (result.replace("&",""));
+}
+var openshow = 0;
+var localurl = location.href;
+var getnews = getParameter("getnews",localurl); 
+var pgetnews = getnews.split("=")[1];
+if(pgetnews=="origin") {
+  document.write('<iframe src="comifengnewsapp://list/origin" id="launchIfengNewsClient" style="display: none; border: 0;" frameborder="no"></iframe>');
+}
+</script>
+<div class="wrap">
+    <div class="header clearfix">
+        <div class="logo img"><a href="#"><img src="http://y3.ifengimg.com/ifengimcp/pic/20140507/a400fdfa84e94c2c1a43_size12_w496_h73.png" alt="手凤新闻"/></a></div>
+        <div class="nav clearfix">
+            <a class="index index_d" href="http://news.ifeng.com/app/special-api/new-list/ifeng/ifeng_client_spread/"></a>
+            <a class="help" href="http://news.ifeng.com/app/special-api/new-list/ifeng/ifeng_client_spread_help.html" ></a>
+            <a class="contact" href="http://news.ifeng.com/app/special-api/new-list/ifeng/ifeng_client_spread_connect.html"></a>
+            <a class="dl" href="http://v.ifeng.com/apps/index.shtml"></a>
+        </div>
+    </div>
+</div>
+<div class="scroll-img" style="height:auto;">
+    <div class="auto-scroll img" id="cover-wrapper" style="height:480px; overflow:hidden;">
+        
+        <div class="auto1" >
+            <div><img src="http://y0.ifengimg.com/ifengimcp/pic/20141111/38b325f8be97fd85fb0b_size76_w980_h480.jpg" style="width:980px; height:480px; margin:auto;" /></div>
+        </div>
+
+<!--
+ <div class="auto2">
+            <div style="background:url(http://s4.mimg.ifeng.com/upload/day_130507/201305070956582244.jpg) center 0 no-repeat;"></div>
+        </div>
+        <div class="auto3">
+            <div   style="background:url(http://s0.mimg.ifeng.com/upload/day_130507/201305070956589072.jpg) center 0 no-repeat;"></div>
+        </div>
+        <div class="auto4">
+            <div  style="background:url(http://s0.mimg.ifeng.com/upload/day_130507/201305070956585099.jpg) center 0 no-repeat;"></div>
+        </div>
+        <div class="auto5">
+            <div><img src="http://s4.mimg.ifeng.com/upload/day_130507/201305070956596173.jpg" alt=""/></div>
+        </div> -->
+    </div>
+    <div class="auto-bar" style="display:none;">
+        <ul class="clearfix"  id="indicator-wrapper">
+            <!--<li class="default"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+             <li></li>-->
+        </ul>
+    </div> 
+</div>
+
+<script>
+    var indicator = document.getElementById('indicator-wrapper'),indicators = toArray(indicator.children),
+    cover = document.getElementById('cover-wrapper'),covers = toArray(cover.children);
+    //delegate
+    $(indicator).delegate('li','click mouseover', function(e){
+        if(scrollCover)clearInterval(scrollCover);
+        var t = e.target;
+
+
+
+        scrollIndex = getIndex(indicators, t);
+        play(covers,indicators,scrollIndex);
+
+    });
+</script>
+<div class="content">
+    <div class="one-part clears">
+        <div class="download">
+            <h2 class="m-title img"><img src="http://s4.mimg.ifeng.com/upload/day_130507/201305070956595392.jpg" alt=""/></h2>
+            <ul class="four-btn clears">
+                 
+
+                <li class="list1"><a href="https://itunes.apple.com/us/app/feng-huang-xin-wen/id395133418?ls=1&mt=8"></a></li>
+                <li class="list2"><a href="http://dl.app.ifengcdn.com/other/201412/5000_Android_2.3_V4.3.5_5008.apk"></a></li>
+                <li class="list3"><a href="https://itunes.apple.com/cn/app/id463309803?mt=8"></a></li>
+                <li class="list4"><a href="http://www.windowsphone.com/zh-cn/store/app/%E9%B3%B3%E5%87%B0%E6%96%B0%E8%81%9E/5ad4a6ac-90aa-4e7f-890b-7f230ef454c9"></a></li>
+            </ul>
+            <dl class="code clears img">
+                <dt><a href="javascript:void(0);"><img src="http://s1.mimg.ifeng.com/upload/day_130507/201305071104223405.jpg" alt="" width="71" height="71"/></a></dt>
+                <dd>
+                    <img src="http://s2.mimg.ifeng.com/upload/day_130508/201305081543202030.jpg" alt=""/>
+                </dd>
+            </dl>
+            <div class="clears telephone img">
+                <dl>
+                    <dt><img src="http://s4.mimg.ifeng.com/upload/day_130507/201305070957008767.jpg" alt=""/></dt>
+                    <dd>
+                        <img src="http://s3.mimg.ifeng.com/upload/day_130508/201305081543202308.jpg" alt=""/>
+                        <div>
+                            <input type="text" id="mobile" value=""/>
+                            <input type="button" value="" id="send-sms" class="btn"/>
+                        </div>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><img src="http://s4.mimg.ifeng.com/upload/day_130507/201305070957002931.jpg" alt=""/></dt>
+                    <dd>
+                        <img src="http://s4.mimg.ifeng.com/upload/day_130508/201305081543211859.jpg" alt=""/>
+                        <a href="http://apps.ifeng.com/wap/">http://apps.ifeng.com/wap/</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="update">
+            <h2 class="m-title img"><img src="http://s1.mimg.ifeng.com/upload/day_130507/201305070957001427.jpg" alt=""/></h2>
+            <div class="update-con">
+                <div class="scroll-wrap clears" id="news-wrapper">
+                    <div class="scroll-con">
+                        <ul>
+</li>
+    <div class="tit">
+        <strong>Android4.3.5</strong>
+        <span>发布于2014-12-9</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">积分商城上线:浏览凤凰新闻的同时，可以提高用户等级，轻松赚取积分，在积分商城里兑换礼品</a></p>
+	 <p>· <a href="javascript:void(0);">添加推荐频道:我们依照用户的阅读习惯和周边位置信息，在推荐频道推送更多精准的个性化内容</a></p>
+	 <p>· <a href="javascript:void(0);">自媒体再升级:升级之后可以更方便的管理订阅您自媒体频道的内容</a></p>
+    </div>
+</li>
+</li>
+    <div class="tit">
+        <strong>Android4.3.4</strong>
+        <span>发布于2014-11-17</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">界面设计:我们对界面进行了重新设计。新的界面更简单、清爽，内容布局更加条理有序</a></p>
+	 <p>· <a href="javascript:void(0);">个人中心:您可以在个人中心中看到自己的消息提醒、用户评论以及评论互动的内容</a></p>
+	 <p>· <a href="javascript:void(0);">订阅频道:您可以在凤凰新闻订阅自己感兴趣的内容。点击界面上左上角的凤凰 Logo ，就可以轻松切换到您的订阅频道</a></p>
+	 <p>· <a href="javascript:void(0);">收藏同步:用户之前收藏的新闻，可以通过我们的云服务器同步了</a></p>
+	 <p>· <a href="javascript:void(0);">桌面组件:用户可以创建桌面组件，随时查看阅读凤凰新闻的实时内容，更加方便快捷</a></p>
+	 <p>· <a href="javascript:void(0);">新版瘦身:凤凰新闻客户端新版大瘦身，不到6M的安装包帮您轻量收纳，更有效节省用户的手机空间</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>iOS4.5.0</strong>
+        <span>发布于2014-11-04</span>
+    </div>
+    <span class="detail">适用于iOS5.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">评论页面重新设计，点击用户头像查看用户动态，让互动更加便捷</a></p>
+	 <p>· <a href="javascript:void(0);">卫视频道与订阅：凤凰卫视三台联动；24小时视频新闻不间断播报</a></p>
+	 <p>· <a href="javascript:void(0);">文章工具栏变得更加贴心，“字号”“收藏”“夜间模式”等常用功能触手可及</a></p>
+	 <p>· <a href="javascript:void(0);">新增“直播” “彩票”频道，为您提供多元的资讯内容</a></p>
+	 <p>· <a href="javascript:void(0);">增加“微信登陆”</a></p>
+    </div>
+</li>
+</li>
+    <div class="tit">
+        <strong>Android4.3.3</strong>
+        <span>发布于2014-10-29</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">界面设计:我们对界面进行了重新设计。新的界面更简单、清爽，内容布局更加条理有序</a></p>
+	 <p>· <a href="javascript:void(0);">个人中心:您可以在个人中心中看到自己的消息提醒、用户评论以及评论互动的内容</a></p>
+	 <p>· <a href="javascript:void(0);">订阅频道:您可以在凤凰新闻订阅自己感兴趣的内容。点击界面上左上角的凤凰 Logo ，就可以轻松切换到您的订阅频道</a></p>
+	 <p>· <a href="javascript:void(0);">收藏同步:用户之前收藏的新闻，可以通过我们的云服务器同步了</a></p>
+	 <p>· <a href="javascript:void(0);">桌面组件:用户可以创建桌面组件，随时查看阅读凤凰新闻的实时内容，更加方便快捷</a></p>
+	 <p>· <a href="javascript:void(0);">新版瘦身:凤凰新闻客户端新版大瘦身，不到6M的安装包帮您轻量收纳，更有效节省用户的手机空间</a></p>
+    </div>
+</li>
+</li>
+    <div class="tit">
+        <strong>Android4.3.2</strong>
+        <span>发布于2014-09-24</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">全新UI设计：凤凰新闻新版更新了全新设计用户界面，更简单清爽，内容布局更加条理有序</a></p>
+	 <p>· <a href="javascript:void(0);">直播频道：我们新增了丰富多彩的直播频道，用户可以随时跟踪和回顾凤凰新闻的直播内容</a></p>
+	 <p>· <a href="javascript:void(0);">订阅频道：为了满足用户的多元阅读需求，现在您可以通过凤凰新闻订阅模块添加自己感兴趣的内容。点击界面上左上角的凤凰 Logo ，轻松切换到您的订阅频道</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>iOS4.4.5</strong>
+        <span>发布于2014-09-24</span>
+    </div>
+    <span class="detail">适用于iOS5.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">头条、军事、历史、财经、娱乐，体育频道：再现凤凰优质经典内容</a></p>
+	 <p>· <a href="javascript:void(0);">卫视频道与订阅：凤凰卫视三台联动；24小时视频新闻不间断播报</a></p>
+	 <p>· <a href="javascript:void(0);">图文直播室、体育直播室：直播、互动一网打尽</a></p>
+	 <p>· <a href="javascript:void(0);">更多订阅：甄选内容，自由掌握</a></p>
+	 <p>· <a href="javascript:void(0);">设置页：更多功能、更多选择</a></p>
+	 <p>· <a href="javascript:void(0);">适配ios8</a></p>
+    </div>
+</li>
+</li>
+    <div class="tit">
+        <strong>Android4.3.1</strong>
+        <span>发布于2014-09-16</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">新的界面更简单、清爽</a></p>
+	 <p>· <a href="javascript:void(0);">丰富了头条列表的形态</a></p>
+	 <p>· <a href="javascript:void(0);">点击凤凰 Logo ，可轻松切换到订阅频道</a></p>
+    </div>
+</li>
+</li>
+    <div class="tit">
+        <strong>Android4.3.0</strong>
+        <span>发布于2014-09-02</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">新的界面更简单、清爽，内容布局更加条理有序</a></p>
+	 <p>· <a href="javascript:void(0);">丰富了头条列表的形态，您可以不断从列表中获取最新资讯</a></p>
+	 <p>· <a href="javascript:void(0);">点击界面上左上角的凤凰 Logo ，就可以轻松切换到您的订阅频道</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>iOS4.4.3</strong>
+        <span>发布于2014-08-08</span>
+    </div>
+    <span class="detail">适用于iOS5.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">头条、军事、历史、财经、娱乐，体育频道：再现凤凰优质经典内容</a></p>
+	 <p>· <a href="javascript:void(0);">卫视频道与订阅：凤凰卫视三台联动；24小时视频新闻不间断播报</a></p>
+	 <p>· <a href="javascript:void(0);">图文直播室、体育直播室：直播、互动一网打尽</a></p>
+	 <p>· <a href="javascript:void(0);">更多订阅：甄选内容，自由掌握</a></p>
+	 <p>· <a href="javascript:void(0);">设置页：更多功能、更多选择</a></p>
+    </div>
+</li>
+    <div class="tit">
+        <strong>Android4.2.4</strong>
+        <span>发布于2014-07-22</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">修复了部分标题显示不全等Bugs</a></p>
+	 <p>· <a href="javascript:void(0);">“图文直播”的听筒、扬声器模式可智能切换</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>iOS4.4.2</strong>
+        <span>发布于2014-07-04</span>
+    </div>
+    <span class="detail">适用于iOS5.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+    <div class="list">
+        <p>· <a href="javascript:void(0);">修复bug</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>Android4.2.3</strong>
+        <span>发布于2014-07-02</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">优化显示界面</a></p>
+	 <p>· <a href="javascript:void(0);">新增精准化游戏推荐</a></p>
+	 <p>· <a href="javascript:void(0);">优化体育直播，观看比赛更精彩</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>Android4.2.2</strong>
+        <span>发布于2014-06-17</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">世界杯赛事直播</a></p>
+	 <p>· <a href="javascript:void(0);">精准化推送</a></p>
+	 <p>· <a href="javascript:void(0);">提升浏览速度</a></p>
+	 <p>· <a href="javascript:void(0);">优化占用手机内存bug</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>iOS4.4.1</strong>
+        <span>发布于2014-06-10</span>
+    </div>
+    <span class="detail">适用于iOS5.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+    <div class="list">
+        <p>· <a href="javascript:void(0);">“世界杯频道”，所有赛事一屏掌握</a></p>
+        <p>· <a href="javascript:void(0);">“头条快讯”，精彩赛事一网打尽</a></p>
+        <p>· <a href="javascript:void(0);">“体育直播”、“图文直播”，全面报道赛场内外最新动态</a></p>
+        <p>· <a href="javascript:void(0);">“直播预定”，爸比说再也不会错过午夜球赛</a></p>
+        <p>· <a href="javascript:void(0);">更多iOS“大表哥”活动，敬请期待</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>Android4.2.1</strong>
+        <span>发布于2014-06-6</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">世界杯赛事直播</a></p>
+	 <p>· <a href="javascript:void(0);">精准化推送</a></p>
+	 <p>· <a href="javascript:void(0);">提升浏览速度</a></p>
+	 <p>· <a href="javascript:void(0);">优化占用手机内存bug</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>iOS4.4.0</strong>
+        <span>发布于2014-06-05</span>
+    </div>
+    <span class="detail">适用于iOS5.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+    <div class="list">
+        <p>· <a href="javascript:void(0);">“世界杯频道”，所有赛事一屏掌握</a></p>
+        <p>· <a href="javascript:void(0);">“头条快讯”，精彩赛事一网打尽</a></p>
+        <p>· <a href="javascript:void(0);">“体育直播”、“图文直播”，全面报道赛场内外最新动态</a></p>
+        <p>· <a href="javascript:void(0);">“直播预定”，爸比说再也不会错过午夜球赛</a></p>
+        <p>· <a href="javascript:void(0);">更多iOS“大表哥”活动，敬请期待</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>iOS 4.3.1</strong>
+        <span>发布于2014-05-13</span>
+    </div>
+    <span class="detail">适用于iOS5.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+    <div class="list">
+	<p>· <a href="javascript:void(0);">焦点图的样式优化</a></p>
+	<p>· <a href="javascript:void(0);">bug fix</a></p>
+
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>iOS 4.3.0</strong>
+        <span>发布于2014-05-8</span>
+    </div>
+    <span class="detail">适用于iOS5.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+    <div class="list">
+	<p>· <a href="javascript:void(0);">新增“财经大盘”功能，随时掌握股市变动</a></p>
+	<p>· <a href="javascript:void(0);">优化“图文直播”功能，新闻赛事，让你身临其境</a></p>
+	<p>· <a href="javascript:void(0);">优化“订阅”功能，操作更加简单，满足你所有的兴趣内容</a></p>
+
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>Android4.2.0</strong>
+        <span>发布于2014-05-6</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">新增"图文直播"功能，新闻赛事如临现场</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>Android4.1.7</strong>
+        <span>发布于2014-04-26</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">修复已知bug</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>Android4.1.6</strong>
+        <span>发布于2014-04-15</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">图集交互优化：方便看图，享受乐趣生活</a></p>
+	 <p>· <a href="javascript:void(0);">新增夜间模式：一键切换夜间模式，绝佳阅读体验不容错过</a></p>
+	 <p>· <a href="javascript:void(0);">凤凰卫视频道：客户端观看卫视节目，信息随时掌握</a></p>
+	 <p>· <a href="javascript:void(0);">修复已知bug</a></p>
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>iOS 4.2.4</strong>
+        <span>发布于2014-04-9</span>
+    </div>
+    <span class="detail">适用于iOS5.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+    <div class="list">
+	<p>· <a href="javascript:void(0);">新增“博报”频道：更多观点交锋，更多精彩原创，让阅读更丰富，让世界更多元</a></p>
+	<p>· <a href="javascript:void(0);">新增“自媒体“频道：观点接力，精彩纷呈，凤凰精选自媒体优质内容每日推荐</a></p>
+	<p>· <a href="javascript:void(0);">字号优化&其他优化</a></p>
+	<p>· <a href="javascript:void(0);">修复其它已知Bug</a></p>
+
+    </div>
+</li>
+<li>
+    <div class="tit">
+        <strong>Android4.1.5</strong>
+        <span>发布于2014-03-28</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">新增夜间模式：一键切换夜间模式，绝佳阅读体验不容错过</a></p>
+	 <p>· <a href="javascript:void(0);">新增自媒体频道：甄选自媒体高品质文章，在这里，读懂世界</a></p>
+	 <p>· <a href="javascript:void(0);">开放登录注册：支持凤凰通、第三方账号、手机、邮箱四种登陆注册方式</a></p>
+	 <p>· <a href="javascript:void(0);">支持当前页播放视频：视频节目当前页播放，同时可收回视频播放框</a></p>
+    </div>
+</li>
+
+<li>
+    <div class="tit">
+        <strong>iOS 4.2.3</strong>
+        <span>发布于2014-02-28</span>
+    </div>
+    <span class="detail">适用于iOS5.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+    <div class="list">
+	<p>· <a href="javascript:void(0);">特别增加两会频道：大事发生看凤凰！图文、直播、深度剖析……全方位多角度展现两会信息，解读政策含义，让您第一时间走进两会、走进未来大趋势！</a></p>
+	<p>· <a href="javascript:void(0);">媒体订阅：订阅推送功能全新上线，随时呈现优质信息，不再错过精彩内容</a></p>
+	<p>· <a href="javascript:void(0);">图集优化：献礼读图时代，最适合手机阅读的图片浏览模式</a></p>
+	<p>· <a href="javascript:void(0);">修复其它已知Bug</a></p>
+
+    </div>
+</li>
+
+<li>
+    <div class="tit">
+        <strong>Android4.1.4</strong>
+        <span>发布于2014-02-27</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+	 <p>· <a href="javascript:void(0);">两会频道：大事发生看凤凰！图文、直播、深度剖析……全方位、多角度展现两会信息，解读政策含义，让您第一时间走进两会、走进中国未来大势！</a></p>
+	 <p>· <a href="javascript:void(0);">两会专题：快速传递政策信息，深度解读两会内容，延续凤凰强势内容基因与超强政策解读优势</a></p>
+	 <p>· <a href="javascript:void(0);">UI全面升级：视觉界面更美观、更简洁，更适合新闻内容阅读</a></p>
+	 <p>· <a href="javascript:void(0);">全新交互体验：更友好、更符合用户习惯的交互体验，一指阅天下的便捷操作</a></p>
+    </div>
+</li>
+
+<li>
+    <div class="tit">
+        <strong>Android4.1.2</strong>
+        <span>发布于2014-01-23</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+        <p>· <a href="javascript:void(0);">摇钱树：春节贺岁独家线上活动，凤凰摇钱树，好礼送到家！</a></p>
+        <p>· <a href="javascript:void(0);">凤凰博报：更多观点交锋，更多精彩原创，让阅读更丰富，让世界更多元</a></p>
+        <p>· <a href="javascript:void(0);">非新闻：凤凰新闻客户端精英编辑团队精心打造独家原创内容，最适合碎片时间阅读的新闻栏目</a></p>
+        <p>· <a href="javascript:void(0);">其他：专题加载优化、Bug修复</a></p>
+    </div>
+</li>
+
+<li>
+    <div class="tit">
+        <strong>iOS4.2.0</strong>
+        <span>发布于2014-01-01</span>
+    </div>
+    <span class="detail">适用于iOS5.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+    <div class="list">
+        <p>· <a href="javascript:void(0);">视频新闻：独家引入凤凰卫视频道优质内容，让新闻更好看</a></p>
+        <p>· <a href="javascript:void(0);">媒体订阅：第三方媒体账户入驻，更多观点交锋，让阅读更丰富</a></p>
+        <p>· <a href="javascript:void(0);">凤凰调查：广开言路，扩大中国网民的发声渠道</a></p>
+        <p>· <a href="javascript:void(0);">用户中心：个性化新闻阅读，"我的应用我做主"！ </a></p>
+        <p>· <a href="javascript:void(0);">非新闻：凤凰新闻客户端精英编辑团队精心打造独家原创内容</a></p>
+        <p>· <a href="javascript:void(0);">其他：评论优化、正文页优化、头条优化、新增频道/头图、刷新策略优化</a></p>
+    </div>
+</li>
+
+
+<li>
+    <div class="tit">
+        <strong>Android4.1.1</strong>
+        <span>发布于2013-12-30</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+        <p>· <a href="javascript:void(0);">凤凰卫视：独家引入凤凰卫视频道优质内容，让新闻更好看</a></p>
+        <p>· <a href="javascript:void(0);">凤凰调查：广开言路，扩大中国网民的发声渠道</a></p>
+        <p>· <a href="javascript:void(0);">频道订阅：快速订阅凤凰新闻客户端频道内容，只看你喜欢的</a></p>
+        <p>· <a href="javascript:void(0);">原创频道：凤凰新闻客户端精英编辑团队精心打造独家原创内容，仅此一家，绝无分号</a></p>
+        <p>· <a href="javascript:void(0);">单条跟帖分享：一键分享评论内容至各大SNS平台，观点表达更自由</a></p>
+    </div>
+</li>
+
+<li>
+    <div class="tit">
+        <strong>Android4.1.0</strong>
+        <span>发布于2013-12-4</span>
+    </div>
+    <span class="detail">适用于Android2.2或更高版本</span>
+    <div class="list">
+        <p>· <a href="javascript:void(0);">频道自定义，栏目您做主</a></p>
+        <p>· <a href="javascript:void(0);">桌面小组件，快速查看新闻</a></p>
+        <p>· <a href="javascript:void(0);">首屏右滑设置，功能轻松选</a></p>
+        <p>· <a href="javascript:void(0);">新增多个频道，内容更丰富</a></p>
+    </div>
+</li>
+			   <li>
+                                <div class="tit">
+                                    <strong>Android4.0.8</strong>
+                                    <span>发布于2013-11-20</span>
+                                </div>
+                                <span class="detail">适用于Android2.2或更高版本</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">修复一些bug</a></p>
+                                </div>
+                            </li>
+                           <li>
+                                <div class="tit">
+                                    <strong>iOS4.1.5</strong>
+                                    <span>发布于2013-11-18</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iOS7进行优化</span>
+                                <div class="list">
+									<p>· <a href="javascript:void(0);">完美适配iOS7</a></p>
+									<p>· <a href="javascript:void(0);">全新交互，上、下、左、右，单手看新闻；</a></p>
+									<p>· <a href="javascript:void(0);">全新设置页，新闻、原创栏目、图片快速切换</a></p>
+									<p>· <a href="javascript:void(0);">优化文章页样式和功能</a></p>
+									<p>· <a href="javascript:void(0);">优化夜间模式</a></p>
+									<p>· <a href="javascript:void(0);">优化图文直播、专题、跟贴页的样式</a></p>
+									<p>· <a href="javascript:void(0);">调整图片加载规则</a></p>
+									<p>· <a href="javascript:void(0);">登录账号发表跟贴显示自定义图像</a></p>
+									<p>· <a href="javascript:void(0);">修复若干bug.</a></p>
+                                    </div>
+                          </li>
+			<li>
+                                <div class="tit">
+                                    <strong>Android4.0.7</strong>
+                                    <span>发布于2013-11-14</span>
+                                </div>
+                                <span class="detail">适用于Android2.2或更高版本</span>
+
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">新增无图模式，省大把流量</a></p>
+                                    <p>· <a href="javascript:void(0);">新增频道焦点图，内容更丰富</a></p>
+                                    <p>· <a href="javascript:void(0);">更多平台分享，好新闻大家看</a></p>
+                                    <p>· <a href="javascript:void(0);">优化图片显示，划出更多大图</a></p>
+                                    <p>· <a href="javascript:void(0);">优化性能，运行更快速</a></p>
+                                    <p>· <a href="javascript:void(0);">优化部分机型列表页UI</a></p>
+                                    <p>· <a href="javascript:void(0);">修复部分bug</a></p>
+                                </div>
+                        </li>
+                           <li>
+                                <div class="tit">
+                                    <strong>iOS4.1.4</strong>
+                                    <span>发布于2013-11-11</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iOS7进行优化</span>
+                                <div class="list">
+									<p>· <a href="javascript:void(0);">完美适配IOS7</a></p>
+									<p>· <a href="javascript:void(0);">全新交互，上、下、左、右，单手看新闻；</a></p>
+									<p>· <a href="javascript:void(0);">全新设置页，新闻、原创栏目、图片快速切换</a></p>
+									<p>· <a href="javascript:void(0);">优化文章页样式和功能</a></p>
+									<p>· <a href="javascript:void(0);">优化夜间模式</a></p>
+									<p>· <a href="javascript:void(0);">优化图文直播、专题、跟贴页的样式</a></p>
+									<p>· <a href="javascript:void(0);">调整图片加载规则</a></p>
+									<p>· <a href="javascript:void(0);">登录账号发表跟贴显示自定义图像 </a></p>
+									<p>· <a href="javascript:void(0);">修复若干bug.</a></p>
+                                    </div>
+                          </li>
+
+
+			<li>
+                                <div class="tit">
+                                    <strong>Android4.0.6</strong>
+                                    <span>发布于2013-09-29</span>
+                                </div>
+                                <span class="detail">适用于Android2.2或更高版本</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">修复一些bug</a></p>
+                                </div>
+                            </li>
+                           <li>
+                                <div class="tit">
+                                    <strong>iOS4.1.3</strong>
+                                    <span>发布于2013-09-29</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iOS7进行优化</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">修复在iOS7中无法分享到微信好友和朋友圈的问题</a></p>
+                                    </div>
+                          </li>
+                            <li>
+                                <div class="tit">
+                                    <strong>iOS4.1.2</strong>
+                                    <span>发布于2013-09-27</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iOS7进行优化</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">新增策划专题，热点话题深度解析</a></p>
+                                    <p>· <a href="javascript:void(0);">全新图文直播，现场资讯一键分享给好友</a></p>
+                                    <p>· <a href="javascript:void(0);">新增字体放大设置，支持手势放大字体</a></p>
+                                    <p>· <a href="javascript:void(0);">全新正文样式，提供更好的阅读体验</a></p>
+                                    <p>· <a href="javascript:void(0);">支持分享给QQ好友，分享到QQ空间</a></p>
+                                    <p>· <a href="javascript:void(0);">优化新闻加载速度，看图片看专题更省流量</a></p>
+                                    <p>· <a href="javascript:void(0);">优化部分界面和交互</a></p>
+                                    <p>· <a href="javascript:void(0);">解决图片加载失败等的问题</a></p>
+                                </div>
+                            </li>
+                             <li>
+                                <div class="tit">
+                                    <strong>Android4.0.5</strong>
+                                    <span>发布于2013-09-25</span>
+                                </div>
+                                <span class="detail">适用于Android2.2或更高版本</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">全新策划，凤凰独家视角</a></p>
+                                    <p>· <a href="javascript:void(0);">图文直播，直击新闻现场</a></p>
+                                    <p>· <a href="javascript:void(0);">正文图集，划出更多大图</a></p>
+                                    <p>· <a href="javascript:void(0);">字体变色加粗，显示更丰富</a></p>
+                                    <p>· <a href="javascript:void(0);">优化视频码率，播放更高清</a></p>
+                                    <p>· <a href="javascript:void(0);">优化分享页面功能和样式</a></p>
+                                    <p>· <a href="javascript:void(0);">优化相关新闻的样式</a></p>
+                                    <p>· <a href="javascript:void(0);">修复评论系统相关bug</a></p>
+                                    <p>· <a href="javascript:void(0);">修复客户端部分崩溃问题</a></p>
+                                </div>
+                            </li>
+                            </li>
+                              <li>
+                                <div class="tit">
+                                    <strong>iOS4.1.1</strong>
+                                    <span>发布于2013-09-08</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iOS7进行优化</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">新增2G/3G无图阅读模式</a></p>
+                                    <p>· <a href="javascript:void(0);">新增体育、娱乐、科技频道焦点大图</a></p>
+                                    <p>· <a href="javascript:void(0);">全新推送平台，收到新闻更及时</a></p>
+                                    <p>· <a href="javascript:void(0);">修复跟贴显示的几个问题</a></p>
+                                    <p>· <a href="javascript:void(0);">修复iOS7下崩溃、黑条、灰图等几个问题</a></p>
+                                </div>
+                            </li>
+                             <li>
+                                <div class="tit">
+                                    <strong>Android4.0.4</strong>
+                                    <span>发布于2013-08-22</span>
+                                </div>
+                                <span class="detail">适用于Android2.2或更高版本</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">新增体育直播间，直击精彩赛事</a></p>
+                                    <p>· <a href="javascript:void(0);">新增专题刷新，最新报导及时呈现</a></p>
+                                    <p>· <a href="javascript:void(0);">新增专题跟帖，查看网友互动热评</a></p>
+                                    <p>· <a href="javascript:void(0);">推送夜间免打扰，为您贴心考量</a></p>
+                                    <p>· <a href="javascript:void(0);">优化推送通知栏，热点新闻不错过</a></p>
+                                    <p>· <a href="javascript:void(0);">优化正文左右滑动手势操作</a></p>
+                                    <p>· <a href="javascript:void(0);">优化内容加载，提升稳定性</a></p>
+                                    <p>· <a href="javascript:void(0);">修复其他一些已知的bug</a></p>
+                                </div>
+           </li>
+                             <li>
+                                <div class="tit">
+                                    <strong>iOS4.1.0</strong>
+                                    <span>发布于2013-08-07</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">新增频道订阅功能，提供更多精彩频道由您选择，快去设置自己喜欢的频道吧</a></p>
+                                    <p>· <a href="javascript:void(0);">新增原创栏目、专题汇集页面，热点话题错过了？请来这里寻找</a></p>
+                                    <p>· <a href="javascript:void(0);">全新图片频道，提供体育、历史、娱乐更多图片，还有时尚美女高清图集哦</a></p>
+                                    <p>· <a href="javascript:void(0);">新增底部功能导航，我的收藏、夜间模式键切换</a></p>
+                                    <p>· <a href="javascript:void(0);">解决2G/3G网络下图片加载速度慢的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">解决部分手机打不开文章页的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">解决部分手机反复闪退的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">更多优化内容，期待您的体验</a></p>
+                                </div>
+                            </li>
+                             <li>
+                                <div class="tit">
+                                    <strong>iOS4.0.4</strong>
+                                    <span>发布于2013-07-11</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">新增专题收藏、分享功能</a></p>
+                                    <p>· <a href="javascript:void(0);">新增文章图片幻灯浏览功能</a></p>
+                                    <p>· <a href="javascript:void(0);">优化幻灯文字显示效果</a></p>
+                                    <p>· <a href="javascript:void(0);">优化文章页左右手势操作</a></p>
+                                    <p>· <a href="javascript:void(0);">优化分享至微信内容格式</a></p>
+                                    <p>· <a href="javascript:void(0);">优化图片加载速度，更节省用户流量</a></p>
+                                    <p>· <a href="javascript:void(0);">更多细节调整，期待您的发现</a></p>
+                                </div>
+                            </li>
+                             <li>
+                                <div class="tit">
+                                    <strong>Android4.0.3</strong>
+                                    <span>发布于2013-07-09</span>
+                                </div>
+                                <span class="detail">适用于Android2.2或更高版本</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">新增文章收藏功能</a></p>
+                                    <p>· <a href="javascript:void(0);">新增手动检测新版本功能</a></p>
+                                    <p>· <a href="javascript:void(0);">新增时事、社会、台湾频道</a></p>
+                                    <p>· <a href="javascript:void(0);">优化大屏手机界面显示</a></p>
+                                    <p>· <a href="javascript:void(0);">优化图注展示样式</a></p>
+                                    <p>· <a href="javascript:void(0);">优化内存使用</a></p>
+                                    <p>· <a href="javascript:void(0);">消除部分崩溃问题</a></p>
+                                    <p>· <a href="javascript:void(0);">修改列表和正文空白问题</a></p>
+                                    <p>· <a href="javascript:void(0);">修改图片显示异常问题</a></p>
+                                    <p>· <a href="javascript:void(0);">代码优化提升稳定性</a></p>
+                                    <p>· <a href="javascript:void(0);">修复其他一些问题</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tit">
+                                    <strong>iOS4.0.3</strong>
+                                    <span>发布于2013-07-03</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">新增夜间阅读模式</a></p>
+                                    <p>· <a href="javascript:void(0);">新增体育直播间</a></p>
+                                    <p>· <a href="javascript:void(0);">全新专题模板</a></p>
+                                    <p>· <a href="javascript:void(0);">全新设置页面</a></p>
+                                    <p>· <a href="javascript:void(0);">全新文章收藏功能</a></p>
+                                    <p>· <a href="javascript:void(0);">全新用户意见反馈功能</a></p>
+                                    <p>· <a href="javascript:void(0);">全新时事、社会、台湾频道</a></p>
+                                    <p>· <a href="javascript:void(0);">优化推送提示和新版本提示</a></p>
+                                    <p>· <a href="javascript:void(0);">优化刷新、翻页等交互效果</a></p>
+                                    <p>· <a href="javascript:void(0);">优化正文页图片的压缩与分辨率</a></p>
+                                    <p>· <a href="javascript:void(0);">修复离线下载失败的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">修复微博分享失败的问题</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tit">
+                                    <strong>iOS4.0.2</strong>
+                                    <span>发布于2013-06-08</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">新增历史频道</a></p>
+                                    <p>· <a href="javascript:void(0);">正文页图片支持手势放大和下载</a></p>
+                                    <p>· <a href="javascript:void(0);">优化了正文页文字的样式</a></p>
+                                    <p>· <a href="javascript:void(0);">优化了正文页视频播放的方式</a></p>
+                                    <p>· <a href="javascript:void(0);">优化了分享页面的样式</a></p>
+                                    <p>· <a href="javascript:void(0);">优化了启动页面加载时间</a></p>
+                                    <p>· <a href="javascript:void(0);">优化了客户端对流量的消耗</a></p>
+                                    <p>· <a href="javascript:void(0);">修正了高清图片说明文字显示不全的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">修正了部分bug</a></p>
+                                </div>
+                            </li>
+                             <li>
+                                <div class="tit">
+                                    <strong>Android4.0.2</strong>
+                                    <span>发布于2013-06-05</span>
+                                </div>
+                                <span class="detail">适用于Android2.2或更高版本</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">新增历史频道</a></p>
+                                    <p>· <a href="javascript:void(0);">其他频道内容精编</a></p>
+                                    <p>· <a href="javascript:void(0);">图片支持手势放大和下载</a></p>
+                                    <p>· <a href="javascript:void(0);">优化部分机型界面的显示</a></p>
+                                    <p>· <a href="javascript:void(0);">优化分享页面的样式</a></p>
+                                    <p>· <a href="javascript:void(0);">降低客户端对流量的消耗</a></p>
+                                    <p>· <a href="javascript:void(0);">修复了部分已知bug</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tit">
+                                    <strong>iOS4.0.1</strong>
+                                    <span>发布于2013-05-20</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">解决一定机率下客户度闪退的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">解决部分推送失败的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">解决图片列表加载失败的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">解决头条列表刷新和频道切换缓存的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">优化正文页文字排版</a></p>
+                                    <p>· <a href="javascript:void(0);">修复其它的一些bug</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tit">
+                                    <strong>Android4.0.1</strong>
+                                    <span>发布于2013-05-20</span>
+                                </div>
+                                <span class="detail">适用于Android2.2或更高版本</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">调整大屏手机的正文字体</a></p>
+                                    <p>· <a href="javascript:void(0);">优化大屏手机UI适配</a></p>
+                                    <p>· <a href="javascript:void(0);">修复分享微信失败的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">修复推送开关失效的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">解决列表加载失败的问题</a></p>
+                                    <p>· <a href="javascript:void(0);">修复其他一些bug</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tit">
+                                    <strong>iOS4.0版</strong>
+                                    <span>发布于2013-05-07</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">全新的界面，专注新闻阅读体验</a></p>
+                                    <p>· <a href="javascript:void(0);">新增��势操作，频道切换体验更贴心</a></p>
+                                    <p>· <a href="javascript:void(0);">新增分享文章到微信和朋友圈</a></p>
+                                    <p>· <a href="javascript:void(0);">新闻回帖轻松方便，轻点支持网友观点</a></p>
+                                    <p>· <a href="javascript:void(0);">显示新闻跟贴数，寻找最热话题</a></p>
+                                    <p>· <a href="javascript:void(0);">优化内容刷新速度，降低网络流量使用</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tit">
+                                    <strong>iOS4.0版</strong>
+                                    <span>发布于2013-05-07</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本，iPhone、iPod touch、iPad兼容，已针对iPhone5进行优化</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">全新的界面，专注新闻阅读体验</a></p>
+                                    <p>· <a href="javascript:void(0);">新增手势操作，频道切换体验更贴心</a></p>
+                                    <p>· <a href="javascript:void(0);">新增分享文章到微信和朋友圈</a></p>
+                                    <p>· <a href="javascript:void(0);">新闻回帖轻松方便，轻点支持网友观点</a></p>
+                                    <p>· <a href="javascript:void(0);">显示新闻跟贴数，寻找最热话题</a></p>
+                                    <p>· <a href="javascript:void(0);">优化内容刷新速度，降低网络流量使用</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tit">
+                                    <strong>Android4.0版</strong>
+                                    <span>发布于2013-05-07</span>
+                                </div>
+                                <span class="detail">适用于Android2.2或更高版本</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">全新的界面，专注新闻阅读体验</a></p>
+                                    <p>· <a href="javascript:void(0);">新增手势操作，频道切换体验更贴心</a></p>
+                                    <p>· <a href="javascript:void(0);">新增分享文章到微信和朋友圈</a></p>
+                                    <p>· <a href="javascript:void(0);">新闻回帖轻松方便，轻点支持网友观点</a></p>
+                                    <p>· <a href="javascript:void(0);">显示新闻跟��数，寻找最热话题</a></p>
+                                    <p>· <a href="javascript:void(0);">优化内容刷新速度，降低网络流量使用</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tit">
+                                    <strong>Android3.6.0版</strong>
+                                    <span>发布于2013-04-02</span>
+                                </div>
+                                <span class="detail">适用于Android2.2或更高版本</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">工具栏划开操作，体验更酷炫</a></p>
+                                    <p>· <a href="javascript:void(0);">全新凤凰快讯，精彩消息不错过</a></p>
+                                    <p>· <a href="javascript:void(0);">专题升级改版，追踪报导有深度</a></p>
+                                    <p>· <a href="javascript:void(0);">部分机型UI优化，显示更美观</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tit">
+                                    <strong>HD2.1版 </strong>
+                                    <span>发布于2013-03-11</span>
+                                </div>
+                                <span class="detail">适用于Android4.0或更高版本</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">每日事件通过版式动态布局，焦点事件个性呈现</a></p>
+                                    <p>· <a href="javascript:void(0);">更新凤凰新闻HD应用的LOGO</a></p>
+                                    <p>· <a href="javascript:void(0);">优化应用的性能与修复已知的Bug</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="tit">
+                                    <strong>iOS3.3.0版</strong>
+                                    <span>发布于2013-02-04</span>
+                                </div>
+                                <span class="detail">适用于iOS4.0或更高版本</span>
+                                <div class="list">
+                                    <p>· <a href="javascript:void(0);">常用功能菜单滑动打开，优化交互体验，评论可以盖楼</a></p>
+                                    <p>· <a href="javascript:void(0);">新增手势操作，频道切换体验更贴心</a></p>
+                                    <p>· <a href="javascript:void(0);">增加推送消息历史列表</a></p>
+                                    <p>· <a href="javascript:void(0);">挂起应用后6小时再激活，可见封面故事</a></p>
+                                    <p>· <a href="javascript:void(0);">正文页面内增加直接评论的按钮</a></p>
+                                    <p>· <a href="javascript:void(0);">头条不限于推荐位的30个，可以看到历史头条的内容，提升用户体验</a></p>
+                                    <p>· <a href="javascript:void(0);">正文可以插入图组，组合传播</a></p>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="recommend">
+        <h2 class="m-title img"><img src="http://s2.mimg.ifeng.com/upload/day_130507/201305070957003845.jpg" alt=""/></h2>
+        <div class="good clears img">
+            <dl>
+                <dt><a href="http://v.ifeng.com/apps/index.shtml"><img src="http://s2.mimg.ifeng.com/upload/day_130507/201305070957001685.jpg" alt=""/></a></dt>
+                <dd>
+                    <a href="http://v.ifeng.com/apps/index.shtml"><img src="http://s3.mimg.ifeng.com/upload/day_130508/201305081543219001.jpg" alt=""/></a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a href="http://diantai.ifeng.com"><img src="http://s3.mimg.ifeng.com/upload/day_130507/201305070956591619.jpg" alt=""/></a></dt>
+                <dd>
+                    <a href="http://diantai.ifeng.com"><img src="http://s1.mimg.ifeng.com/upload/day_130508/201305081543215491.jpg" alt=""/></a>
+                </dd>
+            </dl>
+            <dl>
+                <dt><a href="http://book.ifeng.com/mobile.shtml"><img src="http://s0.mimg.ifeng.com/upload/day_130708/201307081701263173_iifeng.png" alt=""/></a></dt>
+                <dd>
+                    <img src="http://s1.mimg.ifeng.com/upload/day_130708/201307081703087109_iifeng.png" alt=""/>
+                </dd>
+            </dl>
+            
+        </div>
+    </div>
+
+
+<div class="feedback">
+        <h2 class="m-title img"><img src="http://s3.mimg.ifeng.com/upload/day_130507/201305070956595619.jpg" alt=""/></h2>
+        <div class="back">
+        <div class="commentLoginBox clearfix"><div class="commentLogin clearfix"><form action='http://my.ifeng.com/?_c=index&_a=login' method='post' id='spec_frm' onsubmit="javascript:return specCheckInfo('spec');"><input type='hidden' name='backurl' id="specBackUrl" value='' /><div id='specLogin'><div class="view"><a onclick="javascript:viewSpecComment();" href="javascript:void(0);">共有<span id="specAllCmt01" class="cRed">0</span>人参与</a>　<a onclick="javascript:viewSpecComment();" href="javascript:void(0);">评论<span id="specCmt01" class="cRed">0</span>条</a></div><div class="user-msg"><label style="vertical-align:middle">用户名 </label><input class='ipt02 inputcheckbox' id='spec_uname' name='uname' onmouseover='this.className="ipt02 inputcheckbox input_bd02"' onmouseout='this.className="ipt02 inputcheckbox"' style="vertical-align:middle"/>    <label style="vertical-align:middle">密码 </label><input class='ipt02 inputcheckbox' id='spec_pass' type='password' name='pass' onmouseover='this.className="ipt02 inputcheckbox input_bd02"' onmouseout='this.className="ipt02 inputcheckbox"' style="vertical-align:middle"/><input type="submit" class="btn3 inputcheckbox" value="登 录" onmouseover="this.className='btn3 speccurrent01 inputcheckbox';" onmouseout="this.className='btn3 inputcheckbox';"><input type="button" class="btn3 inputcheckbox" value="注 册" onclick="javascript:reguser();" onmouseover="this.className='btn3 speccurrent01 inputcheckbox';" onmouseout="this.className='btn3 inputcheckbox';"></div></div><div class="userInfo" id="specLogined" style="display:none"></div></form><form name='commentForm' id='specCmt_frm' action='http://comment.ifeng.com/post.php' method='post' target='_blank'><textarea name='content' id='spec_content' class='textLogin2' onclick="javascript:specChangeBox('spec');">文明上网，登录评论！</textarea><input type="hidden" value="" name="docName" id="specdocName"/><input type="hidden" value="" name="docUrl" id="specdocUrl"/></form><div id="num02"><p class="d01">所有评论仅代表网友意见，凤凰网保持中立</p><p class="d03"><input type="button" id="submitForm" value="" class="btn2" onclick="javascript:specChkLogin('specCmt','spec');" onmouseover="this.className='submitcmtcurr'" onmouseout="this.className='btn2'"/></p></div></div><div class="commentCon clearfix" id="cmtlistdiv"></div><div class="view clearfix"><a href="javascript:void(0);" onclick="javascript:viewSpecComment();">共有<span class="cRed" id="specAllCmt">0</span>人参与</a>　<a href="javascript:void(0);" onclick="javascript:viewSpecComment();">评论<span class="cRed" id="specCmt">0</span>条(查看)</a></div></div><div style="display:none;"><img src="http://res.img.ifeng.com/685a818075b4d83c/2011/0824/i_s.gif" width="11" height="8"/><img src="http://res.img.ifeng.com/685a818075b4d83c/2011/0824/i_close.gif" width="15" height="14"/><input type="hidden" value="" id="prid"/></div></div></div>
+<script src="http://y1.ifengimg.com/2011/08/16/18102732.js" type="text/javascript"></script>
+<script type="text/javascript">
+var docUrl = "http://news.ifeng.com/app/special-api/new-list/ifeng/ifeng_client_spread/";
+var docName = "凤凰新闻客户端下载";
+var skey='c77a3b';
+String.prototype.Trim = function(){return this.replace(/(^\s*)|(\s*$)/g, "");}
+var JQ = JQ||function (param){return {each:function(func){return false;},html:function(parma){return false;}};};
+var XM=function(id) {return document.getElementById(id);};
+XM("specdocName").value=docName;XM("specdocUrl").value=docUrl;
+function getScriptForCmt(src,callback){var head=document.getElementsByTagName("head")[0];var js=document.createElement("script");js.setAttribute("src",src);
+js.onload=js.onreadystatechange=function(){if(!this.readyState||this.readyState=="loaded"||this.readyState=="complete"){head.removeChild(js);if(callback) callback();}}
+head.appendChild(js);}
+function reguser(){var regURL='http://my.ifeng.com/?_c=register&_a=new-account&backurl='+encodeURIComponent(docUrl);window.open(regURL);return false;}
+function viewSpecComment(){var commentURL;commentURL='http://comment.ifeng.com/viewspecial.php?docName='+encodeURIComponent(docName)+'&docUrl='+encodeURIComponent(docUrl)+'&skey='+skey; window.open(commentURL); return false;}
+function GetSpecCmtUserImg(username, blog) {var IMG_DOMIAN = 'http://ucimg.ifeng.com/upload';var key = md5(strtolower(username));var dir_1_md = substr(key, 0, 16);var dir_1 = sprintf('%u', crc32(dir_1_md));dir_1 = dir_1 - Math.floor(dir_1/255)*255;var dir_2_md = substr(key, 16);var dir_2 = sprintf('%u', crc32(dir_2_md));dir_2 = dir_2 - Math.floor(dir_2/255)*255;var filename = dir_1_md;var full_path = IMG_DOMIAN + "/" + dir_1 + "/" + dir_2 + "/" + dir_1_md;if(blog == true) {full_path += '_1';}return full_path+'.jpg';}
+function getCookieForSpecCmt(name){var arr = document.cookie.match(new RegExp('(^| )'+name+'=([^;]*)(;|$)'));if(arr!=null) return arr[2];return null;}
+function specCheckInfo(prefix){var specUser = prefix+'_uname';var specPwd = prefix+'_pass';var specFrm = prefix+'_frm';var cookieEnabled=(navigator.cookieEnabled)?true:false;if(!cookieEnabled){alert('请开启浏览器COOKIE功能！');return false;}if(XM(specUser).value==''){alert('请输入用户名');XM(specUser).focus();return false;}if(XM(specPwd).value==''){alert('请输入密码');XM(specPwd).focus();return false;}XM(specFrm).submit();return false;}
+function specChangeBox(prefix){if(sid&&sid.length>32){if(XM(prefix+'_content').innerHTML=='文明上网，登录评论！'){XM(prefix+'_content').innerHTML='';}}else{XM(prefix+'_content').innerHTML='请您先登录，再发表评论。';XM(prefix+'_uname').focus();}}
+function specChkLogin(prefix,preuname){var sid=getCookieForSpecCmt("sid");if(sid&&sid.length>32){var sContent =XM(preuname+"_content").value.Trim();if(!sContent||sContent=="文明上网，登录评论！"||sContent=="请您先登录，再发表评论。"){alert("请输入评论内容。");XM(preuname+"_content").value="";XM(preuname+"_content").focus();return false;}XM(prefix+'_frm').submit();XM(preuname+"_content").value="";}else{alert("请您先登录，再发表评论。");XM(preuname+"_uname").focus();}}
+function specUserLogin(prefix) {var msg='';if(prefix=='spec'){msg='<div class="view spe05"><a onclick="javascript:viewSpecComment();" href="javascript:void(0);">共有<span id="specAllCmt02" class="cRed">0</span>人参与</a>　<a onclick="javascript:viewSpecComment();" href="javascript:void(0);">评论<span id="specCmt02" class="cRed">0</span>条</a></div>';}msg+='<em><a href="http://comment.ifeng.com/viewpersonal.php?uname='+sso_username+'" target="_blank">'+sso_username+'</a></em> | <a href="http://t.ifeng.com/" target="_blank">我的微博</a> | <a href="http://my.ifeng.com/" target="_blank">个人中心</a> |<a href="http://my.ifeng.com/?_c=index&_a=logout&backurl='+docUrl+'"> 退出</a>';XM(prefix+"Login").style.display = 'none';XM(prefix+"Logined").innerHTML = msg;XM(prefix+"Logined").style.display='';}
+var sid = getCookieForSpecCmt("sid");var sso_username = '';
+if(sid&&sid.length>32) {sso_username=decodeURIComponent(sid.substr(32));specUserLogin('spec');}else{XM("specBackUrl").value=docUrl;}
+function copy2Clipboard(txt) {
+if (window.clipboardData) {window.clipboardData.clearData();window.clipboardData.setData("Text", decodeURIComponent(txt));} else if (navigator.userAgent.indexOf("Opera") != -1) {window.location = decodeURIComponent(txt);} else if (window.netscape) {
+try {netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");} catch (e) {alert("您的firefox安全限制限制您进行剪贴板操作，请打开'about:config'将 signed.applets.codebase_principal_support'设置为true'之后重试，相对路径为firefox根目录 /greprefs/all.js");return false;}var clip = Components.classes['@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
+if (!clip) return false;var trans = Components.classes['@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
+if (!trans) return false;trans.addDataFlavor('text/unicode');
+var str = new Object();var len = new Object();var str = Components.classes["@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);var copytext = decodeURIComponent(txt); str.data = copytext;
+trans.setTransferData("text/unicode", str, copytext.length * 2);
+var clipid = Components.interfaces.nsIClipboard;if (!clip) return false;clip.setData(trans, null, clipid.kGlobalClipboard);}else{alert("你的浏览器不支持复制功能，请手工复制评论吧。");return false;}alert("已复制,粘贴发给好友一起分享吧。");}
+function cmtSupport(str,cmtId) {var t=new Date().getTime();var updown = str+cmtId;var num = XM(updown).innerHTML;XM(updown).innerHTML=parseInt(num)+1;getScriptForCmt("http://comment.ifeng.com/vote.php?job="+str+"&docUrl="+encodeURIComponent(docUrl)+"&cmtId="+cmtId+"&t="+t);return false;}
+function rpclose(rpid){XM(rpid).innerHTML="";XM("prid").value="";}
+function reply(id){var rpid = 'rp'+id;if(XM("prid").value!=""){XM(XM("prid").value).innerHTML="";}
+var reply = '<div class="replyBox clearfix"><div class="icon"><img src="http://res.img.ifeng.com/685a818075b4d83c/2011/0824/i_s.gif" width="11" height="8" /></div><div class="close"><a title="关闭" href="javascript:void(0);" onclick="javascript:rpclose(\''+rpid+'\');"><img src="http://res.img.ifeng.com/685a818075b4d83c/2011/0824/i_close.gif" width="15" height="14" alt="关闭"/></a></div><form action="http://my.ifeng.com/?_c=index&_a=login" method="post" id="'+rpid+'_frm" onsubmit="javascript:return specCheckInfo(\''+rpid+'\');"><input type="hidden" name="backurl" value="'+docUrl+'"/><div id="'+rpid+'Login" style="display:block;"><label style="vertical-align:middle">用户名</label><input class="ipt02 inputcheckbox" id="'+rpid+'_uname" name="uname" onmouseout="this.className=\'ipt02 inputcheckbox\'" onmouseover="this.className=\'ipt02 inputcheckbox input_bd03\'"/><label style="vertical-align:middle">  密码</label><input class="ipt02 inputcheckbox" id="'+rpid+'_pass" type="password" name="pass" onmouseout="this.className=\'ipt02 inputcheckbox\'" onmouseover="this.className=\'ipt02 inputcheckbox input_bd03\'"/><input type="submit" class="btn3 inputcheckbox" value="登 录" onmouseover="this.className=\'btn3 speccurrent011 inputcheckbox\';" onmouseout="this.className=\'btn3 inputcheckbox\';"><input type="button" class="btn3 inputcheckbox" value="注 册" onclick="javascript:reguser();" onmouseover="this.className=\'btn3 speccurrent011 inputcheckbox\';" onmouseout="this.className=\'btn3 inputcheckbox\';"></div><div class="userInfo" id="'+rpid+'Logined" style="display:none"></div></form><form name="commentForm" id="'+rpid+'cmt_frm" action="http://comment.ifeng.com/post.php" method="post" target="_blank"><textarea name="content" id="'+rpid+'_content" class="textLogin2" style="width:821px;resize:none;" onclick="javascript:specChangeBox(\''+rpid+'\');">文明上网，登录评论！</textarea><input type="hidden" name="quoteId" value="'+id+'"/><input type="hidden" value="'+docName+'" name="docName"/><input type="hidden" value="'+docUrl+'" name="docUrl"/></form><div id="num03"><p class="d01">所有评论仅代表网友意见，凤凰网保持中立</p><p class="d03"><input type="button" onmouseover="this.className=\'btn2_c speccurrent013\'" onmouseout="this.className=\'btn2_c\'" id="submitForm" value="" class="btn2_c" onclick="javascript:specChkLogin(\''+rpid+'cmt\',\''+rpid+'\');"/></p></div></div>';
+XM(rpid).innerHTML=reply;XM("prid").value=rpid;if(sid&&sid.length>32) {specUserLogin(rpid);}}
+function SpecCmtList(msg){
+  if(msg.count==null) return false;
+  XM('specCmt').innerHTML=msg.count;
+  XM('specCmt01').innerHTML=msg.count;
+  var jcnt = msg.join_count;
+  XM('specAllCmt').innerHTML=jcnt==undefined?0:jcnt;
+  XM('specAllCmt01').innerHTML=jcnt==undefined?0:jcnt;
+if(XM('specCmt02')){
+  XM('specCmt02').innerHTML=msg.count;
+}
+if(XM('specAllCmt02')){
+  XM('specAllCmt02').innerHTML=jcnt==undefined?0:jcnt;
+}
+  if(msg.comments==null||msg.comments==''){
+    return false;
+  }
+var cmtlist = '<div class="icon_arrow"><img src="http://res.img.ifeng.com/685a818075b4d83c/2011/0824/i_s2.gif" width="15" height="11" /></div>';
+var len = msg.comments.length>5?5:msg.comments.length;var item = null;var userurl = cmtId=classstr=userimg=uname=copy='';
+for(var i=0;i<len;i++){item = msg.comments[i];cmtId = item.comment_id;uname = item.uname;userimg = GetSpecCmtUserImg(uname, true);userurl = 'http://comment.ifeng.com/viewpersonal.php?uname='+encodeURIComponent(uname);
+copy = '凤凰网'+uname+'网友评论：'+docName+'['+item.comment_contents+']'+docUrl;
+if(i == len-1){classstr = ' none'}cmtlist += '<div class="textCon clearfix'+classstr+'"><div class="pic"><a href="'+userurl+'" target="_blank"><img src="'+userimg+'" width="50" height="50" alt="'+uname+'"/></a></div><div class="textDet"><div class="user"><span>发表日期：'+item.comment_date+'</span>凤凰网'+item.ip_from+'网友：<a href="'+userurl+'" target="_blank" class="cblue">'+uname+'</a></div><p class="t">'+item.comment_contents+'</p><div class="fuc"><a href="javascript:void(0);" onclick="javascript:cmtSupport(\'up\','+cmtId+');">推荐</a>[<span class="cRed" id="up'+cmtId+'">'+item.uptimes+'</span>] | <a href="javascript:void(0);" onclick="javascript:reply('+cmtId+');">回复</a> | <a href="javascript:void(0);" onclick="javascript:copy2Clipboard(\''+encodeURIComponent(copy)+'\');">复制</a></div><div id="rp'+cmtId+'"></div></div></div>';
+}XM('cmtlistdiv').innerHTML=cmtlist;}
+getScriptForCmt("http://comment.ifeng.com/getspecial.php?job=1&format=js&callback=SpecCmtList&p=1&pagesize=5&docurl="+encodeURIComponent(docUrl));</script>
+
+<!--通用专题页尾代码开始-->
+<style type="text/css">
+  .clear{ clear:both;}
+  .speFooter{ width:1000px; height:72px; margin:0 auto; clear:both; text-align:center; line-height:24px; font-family:Arial, simsun; font-size:12px;}
+  .speFooter a{text-decoration:none;}
+  .speFooter a:hover{text-decoration:underline;}
+  .speFooter .footLink{ line-height:22px;}/*100318*/
+  .speFooter .footLink a{ padding:0px 8px;}
+  .speFooter .copyright{ line-height:22px;}/*100318*/
+
+  .clear{ clear:both;}
+  .speFooter ul, .chaFotNav li{ margin:0px; padding:0px;}/*100318*/
+  .speFooter li{ list-style:none;}/*100318*/
+
+  /*可编辑代码开始*/
+  /*可编辑代码结束*/
+</style>
+<div class="speFooter">
+    <div class="footLink">
+            <a href="http://www.ifeng.com/corp/about/intro/" target="_blank">凤凰新媒体介绍</a>|<a href="http://ir.ifeng.com/" target="_blank">投资者关系 Investor Relations</a>|<a href="http://www.ifeng.com/corp/ad/" target="_blank">广告服务</a>|<a href="http://career.ifeng.com/" target="_blank">诚征英才</a>|<a href="http://www.ifeng.com/corp/privacy/" target="_blank">保护隐私权</a>|<a href="http://www.ifeng.com/corp/exemption/" target="_blank">免责条款</a>|<a href="http://www.ifeng.com/corp/feedback/" target="_blank">意见反馈</a>|<a href="http://phtv.ifeng.com/intro/" target="_blank">凤凰卫视介绍</a>
+    </div>
+    <div class="copyright">
+            凤凰新媒体 版权所有<br />
+            Copyright © 2011 Phoenix New Media Limited All Rights Reserved.
+    </div>
+</div>
+
+
+</div>
+</body>
+</html>​
