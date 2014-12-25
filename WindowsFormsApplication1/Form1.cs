@@ -327,8 +327,8 @@ namespace WindowsFormsApplication1
 
         private void init_listview()
         {
-            this.listView1.Columns.Add("title", 300, HorizontalAlignment.Left);
             this.listView1.Columns.Add("address", 400, HorizontalAlignment.Left);
+            this.listView1.Columns.Add("title", 300, HorizontalAlignment.Left);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -540,7 +540,7 @@ namespace WindowsFormsApplication1
             }
             else
             {
-                MessageBox.Show("save success!");
+                MessageBox.Show("save success to output dir!!");
             }
         }
 
@@ -635,6 +635,21 @@ namespace WindowsFormsApplication1
                 string text = item.Text;
                 this.listView3.Items.Remove(item);
                 this.addrs_.Remove(text);
+            }
+        }
+
+        private void listView1_DoubleClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            ListViewHitTestInfo info = listView1.HitTest(e.X, e.Y);
+            if (info.Item != null)
+            {
+                string address = info.Item.Text;
+                System.Diagnostics.Process.Start("explorer.exe", address);
             }
         }
      

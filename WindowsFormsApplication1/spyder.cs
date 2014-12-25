@@ -172,6 +172,9 @@ namespace WindowsFormsApplication1
         public delegate void ShowStatusHandler(int index, string url);
         public event ShowStatusHandler ShowStatus = null;
 
+        //connection delegate
+        public delegate void dispatch_fix_handler(int index);
+
         public enum Encodings
         {
             UTF8,
@@ -260,7 +263,7 @@ namespace WindowsFormsApplication1
 
         private bool UrlExists(string url)
         {
-            //lock (_locker)
+            lock (_locker)
             {
                 bool result = _urlsUnload.ContainsKey(url);
                 result |= _urlsLoaded.ContainsKey(url);
@@ -285,6 +288,9 @@ namespace WindowsFormsApplication1
 
         private void AddUrls(string[] urls, int depth)
         {
+            if (urls == null)
+                return;
+
             if (depth >= _maxDepth)
             {
                 return;
@@ -323,7 +329,7 @@ namespace WindowsFormsApplication1
                 {
                     if (match_baseurl(cleanUrl))
                     {
-                        //lock (_locker)
+                        lock (_locker)
                         {
                             _urlsUnload.Add(cleanUrl, depth);
                         }
@@ -351,7 +357,13 @@ namespace WindowsFormsApplication1
         {
             if (_workingSignals.IsFinished())
             {
-                if(_checkTimer != null)
+                if (_urlsUnload.Count > 0 && !_stop)
+                {
+                    DispatchWork();
+                    return;
+                }
+
+                if (_checkTimer != null)
                     _checkTimer.Dispose();
 
                 _checkTimer = null;
@@ -383,7 +395,7 @@ namespace WindowsFormsApplication1
                     busy = _reqsBusy[i];
 
                     if(!busy)
-                        _reqsBusy[i] = !busy;
+                        _reqsBusy[i] = true;
                 }
 
                 if (!busy)
@@ -392,6 +404,38 @@ namespace WindowsFormsApplication1
                 }
                 
             }
+        }
+
+        private void DispatchWorkFix(int index)
+        {
+            if(index >= _reqCount)
+            {
+                return;
+            }
+
+            bool busy = true;
+
+            lock (_locker)
+            {
+                busy = _reqsBusy[index];
+
+                if (!busy)
+                    _reqsBusy[index] = true;
+            }
+
+            if(!busy)
+            {
+                RequestResource(index);
+            }
+        }
+
+        private void DispatchWorkWait(IAsyncResult ar)
+        {
+            dispatch_fix_handler dn = (dispatch_fix_handler)ar.AsyncState;
+
+            System.Threading.Thread.Sleep(1000);
+
+            dn.EndInvoke(ar);
         }
 
         private void ErrorMessageOccur(string error)
@@ -410,29 +454,56 @@ namespace WindowsFormsApplication1
             {
                 lock (_locker)
                 {
-                    if (_urlsUnload.Count <= 0)
+                    if (_urlsUnload.Count <= 0 || _stop)
                     {
                         _workingSignals.FinishWorking(index);
+
+                        if (!_workingSignals.IsFinished())
+                        {
+                            dispatch_fix_handler fix_handler = new dispatch_fix_handler(DispatchWorkFix);
+                            AsyncCallback dispatch_handler = new AsyncCallback(DispatchWorkWait);
+
+                            _reqsBusy[index] = false;
+
+                            fix_handler.BeginInvoke(index, dispatch_handler, fix_handler);
+                        }
+
                         return;
                     }
                     _reqsBusy[index] = true;
                     _workingSignals.StartWorking(index);
                     depth = _urlsUnload.First().Value;
                     url = _urlsUnload.First().Key;
-                    _urlsLoaded.Add(url, depth);
                     _urlsUnload.Remove(url);
+
+                    if(!_urlsLoaded.ContainsKey(url))
+                        _urlsLoaded.Add(url, depth);
+                    else
+                    {
+                        ErrorMessageOccur("RequestResource exsit key:" + url);
+                    }
                 }
 
                 HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
                 req.Method = _method; //请求方法
                 req.Accept = _accept; //接受的内容
                 req.UserAgent = _userAgent; //用户代理
+                req.KeepAlive = false;
+                req.Timeout = System.Threading.Timeout.Infinite;
+                req.ProtocolVersion = HttpVersion.Version10;
+
                 RequestState rs = new RequestState(req, url, depth, index);
                 rs.EvtHandle = new ManualResetEvent(false);
 
-                var result = req.BeginGetResponse(new AsyncCallback(ReceivedResource), rs);
-                ThreadPool.RegisterWaitForSingleObject(result.AsyncWaitHandle,
+                //var result = req.BeginGetResponse(new AsyncCallback(ReceivedResource), rs);
+                /*
+                 * ThreadPool.RegisterWaitForSingleObject(result.AsyncWaitHandle,
                         TimeoutCallback, rs, _maxTime, true);
+                */
+
+                ThreadPool.QueueUserWorkItem(new WaitCallback(ReceivedResource), rs);
+
+                //rs.EvtHandle.WaitOne();
 
                 return;
             }
@@ -444,27 +515,35 @@ namespace WindowsFormsApplication1
             catch (Exception e)
             {
                 //MessageBox.Show(e.Message);
-                ErrorMessageOccur("ReceivedResource " + e.Message + url);
+                ErrorMessageOccur("RequestResource " + e.Message + url);
             }
 
             lock (_locker)
             {
                 _reqsBusy[index] = false;
-//                ErrorMessageOccur("stop index:" + index);
+                ErrorMessageOccur("stop index:" + index);
             }
 
-            DispatchWork();
+            DispatchWorkFix(index);
         }
 
-        private void ReceivedResource(IAsyncResult ar)
+        //private void ReceivedResource(IAsyncResult ar)
+        private void ReceivedResource(object ar)
         {
-            RequestState rs = (RequestState)ar.AsyncState;
+            //RequestState rs = (RequestState)ar.AsyncState;
+            RequestState rs = (RequestState)ar;
             HttpWebRequest req = rs.Req;
             string url = rs.Url;
             HttpWebResponse res = null;
+            int depth = rs.Depth;
+
+            string[] links = null;
+
             try
             {
-                res = (HttpWebResponse)req.EndGetResponse(ar);
+                //res = (HttpWebResponse)req.EndGetResponse(ar);
+                res = (HttpWebResponse)req.GetResponse();
+
                 if (_stop)
                 {
                     res.Close();
@@ -473,49 +552,66 @@ namespace WindowsFormsApplication1
                     {
                         _reqsBusy[rs.Index] = false;
                     }
+                    ErrorMessageOccur("ReceivedResource stop index:" + rs.Index);
+                    //rs.EvtHandle.Set();
                     return;
                 }
+
                 if (res != null && res.StatusCode == HttpStatusCode.OK)
                 {
                     Stream resStream = res.GetResponseStream();
+                    /*
                     rs.ResStream = resStream;
                     var result = resStream.BeginRead(rs.Data, 0, rs.BufferSize,
                         new AsyncCallback(ReceivedData), rs);
 
                     rs.EvtHandle.WaitOne();
-
                     return;
+                    */
+
+                    StreamReader streamReader = new StreamReader(resStream);
+                    string html = streamReader.ReadToEnd();
+
+                    if (SaveContents != null)
+                        SaveContents(html, url);
+
+                    ShowStatus(++_index, url);
+
+                    if (html != null)
+                    {
+                        links = GetLinks(html, url);
+
+                        if (links.Length > 0)
+                        {
+                            AddUrls(links, depth + 1);
+                        }
+                    }
                 }
-
-                if (res != null)
-                    res.Close();
-
-                rs.Req.Abort();
             }
             catch (WebException we)
             {
-                //MessageBox.Show("ReceivedResource " + we.Message + url + we.Status);
                 ErrorMessageOccur("ReceivedResource " + we.Message + url + we.Status);
-                lock (_locker)
-                {
-                    _reqsBusy[rs.Index] = false;
-                    //ErrorMessageOccur("stop index:" + rs.Index);
-                    //_workingSignals.FinishWorking(rs.Index);
-                }
             }
             catch (Exception e)
             {
-                //MessageBox.Show(e.Message);
                 ErrorMessageOccur("ReceivedResource " + e.Message);
-                lock (_locker)
-                {
-                    _reqsBusy[rs.Index] = false;
-                    //ErrorMessageOccur("stop index:" + rs.Index);
-                    //_workingSignals.FinishWorking(rs.Index);
-                }
             }
 
-            DispatchWork();
+            lock (_locker)
+            {
+                _reqsBusy[rs.Index] = false;
+                //ErrorMessageOccur("stop index:" + rs.Index);
+                //_workingSignals.FinishWorking(rs.Index);
+            }
+
+            if (res != null)
+                res.Close();
+
+            rs.Req.Abort();
+
+            //rs.EvtHandle.Set();
+
+            DispatchWorkFix(rs.Index);
         }
 
         private void ReceivedData(IAsyncResult ar)
@@ -543,6 +639,7 @@ namespace WindowsFormsApplication1
                     {
                         _reqsBusy[rs.Index] = false;
                     }
+                    ErrorMessageOccur("ReceivedData stop index:" + rs.Index);
                     return;
                 }
 
@@ -570,43 +667,32 @@ namespace WindowsFormsApplication1
 
                 ShowStatus(++_index,url);
 
-                lock (_locker)
-                {
-                    _reqsBusy[rs.Index] = false;
-                    //_workingSignals.FinishWorking(index);
-                }
-
                 if (html != null)
                 {
                     string[] links = GetLinks(html, url);
                     AddUrls(links, depth + 1);
                 }
-                //DispatchWork();
             }
             catch (WebException we)
             {
                 //MessageBox.Show("ReceivedData Web " + we.Message + url + we.Status);
                 ErrorMessageOccur("ReceivedData Web " + we.Message + url + we.Status);
-                lock (_locker)
-                {
-                    _reqsBusy[rs.Index] = false;
-                    //_workingSignals.FinishWorking(index);
-                }
             }
             catch (Exception e)
             {
                 //MessageBox.Show(e.GetType().ToString() + e.Message);
                 ErrorMessageOccur("ReceivedData Web " + e.GetType().ToString() + e.Message);
-                lock (_locker)
-                {
-                    _reqsBusy[rs.Index] = false;
-                    //_workingSignals.FinishWorking(index);
-                }
             }
 
-            rs.EvtHandle.Set();
+            lock (_locker)
+            {
+                _reqsBusy[rs.Index] = false;
+                //_workingSignals.FinishWorking(index);
+            }
 
-            DispatchWork();
+            //rs.EvtHandle.Set();
+
+            DispatchWorkFix(rs.Index);
         }
 
         private string[] GetLinks(string html, string url)
@@ -625,8 +711,13 @@ namespace WindowsFormsApplication1
 
             Uri u = new Uri(url);
             string sHost = u.Host;
-            string[] host_splits = sHost.Split('.');
-            string domain = "";
+           
+            /*string[] host_splits = sHost.Split('.');
+            if (host_splits == null)
+            {
+                return null;
+            }
+
             if (host_splits.Length > 2)
             {
                 domain = host_splits[1] + "." + host_splits[2];
@@ -635,10 +726,23 @@ namespace WindowsFormsApplication1
             {
                 domain = host_splits[1];
             }
+            */
+            string domain = "";
+            domain = sHost.Replace("www.", "");
+            int domain_end = domain.IndexOf("/");
+            
+            if(domain_end > 0)
+                domain = domain.Substring(0, domain_end);
+
+            domain = domain.Trim();
             
             Regex reg = new Regex(@"(?is)<a[^>]*?href=(['""\s]?)(?<href>[^'""\s]*)\1[^>]*?>");
             MatchCollection match = reg.Matches(html);
-            string[] links = new string[match.Count];
+            string[] links = null; 
+            
+            if(match.Count > 0)
+                links = new string[match.Count];
+
             for(int i = 0; i < match.Count; i++)
             {
                 //System.Console.WriteLine(m.Groups["href"].Value);
@@ -670,7 +774,8 @@ namespace WindowsFormsApplication1
                 {
                     _reqsBusy[rs.Index] = false;
                 }
-                DispatchWork();
+                //rs.EvtHandle.Set();
+                DispatchWorkFix(rs.Index);
             }
         }
     }
